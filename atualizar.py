@@ -4,11 +4,12 @@ Atualização contínua entre as coletas completas (agendada pelo agendar_atuali
     python atualizar.py novos  [--proj iphone|aluguel] [--max 5] [--buscas 3]
         A cada 2 horas: abre poucas buscas ordenadas por "mais recentes", pega até --max anúncios que
         ainda não estão no histórico, lê cada um (com fotos) e grava em dados/_anuncios_novos_<dia>.json.
-        Sem Haiku, sem página: só junta.
+        Depois refaz a página e publica no GitHub. Sem Haiku no iPhone (o modelo sai do título);
+        no aluguel o Haiku classifica só esses poucos novos, senão eles não aparecem na página.
 
     python atualizar.py diario [--proj iphone|aluguel] [--conferir 40]
-        No almoço: confere --conferir anúncios antigos (vendido/apagado), classifica com o Haiku só o que
-        ainda não foi classificado, gera o index.html com os novos do dia em destaque e publica no GitHub.
+        No almoço: confere --conferir anúncios antigos (vendido/apagado), classifica com o Haiku os iPhones
+        que entraram desde o último compilado (variante/bateria/estado), refaz a página e publica.
 
 Não roda se a coleta completa estiver em andamento (coleta.log mexido nos últimos 10 minutos) ou se
 outra atualização ainda não terminou (dados/.atualizando).
@@ -140,19 +141,25 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
     return len(lidos)
 
 
+def montar_e_publicar(nome, proj, msg, haiku):
+    """Refaz a página com o que está em dados/ e manda para o GitHub (o site atualiza em 1–2 min)."""
+    py = sys.executable
+    if nome == "iphone":
+        subprocess.run([py, os.path.join(proj, "salvar_fotos.py")], cwd=proj, capture_output=True)
+        if haiku:
+            subprocess.run([py, os.path.join(proj, "classificar_haiku.py")], cwd=proj)
+        ok = subprocess.run([py, os.path.join(proj, "gerar_pagina.py")], cwd=proj).returncode == 0
+    else:  # aluguel: sem o Haiku o anúncio não tem tipo/finalidade e não aparece; são só os poucos novos
+        ok = subprocess.run([py, os.path.join(proj, "gerar_aluguel.py"), "--diario"], cwd=proj).returncode == 0
+    if ok:
+        publicar(proj, msg)
+
+
 def diario(nome, proj, conferir):
     hoje = datetime.now()
     coleta.log(f"Compilado do dia: conferindo {conferir} anúncios antigos ...")
     historico.verificar(proj, maximo=conferir)
-    py = sys.executable
-    if nome == "iphone":
-        subprocess.run([py, os.path.join(proj, "salvar_fotos.py")], cwd=proj)
-        subprocess.run([py, os.path.join(proj, "classificar_haiku.py")], cwd=proj)
-        ok = subprocess.run([py, os.path.join(proj, "gerar_pagina.py")], cwd=proj).returncode == 0
-    else:
-        ok = subprocess.run([py, os.path.join(proj, "gerar_aluguel.py"), "--diario"], cwd=proj).returncode == 0
-    if ok:
-        publicar(proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}")
+    montar_e_publicar(nome, proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}", haiku=True)
 
 
 def main():
@@ -168,7 +175,8 @@ def main():
     os.makedirs(coleta.DADOS, exist_ok=True)
     with Trava(coleta.DADOS):
         if a.modo == "novos":
-            asyncio.run(buscar_novos(proj, buscas, a.max, a.buscas))
+            if asyncio.run(buscar_novos(proj, buscas, a.max, a.buscas)):
+                montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}", haiku=False)
         else:
             diario(a.proj, proj, a.conferir)
 

@@ -1,5 +1,5 @@
 """
-Página da coleta (index.html, publicada no GitHub): uma tira JPEG embutida por anúncio, médias da coleta,
+Página da coleta (index.html, publicada no GitHub): uma tira JPEG por anúncio em s/, médias da coleta,
 destaques automáticos e o ranking de vendidos do histórico.
 
     python gerar_pagina.py [dd/mm/aaaa]      # data da coleta; padrão: hoje
@@ -97,18 +97,25 @@ for d in D:  # preço bom demais: avisa
     if d["destaque"] and ((pct is not None and pct <= -35) or re.search(r"(\d+)% abaixo", d["destaque"]) and int(re.search(r"(\d+)% abaixo", d["destaque"]).group(1)) >= 35):
         d["destaque"] += " ⚠ Muito abaixo do normal: confira bem, pode ser golpe."
 
-for n, d in enumerate(D, 1):
+# Tiras de fotos em s/<id>.jpg: cada uma é criada uma vez só, então cada publicação leva só as novas.
+TIRAS = PROJ / "s"
+TIRAS.mkdir(exist_ok=True)
+for d in D:
     fotos = d["fotos"][:MAXF]
-    tira = Image.new("RGB", (LADO * len(fotos), LADO), (0, 0, 0))
-    for i, f in enumerate(fotos):
-        im = Image.open(PROJ / "fotos" / f).convert("RGB")
-        im.thumbnail((LADO, LADO))
-        tira.paste(im, (i * LADO + (LADO - im.width) // 2, (LADO - im.height) // 2))
-    buf = io.BytesIO()
-    tira.save(buf, "JPEG", quality=52, optimize=True)
-    d["tira"], d["nf"] = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode(), len(fotos)
+    arq = TIRAS / f"{d['id']}.jpg"
+    if fotos and not arq.exists():
+        tira = Image.new("RGB", (LADO * len(fotos), LADO), (0, 0, 0))
+        for i, f in enumerate(fotos):
+            im = Image.open(PROJ / "fotos" / f).convert("RGB")
+            im.thumbnail((LADO, LADO))
+            tira.paste(im, (i * LADO + (LADO - im.width) // 2, (LADO - im.height) // 2))
+        tira.save(arq, "JPEG", quality=52, optimize=True)
+    d["tira"], d["nf"] = f"s/{d['id']}.jpg", len(fotos)
     for k in ("fotos", "pasta"):
         d.pop(k, None)
+for velha in TIRAS.glob("*.jpg"):  # anúncio que saiu da página leva a tira junto
+    if velha.stem not in {d["id"] for d in D}:
+        velha.unlink()
 
 historico.definir_modelos(PROJ, {d["id"]: (d["cat"], d["mod"]) for d in D})
 vendas = historico.resumo(historico.carregar(PROJ))
@@ -122,8 +129,8 @@ arq_m.write_text(json.dumps(evol, ensure_ascii=False, indent=1, sort_keys=True),
 resumo = {"data": DATA, "medias": {k: v for k, v in sorted(medias.items())}, "vendas": vendas}
 (PROJ / "index.html").write_text(tpl.replace("__DADOS__", json.dumps(D, ensure_ascii=False).replace("</", "<\\/"))
                                 .replace("__RESUMO__", json.dumps(resumo, ensure_ascii=False)), encoding="utf-8")
-tam = (PROJ / "index.html").stat().st_size / 1e6
-print(len(D), "anúncios |", sum(1 for d in D if d["destaque"]), "destaques |", f"index.html com {tam:.1f} MB")
+tam = ((PROJ / "index.html").stat().st_size + sum(f.stat().st_size for f in TIRAS.glob("*.jpg"))) / 1e6
+print(len(D), "anúncios |", sum(1 for d in D if d["destaque"]), "destaques |", f"página + fotos: {tam:.1f} MB")
 for k, (v, q, _) in sorted(medias.items()):
     print(f"  {k:22} R$ {v:>6}  ({q})")
 for d in D:
