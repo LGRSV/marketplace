@@ -58,7 +58,7 @@ EXTRATOR = r"""
 async () => {
   await new Promise(r => setTimeout(r, 2500));
   [...document.querySelectorAll('div[role="button"],span')]
-    .filter(e => /^Ver mais$/i.test(e.innerText.trim())).forEach(b => b.click());
+    .filter(e => /^Ver mais$/i.test(e.innerText.trim()) && !e.closest("a")).forEach(b => b.click());  // "Ver mais" que é link leva para outra página
   await new Promise(r => setTimeout(r, 800));
   const id = (location.pathname.match(/item\/(\d+)/) || [])[1];
   // Funciona logado e deslogado: ancora na linha "Anunciado ... em <cidade>";

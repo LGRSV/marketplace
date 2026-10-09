@@ -90,12 +90,15 @@ def main():
         fotos = []
         for i, b64 in enumerate(it["fotos"], 1):
             nome = f"{i:02d}.jpg"
-            with open(os.path.join(pasta, nome), "wb") as f:
-                f.write(base64.b64decode(b64))
+            if not os.path.exists(os.path.join(pasta, nome)):  # já salva: não regrava (evita o OneDrive subir tudo de novo)
+                with open(os.path.join(pasta, nome), "wb") as f:
+                    f.write(base64.b64decode(b64))
             fotos.append((pasta_rel + os.sep + nome).replace(os.sep, "/"))
         link = f"https://www.facebook.com/marketplace/item/{it['id']}/"
-        with open(os.path.join(pasta, "info.txt"), "w", encoding="utf-8") as f:
-            f.write(f"{it['titulo']}\nPreco: R$ {preco}\nLocal: {it.get('local', '')}\n"
+        info = os.path.join(pasta, "info.txt")
+        if not os.path.exists(info):
+            with open(info, "w", encoding="utf-8") as f:
+                f.write(f"{it['titulo']}\nPreco: R$ {preco}\nLocal: {it.get('local', '')}\n"
                     f"Condicao: {it.get('condicao', '')}\nLink: {link}\n\n{it.get('descricao', '')}\n")
         media = MEDIA_IPHONE.get(mod)
         cards.append({

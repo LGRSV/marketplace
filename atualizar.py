@@ -20,6 +20,7 @@ import asyncio
 import json
 import os
 import random
+import re
 import subprocess
 import sys
 import time
@@ -41,8 +42,12 @@ async () => {
     window.scrollTo(0, document.body.scrollHeight);
     await new Promise(r => setTimeout(r, 1500 + Math.random() * 1500));
   }
-  return [...new Set([...document.querySelectorAll('a[href*="/marketplace/item/"]')]
-    .map(a => (a.getAttribute('href').match(/item\/(\d+)/) || [])[1]).filter(Boolean))];
+  const vistos = {};
+  for (const a of document.querySelectorAll('a[href*="/marketplace/item/"]')) {
+    const id = (a.getAttribute('href').match(/item\/(\d+)/) || [])[1];
+    if (id && !vistos[id]) vistos[id] = a.innerText.replace(/\s+/g, ' ');
+  }
+  return Object.entries(vistos);
 }
 """
 
@@ -55,10 +60,26 @@ def preparar(nome):
         import coleta_aluguel  # troca DADOS, LOG e EXTRATOR do coleta
         buscas = coleta_aluguel.BUSCAS
     else:
+        global FILTRO
+        import salvar_fotos
+        FILTRO = salvar_fotos.classificar
         buscas = [t for g in coleta.BUSCAS.values() for t in g]
     coleta.LOG = os.path.join(coleta.DADOS, "atualizar.log")
     coleta.ARGS_EXTRA = ["--window-position=-2400,0"]  # fora da tela; minimizado o Chrome não desenha a página e a leitura falha
     return proj, buscas
+
+
+FILTRO = None  # no projeto iphone: só abre o que é iPhone 13+, TV ou console (o card da busca já traz o título)
+
+
+def interessa(txt):
+    if FILTRO is None:
+        return True
+    cat, _ = FILTRO(txt, "")
+    return cat != "Outros" and not (cat == "Videogame" and ACESSORIO.search(txt))  # "PS5 com 2 controles" é console
+
+
+ACESSORIO = re.compile(r"headset|\bfone|volante|pel[íi]cula|carregador|\bbike\b|bicicleta|\bsuporte\b", re.I)  # acessório sozinho não vale a visita
 
 
 def url_recentes(termo):
@@ -90,9 +111,8 @@ class Trava:
 async def buscar_novos(proj, buscas, maximo, n_buscas):
     from playwright.async_api import async_playwright
     conhecidos = set(historico.carregar(proj))
-    arq = os.path.join(coleta.DADOS, f"_anuncios_novos_{date.today().isoformat()}.json")
-    ja = json.load(open(arq, encoding="utf-8")) if os.path.exists(arq) else []
-    conhecidos |= {d["id"] for d in ja}
+    # um arquivo por rodada: não regrava (nem re-sincroniza) as fotos das rodadas anteriores
+    arq = os.path.join(coleta.DADOS, f"_anuncios_novos_{datetime.now():%Y-%m-%d_%H%M}.json")
     lidos = []
     async with async_playwright() as p:
         nav, nova_guia = await coleta.abrir_chrome(p)
@@ -106,7 +126,7 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
                 await coleta.dormir((4, 7))
                 await coleta.checar(pg)
                 achados = await pg.evaluate(TOPO)
-                novos = [i for i in achados if i not in conhecidos and i not in fila]
+                novos = [i for i, txt in achados if i not in conhecidos and i not in fila and interessa(txt)]
                 fila += novos
                 coleta.log(f"Busca '{termo}' (recentes): {len(achados)} anúncios, {len(novos)} ainda não vistos")
                 if len(fila) >= maximo:
@@ -135,7 +155,7 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
         finally:
             await nav.close()
     if lidos:
-        json.dump(ja + lidos, open(arq, "w", encoding="utf-8"), ensure_ascii=False)
+        json.dump(lidos, open(arq, "w", encoding="utf-8"), ensure_ascii=False)
         historico.registrar_itens(proj, lidos)
     coleta.log(f"Atualização: {len(lidos)} anúncios novos gravados")
     return len(lidos)

@@ -64,7 +64,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',
 function tags(d){let t='';if(d.vs_media!=null)t+=`<span class="tag ${d.vs_media<0?'low':'high'}">${d.vs_media>0?'+':''}${d.vs_media}% vs média</span>`;
  if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';if(d.novo)t+='<span class="tag low">🆕 novo</span>';return t}
 const card=d=>`<div class="c${d.destaque?' hi':''}" data-id="${d.id}"><div class="n"><div class="ph" style="${bg(d,0)}"></div><span>📷 ${d.nf}</span></div>
- <div class="b"><div class="p">${fmt(d.preco)}</div><div class="t">${esc(d.titulo)}</div><div class="m">${esc(d.mod)} · ${esc(d.local)}</div><div class="tags">${tags(d)}</div>${d.destaque?`<div class="why">⭐ ${esc(d.destaque)}</div>`:''}</div></div>`;
+ <div class="b"><div class="p">${fmt(d.preco)}${d.preco_antes&&d.preco_antes!==d.preco?` <s class="m">${fmt(d.preco_antes)}</s>`:''}</div><div class="t">${esc(d.titulo)}</div><div class="m">${esc(d.mod)} · ${esc(d.local)}</div><div class="tags">${tags(d)}</div>${d.destaque?`<div class="why">⭐ ${esc(d.destaque)}</div>`:''}</div></div>`;
 function barra(){document.getElementById('cats').innerHTML=cats.map(c=>`<button class="${c===cat?'on':''}" data-c="${esc(c)}">${esc(c)} (${c==='Todos'?D.length:D.filter(d=>d.cat===c).length})</button>`).join('');
  const ms=[...new Set(D.filter(d=>cat==='Todos'||d.cat===cat).map(d=>d.mod))];
  document.getElementById('mods').innerHTML='<option value="">Todos os modelos</option>'+ms.map(m=>`<option>${esc(m)}</option>`).join('')}

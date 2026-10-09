@@ -797,6 +797,23 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1098643452933218": {
+  "cat": "iPhone",
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-09",
+    3500
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "Vendo iPhone 15 Pro 128GB",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
+ },
  "1101204019271973": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -2580,6 +2597,23 @@
   "titulo": "iPhone 17 pro Max 256",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1629213732022401": {
+  "cat": "iPhone",
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15",
+  "precos": [
+   [
+    "2026-10-09",
+    3000
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "Vendo iPhone 15 normal 128gb",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
  },
  "1629229928581141": {
   "cat": "iPhone",
@@ -4373,6 +4407,23 @@
   "titulo": "smart+tv",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "2654139281670820": {
+  "cat": "iPhone",
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15",
+  "precos": [
+   [
+    "2026-10-09",
+    2300
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "iPhone 15",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
  },
  "2777682155962625": {
   "cat": "TV",

@@ -40,7 +40,10 @@ H = historico.carregar(PROJ)
 D = [d for d in D if H.get(d["id"], {}).get("status", "ativo") == "ativo"]  # vendidos/apagados saem da página
 ontem = (date.today() - timedelta(days=1)).isoformat()
 for d in D:
-    d["novo"] = H.get(d["id"], {}).get("primeiro_visto", "") >= ontem
+    h = H.get(d["id"], {})
+    d["novo"] = h.get("primeiro_visto", "") >= ontem
+    if len(h.get("precos", [])) > 1 and h["precos"][-1][1]:  # preço mudou desde a leitura: vale o mais recente
+        d["preco_antes"], d["preco"] = h["precos"][0][1], h["precos"][-1][1]
 DEFEITO = re.compile(r"trincad|desligand|desliga sozinh|tela (foi )?(substitu|trocad)|n[ãa]o liga|queimad|quebrad|com defeito|face ?id (off|n[ãa]o)|sem face|mancha|listra|retirada de pe", re.I)
 for d in D:
     d["alerta"] = d["alerta"] or bool(DEFEITO.search(d["titulo"] + " " + d["descricao"]))

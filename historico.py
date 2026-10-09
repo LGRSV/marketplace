@@ -103,7 +103,12 @@ def definir_modelos(proj, mods):
 
 def ler_pagina(pg, item):
     pg.goto(f"https://www.facebook.com/marketplace/item/{item}/", timeout=60000)
-    time.sleep(random.uniform(6, 9))
+    try:  # espera o anúncio desenhar (pausa fixa às vezes lê a página ainda vazia)
+        pg.wait_for_function(r"/\nAnunciado|\/\s*m[êe]s|Indispon[íi]vel/.test(document.body.innerText)"
+                             r" || location.pathname.includes('/login')", timeout=25000)
+    except Exception:
+        pass
+    time.sleep(random.uniform(1, 2))
     if "/login" in pg.url:
         return "login", 0
     t = pg.inner_text("body")
@@ -144,7 +149,8 @@ def verificar(proj, dia=None, maximo=None):
                     print(f"  Facebook bloqueou/pediu login no controle depois de {n - 1} anúncios; paro aqui e retomo na próxima.")
                     break
                 h = H[item]
-                h["verificado"] = dia
+                if st != "incerto":  # incerto = não carregou; tenta de novo na próxima
+                    h["verificado"] = dia
                 if st == "ativo":
                     h["ultimo_ativo"] = dia
                     anotar_preco(h, dia, preco)
