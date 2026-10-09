@@ -159,6 +159,17 @@ def arquivar_coleta_anterior():
     log(f"Coleta anterior ({len(velhos)} arquivos) movida para dados/coleta_{dia}")
 
 
+async def anotar_vendedor(pagina, d):
+    """Nome e id do vendedor (para a lista de golpistas); se não vier, segue sem."""
+    from golpistas import VENDEDOR_JS
+    try:
+        v = await pagina.evaluate(VENDEDOR_JS)
+    except Exception:
+        v = None
+    if v and not d.get("erro"):
+        d["vendedor"], d["vendedor_id"] = v["nome"], v["id"]
+
+
 async def baixar_fotos(pagina, urls):
     fotos = []
     for u in urls[:MAX_FOTOS]:
@@ -206,6 +217,7 @@ async def guia(n, pagina, fila, total, grav, parar):
                 await pagina.goto(f"https://www.facebook.com/marketplace/item/{item}/", wait_until="domcontentloaded")
                 await checar(pagina)
                 d = await pagina.evaluate(EXTRATOR)
+                await anotar_vendedor(pagina, d)
             except Parar as e:
                 log(f"[guia {n}] {e}")
                 parar.set()

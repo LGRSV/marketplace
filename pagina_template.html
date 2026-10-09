@@ -54,7 +54,7 @@ details{max-width:1400px;margin:12px auto 0}summary{cursor:pointer;font-weight:6
 <div id="mod"><div class="box"><div class="gal"><div class="big ph" id="big"></div><button class="nav prev" id="pv">‹</button><button class="nav next" id="nx">›</button><div class="th" id="th"></div></div>
 <div class="det" id="det"></div></div></div>
 <script>
-const D=__DADOS__;
+const D=__DADOS__;__GOLPE__
 const R=__RESUMO__;
 const bg=(d,i)=>`background-image:url(${d.tira});background-size:${d.nf*100}% 100%;background-position:${d.nf>1?i/(d.nf-1)*100:0}% 0`;
 const fmt=v=>'R$ '+v.toLocaleString('pt-BR');
@@ -77,7 +77,7 @@ function abrir(id){cur=D.find(d=>d.id===id);idx=0;
  <div class="m">${esc(cur.mod)} · ${esc(cur.local)}${cur.condicao?' · '+esc(cur.condicao):''}</div><div class="tags">${tags(cur)}</div>
  ${cur.destaque?`<div class="why">⭐ ${esc(cur.destaque)}</div>`:''}
  <div class="acts"><a href="${cur.link}" target="_blank" rel="noopener">Abrir no Facebook</a></div>
- <div class="desc">${esc(cur.descricao||'(sem descrição)')}</div>`;
+ <div class="desc">${esc(cur.descricao||'(sem descrição)')}</div>${golpeBotao(cur)}`;
  document.getElementById('fx').onclick=fechar;
  document.getElementById('th').innerHTML=Array.from({length:cur.nf},(_,i)=>`<div class="ph" data-i="${i}" style="${bg(cur,i)}"></div>`).join('');
  foto(0);document.getElementById('mod').style.display='block';document.body.style.overflow='hidden'}

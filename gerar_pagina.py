@@ -17,6 +17,7 @@ from pathlib import Path
 
 from PIL import Image
 
+import golpistas
 import historico
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -38,10 +39,16 @@ for d in D:
 D = [d for d in D if d["cat"] != "Outros"]
 H = historico.carregar(PROJ)
 D = [d for d in D if H.get(d["id"], {}).get("status", "ativo") == "ativo"]  # vendidos/apagados saem da página
+G = golpistas.carregar(PROJ)
+fora = [d for d in D if golpistas.bloqueado(G, d["id"], H.get(d["id"], {}).get("vendedor_id"))]
+D = [d for d in D if d not in fora]
+if fora:
+    print(f"golpistas: {len(fora)} anúncios fora da página ({', '.join(sorted({H.get(d['id'], {}).get('vendedor') or d['id'] for d in fora}))})")
 ontem = (date.today() - timedelta(days=1)).isoformat()
 for d in D:
     h = H.get(d["id"], {})
     d["novo"] = h.get("primeiro_visto", "") >= ontem
+    d["vendedor"] = h.get("vendedor", "")
     if len(h.get("precos", [])) > 1 and h["precos"][-1][1]:  # preço mudou desde a leitura: vale o mais recente
         d["preco_antes"], d["preco"] = h["precos"][0][1], h["precos"][-1][1]
 DEFEITO = re.compile(r"trincad|desligand|desliga sozinh|tela (foi )?(substitu|trocad)|n[ãa]o liga|queimad|quebrad|com defeito|face ?id (off|n[ãa]o)|sem face|mancha|listra|retirada de pe", re.I)
@@ -131,7 +138,8 @@ evol[date.today().isoformat() if len(sys.argv) < 2 else "-".join(reversed(DATA.s
 arq_m.parent.mkdir(exist_ok=True)
 arq_m.write_text(json.dumps(evol, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 resumo = {"data": DATA, "medias": {k: v for k, v in sorted(medias.items())}, "vendas": vendas}
-(PROJ / "index.html").write_text(tpl.replace("__DADOS__", json.dumps(D, ensure_ascii=False).replace("</", "<\\/"))
+(PROJ / "index.html").write_text(tpl.replace("__GOLPE__", golpistas.pagina_js(PROJ))
+                                .replace("__DADOS__", json.dumps(D, ensure_ascii=False).replace("</", "<\\/"))
                                 .replace("__RESUMO__", json.dumps(resumo, ensure_ascii=False)), encoding="utf-8")
 tam = ((PROJ / "index.html").stat().st_size + sum(f.stat().st_size for f in TIRAS.glob("*.jpg"))) / 1e6
 print(len(D), "anúncios |", sum(1 for d in D if d["destaque"]), "destaques |", f"página + fotos: {tam:.1f} MB")

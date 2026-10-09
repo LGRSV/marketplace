@@ -30,6 +30,7 @@ from urllib.parse import quote
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import coleta  # noqa: E402
+import golpistas  # noqa: E402
 import historico  # noqa: E402
 from publicar import publicar  # noqa: E402
 
@@ -112,6 +113,7 @@ class Trava:
 async def buscar_novos(proj, buscas, maximo, n_buscas):
     from playwright.async_api import async_playwright
     conhecidos = set(historico.carregar(proj))
+    G = golpistas.carregar(proj)
     # um arquivo por rodada: não regrava (nem re-sincroniza) as fotos das rodadas anteriores
     arq = os.path.join(coleta.DADOS, f"_anuncios_novos_{datetime.now():%Y-%m-%d_%H%M}.json")
     lidos = []
@@ -148,6 +150,10 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
                 if d.get("erro"):
                     coleta.log(f"{item}: não deu para ler ({d['erro']}) | {await pg.title()}")
                     continue
+                await coleta.anotar_vendedor(pg, d)
+                if golpistas.bloqueado(G, item, d.get("vendedor_id")):
+                    coleta.log(f"{item}: vendedor marcado como golpista ({d.get('vendedor', '')}), ignorado")
+                    continue
                 d["fotos"] = await coleta.baixar_fotos(pg, d.pop("fotos_url", []))
                 lidos.append(d)
                 coleta.log(f"novo: {d.get('titulo', '')[:45]} | R$ {d.get('preco', '')} | {len(d['fotos'])} fotos")
@@ -176,11 +182,11 @@ def montar_e_publicar(nome, proj, msg, haiku):
         publicar(proj, msg)
 
 
-def diario(nome, proj, conferir):
+def diario(nome, proj, conferir, rodape=""):
     hoje = datetime.now()
     coleta.log(f"Compilado do dia: conferindo {conferir} anúncios antigos ...")
     historico.verificar(proj, maximo=conferir)
-    montar_e_publicar(nome, proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}", haiku=True)
+    montar_e_publicar(nome, proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}" + rodape, haiku=True)
 
 
 def main():
@@ -195,11 +201,15 @@ def main():
     proj, buscas = preparar(a.proj)
     os.makedirs(coleta.DADOS, exist_ok=True)
     with Trava(coleta.DADOS):
+        # marcações "🚩 golpista" feitas no site viram issues no GitHub; o commit que publica fecha cada uma
+        fechar = golpistas.sincronizar(proj, coleta.log)
+        rodape = "".join(f"\nCloses #{n}" for n in fechar)
+        rodape = "\n" + rodape if rodape else ""
         if a.modo == "novos":
-            if asyncio.run(buscar_novos(proj, buscas, a.max, a.buscas)):
-                montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}", haiku=False)
+            if asyncio.run(buscar_novos(proj, buscas, a.max, a.buscas)) or fechar:
+                montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}" + rodape, haiku=False)
         else:
-            diario(a.proj, proj, a.conferir)
+            diario(a.proj, proj, a.conferir, rodape)
 
 
 if __name__ == "__main__":

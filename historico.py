@@ -78,6 +78,8 @@ def registrar_itens(proj, itens, dia=None):
             h = H[d["id"]] = {"titulo": "", "local": "", "mod": "", "primeiro_visto": dia, "precos": []}
         h.update(titulo=d.get("titulo", ""), local=d.get("local", ""), status="ativo",
                  ultimo_ativo=dia, ultima_coleta=dia, data_status=dia)
+        if d.get("vendedor_id"):
+            h["vendedor"], h["vendedor_id"] = d.get("vendedor", ""), d["vendedor_id"]
         anotar_preco(h, dia, valor(d.get("preco")))
     salvar(proj, H)
     print(f"histórico: {n} anúncios lidos, {n_novos} novos, {len(H)} no total")
@@ -110,17 +112,22 @@ def ler_pagina(pg, item):
         pass
     time.sleep(random.uniform(1, 2))
     if "/login" in pg.url:
-        return "login", 0
+        return "login", 0, None
     t = pg.inner_text("body")
     if any(b in t.lower() for b in BLOQUEIO):
-        return "bloqueio", 0
+        return "bloqueio", 0, None
+    try:  # de quebra descobre o vendedor (para a lista de golpistas valer também nos anúncios antigos)
+        from golpistas import VENDEDOR_JS
+        vend = pg.evaluate(VENDEDOR_JS)
+    except Exception:
+        vend = None
     L = [s.strip() for s in t.split("\n") if s.strip()]
     preco = valor(next((s for s in L if re.match(r"^R\$\s?[\d.]+", s)), ""))
     if re.search(r"^·?\s*(Indispon[íi]vel|Vendido|Alugado)$", t, re.M):
-        return "vendido", preco
+        return "vendido", preco, vend
     if preco or any(s.startswith("Anunciado") for s in L):
-        return "ativo", preco
-    return "incerto", 0
+        return "ativo", preco, vend
+    return "incerto", 0, vend
 
 
 def verificar(proj, dia=None, maximo=None):
@@ -140,15 +147,17 @@ def verificar(proj, dia=None, maximo=None):
         pg = nav.new_context(locale="pt-BR", viewport={"width": 1280, "height": 900}).new_page()
         try:
             for n, item in enumerate(fila, 1):
-                st, preco = ler_pagina(pg, item)
+                st, preco, vend = ler_pagina(pg, item)
                 if st == "login":  # anúncio apagado ou o Facebook pedindo login para tudo? confere um controle
                     time.sleep(random.uniform(*PAUSA))
-                    st_c, _ = ler_pagina(pg, random.choice(controles)) if controles else ("ativo", 0)
+                    st_c = ler_pagina(pg, random.choice(controles))[0] if controles else "ativo"
                     st = "apagado" if st_c in ("ativo", "vendido") else "bloqueio"
                 if st == "bloqueio":
                     print(f"  Facebook bloqueou/pediu login no controle depois de {n - 1} anúncios; paro aqui e retomo na próxima.")
                     break
                 h = H[item]
+                if vend:
+                    h["vendedor"], h["vendedor_id"] = vend["nome"], vend["id"]
                 if st != "incerto":  # incerto = não carregou; tenta de novo na próxima
                     h["verificado"] = dia
                 if st == "ativo":
