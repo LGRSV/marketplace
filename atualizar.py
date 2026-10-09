@@ -79,7 +79,8 @@ def interessa(txt):
     return cat != "Outros" and not (cat == "Videogame" and ACESSORIO.search(txt))  # "PS5 com 2 controles" é console
 
 
-ACESSORIO = re.compile(r"headset|\bfone|volante|pel[íi]cula|carregador|\bbike\b|bicicleta|\bsuporte\b", re.I)  # acessório sozinho não vale a visita
+ACESSORIO = re.compile(r"headset|\bfone|volante|pel[íi]cula|carregador|\bbike\b|bicicleta|\bsuporte\b|\bgta\b|\bfifa\b|\bfc\s?\d{2}\b"
+                       r"|(^|R\$\s?[\d.]+\s+)controle", re.I)  # card começando por "Controle ..." é só o controle  # acessório sozinho não vale a visita
 
 
 def url_recentes(termo):

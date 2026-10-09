@@ -29,7 +29,7 @@ h = (PROJ / "fotos" / "oportunidades.html").read_text(encoding="utf-8")
 m = re.search(r"const D=", h)
 D = json.JSONDecoder().raw_decode(h[m.end():])[0]
 D = [d for d in D if d["cat"] != "Outros" and d["local"].split(",")[0].strip().lower() in REGIAO and d["preco"] > 0]
-ACESS = re.compile(r"\bjogos?\b|controle|suporte|\bcase\b|\bcapa\b|desbloque|\bcabo\b|\bfonte\b|pel[íi]cula|headset|volante|\bpainel\b|\brack\b|\bdock\b|carregador|m[íi]dia f[íi]sica|\bfallout\b|god of war|\bbatman\b|\bmario\b|\bzelda\b", re.I)
+ACESS = re.compile(r"\bjogos?\b|controle|suporte|\bcase\b|\bcapa\b|desbloque|\bcabo\b|\bfonte\b|pel[íi]cula|headset|volante|\bpainel\b|\brack\b|\bdock\b|carregador|m[íi]dia f[íi]sica|\bfallout\b|god of war|\bbatman\b|\bmario\b|\bzelda\b|\bgta\b|\bfifa\b|\bfc\s?\d{2}\b", re.I)
 for d in D:
     if d["cat"] != "iPhone" and re.search(r"iphone", d["titulo"], re.I):
         d["cat"] = "Outros"  # iPhone antigo (XR, 11...) que caiu como videogame
@@ -63,6 +63,7 @@ def media_robusta(v):
 # Preço médio de cada modelo (iPhone por variante do Haiku, TV por polegada, videogame por console),
 # sem anúncios que citam defeito e sem os modelos genéricos ("TV" sem polegada, jogos e acessórios).
 SEM_MEDIA = ("TV", "Jogos e acessórios")
+TROCA = re.compile(r"\btroc[oa]\b", re.I)  # "troco PS5 por PC R$ 7.000" não é preço de venda
 por_mod = defaultdict(list)
 for d in D:
     c = classif.get(d["id"])
@@ -72,7 +73,7 @@ for d in D:
         d["mod"] = "iPhone " + c["variante"]
         if c.get("estado") == "com defeito":
             continue
-    if d["mod"] not in SEM_MEDIA and not d["alerta"]:
+    if d["mod"] not in SEM_MEDIA and not d["alerta"] and not TROCA.search(d["titulo"]):
         por_mod[d["mod"]].append(d["preco"])
 medias = {k: (*media_robusta(v), next(d["cat"] for d in D if d["mod"] == k)) for k, v in por_mod.items() if len(v) >= 2}
 
