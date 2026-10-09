@@ -14,7 +14,7 @@ h1{margin:0 0 4px;font-size:20px}.sub{color:var(--mut);font-size:13px;margin-bot
 .aviso{max-width:1400px;margin:12px auto 0;padding:10px 14px;border:1px solid var(--warn);color:var(--warn);border-radius:10px;font-size:14px}
 .wrap{padding:0 16px}
 h3{max-width:1400px;margin:18px auto 0;font-size:16px}
-main,#top{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:12px 0;max-width:1400px;margin:0 auto}
+main,#top,#novos{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:12px 0;max-width:1400px;margin:0 auto}
 .c{background:var(--card);border:1px solid var(--bd);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .1s}
 .c.hi{background:var(--hi);border-color:var(--warn)}
 .c:hover{transform:translateY(-2px)}.ph{width:100%;aspect-ratio:1;background-color:#000;background-repeat:no-repeat;display:block}
@@ -47,6 +47,7 @@ details{max-width:1400px;margin:12px auto 0}summary{cursor:pointer;font-weight:6
 <div class="aviso" id="aviso"></div>
 <details><summary>Preço médio por modelo nesta coleta</summary><div id="medias"></div></details>
 <details><summary>📈 O que mais vende (histórico)</summary><div id="vendas"></div></details>
+<div id="novosbox"><h3>🆕 Novos nas últimas 24h</h3><div id="novos"></div></div>
 <h3>⭐ Melhores oportunidades</h3><div id="top"></div>
 <h3>Todos os anúncios</h3><main id="g"></main>
 </div>
@@ -61,7 +62,7 @@ let cat='Todos',cur=null,idx=0;
 const cats=['Todos',...new Set(D.map(d=>d.cat))];
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function tags(d){let t='';if(d.vs_media!=null)t+=`<span class="tag ${d.vs_media<0?'low':'high'}">${d.vs_media>0?'+':''}${d.vs_media}% vs média</span>`;
- if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';return t}
+ if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';if(d.novo)t+='<span class="tag low">🆕 novo</span>';return t}
 const card=d=>`<div class="c${d.destaque?' hi':''}" data-id="${d.id}"><div class="n"><div class="ph" style="${bg(d,0)}"></div><span>📷 ${d.nf}</span></div>
  <div class="b"><div class="p">${fmt(d.preco)}</div><div class="t">${esc(d.titulo)}</div><div class="m">${esc(d.mod)} · ${esc(d.local)}</div><div class="tags">${tags(d)}</div>${d.destaque?`<div class="why">⭐ ${esc(d.destaque)}</div>`:''}</div></div>`;
 function barra(){document.getElementById('cats').innerHTML=cats.map(c=>`<button class="${c===cat?'on':''}" data-c="${esc(c)}">${esc(c)} (${c==='Todos'?D.length:D.filter(d=>d.cat===c).length})</button>`).join('');
@@ -85,9 +86,10 @@ function foto(i){idx=(i+cur.nf)%cur.nf;document.getElementById('big').style.cssT
  const multi=cur.nf>1;pv.style.display=nx.style.display=multi?'':'none'}
 function fechar(){document.getElementById('mod').style.display='none';document.body.style.overflow='';cur=null}
 document.getElementById('top').innerHTML=D.filter(d=>d.destaque).map(card).join('');
+{const N=D.filter(d=>d.novo).sort((a,b)=>(a.vs_media??99)-(b.vs_media??99));if(N.length)document.getElementById('novos').innerHTML=N.map(card).join('');else document.getElementById('novosbox').style.display='none'}
 document.getElementById('cats').onclick=e=>{const c=e.target.dataset.c;if(c){cat=c;barra();lista()}};
 ['mods','ord'].forEach(i=>document.getElementById(i).onchange=lista);document.getElementById('q').oninput=lista;
-['g','top'].forEach(i=>document.getElementById(i).onclick=e=>{const c=e.target.closest('.c');if(c)abrir(c.dataset.id)});
+['g','top','novos'].forEach(i=>document.getElementById(i).onclick=e=>{const c=e.target.closest('.c');if(c)abrir(c.dataset.id)});
 document.getElementById('th').onclick=e=>{if(e.target.dataset.i)foto(+e.target.dataset.i)};
 pv.onclick=()=>foto(idx-1);nx.onclick=()=>foto(idx+1);
 document.getElementById('mod').onclick=e=>{if(e.target.id==='mod')fechar()};

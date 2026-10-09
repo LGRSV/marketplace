@@ -64,25 +64,32 @@ def anotar_preco(h, dia, preco):
         h["precos"].append([dia, preco])
 
 
-def registrar_coleta(proj, dia=None):
-    """Tudo que veio em dados/_anuncios_*.json fica 'ativo' e visto hoje."""
+def registrar_itens(proj, itens, dia=None):
+    """Os anúncios lidos agora ficam 'ativo' e vistos hoje (novos entram com primeiro_visto = hoje)."""
     dia = dia or date.today().isoformat()
     H, n_novos, n = carregar(proj), 0, 0
-    for f in sorted(glob.glob(os.path.join(proj, "dados", "_anuncios_*.json"))):
-        for d in json.load(open(f, encoding="utf-8-sig")):
-            if d.get("erro") or not d.get("id"):
-                continue
-            n += 1
-            h = H.get(d["id"])
-            if not h:
-                n_novos += 1
-                h = H[d["id"]] = {"titulo": "", "local": "", "mod": "", "primeiro_visto": dia, "precos": []}
-            h.update(titulo=d.get("titulo", ""), local=d.get("local", ""), status="ativo",
-                     ultimo_ativo=dia, ultima_coleta=dia, data_status=dia)
-            anotar_preco(h, dia, valor(d.get("preco")))
+    for d in itens:
+        if d.get("erro") or not d.get("id"):
+            continue
+        n += 1
+        h = H.get(d["id"])
+        if not h:
+            n_novos += 1
+            h = H[d["id"]] = {"titulo": "", "local": "", "mod": "", "primeiro_visto": dia, "precos": []}
+        h.update(titulo=d.get("titulo", ""), local=d.get("local", ""), status="ativo",
+                 ultimo_ativo=dia, ultima_coleta=dia, data_status=dia)
+        anotar_preco(h, dia, valor(d.get("preco")))
     salvar(proj, H)
-    print(f"histórico: {n} anúncios na coleta, {n_novos} novos, {len(H)} no total")
+    print(f"histórico: {n} anúncios lidos, {n_novos} novos, {len(H)} no total")
     return H
+
+
+def registrar_coleta(proj, dia=None):
+    """Tudo que veio em dados/_anuncios_*.json (coleta completa) fica 'ativo' e visto hoje."""
+    itens = []
+    for f in sorted(glob.glob(os.path.join(proj, "dados", "_anuncios_*.json"))):
+        itens += json.load(open(f, encoding="utf-8-sig"))
+    return registrar_itens(proj, itens, dia)
 
 
 def definir_modelos(proj, mods):
@@ -119,6 +126,7 @@ def verificar(proj, dia=None, maximo=None):
             and h.get("verificado") != dia]
     controles = [i for i, h in H.items() if h.get("ultima_coleta") == max(x.get("ultima_coleta", "") for x in H.values())]
     random.shuffle(fila)
+    fila.sort(key=lambda i: H[i].get("verificado") or H[i].get("ultima_coleta") or "")  # os conferidos há mais tempo primeiro
     fila = fila[:maximo] if maximo else fila
     print(f"verificando {len(fila)} anúncios que não vieram na última coleta (controles: {len(controles)})")
     cont = defaultdict(int)

@@ -65,10 +65,14 @@ def perguntar(lote):
 def main():
     todos = carregar()
     iphones = [i for i in todos if re.search(r"iphone", i["titulo"], re.I)]
-    print(f"{len(todos)} anúncios, {len(iphones)} com 'iPhone' no título -> {-(-len(iphones) // LOTE)} lotes")
-    classif, descartes = [], []
-    for k in range(0, len(iphones), LOTE):
-        lote = iphones[k:k + LOTE]
+    # incremental: o que já está em classificacao_haiku.json não volta para o Haiku (a coleta completa arquiva o arquivo antes)
+    ler = lambda n: json.load(open(os.path.join(DADOS, n), encoding="utf-8")) if os.path.exists(os.path.join(DADOS, n)) else []
+    classif, descartes = ler("classificacao_haiku.json"), ler("descartes_haiku.json")
+    feitos = {c["id"] for c in classif}
+    faltam = [i for i in iphones if i["id"] not in feitos]
+    print(f"{len(todos)} anúncios, {len(iphones)} com 'iPhone' no título, {len(faltam)} sem classificação -> {-(-len(faltam) // LOTE)} lotes")
+    for k in range(0, len(faltam), LOTE):
+        lote = faltam[k:k + LOTE]
         try:
             res = perguntar(lote)
         except Exception as e:

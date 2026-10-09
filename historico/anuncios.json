@@ -99,7 +99,8 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1027748386945154": {
   "cat": "Jogos e acessórios",
@@ -980,6 +981,23 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1114128491589613": {
+  "cat": "iPhone",
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "iPhone 16 Pro Max",
+  "precos": [
+   [
+    "2026-10-09",
+    5500
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "IPhone 16 pro Max 256gb",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
+ },
  "1117511004167702": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -1717,6 +1735,22 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1418782403565355": {
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-09",
+    490
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "Controle Xbox Wireless Velocity Green Sem Fio",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
+ },
  "1419930353305081": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -2206,7 +2240,8 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max 256 GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1555859855536199": {
   "cat": "Jogos e acessórios",
@@ -2829,6 +2864,22 @@
   "titulo": "iPhone 14 Pro",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1746117619827341": {
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-09",
+    1300
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "Volante Logitech G920 com Pedais e câmbio (PC/Xbox)",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
  },
  "1752651572626719": {
   "data_status": "2026-10-08",
@@ -3583,6 +3634,23 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "2031111187554256": {
+  "cat": "Videogame",
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "Xbox One",
+  "precos": [
+   [
+    "2026-10-09",
+    800
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "Bike aro 29/troco por Xbox one",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
+ },
  "2050903912290056": {
   "cat": "Jogos e acessórios",
   "data_status": "2026-10-08",
@@ -3626,6 +3694,22 @@
   "titulo": "iPhone 17 pro Max- Branco lacrado",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "2073852676585747": {
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-09",
+    250
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "Headset gamer bluetooth",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09"
  },
  "2087030485181217": {
   "data_status": "2026-10-08",
@@ -3726,7 +3810,8 @@
   "status": "ativo",
   "titulo": "IPHONE 17 PRO MAX 256gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "2152750292291617": {
   "cat": "Videogame",

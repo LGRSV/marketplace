@@ -103,6 +103,7 @@ async () => {
 
 BLOQUEIO = ("temporariamente bloqueado", "você está indo rápido demais", "you're temporarily blocked",
             "going too fast", "confirme que é você", "checkpoint")
+ARGS_EXTRA = []  # o atualizar.py abre a janela fora da tela
 ANONIMO = True  # padrão: guias anônimas, sem cookies entre coletas (--perfil usa o perfil salvo)
 
 
@@ -124,7 +125,7 @@ async def dormir(faixa):
 async def abrir_chrome(p):
     """Devolve (navegador, função que abre uma guia nova)."""
     opcoes = dict(locale="pt-BR", viewport={"width": 1280, "height": 900})
-    args = ["--disable-blink-features=AutomationControlled"]
+    args = ["--disable-blink-features=AutomationControlled"] + ARGS_EXTRA
     if ANONIMO:
         nav = await p.chromium.launch(channel="chrome", headless=False, args=args)
 
