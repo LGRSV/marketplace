@@ -474,7 +474,8 @@
   "status": "ativo",
   "titulo": "Televisão",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1075687298690664": {
   "cat": "iPhone",
@@ -542,7 +543,8 @@
   "status": "ativo",
   "titulo": "Controle Ps4 e PC",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1076675811822579": {
   "data_status": "2026-10-08",
@@ -613,7 +615,7 @@
  },
  "1082157754799178": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-09",
   "local": "Palmas, TO",
   "mod": "iPhone 13",
   "precos": [
@@ -623,10 +625,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Vendo iPhone 13 ou troco",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "verificado": "2026-10-09"
  },
  "1084836144154201": {
   "data_status": "2026-10-08",
@@ -676,7 +679,8 @@
   "status": "ativo",
   "titulo": "iPhone 16 128",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1088215080754358": {
   "cat": "iPhone",
@@ -727,7 +731,8 @@
   "status": "ativo",
   "titulo": "Apple IPhone 16 Pro 256GB Titânio Preto",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1090673390032380": {
   "cat": "iPhone",
@@ -863,7 +868,8 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1103073129134875": {
   "cat": "iPhone",
@@ -963,7 +969,8 @@
   "status": "ativo",
   "titulo": "Semi Novo Xbox Serie S",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1111146855190628": {
   "cat": "iPhone",
@@ -1047,7 +1054,8 @@
   "status": "ativo",
   "titulo": "iPhone sabor 17 pro top",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1114128491589613": {
   "cat": "iPhone",
@@ -1149,7 +1157,8 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max 128gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1122351397120935": {
   "cat": "TV",
@@ -1396,13 +1405,18 @@
    [
     "2026-10-08",
     4600
+   ],
+   [
+    "2026-10-09",
+    4700
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Vendo 16 pro 128",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1330689549001363": {
   "cat": "iPhone",
@@ -1496,7 +1510,8 @@
   "status": "ativo",
   "titulo": "Jogos Xbox 360",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1358786149669420": {
   "cat": "iPhone",
@@ -1513,7 +1528,8 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro 128GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1362654629375771": {
   "cat": "Videogame",
@@ -1530,7 +1546,8 @@
   "status": "ativo",
   "titulo": "Xbox one",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1364852999207404": {
   "cat": "iPhone",
@@ -1649,7 +1666,8 @@
   "status": "ativo",
   "titulo": "iPhone 15 Pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1399052742296675": {
   "cat": "Jogos e acessórios",
@@ -1785,7 +1803,8 @@
   "status": "ativo",
   "titulo": "XBOX SERIES S EM ÓTIMO ESTADO",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1411391057107840": {
   "cat": "iPhone",
@@ -2106,7 +2125,8 @@
   "status": "ativo",
   "titulo": "Tv",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1477914294169373": {
   "cat": "iPhone",
@@ -2140,7 +2160,8 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1488128513154069": {
   "cat": "Jogos e acessórios",
@@ -2325,7 +2346,8 @@
   "status": "ativo",
   "titulo": "Vendo Projeto Xbox 360 Turnado Com TV",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1530846125421199": {
   "cat": "Jogos e acessórios",
@@ -2834,7 +2856,8 @@
   "status": "ativo",
   "titulo": "IPHONE 13PROMAX",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1668611124824275": {
   "cat": "iPhone",
@@ -3067,7 +3090,8 @@
   "status": "ativo",
   "titulo": "Vendo está televisão retirada de peças",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1742542943716519": {
   "cat": "iPhone",
@@ -3183,7 +3207,8 @@
   "status": "ativo",
   "titulo": "Iphone xr 128gb na carcaça do 17 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1756912218871155": {
   "cat": "iPhone",
@@ -3605,7 +3630,8 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro!",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1865997257715021": {
   "cat": "iPhone",
@@ -3656,7 +3682,8 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1904702150497457": {
   "cat": "iPhone",
@@ -3724,7 +3751,8 @@
   "status": "ativo",
   "titulo": "Troco ou vendo iPhone 15 128 gb pego do 13 pro max pra cima 🚨",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1971154170257244": {
   "cat": "Videogame",
@@ -3808,7 +3836,8 @@
   "status": "ativo",
   "titulo": "Tv24",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1991238274918078": {
   "cat": "iPhone",
@@ -3842,7 +3871,8 @@
   "status": "ativo",
   "titulo": "Vendo Xbox 360 com problema de imagem",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "1993898104899727": {
   "cat": "iPhone",
@@ -4083,7 +4113,8 @@
   "status": "ativo",
   "titulo": "Xbox One Fat",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "2155212808761070": {
   "cat": "iPhone",
@@ -4134,7 +4165,8 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro 256 gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "2175141626678228": {
   "cat": "iPhone",
@@ -4202,7 +4234,8 @@
   "status": "ativo",
   "titulo": "IPHONE 16 128GB SEMI NOVO",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "2202694790681312": {
   "cat": "Videogame",
@@ -4315,17 +4348,22 @@
    [
     "2026-10-08",
     1550
+   ],
+   [
+    "2026-10-09",
+    1500
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Ps4 1T slim",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "2310719923037290": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-09",
   "local": "Palmas, TO",
   "mod": "iPhone 13",
   "precos": [
@@ -4335,10 +4373,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Vendo iPhone 13",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "verificado": "2026-10-09"
  },
  "2330303611077069": {
   "cat": "iPhone",
@@ -4440,7 +4479,8 @@
   "status": "ativo",
   "titulo": "iPhone 14 (aceito propostas)",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "2477462216083872": {
   "cat": "Videogame",
@@ -4474,7 +4514,8 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "2492594524600367": {
   "cat": "Jogos e acessórios",
@@ -4745,7 +4786,8 @@
   "status": "ativo",
   "titulo": "iPhone 15 PRO MAX 256gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "28769691056048735": {
   "data_status": "2026-10-08",
@@ -4829,7 +4871,8 @@
   "status": "ativo",
   "titulo": "Vendo ou troco ps4 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "3189687374563558": {
   "cat": "iPhone",
@@ -4931,7 +4974,8 @@
   "status": "ativo",
   "titulo": "🚨IPHONE 15 PRO, IMPECÁVEL 🤩",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "3642204269278690": {
   "data_status": "2026-10-08",
@@ -5031,7 +5075,8 @@
   "status": "ativo",
   "titulo": "iPhone 15",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "4050646071904695": {
   "cat": "TV",
@@ -5116,7 +5161,8 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro max 256gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "4466902746905626": {
   "cat": "Videogame",
@@ -5273,7 +5319,7 @@
  },
  "4889783264582180": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-09",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro",
   "precos": [
@@ -5283,10 +5329,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "IPHONE 16 PRO 256GB - TODO ORIGINAL",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "verificado": "2026-10-09"
  },
  "793663443429051": {
   "cat": "TV",
@@ -5501,7 +5548,8 @@
   "status": "ativo",
   "titulo": "iPhone 14",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-09"
  },
  "943096618346064": {
   "cat": "Videogame",
