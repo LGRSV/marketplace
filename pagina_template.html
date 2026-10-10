@@ -123,8 +123,8 @@ function medias(){const M=Object.entries(R.medias).filter(([k,v])=>v[2]===cat).s
  const mx=Math.max(1,...M.map(([k,v])=>v[0]));
  $('medias').innerHTML=`<h2>${ICONE[cat]||''} Preço médio — ${esc(cat)}</h2><div class="m">Coleta de ${R.data}. Sem anúncios que citam defeito, de troca ou com preço fora de 40%–250% da mediana (peça, caixa, jogo avulso).</div>`+
  (!M.length?'<div class="vazio">Esta busca não tem média por modelo (os itens são variados demais).</div>':
- '<div class="tw"><table class="md"><tr><th>Modelo</th><th>Média</th><th>Anúncios</th></tr>'+M.map(([k,[v,q]])=>`<tr${q<5?' class="z"':''}><td>${esc(k)}</td><td><span class="trk"><i style="width:${v/mx*100}%"></i></span>${fmt(v)}</td><td>${q}${q<5?' ⚠':''}</td></tr>`).join('')+
- '</table></div><div class="m">⚠ menos de 5 anúncios: média pouco confiável.</div>')}
+ '<div class="tw"><table class="md"><tr><th>Modelo</th><th>Média</th><th>Moda</th><th>Anúncios</th></tr>'+M.map(([k,[v,q,c,mo,vz]])=>`<tr${q<5?' class="z"':''}><td>${esc(k)}</td><td><span class="trk"><i style="width:${v/mx*100}%"></i></span>${fmt(v)}</td><td>${mo&&mo.length?mo.map(fmt).join(' / ')+` <span class="m">(${vz}×${mo.length>1?' cada':''})</span>`:'<span class="m">nenhum repete</span>'}</td><td>${q}${q<5?' ⚠':''}</td></tr>`).join('')+
+ '</table></div><div class="m"><b>Moda</b> = o preço que mais se repete entre os anúncios do modelo (entre parênteses, quantas vezes). ⚠ menos de 5 anúncios: média pouco confiável.</div>')}
 function vendas(){const V=R.vendas||{linhas:[]},br=d=>d?d.split('-').reverse().join('/'):'',f=v=>v==null?'–':fmt(v);
  const catDe=m=>(D.find(d=>d.mod===m)||{}).cat;
  const L=V.linhas.filter(l=>(l.cat||catDe(l.mod))===cat).sort((a,b)=>(b.vendidos+b.apagados)-(a.vendidos+a.apagados)||b.giro-a.giro||b.anuncios-a.anuncios);

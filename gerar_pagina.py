@@ -11,7 +11,7 @@ import json
 import re
 import statistics
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -67,6 +67,15 @@ def media_robusta(v):
     return round(statistics.mean(ok)), len(ok)
 
 
+def moda(v):
+    """Preço que mais se repete (mesmo filtro da média). Empate: todos os empatados; ninguém repete: vazio."""
+    med = statistics.median(v)
+    ok = [x for x in v if 0.4 * med <= x <= 2.5 * med]
+    cont = Counter(ok)
+    vezes = max(cont.values())
+    return (sorted(x for x, c in cont.items() if c == vezes), vezes) if vezes > 1 else ([], 1)
+
+
 # Preço médio de cada modelo (iPhone por variante do Haiku, TV por polegada, videogame por console),
 # sem anúncios que citam defeito e sem os modelos genéricos ("TV" sem polegada, jogos e acessórios).
 SEM_MEDIA = ("TV", "Jogos e acessórios")
@@ -82,7 +91,7 @@ for d in D:
             continue
     if d["mod"] not in SEM_MEDIA and not d["alerta"] and not TROCA.search(d["titulo"]):
         por_mod[d["mod"]].append(d["preco"])
-medias = {k: (*media_robusta(v), next(d["cat"] for d in D if d["mod"] == k)) for k, v in por_mod.items() if len(v) >= 2}
+medias = {k: (*media_robusta(v), next(d["cat"] for d in D if d["mod"] == k), *moda(v)) for k, v in por_mod.items() if len(v) >= 2}
 
 for d in D:
     d["destaque"] = ""
@@ -143,8 +152,8 @@ resumo = {"data": DATA, "medias": {k: v for k, v in sorted(medias.items())}, "ve
                                 .replace("__RESUMO__", json.dumps(resumo, ensure_ascii=False)), encoding="utf-8")
 tam = ((PROJ / "index.html").stat().st_size + sum(f.stat().st_size for f in TIRAS.glob("*.jpg"))) / 1e6
 print(len(D), "anúncios |", sum(1 for d in D if d["destaque"]), "destaques |", f"página + fotos: {tam:.1f} MB")
-for k, (v, q, _) in sorted(medias.items()):
-    print(f"  {k:22} R$ {v:>6}  ({q})")
+for k, (v, q, _, mo, vz) in sorted(medias.items()):
+    print(f"  {k:22} R$ {v:>6}  ({q})  moda: {' / '.join(map(str, mo)) or '-'} ({vz}x)")
 for d in D:
     if d["destaque"]:
         print("  *", d["mod"], d["preco"], d["titulo"][:40], "|", d["destaque"])
