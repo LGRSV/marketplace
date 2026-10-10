@@ -1,136 +1,51 @@
-# Monitor de iPhone — Facebook Marketplace (região de Palmas/TO)
+# Oportunidades no Marketplace — Palmas/TO
 
-Coleta os anúncios de **iPhone 13, 14, 15, 16 e 17** no Marketplace, lê a descrição de cada
-um, classifica estado e saúde da bateria, e gera **uma planilha Excel por geração** com o
-preço médio da região.
+**Site:** https://lgrsv.github.io/marketplace/ — atualizado sozinho de 2 em 2 horas (7h–21h) e compilado às 12h.
 
-## Como rodar
+Coleta anúncios do Facebook Marketplace da região de Palmas (Palmas, Taquaralto, Taquaruçu, Porto Nacional e
+Paraíso do Tocantins), compara cada um com o preço médio do mesmo modelo e guarda o histórico de quem vendeu.
 
-**Agora, uma vez:**
+## As buscas
 
-```powershell
-cd "C:\Users\JOAO ANTONIO LAGARES\Documents\marketplace-iphone13"
-.\rodar_coleta.ps1
-```
+Cada busca vira uma aba no site, com os anúncios, o preço médio por modelo e o ranking de vendas **só dela**.
 
-**Agendar toda semana** (PowerShell **como Administrador**):
+| Aba no site | Termos buscados no Marketplace | Média por |
+|---|---|---|
+| 📱 **iPhone** | `iphone 13` … `iphone 17`, cada um também `pro` e `pro max` (15 buscas) | variante (ex.: iPhone 15 Pro Max) |
+| 🎮 **Videogame** | `ps5`, `ps4`, `xbox`, `nintendo switch`, `playstation portal` | console |
+| 📺 **TV** | `smart tv`, `televisao` | polegada |
+| 🕹️ **Jogos e acessórios** | sai das buscas de videogame (jogo avulso, controle, suporte…) | sem média (itens variados demais) |
 
-```powershell
-.\agendar_rotina.ps1                       # segunda-feira, 09:00
-.\agendar_rotina.ps1 -Dia Sexta -Hora 20:00
-```
+Os termos ficam em `BUSCAS`, no `coleta.py`. Para incluir uma busca nova, acrescente ali.
 
-## Se a rotina se perder
+## O que tem em cada aba do site
 
-`agendar_rotina.ps1` **é o script de recuperação**. Se a tarefa sumir do Agendador, se
-alguém apagar, ou se você formatar a máquina, rode-o de novo como Administrador e o
-agendamento volta exatamente como estava. Ele apaga qualquer versão antiga antes de
-recriar, então rodar duas vezes não duplica nada.
-
-Conferir se está ativa:
-
-```powershell
-Get-ScheduledTask -TaskName "Marketplace-iPhone13"
-Get-ScheduledTaskInfo -TaskName "Marketplace-iPhone13"   # última e próxima execução
-```
-
-Rodar na hora, sem esperar o dia:
-
-```powershell
-Start-ScheduledTask -TaskName "Marketplace-iPhone13"
-```
-
-Desativar:
-
-```powershell
-.\agendar_rotina.ps1 -Remover
-```
+- **🛒 Anúncios** — novos das últimas 24h, melhores oportunidades (bem abaixo da média do modelo) e todos os anúncios,
+  com filtro por modelo, ordenação e busca por texto.
+- **💲 Preço médio** — média de cada modelo nesta coleta, sem anúncios com defeito, de troca ou com preço absurdo.
+- **📈 Ranking de vendas** — o que mais sai do ar desde 08/10/2026: vendidos, apagados, giro e dias até sair.
 
 ## Arquivos
 
 | Arquivo | O que faz |
 |---|---|
-| `prompt_coleta.md` | As instruções da coleta. **Edite aqui** para mudar o modelo buscado ou os critérios. |
-| `rodar_coleta.ps1` | Abre o Chrome se preciso, chama o Claude Code para coletar, gera a planilha. |
-| `agendar_rotina.ps1` | Cria/recria/remove a tarefa semanal. Script de recuperação. |
-| `gerar_excel.py` | Junta os dados brutos com as classificações e monta o Excel. |
-| `dados/` | JSONs da coleta, backups e `log.txt`. |
-| `planilhas/` | Planilhas por data + `historico_iphone13.xlsx` com a evolução. |
+| `atualizar.py` | Rodada automática: `novos` (de 2 em 2 h) e `compilado` (12h). Coleta, gera e publica. |
+| `coleta.py` | Abre as buscas e os anúncios no Chrome, em ritmo humano. |
+| `historico.py` | `historico/anuncios.json`: cada anúncio já visto e se foi vendido ou apagado. |
+| `gerar_pagina.py` + `pagina_template.html` | Monta o `index.html` (o site). Fotos em `s/`, uma tira por anúncio. |
+| `golpistas.py` + `golpistas.json` | Vendedores marcados como golpistas: os anúncios deles não aparecem mais. |
+| `publicar.py` | `git commit` + `push` do site. |
+| `classificar_haiku.py` | Lê a descrição dos iPhones (variante, armazenamento, bateria, estado). |
+| `gerar_excel.py`, `prompt_coleta.md`, `rodar_coleta.ps1`, `agendar_rotina.ps1` | Rotina antiga das planilhas semanais de iPhone. |
 
-## Regras de pesquisa
+## Marcar golpista
 
-**1. Localidades aceitas** — só entram na média:
+No site, abra o anúncio e clique em **🚩 Marcar como golpista**. Abre uma issue aqui no GitHub; é só enviar.
+A próxima rodada descobre o vendedor, tira todos os anúncios dele do site e fecha a issue.
+Pelo terminal: `python golpistas.py marcar <id do anúncio>` / `desmarcar` / `listar`.
 
-> Palmas · Taquaralto · Taquaruçu · Porto Nacional · Paraíso do Tocantins
+## Cuidados
 
-Taquaralto e Taquaruçu são distritos de Palmas; o Marketplace ora os chama de "Palmas, TO",
-ora pelo nome próprio, então os três contam. Configurado em `REGIAO_PALMAS`
-(`gerar_excel.py`).
-
-**2. A média é por faixa** — em cada geração: **normal**, **Pro** e **Pro Max**, cada uma
-com sua média. Abaixo, a planilha detalha por capacidade (128/256/512GB/1TB).
-
-**3. Mínimo de 10 anúncios por faixa** — abaixo disso a média é sinalizada como frágil. Para
-alcançar esse volume, a coleta roda **três buscas por geração** (`iphone NN`, `iphone NN pro`,
-`iphone NN pro max`) — 15 buscas no total. Só a primeira de cada não traz Pro e Pro Max
-suficientes.
-
-**4. Média, não mediana** — média aritmética dos preços anunciados.
-
-**5. Auditoria de títulos** — um agente lê todos os títulos e descarta o que contamina a
-média: anúncios de vários modelos ao mesmo tempo ("Apple iphones 13,14,15,16"), outros
-aparelhos que a busca misturou (12, 14, 15...), acessórios e preços que não são do aparelho.
-Vão para `dados\descartes.json` com o motivo.
-
-## As planilhas
-
-Uma por geração, geradas na mesma execução:
-
-```
-planilhas\iphone13_palmas_<data>.xlsx   +  historico_iphone13.xlsx
-planilhas\iphone14_palmas_<data>.xlsx   +  historico_iphone14.xlsx
-planilhas\iphone15_palmas_<data>.xlsx   +  historico_iphone15.xlsx
-planilhas\iphone16_palmas_<data>.xlsx   +  historico_iphone16.xlsx
-planilhas\iphone17_palmas_<data>.xlsx   +  historico_iphone17.xlsx
-```
-
-**Aba Resumo** — três tabelas:
-1. *Preço médio por faixa*, todos os estados;
-2. *Preço médio por faixa*, só novo/seminovo com bateria ≥ 85%;
-3. *Detalhamento por capacidade*.
-
-Linhas em amarelo têm amostra suficiente. Linhas em cinza-itálico marcadas "amostra pequena"
-não atingiram o mínimo — trate como indício, não como referência de preço.
-
-**Aba Anuncios** — todos em ordem decrescente de preço, com descrição integral e link
-clicável. **Cinza** = fora das localidades aceitas. **Vermelho claro** = reprovado na
-auditoria de títulos (a coluna "Descartado por" diz o motivo). Nenhum dos dois entra em
-média alguma.
-
-**historico_iphone13.xlsx** — uma linha por execução, com média **e quantidade** de cada
-faixa. É o que mostra se o preço subiu ou caiu entre uma semana e outra; a coluna de
-quantidade avisa quando a média daquela semana ficou fraca. `R$ 0` = nenhum anúncio da
-faixa naquela semana.
-
-## Duas coisas que você precisa saber
-
-**1. O Facebook ignora o raio que você pediu.** A busca está configurada em *Palmas ·
-120 km*, mas quando os resultados locais acabam ele emenda anúncios de Araguaína, Gurupi,
-Marabá/PA, Balsas/MA, até Barreiras/BA — na primeira coleta, **45 dos 78 anúncios eram de
-fora**. Por isso a localidade é decidida por lista explícita, e não pelo que o Facebook diz.
-Os de fora ficam na planilha marcados como "Na regiao = Nao" e não entram em média nenhuma.
-
-**2. A rotina depende do Chrome logado.** Não existe API pública do Marketplace, e os
-Termos da Meta proíbem coleta automatizada. Esta rotina roda no seu Chrome real, uma vez
-por semana, em ritmo humano — é por isso que ela não dispara o antifraude. Não transforme
-em um raspador 24/7: aí a sessão cai em verificação. Se a sessão do Facebook expirar, a
-coleta volta vazia e `dados\log.txt` registra o motivo.
-
-## Ajustes comuns
-
-- **Incluir/remover uma cidade**: lista `REGIAO_PALMAS` em `gerar_excel.py` (use o nome sem
-  acento e em minúsculas na chave).
-- **Incluir outra geração** (iPhone 18...): adicione à lista `GERACOES` em `gerar_excel.py`
-  e às buscas do `prompt_coleta.md`, passo 2.
-- **Mudar o mínimo de anúncios por faixa**: `AMOSTRA_MINIMA` em `gerar_excel.py`.
-- **Outro critério de "bom estado"**: função `eh_bom_estado()` em `gerar_excel.py`.
+- O Facebook ignora o raio da busca e mistura anúncios de outras cidades; a região é decidida pela lista acima.
+- Não existe API do Marketplace: a coleta roda devagar de propósito para não cair em verificação. Não acelere.
+- `dados/`, `fotos/` e `planilhas/` ficam só no computador (estão no `.gitignore`).

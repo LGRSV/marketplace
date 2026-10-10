@@ -2,30 +2,55 @@
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Oportunidades Marketplace</title>
 <style>
-:root{--bg:#f6f7f9;--card:#fff;--tx:#1c1e21;--mut:#65676b;--bd:#dadde1;--ac:#1877f2;--ok:#1a7f37;--bad:#c62828;--warn:#b26a00;--hi:#fff7e0}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#18191a;--card:#242526;--tx:#e4e6eb;--mut:#b0b3b8;--bd:#3a3b3c;--ac:#4599ff;--ok:#4cc26a;--bad:#ff6b6b;--warn:#ffb74d;--hi:#3a3020}}
-:root[data-theme="dark"]{--bg:#18191a;--card:#242526;--tx:#e4e6eb;--mut:#b0b3b8;--bd:#3a3b3c;--ac:#4599ff;--ok:#4cc26a;--bad:#ff6b6b;--warn:#ffb74d;--hi:#3a3020}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.4 system-ui,Segoe UI,Roboto,sans-serif}
-header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--bd);padding:12px 16px}
-h1{margin:0 0 4px;font-size:20px}.sub{color:var(--mut);font-size:13px;margin-bottom:10px}
-.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.bar button,.bar select,.bar input{font:inherit;padding:6px 12px;border-radius:18px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);cursor:pointer;max-width:100%}
-.bar button.on{background:var(--ac);border-color:var(--ac);color:#fff}.bar input{cursor:text;min-width:160px;flex:1}
-.aviso{max-width:1400px;margin:12px auto 0;padding:10px 14px;border:1px solid var(--warn);color:var(--warn);border-radius:10px;font-size:14px}
-.wrap{padding:0 16px}
-h3{max-width:1400px;margin:18px auto 0;font-size:16px}
-main,#top,#novos{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;padding:12px 0;max-width:1400px;margin:0 auto}
-.c{background:var(--card);border:1px solid var(--bd);border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .1s}
+:root{--bg:#f3f4f7;--card:#fff;--tx:#1c1e21;--mut:#65676b;--bd:#dfe2e7;--ac:#1877f2;--acs:#e7f0fe;--ok:#1a7f37;--oks:#e6f4ea;--bad:#c62828;--bads:#fdecea;--warn:#b26a00;--warns:#fff4e0;--hi:#fffaf0;--sh:0 1px 3px #0000000f,0 4px 14px #0000000a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121314;--card:#202123;--tx:#e4e6eb;--mut:#a8abb0;--bd:#34363a;--ac:#4599ff;--acs:#1d2c44;--ok:#4cc26a;--oks:#1c3324;--bad:#ff6b6b;--bads:#3d1f1f;--warn:#ffb74d;--warns:#3a2c16;--hi:#2a2519;--sh:none}}
+:root[data-theme="dark"]{--bg:#121314;--card:#202123;--tx:#e4e6eb;--mut:#a8abb0;--bd:#34363a;--ac:#4599ff;--acs:#1d2c44;--ok:#4cc26a;--oks:#1c3324;--bad:#ff6b6b;--bads:#3d1f1f;--warn:#ffb74d;--warns:#3a2c16;--hi:#2a2519;--sh:none}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,Segoe UI,Roboto,sans-serif}
+.in{max-width:1400px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--bd);box-shadow:var(--sh)}
+.top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-top:12px}
+h1{margin:0;font-size:19px}.sub{color:var(--mut);font-size:13px}
+/* abas das buscas */
+#cats{display:flex;gap:4px;overflow-x:auto;margin-top:10px;scrollbar-width:none}#cats::-webkit-scrollbar{display:none}
+#cats button{font:inherit;font-weight:600;flex:none;padding:9px 14px;border:0;border-bottom:3px solid transparent;background:none;color:var(--mut);cursor:pointer;white-space:nowrap}
+#cats button.on{color:var(--ac);border-bottom-color:var(--ac)}#cats button small{font-weight:400;opacity:.8}
+/* abas das visões */
+.views{display:flex;gap:6px;padding:12px 0 0;flex-wrap:wrap}
+.views button{font:inherit;padding:7px 14px;border-radius:18px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer}
+.views button.on{background:var(--ac);border-color:var(--ac);color:#fff}
+.filtros{display:flex;flex-wrap:wrap;gap:8px;padding:12px 0 4px}
+.filtros select,.filtros input{font:inherit;padding:7px 12px;border-radius:8px;border:1px solid var(--bd);background:var(--card);color:var(--tx);max-width:100%}
+.filtros input{flex:1;min-width:180px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 0}
+.st{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:8px 14px;min-width:120px}.st b{display:block;font-size:20px}.st span{color:var(--mut);font-size:12px}
+.aviso{margin:12px 0 0;padding:9px 14px;background:var(--warns);color:var(--warn);border-radius:10px;font-size:13px}
+h3{margin:22px 0 0;font-size:16px;display:flex;align-items:center;gap:8px}h3 small{color:var(--mut);font-weight:400;font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;padding:12px 0}
+.row{display:grid;grid-auto-flow:column;grid-auto-columns:210px;gap:14px;overflow-x:auto;padding:12px 0 14px}
+.c{background:var(--card);border:1px solid var(--bd);border-radius:12px;overflow:hidden;cursor:pointer;transition:transform .12s,box-shadow .12s;box-shadow:var(--sh)}
 .c.hi{background:var(--hi);border-color:var(--warn)}
-.c:hover{transform:translateY(-2px)}.ph{width:100%;aspect-ratio:1;background-color:#000;background-repeat:no-repeat;display:block}
-.c .b{padding:10px}.p{font-weight:700;font-size:18px}.t{margin:2px 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.c:hover{transform:translateY(-2px);box-shadow:0 6px 18px #0000001f}.ph{width:100%;aspect-ratio:1;background-color:#000;background-repeat:no-repeat;display:block}
+.n{position:relative}.n .cnt{position:absolute;right:8px;bottom:8px;background:#000a;color:#fff;font-size:12px;padding:2px 7px;border-radius:10px}
+.n .pct{position:absolute;left:8px;top:8px;font-size:12px;font-weight:700;padding:3px 8px;border-radius:10px;color:#fff}
+.pct.low{background:#1a7f37}.pct.high{background:#c62828}.n .nv{position:absolute;right:8px;top:8px;background:var(--ac);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:10px}
+.c .b{padding:10px 12px 12px}.p{font-weight:700;font-size:18px}.p s{font-weight:400;font-size:13px}
+.t{margin:2px 0 4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:14px}
 .m{color:var(--mut);font-size:13px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
-.why{font-size:13px;margin-top:6px}
+.why{font-size:12.5px;margin-top:6px;color:var(--warn)}
 .tag{font-size:12px;padding:2px 8px;border-radius:10px;border:1px solid var(--bd)}.low{color:var(--ok);border-color:var(--ok)}.high{color:var(--bad);border-color:var(--bad)}.warn{color:var(--warn);border-color:var(--warn)}
-.n{position:relative}.n span{position:absolute;right:8px;bottom:8px;background:#000a;color:#fff;font-size:12px;padding:2px 7px;border-radius:10px}
+.vazio{grid-column:1/-1;text-align:center;color:var(--mut);padding:40px}
+/* tabelas */
+.painel{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;margin:14px 0;box-shadow:var(--sh)}
+.painel h2{margin:0 0 4px;font-size:17px}.tw{overflow-x:auto}
+table.md{border-collapse:collapse;font-size:14px;margin:10px 0;width:100%}
+table.md td,table.md th{border-bottom:1px solid var(--bd);padding:7px 10px;text-align:right;white-space:nowrap}
+table.md th{color:var(--mut);font-weight:600;font-size:12.5px}table.md td:first-child,table.md th:first-child{text-align:left}
+table.md tr.z td{color:var(--mut)}.pos{display:inline-block;width:22px;height:22px;line-height:22px;text-align:center;border-radius:50%;background:var(--acs);color:var(--ac);font-size:12px;font-weight:700;margin-right:8px}
+.trk{display:inline-block;width:90px;height:8px;background:var(--bg);border-radius:4px;margin-right:8px;vertical-align:middle;overflow:hidden}.trk i{display:block;height:100%;background:var(--ac);border-radius:4px}
+/* modal */
 #mod{position:fixed;inset:0;background:#000c;display:none;z-index:10;padding:16px;overflow:auto}
 #mod .box{background:var(--card);max-width:1000px;margin:0 auto;border-radius:12px;display:grid;grid-template-columns:1.2fr 1fr;overflow:hidden}
-@media (max-width:760px){#mod .box{grid-template-columns:1fr}#mod{padding:8px}}
+@media (max-width:760px){#mod .box{grid-template-columns:1fr}#mod{padding:8px}.stats{display:grid;grid-template-columns:1fr 1fr}.st{min-width:0}h1{font-size:16px}.top{padding-top:8px}.sub{width:100%}.views button{padding:6px 11px;font-size:14px}}
 .gal{background:#000;position:relative;display:flex;flex-direction:column}.gal .big{width:100%;aspect-ratio:1;max-height:70vh;margin:0 auto}
 .gal .nav{position:absolute;top:40%;background:#0008;color:#fff;border:0;font-size:28px;width:44px;height:44px;border-radius:50%;cursor:pointer}
 .prev{left:8px}.next{right:8px}.th{display:flex;gap:4px;overflow-x:auto;padding:6px;background:#111}
@@ -33,76 +58,106 @@ main,#top,#novos{display:grid;grid-template-columns:repeat(auto-fill,minmax(220p
 .det{padding:18px;overflow:auto;max-height:85vh}.det h2{margin:0 0 6px;font-size:19px}.desc{white-space:pre-wrap;margin-top:12px;border-top:1px solid var(--bd);padding-top:12px;overflow-wrap:anywhere}
 .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.acts a{background:var(--ac);color:#fff;text-decoration:none;padding:8px 14px;border-radius:8px;font-weight:600}
 .x{float:right;background:none;border:0;font-size:26px;color:var(--mut);cursor:pointer;line-height:1}
-table.md{border-collapse:collapse;font-size:14px;margin:8px 0}table.md td,table.md th{border:1px solid var(--bd);padding:4px 10px;text-align:right}table.md td:first-child,table.md th:first-child{text-align:left}
-details{max-width:1400px;margin:12px auto 0}summary{cursor:pointer;font-weight:600}
-.vazio{grid-column:1/-1;text-align:center;color:var(--mut);padding:40px}
+footer{color:var(--mut);font-size:12px;padding:24px 0 40px}
 </style></head><body>
-<header><h1>Oportunidades no Marketplace — Palmas/TO</h1>
-<div class="sub" id="sub"></div>
-<div class="bar" id="cats"></div>
-<div class="bar" style="margin-top:8px"><select id="mods"></select>
-<select id="ord"><option value="p">Menor preço</option><option value="P">Maior preço</option><option value="v">Mais abaixo da média</option></select>
-<input id="q" placeholder="Buscar no título ou descrição…"></div></header>
-<div class="wrap">
-<div class="aviso" id="aviso"></div>
-<details><summary>Preço médio por modelo nesta coleta</summary><div id="medias"></div></details>
-<details><summary>📈 O que mais vende (histórico)</summary><div id="vendas"></div></details>
-<div id="novosbox"><h3>🆕 Novos nas últimas 24h</h3><div id="novos"></div></div>
-<h3>⭐ Melhores oportunidades</h3><div id="top"></div>
-<h3>Todos os anúncios</h3><main id="g"></main>
+<header><div class="in">
+<div class="top"><h1>Oportunidades no Marketplace — Palmas/TO</h1><span class="sub" id="sub"></span></div>
+<nav id="cats"></nav>
+</div></header>
+<div class="in">
+<div class="views" id="views"><button data-v="a">🛒 Anúncios</button><button data-v="m">💲 Preço médio</button><button data-v="r">📈 Ranking de vendas</button></div>
+<section id="va">
+ <div class="stats" id="stats"></div>
+ <div class="aviso" id="aviso"></div>
+ <div id="novosbox"><h3>🆕 Novos nas últimas 24h <small id="nnov"></small></h3><div class="row" id="novos"></div></div>
+ <div id="topbox"><h3>⭐ Melhores oportunidades <small id="ntop"></small></h3><div class="row" id="top"></div></div>
+ <h3>Todos os anúncios <small id="ntodos"></small></h3>
+ <div class="filtros"><select id="mods"></select>
+ <select id="ord"><option value="p">Menor preço</option><option value="P">Maior preço</option><option value="v">Mais abaixo da média</option><option value="n">Mais recentes primeiro</option></select>
+ <input id="q" type="search" placeholder="Buscar no título ou descrição…"></div>
+ <main class="grid" id="g"></main>
+</section>
+<section id="vm" hidden><div class="painel" id="medias"></div></section>
+<section id="vr" hidden><div class="painel" id="vendas"></div></section>
+<footer id="rod"></footer>
 </div>
 <div id="mod"><div class="box"><div class="gal"><div class="big ph" id="big"></div><button class="nav prev" id="pv">‹</button><button class="nav next" id="nx">›</button><div class="th" id="th"></div></div>
 <div class="det" id="det"></div></div></div>
 <script>
 const D=__DADOS__;__GOLPE__
 const R=__RESUMO__;
+const $=id=>document.getElementById(id);
 const bg=(d,i)=>`background-image:url(${d.tira});background-size:${d.nf*100}% 100%;background-position:${d.nf>1?i/(d.nf-1)*100:0}% 0`;
 const fmt=v=>'R$ '+v.toLocaleString('pt-BR');
-let cat='Todos',cur=null,idx=0;
-const cats=['Todos',...new Set(D.map(d=>d.cat))];
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ICONE={'iPhone':'📱','Videogame':'🎮','TV':'📺','Jogos e acessórios':'🕹️'};
+const ORDEM=['iPhone','Videogame','TV','Jogos e acessórios'];
+const cats=[...new Set(D.map(d=>d.cat))].sort((a,b)=>((ORDEM.indexOf(a)+99)%99)-((ORDEM.indexOf(b)+99)%99)||a.localeCompare(b));
+let cat=cats[0],view='a',cur=null,idx=0;
+{const [c,v]=decodeURIComponent(location.hash.slice(1)).split('/');if(cats.includes(c))cat=c;if('amr'.includes(v||'x'))view=v}
+const daCat=()=>D.filter(d=>d.cat===cat);
 function tags(d){let t='';if(d.vs_media!=null)t+=`<span class="tag ${d.vs_media<0?'low':'high'}">${d.vs_media>0?'+':''}${d.vs_media}% vs média</span>`;
  if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';if(d.novo)t+='<span class="tag low">🆕 novo</span>';return t}
-const card=d=>`<div class="c${d.destaque?' hi':''}" data-id="${d.id}"><div class="n"><div class="ph" style="${bg(d,0)}"></div><span>📷 ${d.nf}</span></div>
- <div class="b"><div class="p">${fmt(d.preco)}${d.preco_antes&&d.preco_antes!==d.preco?` <s class="m">${fmt(d.preco_antes)}</s>`:''}</div><div class="t">${esc(d.titulo)}</div><div class="m">${esc(d.mod)} · ${esc(d.local)}</div><div class="tags">${tags(d)}</div>${d.destaque?`<div class="why">⭐ ${esc(d.destaque)}</div>`:''}</div></div>`;
-function barra(){document.getElementById('cats').innerHTML=cats.map(c=>`<button class="${c===cat?'on':''}" data-c="${esc(c)}">${esc(c)} (${c==='Todos'?D.length:D.filter(d=>d.cat===c).length})</button>`).join('');
- const ms=[...new Set(D.filter(d=>cat==='Todos'||d.cat===cat).map(d=>d.mod))];
- document.getElementById('mods').innerHTML='<option value="">Todos os modelos</option>'+ms.map(m=>`<option>${esc(m)}</option>`).join('')}
-function lista(){const mod=document.getElementById('mods').value,q=document.getElementById('q').value.toLowerCase(),o=document.getElementById('ord').value;
- let L=D.filter(d=>(cat==='Todos'||d.cat===cat)&&(!mod||d.mod===mod)&&(!q||(d.titulo+' '+d.descricao).toLowerCase().includes(q)));
- L.sort(o==='p'?(a,b)=>a.preco-b.preco:o==='P'?(a,b)=>b.preco-a.preco:(a,b)=>(a.vs_media??99)-(b.vs_media??99));
- document.getElementById('g').innerHTML=L.length?L.map(card).join(''):'<div class="vazio">Nada encontrado.</div>'}
+const card=d=>`<div class="c${d.destaque?' hi':''}" data-id="${d.id}"><div class="n"><div class="ph" style="${bg(d,0)}"></div><span class="cnt">📷 ${d.nf}</span>
+ ${d.vs_media!=null?`<span class="pct ${d.vs_media<0?'low':'high'}">${d.vs_media>0?'+':''}${d.vs_media}%</span>`:''}${d.novo?'<span class="nv">NOVO</span>':''}</div>
+ <div class="b"><div class="p">${fmt(d.preco)}${d.preco_antes&&d.preco_antes!==d.preco?` <s class="m">${fmt(d.preco_antes)}</s>`:''}</div><div class="t">${esc(d.titulo)}</div>
+ <div class="m">${esc(d.mod)} · ${esc(d.local.split(',')[0])}</div>${d.alerta?'<div class="tags"><span class="tag warn">⚠ cita defeito</span></div>':''}${d.destaque?`<div class="why">⭐ ${esc(d.destaque)}</div>`:''}</div></div>`;
+function abas(){
+ $('cats').innerHTML=cats.map(c=>`<button class="${c===cat?'on':''}" data-c="${esc(c)}">${ICONE[c]||'🔎'} ${esc(c)} <small>${D.filter(d=>d.cat===c).length}</small></button>`).join('');
+ $('views').querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.v===view));
+ ['a','m','r'].forEach(v=>$('v'+v).hidden=v!==view);
+ history.replaceState(null,'','#'+encodeURIComponent(cat)+'/'+view)}
+function anuncios(){const L=daCat(),N=L.filter(d=>d.novo).sort((a,b)=>(a.vs_media??99)-(b.vs_media??99)),T=L.filter(d=>d.destaque).sort((a,b)=>(a.vs_media??99)-(b.vs_media??99));
+ const pr=L.map(d=>d.preco).sort((a,b)=>a-b),med=pr.length?pr[Math.floor(pr.length/2)]:0;
+ $('stats').innerHTML=[[L.length,'anúncios'],[N.length,'novos em 24h'],[T.length,'oportunidades'],[pr.length?fmt(med):'–','preço mediano']].map(([v,t])=>`<div class="st"><b>${v}</b><span>${t}</span></div>`).join('');
+ $('novos').innerHTML=N.map(card).join('');$('novosbox').hidden=!N.length;$('nnov').textContent=N.length;
+ $('top').innerHTML=T.map(card).join('');$('topbox').hidden=!T.length;$('ntop').textContent=T.length;
+ const ms=[...new Set(L.map(d=>d.mod))].sort((a,b)=>a.localeCompare(b,'pt',{numeric:true}));
+ $('mods').innerHTML='<option value="">Todos os modelos</option>'+ms.map(m=>`<option>${esc(m)}</option>`).join('');lista()}
+function lista(){const mod=$('mods').value,q=$('q').value.toLowerCase(),o=$('ord').value;
+ let L=daCat().filter(d=>(!mod||d.mod===mod)&&(!q||(d.titulo+' '+d.descricao).toLowerCase().includes(q)));
+ L.sort(o==='p'?(a,b)=>a.preco-b.preco:o==='P'?(a,b)=>b.preco-a.preco:o==='n'?(a,b)=>b.novo-a.novo||a.preco-b.preco:(a,b)=>(a.vs_media??99)-(b.vs_media??99));
+ $('ntodos').textContent=L.length;
+ $('g').innerHTML=L.length?L.map(card).join(''):'<div class="vazio">Nada encontrado.</div>'}
+function medias(){const M=Object.entries(R.medias).filter(([k,v])=>v[2]===cat).sort((a,b)=>a[0].localeCompare(b[0],'pt',{numeric:true}));
+ const mx=Math.max(1,...M.map(([k,v])=>v[0]));
+ $('medias').innerHTML=`<h2>${ICONE[cat]||''} Preço médio — ${esc(cat)}</h2><div class="m">Coleta de ${R.data}. Sem anúncios que citam defeito, de troca ou com preço fora de 40%–250% da mediana (peça, caixa, jogo avulso).</div>`+
+ (!M.length?'<div class="vazio">Esta busca não tem média por modelo (os itens são variados demais).</div>':
+ '<div class="tw"><table class="md"><tr><th>Modelo</th><th>Média</th><th>Anúncios</th></tr>'+M.map(([k,[v,q]])=>`<tr${q<5?' class="z"':''}><td>${esc(k)}</td><td><span class="trk"><i style="width:${v/mx*100}%"></i></span>${fmt(v)}</td><td>${q}${q<5?' ⚠':''}</td></tr>`).join('')+
+ '</table></div><div class="m">⚠ menos de 5 anúncios: média pouco confiável.</div>')}
+function vendas(){const V=R.vendas||{linhas:[]},br=d=>d?d.split('-').reverse().join('/'):'',f=v=>v==null?'–':fmt(v);
+ const catDe=m=>(D.find(d=>d.mod===m)||{}).cat;
+ const L=V.linhas.filter(l=>(l.cat||catDe(l.mod))===cat).sort((a,b)=>(b.vendidos+b.apagados)-(a.vendidos+a.apagados)||b.giro-a.giro||b.anuncios-a.anuncios);
+ const S=L.filter(l=>l.vendidos+l.apagados>0),Z=L.filter(l=>l.vendidos+l.apagados===0);
+ $('vendas').innerHTML=`<h2>${ICONE[cat]||''} O que mais vende — ${esc(cat)}</h2><div class="m">Histórico desde ${br(V.inicio)}. <b>Vendido</b> = marcado como vendido no Facebook. <b>Apagado</b> = anúncio removido (pode ter vendido por fora). <b>Giro</b> = (vendidos + apagados) ÷ anúncios vistos.</div>`+
+ (!L.length?'<div class="vazio">Ainda sem histórico para esta busca.</div>':
+ '<div class="tw"><table class="md"><tr><th>Modelo</th><th>Vendidos</th><th>Apagados</th><th>Giro</th><th>Dias até sair</th><th>Preço de quem saiu</th><th>Preço dos ativos</th><th>Ainda ativos</th></tr>'+
+ [...S,...Z].map((l,i)=>`<tr${l.vendidos+l.apagados?'':' class="z"'}><td>${l.vendidos+l.apagados?`<span class="pos">${i+1}</span>`:''}${esc(l.mod)}</td><td>${l.vendidos}</td><td>${l.apagados}</td><td><span class="trk"><i style="width:${Math.min(100,l.giro)}%"></i></span>${l.giro}%</td><td>${l.dias??'–'}</td><td>${f(l.preco_saiu)}</td><td>${f(l.preco_ativo)}</td><td>${l.ativos}</td></tr>`).join('')+
+ `</table></div>${S.length?'':'<div class="m">Nenhum anúncio desta busca saiu do ar ainda; o ranking aparece quando os primeiros forem vendidos ou apagados.</div>'}`)}
+function tudo(){abas();anuncios();medias();vendas()}
 function abrir(id){cur=D.find(d=>d.id===id);idx=0;
- document.getElementById('det').innerHTML=`<button class="x" id="fx">×</button><h2>${esc(cur.titulo)}</h2><div class="p">${fmt(cur.preco)}</div>
+ $('det').innerHTML=`<button class="x" id="fx">×</button><h2>${esc(cur.titulo)}</h2><div class="p">${fmt(cur.preco)}</div>
  <div class="m">${esc(cur.mod)} · ${esc(cur.local)}${cur.condicao?' · '+esc(cur.condicao):''}</div><div class="tags">${tags(cur)}</div>
  ${cur.destaque?`<div class="why">⭐ ${esc(cur.destaque)}</div>`:''}
  <div class="acts"><a href="${cur.link}" target="_blank" rel="noopener">Abrir no Facebook</a></div>
  <div class="desc">${esc(cur.descricao||'(sem descrição)')}</div>${golpeBotao(cur)}`;
- document.getElementById('fx').onclick=fechar;
- document.getElementById('th').innerHTML=Array.from({length:cur.nf},(_,i)=>`<div class="ph" data-i="${i}" style="${bg(cur,i)}"></div>`).join('');
- foto(0);document.getElementById('mod').style.display='block';document.body.style.overflow='hidden'}
-function foto(i){idx=(i+cur.nf)%cur.nf;document.getElementById('big').style.cssText=bg(cur,idx);
+ $('fx').onclick=fechar;
+ $('th').innerHTML=Array.from({length:cur.nf},(_,i)=>`<div class="ph" data-i="${i}" style="${bg(cur,i)}"></div>`).join('');
+ foto(0);$('mod').style.display='block';document.body.style.overflow='hidden'}
+function foto(i){idx=(i+cur.nf)%cur.nf;$('big').style.cssText=bg(cur,idx);
  document.querySelectorAll('#th .ph').forEach((e,k)=>e.classList.toggle('on',k===idx));
- const multi=cur.nf>1;pv.style.display=nx.style.display=multi?'':'none'}
-function fechar(){document.getElementById('mod').style.display='none';document.body.style.overflow='';cur=null}
-document.getElementById('top').innerHTML=D.filter(d=>d.destaque).map(card).join('');
-{const N=D.filter(d=>d.novo).sort((a,b)=>(a.vs_media??99)-(b.vs_media??99));if(N.length)document.getElementById('novos').innerHTML=N.map(card).join('');else document.getElementById('novosbox').style.display='none'}
-document.getElementById('cats').onclick=e=>{const c=e.target.dataset.c;if(c){cat=c;barra();lista()}};
-['mods','ord'].forEach(i=>document.getElementById(i).onchange=lista);document.getElementById('q').oninput=lista;
-['g','top','novos'].forEach(i=>document.getElementById(i).onclick=e=>{const c=e.target.closest('.c');if(c)abrir(c.dataset.id)});
-document.getElementById('th').onclick=e=>{if(e.target.dataset.i)foto(+e.target.dataset.i)};
+ pv.style.display=nx.style.display=cur.nf>1?'':'none'}
+function fechar(){$('mod').style.display='none';document.body.style.overflow='';cur=null}
+$('cats').onclick=e=>{const b=e.target.closest('button');if(b){cat=b.dataset.c;$('q').value='';tudo();scrollTo(0,0)}};
+$('views').onclick=e=>{const b=e.target.closest('button');if(b){view=b.dataset.v;abas()}};
+['mods','ord'].forEach(i=>$(i).onchange=lista);$('q').oninput=lista;
+['g','top','novos'].forEach(i=>$(i).onclick=e=>{const c=e.target.closest('.c');if(c)abrir(c.dataset.id)});
+$('th').onclick=e=>{if(e.target.dataset.i)foto(+e.target.dataset.i)};
 pv.onclick=()=>foto(idx-1);nx.onclick=()=>foto(idx+1);
-document.getElementById('mod').onclick=e=>{if(e.target.id==='mod')fechar()};
+$('mod').onclick=e=>{if(e.target.id==='mod')fechar()};
 document.onkeydown=e=>{if(!cur)return;if(e.key==='Escape')fechar();if(e.key==='ArrowLeft')foto(idx-1);if(e.key==='ArrowRight')foto(idx+1)};
-document.getElementById('sub').textContent=`Coleta de ${R.data} · ${D.length} anúncios da região de Palmas · cada anúncio comparado com a média do mesmo modelo`;
-document.getElementById('aviso').textContent=`Preços de ${R.data}. Confira no Facebook se o anúncio ainda está ativo antes de chamar o vendedor; preço muito abaixo do normal pode ser golpe.`;
-{const M=Object.entries(R.medias).sort((a,b)=>a[1][2].localeCompare(b[1][2])||a[0].localeCompare(b[0],'pt',{numeric:true}));
- document.getElementById('medias').innerHTML='<table class="md"><tr><th>Modelo</th><th>Categoria</th><th>Média</th><th>Anúncios</th></tr>'+M.map(([k,[v,q,c]])=>`<tr><td>${esc(k)}</td><td>${esc(c)}</td><td>${fmt(v)}</td><td>${q}${q<5?' ⚠':''}</td></tr>`).join('')+'</table><div class="m">Sem anúncios que citam defeito e sem preços fora de 40%–250% da mediana (peça, caixa, jogo avulso). ⚠ menos de 5 anúncios: média pouco confiável.</div>'}
-{const V=R.vendas||{linhas:[]},L=V.linhas.filter(l=>l.vendidos+l.apagados>0),br=d=>d?d.split('-').reverse().join('/'):'';
- const f=v=>v==null?'–':fmt(v);
- document.getElementById('vendas').innerHTML=!L.length?`<div class="m">Histórico começou em ${br(V.inicio)}. O ranking aparece depois da próxima coleta, quando os anúncios que saíram do ar forem conferidos.</div>`:
- '<table class="md"><tr><th>Modelo</th><th>Vendidos</th><th>Apagados</th><th>Ainda ativos</th><th>Giro</th><th>Dias até sair</th><th>Preço de quem saiu</th><th>Preço dos ativos</th></tr>'+
- L.map(l=>`<tr><td>${esc(l.mod)}</td><td>${l.vendidos}</td><td>${l.apagados}</td><td>${l.ativos}</td><td>${l.giro}%</td><td>${l.dias??'–'}</td><td>${f(l.preco_saiu)}</td><td>${f(l.preco_ativo)}</td></tr>`).join('')+
- `</table><div class="m">Desde ${br(V.inicio)}. <b>Vendido</b> = marcado como vendido no Facebook (certeza). <b>Apagado</b> = anúncio removido (pode ter vendido por fora ou desistido). Giro = (vendidos + apagados) ÷ anúncios vistos.</div>`}
-barra();lista();
+$('sub').textContent=`Coleta de ${R.data} · ${D.length} anúncios da região`;
+$('aviso').textContent='Confira no Facebook se o anúncio ainda está ativo antes de chamar o vendedor. Preço muito abaixo do normal pode ser golpe.';
+$('rod').textContent='Atualizado automaticamente de 2 em 2 horas (7h–21h). Cada anúncio é comparado com a média do mesmo modelo na região de Palmas.';
+tudo();
 </script></body></html>

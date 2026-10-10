@@ -25,7 +25,7 @@ import re
 import statistics
 import sys
 import time
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
@@ -198,7 +198,8 @@ def resumo(H):
         t = [dias(h["primeiro_visto"], h["ultimo_ativo"]) + dias(h["ultimo_ativo"], h["data_status"]) / 2 for h in sairam]
         pv = [h["precos"][-1][1] for h in sairam if h["precos"]]
         pa = [h["precos"][-1][1] for h in ativ if h["precos"]]
-        linhas.append({"mod": mod, "anuncios": len(hs), "vendidos": len(vend), "apagados": len(apag), "ativos": len(ativ),
+        cat = Counter(h.get("cat", "") for h in hs).most_common(1)[0][0]
+        linhas.append({"mod": mod, "cat": cat, "anuncios": len(hs), "vendidos": len(vend), "apagados": len(apag), "ativos": len(ativ),
                        "giro": round(100 * len(sairam) / len(hs)) if hs else 0,
                        "dias": round(statistics.median(t)) if t else None,
                        "preco_saiu": round(statistics.median(pv)) if pv else None,
