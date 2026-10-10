@@ -172,6 +172,25 @@
   "vendedor": "Jeferson Maia",
   "vendedor_id": "pfbid023qEENMhWvbzVJf5SBm9acbQt9K5zPiDp53AV32k7uJ3vujYeS7rSHhZbMrHey9orl"
  },
+ "1035408039518450": {
+  "cat": "iPhone",
+  "data_status": "2026-10-10",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-10",
+    3699
+   ]
+  ],
+  "primeiro_visto": "2026-10-10",
+  "status": "ativo",
+  "titulo": "IPHONE 15 PRO",
+  "ultima_coleta": "2026-10-10",
+  "ultimo_ativo": "2026-10-10",
+  "vendedor": "Lázaro Basto",
+  "vendedor_id": "pfbid02cJLc4xbQobL4Q21CLp3HKdSvoTrHeUUEh1vi1bPrZFdJ88v2ZAM3J3MGDU2srJril"
+ },
  "1042534738856690": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -2062,6 +2081,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1411594617788143": {
+  "cat": "iPhone",
+  "data_status": "2026-10-10",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro",
+  "precos": [
+   [
+    "2026-10-10",
+    2800
+   ]
+  ],
+  "primeiro_visto": "2026-10-10",
+  "status": "ativo",
+  "titulo": "IPHONE 13 PRO 1TB - TODO ORIGINAL",
+  "ultima_coleta": "2026-10-10",
+  "ultimo_ativo": "2026-10-10",
+  "vendedor": "Gabriel Souza",
+  "vendedor_id": "pfbid0VZFwiRndk2sdgvYuriZq6Mat7p2pPso3SrhH5vPG5tq7vuNXtyjNuvd4sJZeksPDl"
+ },
  "1412897193595994": {
   "data_status": "2026-10-08",
   "local": "Monte do Carmo, TO",
@@ -2303,6 +2341,25 @@
   "titulo": "XBOX ONE S",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1437264261710205": {
+  "cat": "iPhone",
+  "data_status": "2026-10-10",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro Max",
+  "precos": [
+   [
+    "2026-10-10",
+    3850
+   ]
+  ],
+  "primeiro_visto": "2026-10-10",
+  "status": "ativo",
+  "titulo": "iPhone 15 pro Max",
+  "ultima_coleta": "2026-10-10",
+  "ultimo_ativo": "2026-10-10",
+  "vendedor": "Caio Goncalves",
+  "vendedor_id": "pfbid02W1uQDRQNzdL51HKot3Cy49jeWaxqZE7v8e3S6uMaih2BVHYmGLGfDJcSCRHEG58ol"
  },
  "1437646911795241": {
   "cat": "Videogame",
@@ -3037,6 +3094,25 @@
   "titulo": "iPhone sabor 17 256gb",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1616444869888934": {
+  "cat": "iPhone",
+  "data_status": "2026-10-10",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-10",
+    4100
+   ]
+  ],
+  "primeiro_visto": "2026-10-10",
+  "status": "ativo",
+  "titulo": "IPHONE 15 PRO 256GB - TODO ORIGINAL",
+  "ultima_coleta": "2026-10-10",
+  "ultimo_ativo": "2026-10-10",
+  "vendedor": "Gabriel Souza",
+  "vendedor_id": "pfbid0VZFwiRndk2sdgvYuriZq6Mat7p2pPso3SrhH5vPG5tq7vuNXtyjNuvd4sJZeksPDl"
  },
  "1617746366714840": {
   "data_status": "2026-10-10",
@@ -5644,6 +5720,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
+ },
+ "3076141136050676": {
+  "cat": "iPhone",
+  "data_status": "2026-10-10",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-10",
+    3749
+   ]
+  ],
+  "primeiro_visto": "2026-10-10",
+  "status": "ativo",
+  "titulo": "iPhone 15 pro 256GB",
+  "ultima_coleta": "2026-10-10",
+  "ultimo_ativo": "2026-10-10",
+  "vendedor": "Hitallo Hyan",
+  "vendedor_id": "pfbid0rjsYGSZBuHiRWpuEPTxB27ASznvkVsLkYV62rPqWdvM7CCYaMVkonvZfWePuqPMrl"
  },
  "3189687374563558": {
   "cat": "iPhone",
