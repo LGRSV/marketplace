@@ -5,7 +5,7 @@ Lê dados/_anuncios_*.json, manda só título + preço + começo da descrição 
 para `claude -p --model haiku` (cada lote é uma conversa nova, sem histórico) e grava:
     dados/lote_coleta.json            anúncios sem as fotos (é o que gerar_excel.py lê)
     dados/classificacao_haiku.json    variante, armazenamento, bateria, estado, original
-    dados/descartes_haiku.json        o que não é um iPhone 13–17 específico (regra 5)
+    dados/descartes_haiku.json        o que não é um iPhone 13–18 específico (regra 5)
 
 Uso:  python classificar_haiku.py        depois:  python gerar_excel.py
 """
@@ -23,10 +23,10 @@ LOTE = 40
 
 PROMPT = """Você classifica anúncios de iPhone do Facebook Marketplace. Responda SÓ com um array JSON,
 um objeto por anúncio, na mesma ordem, sem texto antes ou depois:
-{"id":"...","variante":"13|13 mini|13 Pro|13 Pro Max|14|14 Plus|... até 17 Pro Max|outro",
+{"id":"...","variante":"13|13 mini|13 Pro|13 Pro Max|14|14 Plus|... até 18 Pro Max|outro",
  "armazenamento":"128GB|256GB|512GB|1TB|","bateria_pct":número ou null,
  "estado":"novo/lacrado|seminovo|usado|com defeito","original":true|false|null,
- "descarte":""|"multiplos_modelos"|"modelo_fora_13_a_17"|"nao_e_aparelho"|"preco_invalido",
+ "descarte":""|"multiplos_modelos"|"modelo_fora_13_a_18"|"nao_e_aparelho"|"preco_invalido",
  "observacoes":"até 120 caracteres"}
 Regras: armazenamento é obrigatório quando estiver escrito; nunca invente bateria.
 Descarte anúncio com vários modelos, outro aparelho (iPhone 11, 12, SE, Android), acessório,

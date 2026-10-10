@@ -34,7 +34,7 @@ ACESS = re.compile(r"\bjogos?\b|controle|suporte|\bcase\b|\bcapa\b|desbloque|\bc
 for d in D:
     if d["cat"] != "iPhone" and re.search(r"iphone", d["titulo"], re.I):
         d["cat"] = "Outros"  # iPhone antigo (XR, 11...) que caiu como videogame
-    elif d["cat"] != "iPhone" and ACESS.search(d["titulo"]) and not re.search(r"\bcom\b.*controle|\+\s*controle|controles?\s*\+|e \d+ controles?|acompanha", d["titulo"], re.I):
+    elif d["cat"] not in ("iPhone", "Galaxy") and ACESS.search(d["titulo"]) and not re.search(r"\bcom\b.*controle|\+\s*controle|controles?\s*\+|e \d+ controles?|acompanha", d["titulo"], re.I):
         d["cat"], d["mod"] = "Jogos e acessórios", "Jogos e acessórios"
 D = [d for d in D if d["cat"] != "Outros"]
 H = historico.carregar(PROJ)

@@ -11,7 +11,8 @@ Cada busca vira uma aba no site, com os anúncios, o preço médio por modelo e 
 
 | Aba no site | Termos buscados no Marketplace | Média por |
 |---|---|---|
-| 📱 **iPhone** | `iphone 13` … `iphone 17`, cada um também `pro` e `pro max` (15 buscas) | variante (ex.: iPhone 15 Pro Max) |
+| 📱 **iPhone** | `iphone 13` … `iphone 18`, cada um também `pro` e `pro max` (18 buscas) | variante (ex.: iPhone 15 Pro Max) |
+| 📲 **Galaxy** | `galaxy s25 ultra`, `galaxy s26 ultra` | modelo (S25 Ultra, S26 Ultra) |
 | 🎮 **Videogame** | `ps5`, `ps4`, `xbox`, `nintendo switch`, `playstation portal` | console |
 | 📺 **TV** | `smart tv`, `televisao` | polegada |
 | 🕹️ **Jogos e acessórios** | sai das buscas de videogame (jogo avulso, controle, suporte…) | sem média (itens variados demais) |

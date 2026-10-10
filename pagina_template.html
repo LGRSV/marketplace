@@ -90,8 +90,8 @@ const $=id=>document.getElementById(id);
 const bg=(d,i)=>`background-image:url(${d.tira});background-size:${d.nf*100}% 100%;background-position:${d.nf>1?i/(d.nf-1)*100:0}% 0`;
 const fmt=v=>'R$ '+v.toLocaleString('pt-BR');
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const ICONE={'iPhone':'📱','Videogame':'🎮','TV':'📺','Jogos e acessórios':'🕹️'};
-const ORDEM=['iPhone','Videogame','TV','Jogos e acessórios'];
+const ICONE={'iPhone':'📱','Galaxy':'📲','Videogame':'🎮','TV':'📺','Jogos e acessórios':'🕹️'};
+const ORDEM=['iPhone','Galaxy','Videogame','TV','Jogos e acessórios'];
 const cats=[...new Set(D.map(d=>d.cat))].sort((a,b)=>((ORDEM.indexOf(a)+99)%99)-((ORDEM.indexOf(b)+99)%99)||a.localeCompare(b));
 let cat=cats[0],view='a',cur=null,idx=0;
 {const [c,v]=decodeURIComponent(location.hash.slice(1)).split('/');if(cats.includes(c))cat=c;if('amr'.includes(v||'x'))view=v}

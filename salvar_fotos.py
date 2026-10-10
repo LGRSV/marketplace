@@ -27,6 +27,10 @@ MEDIA_IPHONE = {
     "iPhone 17": 4733, "iPhone 17 Pro": 6374, "iPhone 17 Pro Max": 7165,
 }
 
+# Galaxy: só os Ultra das buscas; "Capa Galaxy S25 Ultra" (acessório antes do modelo) não conta, "S25 Ultra com capa" conta
+GALAXY = re.compile(r"\bs\s?(25|26)\s*ultra")
+GALAXY_PECA = re.compile(r"\bcapa|capinha|\bcase\b|pel[íi]cula|carregador|\bcabo\b|\bfone|display|\bpe[çc]a\b|carca[çc]a|\bcaneta\b|^s\s?pen")
+
 ALERTA = re.compile(r"(?<!sem )(?<!nenhum )defeito|queimad|retirada de pe[çc]a|(?<!tem )(?<!sem )trinca(do)?\b|quebrad|n[ãa]o liga"
                     r"|mancha|listra|sem imagem|n[ãa]o d[áa] imagem|tela preta", re.I)
 
@@ -39,11 +43,14 @@ def limpar_descricao(d):
 def classificar(titulo, descricao):
     """(categoria, modelo) a partir do titulo (e descricao para TVs)."""
     t = titulo.lower().replace("promax", "pro max")
-    m = re.search(r"iphone\s*(1[3-7])\s*(pro\s*max|pro|plus|mini|e\b)?", t)
+    m = re.search(r"iphone\s*(1[3-8])\s*(pro\s*max|pro|plus|mini|e\b)?", t)
     if m:
         v = re.sub(r"\s+", " ", m.group(2) or "").strip()
         suf = {"pro max": " Pro Max", "pro": " Pro", "plus": " Plus", "mini": " mini", "e": "e"}.get(v, "")
         return "iPhone", f"iPhone {m.group(1)}{suf}"
+    m = GALAXY.search(t)
+    if m:
+        return ("Outros", "Outros") if GALAXY_PECA.search(t[:m.start()]) else ("Galaxy", f"Galaxy S{m.group(1)} Ultra")
     if re.search(r"\b(tv|televis|smart)", t):
         pol = (re.search(r"(\d{2})\s*(\"|”|pol|plg|p\b)", t) or re.search(r"\b(2[4-9]|[3-8]\d)\b", t)
                or re.search(r"(\d{2})\s*(\"|”|pol|plg)", descricao.lower()))

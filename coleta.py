@@ -7,7 +7,7 @@ Uso:
     python coleta.py login            # opcional: entra no Facebook num perfil salvo (usar com --perfil)
     python coleta.py teste            # 2 buscas, até 8 anúncios (validar antes da coleta cheia)
     python coleta.py coletar          # todas as buscas de BUSCAS
-    python coleta.py coletar --so iphone      # só as buscas de iPhone (ou: tv, videogame)
+    python coleta.py coletar --so iphone      # só as buscas de iPhone (ou: galaxy, tv, videogame)
 
 No fim da coleta roda salvar_fotos.py, que monta fotos/oportunidades.html.
 """
@@ -38,7 +38,8 @@ LOG = os.path.join(DADOS, "coleta.log")
 
 MARKETPLACE = "https://www.facebook.com/marketplace/113043862042267"  # Palmas/TO
 BUSCAS = {
-    "iphone": [f"iphone {n}{s}" for n in (13, 14, 15, 16, 17) for s in ("", " pro", " pro max")],
+    "iphone": [f"iphone {n}{s}" for n in (13, 14, 15, 16, 17, 18) for s in ("", " pro", " pro max")],
+    "galaxy": ["galaxy s25 ultra", "galaxy s26 ultra"],
     "tv": ["smart tv", "televisao"],
     "videogame": ["ps5", "ps4", "xbox", "nintendo switch", "playstation portal"],
 }
