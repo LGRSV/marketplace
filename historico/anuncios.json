@@ -168,7 +168,9 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max 256GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Jeferson Maia",
+  "vendedor_id": "pfbid023qEENMhWvbzVJf5SBm9acbQt9K5zPiDp53AV32k7uJ3vujYeS7rSHhZbMrHey9orl"
  },
  "1042534738856690": {
   "cat": "iPhone",
@@ -577,7 +579,9 @@
   "status": "ativo",
   "titulo": "Hotwav A 18 pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Leandro Silva Lima",
+  "vendedor_id": "100007520941104"
  },
  "1077112461385469": {
   "cat": "iPhone",
@@ -2137,7 +2141,9 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Lucas Mendes",
+  "vendedor_id": "pfbid02hhLMka2PfjskPMNmmRGf1Uu6XoHN2qWXUNWkxCn6qDpDfdx7L8gQPfEz3Bf1dCWwl"
  },
  "1422112613427592": {
   "cat": "Jogos e acessórios",
@@ -2292,7 +2298,10 @@
   "status": "ativo",
   "titulo": "IPHONE 17 PRO MAX ORIGINAL",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-10",
+  "vendedor": "Lucas Schiling",
+  "vendedor_id": "pfbid036YP3KYDwaULjFA4khoLKh3CiRJKtKHz574LmoUYpzWU2emgDMPD8AG9ofGhvRVE1l",
+  "verificado": "2026-10-10"
  },
  "1445474644175647": {
   "cat": "iPhone",
@@ -2557,7 +2566,9 @@
   "status": "ativo",
   "titulo": "iPhone 15",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Rafael Elias Batista Rodrigues",
+  "vendedor_id": "100053008161696"
  },
  "1495075672424109": {
   "cat": "iPhone",
@@ -2899,7 +2910,9 @@
   "status": "ativo",
   "titulo": "iPhone 13 128gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Mateus Santos",
+  "vendedor_id": "pfbid0tMnv3VzGTVVdTWeTdFohdSGjZQ5qQp5HPUdaRXqA5QnhWFKa83mVSFC3UEBvVtdnl"
  },
  "1606316327700630": {
   "cat": "TV",
@@ -5863,7 +5876,9 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Iandro De Medeiros",
+  "vendedor_id": "pfbid02ypq2Hriwvc18WYwEz8EEpzVJS2J2p1sHtqdwpCwjBYSRbwwvSrtnQTRDD64i9zv8l"
  },
  "4507015819573934": {
   "cat": "iPhone",
