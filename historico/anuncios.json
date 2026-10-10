@@ -785,6 +785,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1093701386864273": {
+  "cat": "iPhone",
+  "data_status": "2026-10-09",
+  "local": "Porto Nacional, TO",
+  "mod": "iPhone 14 Pro",
+  "precos": [
+   [
+    "2026-10-09",
+    2699
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "iPhone 14 pro 256",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09",
+  "vendedor": "Lucas Mendes",
+  "vendedor_id": "pfbid0dqteZu6ZpL46uoPFNFF6cP6CbrGsKxETXKrnSpHW7XUmGSzBk7Nt91AVu8Zpp9dXl"
+ },
  "1094107396543922": {
   "cat": "Jogos e acessórios",
   "data_status": "2026-10-08",
@@ -1092,6 +1111,25 @@
   "titulo": "VENDO IPHONE 17 PRO MAX 256GB",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1112680708037097": {
+  "cat": "iPhone",
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14",
+  "precos": [
+   [
+    "2026-10-09",
+    2100
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "iPhone 14 128gb",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09",
+  "vendedor": "Samily Alves",
+  "vendedor_id": "pfbid02NpinTzgCnEo1cexR57qZ6Y15hkzBQHkCQ6jGNjRdKAUPES5fc3LdiyRhvZ4BsYgPl"
  },
  "1112724601229521": {
   "data_status": "2026-10-08",
@@ -2096,6 +2134,25 @@
   "titulo": "iPhone 15 pro Max",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1428212059274012": {
+  "cat": "iPhone",
+  "data_status": "2026-10-09",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14",
+  "precos": [
+   [
+    "2026-10-09",
+    2270
+   ]
+  ],
+  "primeiro_visto": "2026-10-09",
+  "status": "ativo",
+  "titulo": "IPHONE 14 128GB SEMI NOVO",
+  "ultima_coleta": "2026-10-09",
+  "ultimo_ativo": "2026-10-09",
+  "vendedor": "Brwno Rykardo",
+  "vendedor_id": "pfbid02M4cKYVzvkuYnwNqZ2v9PHqRtAjyfs2Ft4HThH72nvGh6RwF5rEDEQS9TE757CZgNl"
  },
  "1430289342311493": {
   "cat": "iPhone",
