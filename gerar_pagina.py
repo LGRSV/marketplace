@@ -58,7 +58,7 @@ for d in D:
     if len(h.get("precos", [])) > 1 and h["precos"][-1][1]:  # preço mudou desde a leitura: vale o mais recente
         d["preco_antes"], d["preco"] = h["precos"][0][1], h["precos"][-1][1]
 DEFEITO = re.compile(r"trincad|desligand|desliga sozinh|tela (foi )?(substitu|trocad)|n[ãa]o liga|queimad|quebrad|com defeito|face ?id (off|n[ãa]o)|sem face|mancha|listra|retirad[ao] (de|pra|para) pe|\bpara pe[çc]as|\bpra pe[çc]as"
-                     r"|n[ãa]o d[áa] (v[íi]deo|imagem)|sem imagem|tela preta", re.I)
+                     r"|n[ãa]o d[áa] (v[íi]deo|imagem)|sem imagem|tela preta|\bp(a)?ra arrumar|precisa (de )?(reparo|conserto|arrumar)", re.I)
 for d in D:
     d["alerta"] = d["alerta"] or bool(DEFEITO.search(d["titulo"] + " " + d["descricao"]))
 
