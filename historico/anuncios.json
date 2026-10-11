@@ -135,7 +135,10 @@
   "status": "ativo",
   "titulo": "Jogos Batman PS4",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Lucas Evangelista Bem",
+  "vendedor_id": "pfbid02Jz9mBRoiSiNhTcFuhU5D9vRN2cxQczUAnZ2X5f63CWPdufVHJenSCRGvx61mDLtvl",
+  "verificado": "2026-10-11"
  },
  "1029024253536629": {
   "cat": "iPhone",
@@ -985,7 +988,10 @@
   "status": "ativo",
   "titulo": "JOGOS PS5 E PS4",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Sofia Araujo",
+  "vendedor_id": "pfbid03dYZK8Uts2zsDDCpwvTwxmfdWAiyhk7yFNp63gQregRySyS6B1TgiPMKz8xKr7QQl",
+  "verificado": "2026-10-11"
  },
  "1097197416499154": {
   "cat": "TV",
@@ -2155,7 +2161,10 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro Max 256gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Ambar Decantes",
+  "vendedor_id": "pfbid02RLxJuqYdYoi9Pi4W5x3qdrax2k6UdYDvm4KyfjomKtTkXenErU4VGFbmAgjzSUjhl",
+  "verificado": "2026-10-11"
  },
  "1397406082608648": {
   "cat": "iPhone",
@@ -2899,6 +2908,25 @@
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
  },
+ "1486017526690825": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-11",
+    5999
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Vendo celular s25 ultra + Galaxy watch8 classic",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Jonadab Andrade",
+  "vendedor_id": "pfbid0rCkKbv6X9vyAWKeGx7pVgJ5uBmG9MMUyPE89fmTETy9taguU6VBKMJ5A4oVPW5u6l"
+ },
  "1486040653391936": {
   "cat": "iPhone",
   "data_status": "2026-10-10",
@@ -3306,6 +3334,25 @@
   "titulo": "IPHONE 14",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1587158366425680": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-11",
+    4590
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "*🚨Galaxy S25 Ultra 256GB novo🚨*",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Eduardo Ledo",
+  "vendedor_id": "pfbid0u8gKFGTqhSmHRJYBvhh7MPY1PveWVJk7KF72ZbeogN6NB8bGAMTJ8bnGvP4BP2jvl"
  },
  "1589044742661875": {
   "cat": "iPhone",
@@ -3810,7 +3857,10 @@
   "status": "ativo",
   "titulo": "iPhone 16 branco 128g",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Pedro Amaral",
+  "vendedor_id": "pfbid02qVuFXfHYg4VCqNguLE9jSinBxBCVZgyTupvv2scdH5VqHnmNiTiiXbxy9do57GJpl",
+  "verificado": "2026-10-11"
  },
  "1645478010277767": {
   "cat": "iPhone",
@@ -4681,7 +4731,10 @@
   "status": "ativo",
   "titulo": "iPhone 15 Pro Max 256",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Felipe Noleto",
+  "vendedor_id": "pfbid0ZjGW1YHD1VD4PVmEMG3pwCzMEk28wSQv4ny2JgKGFxHQjpwFiG3ThCPNMibVmq7kl",
+  "verificado": "2026-10-11"
  },
  "1818808309110305": {
   "cat": "iPhone",
@@ -4733,6 +4786,25 @@
   "titulo": "Playstation 5 fat 1tb",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1835039714511196": {
+  "cat": "TV",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "TV",
+  "precos": [
+   [
+    "2026-10-11",
+    1699
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "[Novo/Lacrado] - Smartphone Samsung Galaxy A57 5G, 128Gb, 8Gb RAM, 6.7\" - Cinza",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Alon Neto",
+  "vendedor_id": "pfbid02v6V2PcEWfVJ2JmoX9jU2thZPHsYx8R3AgLUXQaFGtjQSNY1Yda9ot4Us8ZV4rKGil"
  },
  "1835093320813058": {
   "cat": "iPhone",
@@ -4981,7 +5053,10 @@
   "status": "ativo",
   "titulo": "Nintendo Switch OLED à venda 🎮",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Paulo Henrique Soares",
+  "vendedor_id": "100003949838091",
+  "verificado": "2026-10-11"
  },
  "1977905526239413": {
   "cat": "TV",
@@ -5906,6 +5981,25 @@
   "titulo": "PlayStation 4 Slim 1TB + DOIS JOGOS",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "2511286936020068": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-11",
+    4999
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "SAMSUNG GALAXY S25 ULTRA 5G - 256Gb",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Daniel Gois",
+  "vendedor_id": "pfbid02ffc8XL4Sj4TtP7VhrSWQAHh9cNNwQ1zugaxVXEM1ahavEp7Ecjrr4ppj7NroosJal"
  },
  "2526905491128539": {
   "cat": "Videogame",
@@ -7012,6 +7106,25 @@
   "titulo": "iPhone 14 - Zerado ✅",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "902791319365082": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-11",
+    4949
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "[Novo/Lacrado] - Smartphone Samsung Galaxy S25 Ultra 5G, 256gb, 12gb ram, 6.9\" Galaxy AI",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Alon Neto",
+  "vendedor_id": "pfbid02v6V2PcEWfVJ2JmoX9jU2thZPHsYx8R3AgLUXQaFGtjQSNY1Yda9ot4Us8ZV4rKGil"
  },
  "918362141139446": {
   "cat": "TV",
