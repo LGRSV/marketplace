@@ -261,7 +261,8 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 16 pro max 256gb desert sem detalhes",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "verificado": "2026-10-11"
  },
  "1049507281471205": {
   "cat": "iPhone",
@@ -3250,6 +3251,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1562826688930660": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-11",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Xbox one s com jogos",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Davi Nascimento",
+  "vendedor_id": "pfbid0g7VR9pUJ2LUt88A15n5sr5X5afH8iQUxtrodFbX7dPeciUxitpwws86wFkhi9oJel"
+ },
  "1572726380700372": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -3933,6 +3953,25 @@
   "ultima_coleta": "2026-10-09",
   "ultimo_ativo": "2026-10-09"
  },
+ "1680577826824895": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-11",
+    2480
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Xbox Series S + 2 controles",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Matheus Hansen",
+  "vendedor_id": "pfbid02NERva4cGnsjFkS8xZ5pxNrRibWPzhfiPWrU5UVPuZXrJjxEKL4WPHmkUdYqYhqjwl"
+ },
  "1682802949749561": {
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
@@ -4420,7 +4459,8 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "verificado": "2026-10-11"
  },
  "1774371043592833": {
   "cat": "Videogame",
@@ -5099,6 +5139,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "2003810963621454": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-11",
+  "local": "Porto Nacional, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-11",
+    2700
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "🎮 NINTENDO SWITCH OLED DESBLOQUEADO + 512GB LOTADO DE JOGOS + BRINDES!",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "José Renan",
+  "vendedor_id": "pfbid02FkJxkqfMedR1NoH8s6ZiC5qPQStXQE2W68d2qcW7ufU22dS4KMDxSGpZJBtVBVASl"
+ },
  "2014773839171120": {
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
@@ -5503,6 +5562,25 @@
   "titulo": "Nintendo Switch Cinza NOVO 32 GB",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "2229369864685228": {
+  "cat": "Videogame",
+  "data_status": "2026-10-11",
+  "local": "Porto Nacional, TO",
+  "mod": "Xbox One",
+  "precos": [
+   [
+    "2026-10-11",
+    1000
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Vendo Xbox One S",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Emerson Marques",
+  "vendedor_id": "pfbid0stGj1fSAM9jtNPXJecQJ2Hp5mWupsWU14RjKCsvcxWPnjnL36ZcBozLcWGVKfCYnl"
  },
  "2245897106257069": {
   "cat": "iPhone",
