@@ -77,7 +77,13 @@ def interessa(txt):
     if FILTRO is None:
         return True
     cat, _ = FILTRO(txt, "")
+    preco = re.match(r"\s*R\$\s?([\d.]+)", txt)  # o card começa pelo preço; "R$ 1" num iPhone é preço simbólico
+    if preco and int(preco.group(1).replace(".", "") or 0) < PRECO_MIN.get(cat, 0):
+        return False
     return cat != "Outros" and not (cat == "Videogame" and ACESSORIO.search(txt))  # "PS5 com 2 controles" é console
+
+
+PRECO_MIN = {"iPhone": 300, "Galaxy": 300, "Videogame": 100, "TV": 100}  # o mesmo do gerar_pagina.py
 
 
 ACESSORIO = re.compile(r"headset|\bfone|volante|pel[íi]cula|carregador|\bbike\b|bicicleta|\bsuporte\b|\bgta\b|\bfifa\b|\bfc\s?\d{2}\b"
@@ -182,6 +188,18 @@ def montar_e_publicar(nome, proj, msg, haiku):
         publicar(proj, msg)
 
 
+def conferir_antigos(proj, maximo):
+    """Confere alguns anúncios antigos (vendido/apagado); devolve quantos saíram do ar. Falha aqui não derruba a rodada."""
+    if not maximo:
+        return 0
+    try:
+        cont = historico.verificar(proj, maximo=maximo)
+    except Exception as e:
+        coleta.log(f"conferência dos antigos falhou: {str(e)[:150]}")
+        return 0
+    return cont.get("vendido", 0) + cont.get("apagado", 0)
+
+
 def diario(nome, proj, conferir, rodape=""):
     hoje = datetime.now()
     coleta.log(f"Compilado do dia: conferindo {conferir} anúncios antigos ...")
@@ -197,6 +215,7 @@ def main():
     ap.add_argument("--max", type=int, default=5)
     ap.add_argument("--buscas", type=int, default=3)
     ap.add_argument("--conferir", type=int, default=40)
+    ap.add_argument("--conferir-novos", type=int, default=6, help="anúncios antigos conferidos em cada rodada 'novos'")
     a = ap.parse_args()
     proj, buscas = preparar(a.proj)
     os.makedirs(coleta.DADOS, exist_ok=True)
@@ -206,7 +225,11 @@ def main():
         rodape = "".join(f"\nCloses #{n}" for n in fechar)
         rodape = "\n" + rodape if rodape else ""
         if a.modo == "novos":
-            if asyncio.run(buscar_novos(proj, buscas, a.max, a.buscas)) or fechar:
+            n = asyncio.run(buscar_novos(proj, buscas, a.max, a.buscas))
+            # o compilado sozinho não dá conta (o Facebook barra a guia anônima depois de uns 7 anúncios):
+            # cada rodada também confere alguns antigos, e assim a lista inteira roda ao longo da semana
+            n_conf = conferir_antigos(proj, a.conferir_novos)
+            if n or n_conf or fechar:
                 montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}" + rodape, haiku=False)
         else:
             diario(a.proj, proj, a.conferir, rodape)

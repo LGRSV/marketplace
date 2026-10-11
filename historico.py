@@ -32,6 +32,8 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 PAUSA = (8, 18)            # segundos entre um anúncio e outro
 PAUSA_LONGA = (90, 180)    # descanso a cada POR_VEZ anúncios
 POR_VEZ = 10
+PAUSA_BLOQUEIO = (240, 420)  # Facebook pediu login na guia anônima: espera e volta com guia nova
+ESPERAS_BLOQUEIO = 2
 BLOQUEIO = ("temporariamente bloqueado", "você está indo rápido demais", "you're temporarily blocked",
             "you’re temporarily blocked", "confirme que é você", "security check")
 
@@ -143,17 +145,28 @@ def verificar(proj, dia=None, maximo=None):
     print(f"verificando {len(fila)} anúncios que não vieram na última coleta (controles: {len(controles)})")
     cont = defaultdict(int)
     with sync_playwright() as p:
-        nav = p.chromium.launch(channel="chrome", headless=False)
-        pg = nav.new_context(locale="pt-BR", viewport={"width": 1280, "height": 900}).new_page()
+        # fora da tela (minimizado o Chrome não desenha a página), como nas rodadas do atualizar.py
+        nav = p.chromium.launch(channel="chrome", headless=False, args=["--window-position=-2400,0"])
+        nova = lambda: nav.new_context(locale="pt-BR", viewport={"width": 1280, "height": 900}).new_page()  # noqa: E731
+        pg, esperas = nova(), 0
         try:
             for n, item in enumerate(fila, 1):
-                st, preco, vend = ler_pagina(pg, item)
-                if st == "login":  # anúncio apagado ou o Facebook pedindo login para tudo? confere um controle
-                    time.sleep(random.uniform(*PAUSA))
-                    st_c = ler_pagina(pg, random.choice(controles))[0] if controles else "ativo"
-                    st = "apagado" if st_c in ("ativo", "vendido") else "bloqueio"
+                while True:
+                    st, preco, vend = ler_pagina(pg, item)
+                    if st == "login":  # anúncio apagado ou o Facebook pedindo login para tudo? confere um controle
+                        time.sleep(random.uniform(*PAUSA))
+                        st_c = ler_pagina(pg, random.choice(controles))[0] if controles else "ativo"
+                        st = "apagado" if st_c in ("ativo", "vendido") else "bloqueio"
+                    if st != "bloqueio" or esperas >= ESPERAS_BLOQUEIO:
+                        break
+                    # a guia anônima caiu no "entre para continuar": espera uns minutos e volta com outra guia limpa
+                    esperas += 1
+                    print(f"  Facebook pediu login depois de {n - 1} anúncios; espero e tento de novo ({esperas}/{ESPERAS_BLOQUEIO})", flush=True)
+                    pg.context.close()
+                    time.sleep(random.uniform(*PAUSA_BLOQUEIO))
+                    pg = nova()
                 if st == "bloqueio":
-                    print(f"  Facebook bloqueou/pediu login no controle depois de {n - 1} anúncios; paro aqui e retomo na próxima.")
+                    print(f"  Facebook continua pedindo login depois de {n - 1} anúncios; paro aqui e retomo na próxima.")
                     break
                 h = H[item]
                 if vend:
@@ -168,8 +181,7 @@ def verificar(proj, dia=None, maximo=None):
                     anotar_preco(h, dia, preco)
                 cont[st] += 1
                 print(f"  {n}/{len(fila)} {item} {st} {preco or ''} | {h['titulo'][:40]}", flush=True)
-                if n % 10 == 0:
-                    salvar(proj, H)
+                salvar(proj, H)  # a cada anúncio: se a rodada for interrompida, o que já foi conferido fica
                 time.sleep(random.uniform(*(PAUSA_LONGA if n % POR_VEZ == 0 else PAUSA)))
         finally:
             salvar(proj, H)

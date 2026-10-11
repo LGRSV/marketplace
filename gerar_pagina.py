@@ -37,6 +37,12 @@ for d in D:
     elif d["cat"] not in ("iPhone", "Galaxy") and ACESS.search(d["titulo"]) and not re.search(r"\bcom\b.*controle|\+\s*controle|controles?\s*\+|e \d+ controles?|acompanha", d["titulo"], re.I):
         d["cat"], d["mod"] = "Jogos e acessórios", "Jogos e acessórios"
 D = [d for d in D if d["cat"] != "Outros"]
+# preço simbólico ("R$ 1", "R$ 30" num celular) é "chama no chat", não preço de venda: fica fora da página
+PRECO_MIN = {"iPhone": 300, "Galaxy": 300, "Videogame": 100, "TV": 100}
+simb = [d for d in D if d["preco"] < PRECO_MIN.get(d["cat"], 0)]
+D = [d for d in D if d not in simb]
+if simb:
+    print(f"preço simbólico: {len(simb)} anúncios fora da página ({', '.join(f'{d['mod']} R$ {d['preco']}' for d in simb)})")
 H = historico.carregar(PROJ)
 D = [d for d in D if H.get(d["id"], {}).get("status", "ativo") == "ativo"]  # vendidos/apagados saem da página
 G = golpistas.carregar(PROJ)
@@ -51,7 +57,8 @@ for d in D:
     d["vendedor"] = h.get("vendedor", "")
     if len(h.get("precos", [])) > 1 and h["precos"][-1][1]:  # preço mudou desde a leitura: vale o mais recente
         d["preco_antes"], d["preco"] = h["precos"][0][1], h["precos"][-1][1]
-DEFEITO = re.compile(r"trincad|desligand|desliga sozinh|tela (foi )?(substitu|trocad)|n[ãa]o liga|queimad|quebrad|com defeito|face ?id (off|n[ãa]o)|sem face|mancha|listra|retirada de pe", re.I)
+DEFEITO = re.compile(r"trincad|desligand|desliga sozinh|tela (foi )?(substitu|trocad)|n[ãa]o liga|queimad|quebrad|com defeito|face ?id (off|n[ãa]o)|sem face|mancha|listra|retirad[ao] (de|pra|para) pe|\bpara pe[çc]as|\bpra pe[çc]as"
+                     r"|n[ãa]o d[áa] (v[íi]deo|imagem)|sem imagem|tela preta", re.I)
 for d in D:
     d["alerta"] = d["alerta"] or bool(DEFEITO.search(d["titulo"] + " " + d["descricao"]))
 

@@ -55,6 +55,8 @@ def classificar(titulo, descricao):
         pol = (re.search(r"(\d{2})\s*(\"|”|pol|plg|p\b)", t) or re.search(r"\b(2[4-9]|[3-8]\d)\b", t)
                or re.search(r"(\d{2})\s*(\"|”|pol|plg)", descricao.lower()))
         return "TV", f"TV {pol.group(1)} pol" if pol else "TV"
+    if re.search(r"switch", t) and re.search(r"portas|gigabit|\brede\b|ethernet|tp-?link|mercusys|\bpoe\b|\bhub\b", t):
+        return "Outros", "Outros"  # switch de rede, não o Nintendo
     for chave, nome in (("portal", "PlayStation Portal"), ("ps5|playstation 5|825", "PlayStation 5"),
                         ("ps4|playstation 4", "PlayStation 4"), ("ps3|playstation 3", "PlayStation 3"),
                         ("ps2|playstation 2", "PlayStation 2"), (r"series\s*x\b", "Xbox Series X"),
