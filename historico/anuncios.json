@@ -66,7 +66,9 @@
   "status": "ativo",
   "titulo": "Nintendo Switch-Lite (DESBLOQUEADO)",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Jose Avello",
+  "vendedor_id": "pfbid0q8iUjZmRzvrJv55avRZgCXj1hBBW36sAKhZaWvv6GLHSQptiaCUccQqaehoWpqDpl"
  },
  "1010640298696830": {
   "cat": "iPhone",
@@ -450,7 +452,9 @@
   "status": "ativo",
   "titulo": "iphone 16 128gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Ambar Decantes",
+  "vendedor_id": "pfbid02RLxJuqYdYoi9Pi4W5x3qdrax2k6UdYDvm4KyfjomKtTkXenErU4VGFbmAgjzSUjhl"
  },
  "1067826996155416": {
   "cat": "iPhone",
@@ -485,6 +489,25 @@
   "titulo": "Vendo smart tv 32 polegadas",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1069975422738848": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 18 Pro",
+  "precos": [
+   [
+    "2026-10-11",
+    1790
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Iphone 18 pro montado no xr lacrado",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Samuel Sousa",
+  "vendedor_id": "pfbid02BH9xo9KGTxjt4iGcykRoLTzF8aasvQwGfNMzcEDVqtkEfyMrGineE8TKtezHpXBJl"
  },
  "1071145672629109": {
   "cat": "iPhone",
@@ -847,6 +870,25 @@
   "titulo": "iPhone 17 pro Max 512 GB todo original .",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1088323550743295": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 18 Pro",
+  "precos": [
+   [
+    "2026-10-11",
+    1790
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Iphone 18 pro montado no xr",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Samuel Sousa",
+  "vendedor_id": "pfbid02BH9xo9KGTxjt4iGcykRoLTzF8aasvQwGfNMzcEDVqtkEfyMrGineE8TKtezHpXBJl"
  },
  "1089688020476413": {
   "cat": "TV",
@@ -2532,7 +2574,7 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08",
   "vendedor": "Lucas Mendes",
-  "vendedor_id": "pfbid02hhLMka2PfjskPMNmmRGf1Uu6XoHN2qWXUNWkxCn6qDpDfdx7L8gQPfEz3Bf1dCWwl"
+  "vendedor_id": "pfbid0dfjeGkppzxMYrdAqUiGRuALNKayCcrcp15nUR14MBzvyUq9qDd3yQnN5yCycv3T7l"
  },
  "1420952940102654": {
   "cat": "iPhone",
@@ -3603,7 +3645,9 @@
   "status": "ativo",
   "titulo": "PS4 pra sair hoje ⚠️",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Will Lorram",
+  "vendedor_id": "100080504358373"
  },
  "1619116146322229": {
   "cat": "iPhone",
@@ -4469,7 +4513,9 @@
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Rafael Patrício",
+  "vendedor_id": "pfbid04XXdXbjcmTWtDARF3hwK6cNXp6DDgWefU6fJyf9H2W75tiF5d8j9545WxCojEBY6l"
  },
  "1762610841612883": {
   "cat": "iPhone",
@@ -4918,7 +4964,9 @@
   "status": "ativo",
   "titulo": "Playstation Portal",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Carlos Alberto",
+  "vendedor_id": "pfbid02dW1qjVkiweS7D3vwyP2kRA3CJk47CMUebMzDFFqi5TLjgoGeFZFNKpxTbeuwL4Zxl"
  },
  "1851901392919412": {
   "cat": "Videogame",
