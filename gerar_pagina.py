@@ -34,6 +34,8 @@ ACESS = re.compile(r"\bjogos?\b|controle|suporte|\bcase\b|\bcapa\b|desbloque|\bc
 for d in D:
     if d["cat"] != "iPhone" and re.search(r"iphone", d["titulo"], re.I):
         d["cat"] = "Outros"  # iPhone antigo (XR, 11...) que caiu como videogame
+    elif d["cat"] == "iPhone" and re.search(r"montado (n[oa]|em|sobre)\b|carca[çc]a (do|de) \d+ (n[oa]|em)", d["titulo"] + " " + d["descricao"], re.I):
+        d["cat"] = "Outros"  # "iPhone 18 Pro montado no XR": é um XR com carcaça nova
     elif d["cat"] not in ("iPhone", "Galaxy") and ACESS.search(d["titulo"]) and not re.search(r"\bcom\b.*controle|\+\s*controle|controles?\s*\+|e \d+ controles?|acompanha", d["titulo"], re.I):
         d["cat"], d["mod"] = "Jogos e acessórios", "Jogos e acessórios"
 D = [d for d in D if d["cat"] != "Outros"]
@@ -57,10 +59,23 @@ for d in D:
     d["vendedor"] = h.get("vendedor", "")
     if len(h.get("precos", [])) > 1 and h["precos"][-1][1]:  # preço mudou desde a leitura: vale o mais recente
         d["preco_antes"], d["preco"] = h["precos"][0][1], h["precos"][-1][1]
-DEFEITO = re.compile(r"trincad|desligand|desliga sozinh|tela (foi )?(substitu|trocad)|n[ãa]o liga|queimad|quebrad|com defeito|face ?id (off|n[ãa]o)|sem face|mancha|listra|retirad[ao] (de|pra|para) pe|\bpara pe[çc]as|\bpra pe[çc]as"
-                     r"|n[ãa]o d[áa] (v[íi]deo|imagem)|sem imagem|tela preta|\bp(a)?ra arrumar|precisa (de )?(reparo|conserto|arrumar)", re.I)
+DEFEITO = re.compile(r"defeito|trincad|\btrinc[oa]s?\b|desligand|desliga sozinh|n[ãa]o liga|queimad|quebrad|mancha|listra|\btravand|vezes trava"
+                     r"|tela (j[áa] )?(foi )?(substitu|trocad)|troc\w* (a )?tela|tela (linha )?premium|soft ?oled|tela (paralela|incell|n[ãa]o original)"
+                     r"|face ?id (off|n[ãa]o|n\b)|face off|sem face|c[âa]mera[^\n]{0,15}(borrad|emba[çc]|n[ãa]o funciona|tremend)|detalhe (n[ao] )?c[âa]mera|troca(r)? a c[âa]mera"
+                     r"|\bdet?h?al?h?es?\b( pequenos?)? n[ao]s? (vidro|tela|c[âa]mera)|mensagem (de )?(bateria|c[âa]mera|tela|pe[çc]a)|pe[çc]a desconhecida|n[ãa]o genu[íi]n|bateria usada"
+                     r"|n[ãa]o (t[áa] )?peg(a|ando) (o )?chip|sim (est[áa] )?bloquead|bloquead[ao] (por|na|pela) operadora|icloud bloq|conta bloq"
+                     r"|\bproblemas? (de|n[ao]) |controles?\b[^.\n]{0,25}\bdrift|drift n[oa] (controle|anal[óo]gico)|controles?\b[^.\n]{0,25}\b(ruins?|desgastad)|retirad[ao] (de|pra|para) pe|\bp(a)?ra pe[çc]as"
+                     r"|n[ãa]o d[áa] (v[íi]deo|imagem)|sem imagem|tela preta|\bp(a)?ra arrumar|precisa (de )?(reparo|conserto|arrumar)|levar na assist[êe]ncia", re.I)
+# "sem defeito", "não tem defeitos", "sem avarias ou trincado", "sem nenhum detalhe ou defeito": negação logo antes, na mesma frase
+NEGA = re.compile(r"(\bsem\b|\bnenhum|\bnem\b|n[ãa]o (tem|possui|apresenta|h[áa])|\bnunca\b|\blivre de)[^.,;:!?\n✅❌•]{0,22}\Z|\bzero\s*\Z", re.I)
+
+
+def cita_defeito(t):
+    return any(not NEGA.search(t[max(0, m.start() - 40):m.start()]) for m in DEFEITO.finditer(t))
+
+
 for d in D:
-    d["alerta"] = d["alerta"] or bool(DEFEITO.search(d["titulo"] + " " + d["descricao"]))
+    d["alerta"] = cita_defeito(d["titulo"] + " " + d["descricao"])
 
 # Médias novas por faixa de iPhone: classificação do Haiku, sem descartes, só a região.
 classif = {}
