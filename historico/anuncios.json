@@ -295,6 +295,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1053328484328809": {
+  "cat": "Videogame",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-10-11",
+    850
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Ps4",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Silva Silva",
+  "vendedor_id": "pfbid02NGivB5pSSy6of1k8iuovHtzTqhpYVhxc7BtifWCgx3TvbsbkrB423iMGK13yftP9l"
+ },
  "1053928703897248": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -338,13 +357,20 @@
    [
     "2026-10-08",
     547
+   ],
+   [
+    "2026-10-11",
+    240
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Headset Sony PULSE 3D - PC e PS5/PS4",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Matheus Hansen",
+  "vendedor_id": "pfbid02NERva4cGnsjFkS8xZ5pxNrRibWPzhfiPWrU5UVPuZXrJjxEKL4WPHmkUdYqYhqjwl",
+  "verificado": "2026-10-11"
  },
  "1060972110081789": {
   "cat": "iPhone",
@@ -709,6 +735,25 @@
   "ultimo_ativo": "2026-10-08",
   "verificado": "2026-10-09"
  },
+ "1082347668013210": {
+  "cat": "TV",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "TV",
+  "precos": [
+   [
+    "2026-10-11",
+    250
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "📺 VENDO TELEVISÃO TOSHIBA DE TUBO!",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Thiago Lima",
+  "vendedor_id": "pfbid024ub3x5eq2RaAfsvomjjZA32mT5nhmoCisYjzyUUYVbAoqxa1YBnqFU8G3aJ7Zbg1l"
+ },
  "1084836144154201": {
   "data_status": "2026-10-08",
   "local": "Nova Rosalândia, TO",
@@ -792,7 +837,10 @@
   "status": "ativo",
   "titulo": "SMART TV SAMSUNG 3D 40 Polegadas LED FULL HD – SLIM",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Benedito Bezerra Madeiro",
+  "vendedor_id": "100001735693193",
+  "verificado": "2026-10-11"
  },
  "1090254540172580": {
   "cat": "iPhone",
@@ -1006,6 +1054,25 @@
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
  },
+ "1102037812413508": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-11",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Ps4 com vários jogos",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Jhonatta Pereira",
+  "vendedor_id": "pfbid021TJBKd7GEaANRyNCSSgNQJLw7vi8tiDsgQq2UXSht8PF45Zb4JvgjrYFbnLGgraEl"
+ },
  "1103073129134875": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -1039,6 +1106,25 @@
   "titulo": "Console Sony PS3 Slim com controle",
   "ultima_coleta": "2026-10-09",
   "ultimo_ativo": "2026-10-09"
+ },
+ "1104660252359481": {
+  "cat": "Videogame",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-10-11",
+    1800
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Vendo Ps4 Slim destravado.",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Sérgio Kastro",
+  "vendedor_id": "pfbid03CRhGWtjLa9CwJWXW7z23yGKgmctQmGMqxSsS87gdrjYKEoSqRaZTy9j6ygCDji3l"
  },
  "1105510775702378": {
   "cat": "iPhone",
@@ -1315,7 +1401,10 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro Max pra arrumar",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Elieusa Vieira",
+  "vendedor_id": "pfbid02PB2zYALV8vzjj2UdEvQzykudqd2pKukXxYhcvim42KGdC2prgMnrvU9SNjxgmggMl",
+  "verificado": "2026-10-11"
  },
  "1119696780483598": {
   "cat": "iPhone",
@@ -1508,6 +1597,25 @@
   "titulo": "IPHONE 16 PRO MAX",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1128184956530728": {
+  "cat": "Videogame",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-10-11",
+    1300
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "VENDO OU TROCO PS4 FAT 500GB",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Max Macedo",
+  "vendedor_id": "100010895074464"
  },
  "1132398282796121": {
   "cat": "Jogos e acessórios",
@@ -3019,7 +3127,10 @@
   "status": "ativo",
   "titulo": "IPHONE 15 PRO MAX 256G",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Jonathan Souza Passos",
+  "vendedor_id": "pfbid0HjdvU5ZXSHjQasA9DRSz3wDPbDJPjxUiUC7B4z822z2UUWy5s5j1npyaTifKmghel",
+  "verificado": "2026-10-11"
  },
  "1539729191257498": {
   "cat": "iPhone",
@@ -4047,7 +4158,10 @@
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Mayara Mello",
+  "vendedor_id": "pfbid02BzSHVkc5PgAQTih6W61P48hX3fadQmkAMoWhH9zFhfKKCJG9qMfEyUgqAzuosyowl",
+  "verificado": "2026-10-11"
  },
  "1753070782616030": {
   "cat": "iPhone",
@@ -5978,7 +6092,10 @@
   "status": "ativo",
   "titulo": "iPhone 17 pro Max 256gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Mateus Santos",
+  "vendedor_id": "pfbid02xDEdEAv6K2ZzBindoDjV6r5QFmbkU6qpYKhmmCcahhwY8aS22FKhXKKeAKuqsSNwl",
+  "verificado": "2026-10-11"
  },
  "28738939809069507": {
   "cat": "iPhone",
