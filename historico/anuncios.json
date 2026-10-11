@@ -950,6 +950,25 @@
   "ultima_coleta": "2026-10-09",
   "ultimo_ativo": "2026-10-09"
  },
+ "1100201882743742": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro",
+  "precos": [
+   [
+    "2026-10-11",
+    2450
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro 128 g",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Leandro Silva Lima",
+  "vendedor_id": "100007520941104"
+ },
  "1100930122305947": {
   "cat": "iPhone",
   "data_status": "2026-10-10",
@@ -2210,6 +2229,24 @@
   "titulo": "Smart Tv Samsung 32 polegadas",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1413675027621001": {
+  "data_status": "2026-10-11",
+  "local": "Oliveira de Fátima, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-11",
+    2650
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro Max 128gb",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Alessandro Almeida",
+  "vendedor_id": "pfbid0wBVujmcdmBxaykKWKn5cnYJfqECi7irRaNw6UAXEpZCE78h1GKHgUpouFCG4pjGFl"
  },
  "1417795327220394": {
   "cat": "Videogame",
@@ -3607,6 +3644,25 @@
   "ultimo_ativo": "2026-10-10",
   "vendedor": "Félix Emanuel",
   "vendedor_id": "pfbid0F2A2TqEWjLBnNTxu6W2CnJfmoANYvLP9Gnruohm2nLXumvYCQVvSwVrU6dRbM7L4l"
+ },
+ "1668476087950255": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-10-11",
+    2699
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "IPHONE 13 PRO MAX - IMPECÁVEL",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "João Vittor Parente",
+  "vendedor_id": "100008821351970"
  },
  "1668611124824275": {
   "cat": "iPhone",
@@ -5304,6 +5360,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "2280238456146030": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-10-11",
+    2099
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro Max 128 Gb",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "James Mark",
+  "vendedor_id": "100002272785443"
+ },
  "2294305601320419": {
   "cat": "iPhone",
   "data_status": "2026-10-10",
@@ -5640,6 +5715,25 @@
   "titulo": "iPhone 17 pro 256gb",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "2613474895756159": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-10-11",
+    2100
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro Max 128 gb",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Arthur Oliveira",
+  "vendedor_id": "pfbid0dCYRxHtwqKvCpd28AkfJnDrKUe48zEneUsfKT5U13cQxFG21xaVGki6Q6mDwzMecl"
  },
  "2619185031870448": {
   "cat": "Videogame",
