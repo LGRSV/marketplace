@@ -1010,6 +1010,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1098524169282722": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-11",
+    1849
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Nintendo Switch V2 Desbloqueado com Combo de jogos",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Antonio Carlos Novais",
+  "vendedor_id": "pfbid02VAyjb6ZYmKfL5HFFANuq5cHUxdSXM2dCB1htg7XaqF9gXLyea5cMsR3Tw6AYmKsNl"
+ },
  "1098643452933218": {
   "cat": "iPhone",
   "data_status": "2026-10-09",
@@ -2773,7 +2792,10 @@
   "status": "ativo",
   "titulo": "Xbox 360 Com Jogos + Controles",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Eduarda Vidal",
+  "vendedor_id": "pfbid0Zu6bu1r2QPBXdvbUWnXzjX64k8FBDbzqLxaVgneDDwBZgK3Brxcwm9nzqTDixGa9l",
+  "verificado": "2026-10-11"
  },
  "1460236609541633": {
   "cat": "iPhone",
@@ -3298,6 +3320,25 @@
   "vendedor": "Davi Nascimento",
   "vendedor_id": "pfbid0g7VR9pUJ2LUt88A15n5sr5X5afH8iQUxtrodFbX7dPeciUxitpwws86wFkhi9oJel"
  },
+ "1572208500873663": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-11",
+    3750
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "iPhone 15 pro 128gb",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Willian Montfort Moreira",
+  "vendedor_id": "pfbid0ZgKUg4uHwnhEr8JVzeXqnf5GM9gc1GAMrqk7fo6k5cf3wYiKPW7HSCtzkdMRjotrl"
+ },
  "1572726380700372": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -3420,9 +3461,10 @@
   "status": "ativo",
   "titulo": "iPhone 13 128gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08",
+  "ultimo_ativo": "2026-10-11",
   "vendedor": "Mateus Santos",
-  "vendedor_id": "pfbid0tMnv3VzGTVVdTWeTdFohdSGjZQ5qQp5HPUdaRXqA5QnhWFKa83mVSFC3UEBvVtdnl"
+  "vendedor_id": "pfbid02xDEdEAv6K2ZzBindoDjV6r5QFmbkU6qpYKhmmCcahhwY8aS22FKhXKKeAKuqsSNwl",
+  "verificado": "2026-10-11"
  },
  "1606316327700630": {
   "cat": "TV",
@@ -3702,7 +3744,10 @@
   "status": "ativo",
   "titulo": "iPhone 17 pro Max 256",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Ambar Decantes",
+  "vendedor_id": "pfbid02RLxJuqYdYoi9Pi4W5x3qdrax2k6UdYDvm4KyfjomKtTkXenErU4VGFbmAgjzSUjhl",
+  "verificado": "2026-10-11"
  },
  "1629213732022401": {
   "cat": "iPhone",
@@ -4195,6 +4240,25 @@
   "titulo": "iPhone 13 Pro",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1733843564552216": {
+  "cat": "Videogame",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Nintendo Switch",
+  "precos": [
+   [
+    "2026-10-11",
+    3600
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Nintendo Switch 2",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Gerenciador Baroi",
+  "vendedor_id": "pfbid0b8xVnNTjGZoKYnqsZa7qkp6htKPUwzRJDrf5686e41Yy8RD3mgQF37QLczucb71ml"
  },
  "1737381344031351": {
   "cat": "Videogame",
@@ -4874,6 +4938,25 @@
   "ultimo_ativo": "2026-10-09",
   "vendedor": "Célia Santos",
   "vendedor_id": "pfbid0Xa7USp5HRGCHyvt97o6h3TZMRGU1JdD75gZ3xat3tNj3yfaayV4DoxaKhu9pwS6Rl"
+ },
+ "1856099735566930": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-11",
+    450
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "Desbloqueio Nintendo Switch",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Gerenciador Baroi",
+  "vendedor_id": "pfbid0b8xVnNTjGZoKYnqsZa7qkp6htKPUwzRJDrf5686e41Yy8RD3mgQF37QLczucb71ml"
  },
  "1858482681828196": {
   "cat": "iPhone",
@@ -6582,7 +6665,10 @@
   "status": "ativo",
   "titulo": "OPORTUNIDADE XBOX ONE S 1T",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Aroldo Arruda Neto",
+  "vendedor_id": "pfbid0tYH3fRiqGDHtqZawbWdLSTYzEG7ngSoe1iyv6KQUZuaf8E98xR88x65VBCkWgxpul",
+  "verificado": "2026-10-11"
  },
  "3470864899762254": {
   "cat": "iPhone",
@@ -6774,7 +6860,10 @@
   "status": "ativo",
   "titulo": "Televisão TV 55 TCL",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Leonardo Costa",
+  "vendedor_id": "pfbid0HLA6bjw5gDLZSWaa8sxfCcsjEadvEDBoivexCtigyVReYUtcAukyEtghdNW8sDWWl",
+  "verificado": "2026-10-11"
  },
  "4090974201205758": {
   "cat": "iPhone",
@@ -7089,6 +7178,25 @@
   "titulo": "IPHONE 13 pro",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "881125001656178": {
+  "cat": "iPhone",
+  "data_status": "2026-10-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-11",
+    3350
+   ]
+  ],
+  "primeiro_visto": "2026-10-11",
+  "status": "ativo",
+  "titulo": "iPhone 15 pro",
+  "ultima_coleta": "2026-10-11",
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Kauan Macedo",
+  "vendedor_id": "pfbid02KCiDdyEu3jm9JyCYt6c1XXszBse5CeyzuA2WgXPPULuAfjNirWaRMahPmWVfTcwZl"
  },
  "888389020906811": {
   "cat": "iPhone",
@@ -7461,7 +7569,10 @@
   "status": "ativo",
   "titulo": "Vendo ps4 impecável, aceito ofertas",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Igor Oliveira",
+  "vendedor_id": "pfbid0qwnYA9hPy3BfFGEsMo8uMmtkSEKwwANWdPrGTfUJBPhTQq6XsyQtPFCs6WW5EdcXl",
+  "verificado": "2026-10-11"
  },
  "969759119530425": {
   "data_status": "2026-10-11",
