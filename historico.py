@@ -34,6 +34,7 @@ PAUSA_LONGA = (90, 180)    # descanso a cada POR_VEZ anúncios
 POR_VEZ = 10
 PAUSA_BLOQUEIO = (240, 420)  # Facebook pediu login na guia anônima: espera e volta com guia nova
 ESPERAS_BLOQUEIO = 2
+INCERTOS_SEGUIDOS = 4      # tantas páginas seguidas sem carregar = Facebook barrando; não adianta insistir
 BLOQUEIO = ("temporariamente bloqueado", "você está indo rápido demais", "you're temporarily blocked",
             "you’re temporarily blocked", "confirme que é você", "security check")
 
@@ -140,7 +141,8 @@ def verificar(proj, dia=None, maximo=None):
     H = carregar(proj)
     fila = [i for i, h in H.items() if h.get("status") == "ativo" and h.get("ultima_coleta") != dia
             and h.get("verificado") != dia]
-    controles = [i for i, h in H.items() if h.get("ultima_coleta") == max(x.get("ultima_coleta", "") for x in H.values())]
+    ultima = max(x.get("ultima_coleta", "") for x in H.values())
+    controles = [i for i, h in H.items() if h.get("ultima_coleta") == ultima and h.get("status") == "ativo"]
     random.shuffle(fila)
     fila.sort(key=lambda i: H[i].get("verificado") or H[i].get("ultima_coleta") or "")  # os conferidos há mais tempo primeiro
     fila = fila[:maximo] if maximo else fila
@@ -150,7 +152,7 @@ def verificar(proj, dia=None, maximo=None):
         # fora da tela (minimizado o Chrome não desenha a página), como nas rodadas do atualizar.py
         nav = p.chromium.launch(channel="chrome", headless=False, args=["--window-position=-2400,0"])
         nova = lambda: nav.new_context(locale="pt-BR", viewport={"width": 1280, "height": 900}).new_page()  # noqa: E731
-        pg, esperas = nova(), 0
+        pg, esperas, incertos = nova(), 0, 0
         try:
             for n, item in enumerate(fila, 1):
                 while True:
@@ -185,6 +187,10 @@ def verificar(proj, dia=None, maximo=None):
                     anotar_preco(h, dia, preco)
                 cont[st] += 1
                 print(f"  {n}/{len(fila)} {item} {st} {preco or ''} | {h['titulo'][:40]}", flush=True)
+                incertos = incertos + 1 if st == "incerto" else 0
+                if incertos >= INCERTOS_SEGUIDOS:  # página não carrega mais (login por cima sem redirecionar): para e retoma depois
+                    print(f"  {incertos} páginas seguidas sem carregar; paro aqui e retomo na próxima.", flush=True)
+                    break
                 salvar(proj, H)  # a cada anúncio: se a rodada for interrompida, o que já foi conferido fica
                 time.sleep(random.uniform(*(PAUSA_LONGA if n % POR_VEZ == 0 else PAUSA)))
         finally:
@@ -204,20 +210,25 @@ def resumo(H):
     for h in H.values():
         if h.get("mod"):
             grupos[h["mod"]].append(h)
+    inicio = min((h["primeiro_visto"] for h in H.values()), default="")
     linhas = []
     for mod, hs in grupos.items():
         vend = [h for h in hs if h["status"] == "vendido"]
         apag = [h for h in hs if h["status"] == "apagado"]
         ativ = [h for h in hs if h["status"] == "ativo"]
         sairam = vend + apag
-        # tempo até sair: do primeiro dia visto até o meio da janela entre o último "ativo" e o dia em que saiu
-        t = [dias(h["primeiro_visto"], h["ultimo_ativo"]) + dias(h["ultimo_ativo"], h["data_status"]) / 2 for h in sairam]
+        # giro só entre os já conferidos depois da coleta em que apareceram: os nunca conferidos não dizem se saíram
+        conferidos = len(sairam) + sum(1 for h in ativ if h.get("verificado"))
+        # tempo até sair: do primeiro dia visto até o meio da janela entre o último "ativo" e o dia em que saiu.
+        # Só os que vimos entrar no ar: os da primeira coleta já estavam anunciados havia não se sabe quanto tempo.
+        t = [dias(h["primeiro_visto"], h["ultimo_ativo"]) + dias(h["ultimo_ativo"], h["data_status"]) / 2
+             for h in sairam if h["primeiro_visto"] > inicio]
         pv = [h["precos"][-1][1] for h in sairam if h["precos"]]
         pa = [h["precos"][-1][1] for h in ativ if h["precos"]]
         cat = Counter(h.get("cat", "") for h in hs).most_common(1)[0][0]
         linhas.append({"mod": mod, "cat": cat, "anuncios": len(hs), "vendidos": len(vend), "apagados": len(apag), "ativos": len(ativ),
-                       "giro": round(100 * len(sairam) / len(hs)) if hs else 0,
-                       "dias": round(statistics.median(t)) if t else None,
+                       "conferidos": conferidos, "giro": round(100 * len(sairam) / conferidos) if conferidos else 0,
+                       "dias": round(statistics.median(t), 1) if t else None, "dias_n": len(t),
                        "preco_saiu": round(statistics.median(pv)) if pv else None,
                        "preco_ativo": round(statistics.median(pa)) if pa else None})
     linhas.sort(key=lambda r: (-(r["vendidos"] + r["apagados"]), -r["anuncios"]))

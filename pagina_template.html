@@ -96,7 +96,7 @@ footer{padding:24px 0 calc(40px + env(safe-area-inset-bottom));color:var(--faint
 <section id="va">
  <div class="stats" id="stats"></div>
  <div class="aviso" id="aviso"></div>
- <div id="novosbox"><h3>🆕 Novos nas últimas 24h <small id="nnov"></small></h3><div class="row" id="novos"></div></div>
+ <div id="novosbox"><h3>🆕 Novos desde ontem <small id="nnov"></small></h3><div class="row" id="novos"></div></div>
  <div id="topbox"><h3>⭐ Melhores oportunidades <small id="ntop"></small></h3><div class="row" id="top"></div></div>
  <h3>Todos os anúncios <small id="ntodos"></small></h3>
  <div class="filtros"><select id="mods"></select>
@@ -122,10 +122,10 @@ const ICONE={'iPhone':'📱','Galaxy':'📲','Videogame':'🎮','TV':'📺','Jog
 const ORDEM=['iPhone','Galaxy','Videogame','TV','Jogos e acessórios'];
 const cats=[...new Set(D.map(d=>d.cat))].sort((a,b)=>((ORDEM.indexOf(a)+99)%99)-((ORDEM.indexOf(b)+99)%99)||a.localeCompare(b));
 let cat=cats[0],view='a',cur=null,idx=0;
-{const [c,v]=decodeURIComponent(location.hash.slice(1)).split('/');if(cats.includes(c))cat=c;if('amr'.includes(v||'x'))view=v}
+try{const [c,v]=decodeURIComponent(location.hash.slice(1)).split('/');if(cats.includes(c))cat=c;if(['a','m','r'].includes(v))view=v}catch(_){}
 const daCat=()=>D.filter(d=>d.cat===cat);
 function tags(d){let t='';if(d.vs_media!=null)t+=`<span class="tag ${d.vs_media<0?'low':'high'}">${d.vs_media>0?'+':''}${d.vs_media}% vs média</span>`;
- if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';if(d.novo)t+='<span class="tag low">🆕 novo</span>';return t}
+ if(d.novo)t+='<span class="tag low">🆕 novo</span>';return t}  // defeito, bateria e conta nova vêm do tagsCard
 function tagsCard(d){let t='';if(d.bateria)t+=`<span class="tag ${d.bateria>=BAT?'low':'warn'}">🔋 ${d.bateria}%</span>`;else if(d.cat==='iPhone')t+='<span class="tag">🔋 não informada</span>';
  if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';if(d.conta_nova)t+=`<span class="tag warn">⚠ conta nova (${d.conta_nova})</span>`;return t?`<div class="tags">${t}</div>`:''}
 const BAT=75;
@@ -140,7 +140,7 @@ function abas(){
  history.replaceState(null,'','#'+encodeURIComponent(cat)+'/'+view)}
 function anuncios(){const L=daCat(),N=L.filter(d=>d.novo).sort((a,b)=>(a.vs_media??99)-(b.vs_media??99)),T=L.filter(d=>d.destaque).sort((a,b)=>(a.vs_media??99)-(b.vs_media??99));
  const pr=L.map(d=>d.preco).sort((a,b)=>a-b),med=pr.length?pr[Math.floor(pr.length/2)]:0;
- $('stats').innerHTML=[[L.length,'anúncios'],[N.length,'novos em 24h'],[T.length,'oportunidades'],[pr.length?fmt(med):'–','preço mediano']].map(([v,t])=>`<div class="st"><b>${v}</b><span>${t}</span></div>`).join('');
+ $('stats').innerHTML=[[L.length,'anúncios'],[N.length,'novos desde ontem'],[T.length,'oportunidades'],[pr.length?fmt(med):'–','preço mediano']].map(([v,t])=>`<div class="st"><b>${v}</b><span>${t}</span></div>`).join('');
  $('novos').innerHTML=N.map(card).join('');$('novosbox').hidden=!N.length;$('nnov').textContent=N.length;
  $('top').innerHTML=T.map(card).join('');$('topbox').hidden=!T.length;$('ntop').textContent=T.length;
  const ms=[...new Set(L.map(d=>d.mod))].sort((a,b)=>a.localeCompare(b,'pt',{numeric:true}));
@@ -162,15 +162,15 @@ function vendas(){const V=R.vendas||{linhas:[]},br=d=>d?d.split('-').reverse().j
  const catDe=m=>(D.find(d=>d.mod===m)||{}).cat;
  const L=V.linhas.filter(l=>(l.cat||catDe(l.mod))===cat).sort((a,b)=>(b.vendidos+b.apagados)-(a.vendidos+a.apagados)||b.giro-a.giro||b.anuncios-a.anuncios);
  const S=L.filter(l=>l.vendidos+l.apagados>0),Z=L.filter(l=>l.vendidos+l.apagados===0);
- $('vendas').innerHTML=`<h2>${ICONE[cat]||''} O que mais vende — ${esc(cat)}</h2><div class="m">Histórico desde ${br(V.inicio)}. <b>Vendido</b> = marcado como vendido no Facebook. <b>Apagado</b> = anúncio removido (pode ter vendido por fora). <b>Giro</b> = (vendidos + apagados) ÷ anúncios vistos.</div>`+
+ $('vendas').innerHTML=`<h2>${ICONE[cat]||''} O que mais vende — ${esc(cat)}</h2><div class="m">Histórico desde ${br(V.inicio)}. <b>Vendido</b> = marcado como vendido no Facebook. <b>Apagado</b> = anúncio removido (pode ter vendido por fora). <b>Giro</b> = (vendidos + apagados) ÷ anúncios já conferidos de novo depois que apareceram. <b>Dias até sair</b>: só os anúncios que vimos entrar no ar (os da primeira coleta já estavam lá não se sabe desde quando); entre parênteses, quantos.</div>`+
  (!L.length?'<div class="vazio">Ainda sem histórico para esta busca.</div>':
- '<div class="tw"><table class="md"><tr><th>Modelo</th><th>Vendidos</th><th>Apagados</th><th>Giro</th><th>Dias até sair</th><th>Preço de quem saiu</th><th>Preço dos ativos</th><th>Ainda ativos</th></tr>'+
- [...S,...Z].map((l,i)=>`<tr${l.vendidos+l.apagados?'':' class="z"'}><td>${l.vendidos+l.apagados?`<span class="pos">${i+1}</span>`:''}${esc(l.mod)}</td><td>${l.vendidos}</td><td>${l.apagados}</td><td><span class="trk"><i style="width:${Math.min(100,l.giro)}%"></i></span>${l.giro}%</td><td>${l.dias??'–'}</td><td>${f(l.preco_saiu)}</td><td>${f(l.preco_ativo)}</td><td>${l.ativos}</td></tr>`).join('')+
+ '<div class="tw"><table class="md"><tr><th>Modelo</th><th>Vendidos</th><th>Apagados</th><th>Conferidos</th><th>Giro</th><th>Dias até sair</th><th>Preço de quem saiu</th><th>Preço dos ativos</th><th>Ainda ativos</th></tr>'+
+ [...S,...Z].map((l,i)=>`<tr${l.vendidos+l.apagados?'':' class="z"'}><td>${l.vendidos+l.apagados?`<span class="pos">${i+1}</span>`:''}${esc(l.mod)}</td><td>${l.vendidos}</td><td>${l.apagados}</td><td>${l.conferidos??'–'}</td><td><span class="trk"><i style="width:${Math.min(100,l.giro)}%"></i></span>${l.giro}%</td><td>${l.dias==null?'–':(l.dias<1?'menos de 1':String(l.dias).replace('.',','))+(l.dias_n?` <span class="m">(${l.dias_n})</span>`:'')}</td><td>${f(l.preco_saiu)}</td><td>${f(l.preco_ativo)}</td><td>${l.ativos}</td></tr>`).join('')+
  `</table></div>${S.length?'':'<div class="m">Nenhum anúncio desta busca saiu do ar ainda; o ranking aparece quando os primeiros forem vendidos ou apagados.</div>'}`)}
 function tudo(){abas();anuncios();medias();vendas()}
 function abrir(id){cur=D.find(d=>d.id===id);idx=0;
  $('det').innerHTML=`<button class="x" id="fx">×</button><h2>${esc(cur.titulo)}</h2><div class="p">${fmt(cur.preco)}</div>
- <div class="m">${esc(cur.mod)} · ${esc(cur.local)}${cur.condicao?' · '+esc(cur.condicao):''}</div><div class="tags">${tags(cur)}</div>
+ <div class="m">${esc(cur.mod)} · ${esc(cur.local)}${cur.condicao?' · '+esc(cur.condicao):''}</div><div class="tags">${tags(cur)}</div>${tagsCard(cur)}
  ${cur.destaque?`<div class="why">⭐ ${esc(cur.destaque)}</div>`:''}
  <div class="acts"><a href="${cur.link}" target="_blank" rel="noopener">Abrir no Facebook</a></div>
  <div class="desc">${esc(cur.descricao||'(sem descrição)')}</div>${golpeBotao(cur)}`;

@@ -55,7 +55,8 @@ def classificar(titulo, descricao):
         if GALAXY_PECA.search(t[:m.start()]):
             return "Outros", "Outros"
         return "Galaxy", f"Galaxy S{m.group(1)}{GALAXY_NOME.get(m.group(2) or m.group(3), '')}"
-    if re.search(r"\b(tv|televis|smart)", t):
+    # "smart" sozinho pegava "Smartphone"; "Xbox 360 ... com TV" é o videogame, não a TV
+    if re.search(r"\b(tv|televis|smart(?!\s*(phone|watch|band)))", t) and not re.search(r"\bcom\s+(uma\s+)?(tv|televis)", t):
         pol = (re.search(r"(\d{2})\s*(\"|”|pol|plg|p\b)", t) or re.search(r"\b(2[4-9]|[3-8]\d)\b", t)
                or re.search(r"(\d{2})\s*(\"|”|pol|plg)", descricao.lower()))
         return "TV", f"TV {pol.group(1)} pol" if pol else "TV"

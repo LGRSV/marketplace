@@ -123,6 +123,10 @@ class Trava:
 async def buscar_novos(proj, buscas, maximo, n_buscas):
     from playwright.async_api import async_playwright
     conhecidos = set(historico.carregar(proj))
+    # anúncio que não abriu em 2 rodadas ou é de golpista não entra no histórico: sem isto ele voltava à fila toda rodada
+    arq_pular = os.path.join(coleta.DADOS, "pular.json")
+    pular = json.load(open(arq_pular, encoding="utf-8")) if os.path.exists(arq_pular) else {}
+    conhecidos |= {i for i, n in pular.items() if n >= 2}
     G = golpistas.carregar(proj)
     # um arquivo por rodada: não regrava (nem re-sincroniza) as fotos das rodadas anteriores
     arq = os.path.join(coleta.DADOS, f"_anuncios_novos_{datetime.now():%Y-%m-%d_%H%M}.json")
@@ -163,10 +167,12 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
                     await coleta.dormir((6, 10))
                 if d.get("erro"):
                     coleta.log(f"{item}: não deu para ler ({d['erro']}) | {await pg.title()}")
+                    pular[item] = pular.get(item, 0) + 1
                     continue
                 await coleta.anotar_vendedor(pg, d)
                 if golpistas.bloqueado(G, item, d.get("vendedor_id"), d.get("vendedor")):
                     coleta.log(f"{item}: vendedor marcado como golpista ({d.get('vendedor', '')}), ignorado")
+                    pular[item] = 99
                     continue
                 d["fotos"] = await coleta.baixar_fotos(pg, d.pop("fotos_url", []))
                 lidos.append(d)
@@ -175,6 +181,7 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
             coleta.log(str(e))
         finally:
             await nav.close()
+            json.dump(pular, open(arq_pular, "w", encoding="utf-8"))
     if lidos:
         json.dump(lidos, open(arq, "w", encoding="utf-8"), ensure_ascii=False)
         historico.registrar_itens(proj, lidos)
@@ -211,7 +218,7 @@ def conferir_antigos(proj, maximo):
 def diario(nome, proj, conferir, rodape=""):
     hoje = datetime.now()
     coleta.log(f"Compilado do dia: conferindo {conferir} anúncios antigos ...")
-    historico.verificar(proj, maximo=conferir)
+    conferir_antigos(proj, conferir)  # se a conferência falhar, o compilado sai mesmo assim
     montar_e_publicar(nome, proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}" + rodape, haiku=True)
 
 
@@ -223,7 +230,7 @@ def main():
     ap.add_argument("--max", type=int, default=6)
     ap.add_argument("--buscas", type=int, default=4)
     ap.add_argument("--conferir", type=int, default=40)
-    ap.add_argument("--conferir-novos", type=int, default=6, help="anúncios antigos conferidos em cada rodada 'novos'")
+    ap.add_argument("--conferir-novos", type=int, default=10, help="anúncios antigos conferidos em cada rodada 'novos'")
     a = ap.parse_args()
     proj, buscas = preparar(a.proj)
     os.makedirs(coleta.DADOS, exist_ok=True)

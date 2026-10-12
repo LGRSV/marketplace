@@ -31,12 +31,16 @@ m = re.search(r"const D=", h)
 D = json.JSONDecoder().raw_decode(h[m.end():])[0]
 D = [d for d in D if d["cat"] != "Outros" and d["local"].split(",")[0].strip().lower() in REGIAO and d["preco"] > 0]
 ACESS = re.compile(r"\bjogos?\b|controle|suporte|\bcase\b|\bcapa\b|desbloque|\bcabo\b|\bfonte\b|pel[íi]cula|headset|volante|\bpainel\b|\brack\b|\bdock\b|carregador|m[íi]dia f[íi]sica|\bfallout\b|god of war|\bbatman\b|\bmario\b|\bzelda\b|\bgta\b|\bfifa\b|\bfc\s?\d{2}\b", re.I)
+# título que começa pelo console ("PS4 com 4 jogos", "Nintendo Switch desbloqueado + combo") é o console, não o acessório
+CONSOLE_1O = re.compile(r"^\W*(vendo|vende-se|troco)?\s*(o |um |meu |minha )?(console\s+|video ?game\s+)?(ps ?[2-5]|playstation|xbox|nintendo|switch)\b", re.I)
 for d in D:
     if d["cat"] != "iPhone" and re.search(r"iphone", d["titulo"], re.I):
         d["cat"] = "Outros"  # iPhone antigo (XR, 11...) que caiu como videogame
-    elif d["cat"] == "iPhone" and re.search(r"montado (n[oa]|em|sobre)\b|carca[çc]a (do|de) \d+ (n[oa]|em)", d["titulo"] + " " + d["descricao"], re.I):
-        d["cat"] = "Outros"  # "iPhone 18 Pro montado no XR": é um XR com carcaça nova
-    elif d["cat"] not in ("iPhone", "Galaxy") and ACESS.search(d["titulo"]) and not re.search(r"\bcom\b.*controle|\+\s*controle|controles?\s*\+|e \d+ controles?|acompanha", d["titulo"], re.I):
+    elif d["cat"] == "iPhone" and re.search(r"montado (n[oa]|em|sobre)\b|carca[çc]a (do|de) \d+ (n[oa]|em)|\bsabor\b|r[ée]plica|\bclone\b|xing ?ling", d["titulo"] + " " + d["descricao"], re.I):
+        d["cat"] = "Outros"  # "iPhone 18 Pro montado no XR", "SABOR iPhone 16": não é o aparelho de verdade
+    elif (d["cat"] not in ("iPhone", "Galaxy") and ACESS.search(d["titulo"])
+          and not (d["cat"] == "Videogame" and CONSOLE_1O.search(d["titulo"]) and d["preco"] >= 500)
+          and not re.search(r"\bcom\b.*controle|\+\s*controle|controles?\s*\+|e \d+ controles?|acompanha", d["titulo"], re.I)):
         d["cat"], d["mod"] = "Jogos e acessórios", "Jogos e acessórios"
 D = [d for d in D if d["cat"] != "Outros"]
 # preço simbólico ("R$ 1", "R$ 30" num celular) é "chama no chat", não preço de venda: fica fora da página
@@ -120,14 +124,16 @@ medias = {k: (*media_robusta(v), next(d["cat"] for d in D if d["mod"] == k), *mo
 # iPhone só vira oportunidade com bateria informada de BAT_MIN% pra cima (abaixo disso a troca da bateria come o desconto;
 # sem a bateria no anúncio não dá para saber). Vale o número do Haiku; sem ele, o que o texto disser.
 BAT_MIN = 75
-RBAT = re.compile(r"(?:bateria|sa[úu]de)\D{0,15}?(\d{2,3})\s*%?", re.I)
+# "bateria 87%", "saúde da bateria: 92"; com "%" vale mesmo depois de outro número ("bateria trocada em 2024, 100%")
+RBAT = (re.compile(r"(?:bateria|sa[úu]de)[^%\n]{0,30}?\b(\d{2,3})\s*%", re.I), re.compile(r"(?:bateria|sa[úu]de)\D{0,15}?(\d{2,3})(?!\d)", re.I))
 
 
 def bateria(d, c):
     if c and c.get("bateria_pct"):
         return int(c["bateria_pct"])
-    m = RBAT.search(d["titulo"] + " " + d["descricao"])
-    return int(m.group(1)) if m and 50 <= int(m.group(1)) <= 100 else None
+    # o primeiro número plausível: "bateria trocada em 2024, 100%" não pode virar "202"
+    t = d["titulo"] + " " + d["descricao"]
+    return next((int(m.group(1)) for r in RBAT for m in r.finditer(t) if 50 <= int(m.group(1)) <= 100), None)
 
 
 ANO = date.today().year
