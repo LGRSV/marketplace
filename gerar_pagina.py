@@ -48,7 +48,7 @@ if simb:
 H = historico.carregar(PROJ)
 D = [d for d in D if H.get(d["id"], {}).get("status", "ativo") == "ativo"]  # vendidos/apagados saem da página
 G = golpistas.carregar(PROJ)
-fora = [d for d in D if golpistas.bloqueado(G, d["id"], H.get(d["id"], {}).get("vendedor_id"))]
+fora = [d for d in D if golpistas.bloqueado(G, d["id"], H.get(d["id"], {}).get("vendedor_id"), H.get(d["id"], {}).get("vendedor"))]
 D = [d for d in D if d not in fora]
 if fora:
     print(f"golpistas: {len(fora)} anúncios fora da página ({', '.join(sorted({H.get(d['id'], {}).get('vendedor') or d['id'] for d in fora}))})")
@@ -115,16 +115,34 @@ for d in D:
         por_mod[d["mod"]].append(d["preco"])
 medias = {k: (*media_robusta(v), next(d["cat"] for d in D if d["mod"] == k), *moda(v)) for k, v in por_mod.items() if len(v) >= 2}
 
+# iPhone só vira oportunidade com bateria informada de BAT_MIN% pra cima (abaixo disso a troca da bateria come o desconto;
+# sem a bateria no anúncio não dá para saber). Vale o número do Haiku; sem ele, o que o texto disser.
+BAT_MIN = 75
+RBAT = re.compile(r"(?:bateria|sa[úu]de)\D{0,15}?(\d{2,3})\s*%?", re.I)
+
+
+def bateria(d, c):
+    if c and c.get("bateria_pct"):
+        return int(c["bateria_pct"])
+    m = RBAT.search(d["titulo"] + " " + d["descricao"])
+    return int(m.group(1)) if m and 50 <= int(m.group(1)) <= 100 else None
+
+
+ANO = date.today().year
 for d in D:
     d["destaque"] = ""
     c = classif.get(d["id"])
+    desde = H.get(d["id"], {}).get("vendedor_desde")
+    d["conta_nova"] = desde if desde and int(desde) >= ANO else None  # conta criada este ano: padrão dos golpes
     if d["cat"] == "iPhone":
+        d["bateria"] = bateria(d, c)
         md = medias.get(d["mod"])
         d["vs_media"] = round((d["preco"] / md[0] - 1) * 100) if md and md[1] >= 3 else None
         if c and c.get("descarte"):
             d["vs_media"] = None
-        if d["vs_media"] is not None and d["vs_media"] <= -15 and not d["alerta"] and not (c and c.get("estado") == "com defeito"):
-            extra = [x for x in (c.get("armazenamento") if c else "", f"bateria {c['bateria_pct']}%" if c and c.get("bateria_pct") else "", c.get("estado") if c else "") if x]
+        if (d["vs_media"] is not None and d["vs_media"] <= -15 and not d["alerta"] and not d["conta_nova"]
+                and (d["bateria"] or 0) >= BAT_MIN and not (c and c.get("estado") == "com defeito")):
+            extra = [x for x in (c.get("armazenamento") if c else "", f"bateria {d['bateria']}%", c.get("estado") if c else "") if x]
             d["destaque"] = f"{-d['vs_media']}% abaixo da média do {d['mod']} (R$ {md[0]:,}".replace(",", ".") + f", {md[1]} anúncios). " + ", ".join(extra)
     else:
         md = medias.get(d["mod"])
@@ -132,7 +150,7 @@ for d in D:
         # abaixo de 40% da média quase sempre é controle, jogo, peça ou golpe: sem tag e sem destaque
         if d["vs_media"] is not None and d["vs_media"] < -60:
             d["vs_media"] = None
-        if d["vs_media"] is not None and d["vs_media"] <= -25 and not d["alerta"]:
+        if d["vs_media"] is not None and d["vs_media"] <= -25 and not d["alerta"] and not d["conta_nova"]:
             d["destaque"] = f"{-d['vs_media']}% abaixo da média do {d['mod']} (R$ {md[0]:,}".replace(",", ".") + f", {md[1]} anúncios)."
 for d in D:  # preço bom demais: avisa
     pct = d["vs_media"] if d["vs_media"] is not None else None

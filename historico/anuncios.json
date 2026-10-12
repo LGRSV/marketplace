@@ -324,7 +324,9 @@
   "ultima_coleta": "2026-10-11",
   "ultimo_ativo": "2026-10-11",
   "vendedor": "Silva Silva",
-  "vendedor_id": "pfbid02NGivB5pSSy6of1k8iuovHtzTqhpYVhxc7BtifWCgx3TvbsbkrB423iMGK13yftP9l"
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid02NGivB5pSSy6of1k8iuovHtzTqhpYVhxc7BtifWCgx3TvbsbkrB423iMGK13yftP9l",
+  "verificado": "2026-10-11"
  },
  "1053928703897248": {
   "cat": "iPhone",
@@ -435,6 +437,7 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-11",
   "vendedor": "Fernando Teixeira Barreto",
+  "vendedor_desde": 2019,
   "vendedor_id": "pfbid036cRTMWRocAShShPXPMwZaFtRuWaaRPjRKvHm6c2rFyLB1wFGbrELTj4QU12ub5wKl",
   "verificado": "2026-10-11"
  },
@@ -4099,7 +4102,10 @@
   "status": "ativo",
   "titulo": "PlayStation 5 novo ✅",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "Igor Jensen",
+  "vendedor_desde": 2026,
+  "verificado": "2026-10-11"
  },
  "1677877760433882": {
   "cat": "iPhone",
@@ -5963,7 +5969,9 @@
   "ultima_coleta": "2026-10-11",
   "ultimo_ativo": "2026-10-11",
   "vendedor": "James Mark",
-  "vendedor_id": "100002272785443"
+  "vendedor_desde": 2011,
+  "vendedor_id": "100002272785443",
+  "verificado": "2026-10-11"
  },
  "2294305601320419": {
   "cat": "iPhone",
@@ -6403,7 +6411,7 @@
  },
  "2654139281670820": {
   "cat": "iPhone",
-  "data_status": "2026-10-09",
+  "data_status": "2026-10-11",
   "local": "Palmas, TO",
   "mod": "iPhone 15",
   "precos": [
@@ -6413,10 +6421,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-09",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 15",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-11"
  },
  "2777682155962625": {
   "cat": "TV",
@@ -7244,7 +7253,10 @@
   "status": "ativo",
   "titulo": "Ps5 825G completo",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-11",
+  "vendedor": "SóBatatas Araucária",
+  "vendedor_desde": 2018,
+  "verificado": "2026-10-11"
  },
  "4889783264582180": {
   "cat": "iPhone",

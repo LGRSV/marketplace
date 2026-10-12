@@ -169,6 +169,8 @@ async def anotar_vendedor(pagina, d):
         v = None
     if v and not d.get("erro"):
         d["vendedor"], d["vendedor_id"] = v["nome"], v["id"]
+        if v.get("desde"):
+            d["vendedor_desde"] = v["desde"]
 
 
 async def baixar_fotos(pagina, urls):

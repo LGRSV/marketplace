@@ -28,7 +28,11 @@ DONO = "LGRSV"  # só issues abertas por esta conta valem (o repositório é pú
 VENDEDOR_JS = r"""() => {
   for (const s of document.querySelectorAll('script')) {
     const m = s.textContent.match(/"marketplace_listing_seller":\{"__typename":"\w+","name":"((?:[^"\\]|\\.)*)","id":"([^"]+)"/);
-    if (m) { let nome = m[1]; try { nome = JSON.parse('"' + m[1] + '"'); } catch (e) {} return {nome, id: m[2]}; }
+    if (m) {
+      let nome = m[1]; try { nome = JSON.parse('"' + m[1] + '"'); } catch (e) {}
+      const a = (document.body.innerText.match(/Entrou no Facebook em (\d{4})/) || [])[1];  // conta criada este ano = cara de golpe
+      return {nome, id: m[2], desde: a ? +a : null};
+    }
   }
   return null;
 }"""
@@ -65,6 +69,7 @@ def carregar(proj):
         G = {}
     G.setdefault("vendedores", {})
     G.setdefault("anuncios", {})
+    G.setdefault("nomes", {})  # golpista avisado só pelo nome (perfil não identificado): "lael carvalho": data
     return G
 
 
@@ -72,8 +77,13 @@ def salvar(proj, G):
     json.dump(G, open(arquivo(proj), "w", encoding="utf-8"), ensure_ascii=False, indent=1, sort_keys=True)
 
 
-def bloqueado(G, anuncio, vendedor_id=None):
-    return anuncio in G["anuncios"] or bool(vendedor_id and vendedor_id in G["vendedores"])
+def nome_chave(nome):
+    return " ".join(str(nome or "").lower().split())
+
+
+def bloqueado(G, anuncio, vendedor_id=None, vendedor=None):
+    return (anuncio in G["anuncios"] or bool(vendedor_id and vendedor_id in G["vendedores"])
+            or bool(vendedor and nome_chave(vendedor) in G.get("nomes", {})))
 
 
 def vendedor_na_pagina(anuncio):

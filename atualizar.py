@@ -157,7 +157,7 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
                     coleta.log(f"{item}: não deu para ler ({d['erro']}) | {await pg.title()}")
                     continue
                 await coleta.anotar_vendedor(pg, d)
-                if golpistas.bloqueado(G, item, d.get("vendedor_id")):
+                if golpistas.bloqueado(G, item, d.get("vendedor_id"), d.get("vendedor")):
                     coleta.log(f"{item}: vendedor marcado como golpista ({d.get('vendedor', '')}), ignorado")
                     continue
                 d["fotos"] = await coleta.baixar_fotos(pg, d.pop("fotos_url", []))

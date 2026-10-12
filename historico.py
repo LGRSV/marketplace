@@ -82,6 +82,8 @@ def registrar_itens(proj, itens, dia=None):
                  ultimo_ativo=dia, ultima_coleta=dia, data_status=dia)
         if d.get("vendedor_id"):
             h["vendedor"], h["vendedor_id"] = d.get("vendedor", ""), d["vendedor_id"]
+        if d.get("vendedor_desde"):
+            h["vendedor_desde"] = d["vendedor_desde"]
         anotar_preco(h, dia, valor(d.get("preco")))
     salvar(proj, H)
     print(f"histórico: {n} anúncios lidos, {n_novos} novos, {len(H)} no total")
@@ -171,6 +173,8 @@ def verificar(proj, dia=None, maximo=None):
                 h = H[item]
                 if vend:
                     h["vendedor"], h["vendedor_id"] = vend["nome"], vend["id"]
+                    if vend.get("desde"):
+                        h["vendedor_desde"] = vend["desde"]
                 if st != "incerto":  # incerto = não carregou; tenta de novo na próxima
                     h["verificado"] = dia
                 if st == "ativo":

@@ -76,6 +76,7 @@ footer{color:var(--mut);font-size:12px;padding:24px 0 40px}
  <h3>Todos os anúncios <small id="ntodos"></small></h3>
  <div class="filtros"><select id="mods"></select>
  <select id="ord"><option value="p">Menor preço</option><option value="P">Maior preço</option><option value="v">Mais abaixo da média</option><option value="n">Mais recentes primeiro</option></select>
+ <select id="bat"><option value="75">🔋 Bateria 75%+ ou não informada</option><option value="75c">🔋 Só bateria 75%+ confirmada</option><option value="">🔋 Qualquer bateria</option></select>
  <input id="q" type="search" placeholder="Buscar no título ou descrição…"></div>
  <main class="grid" id="g"></main>
 </section>
@@ -100,10 +101,13 @@ let cat=cats[0],view='a',cur=null,idx=0;
 const daCat=()=>D.filter(d=>d.cat===cat);
 function tags(d){let t='';if(d.vs_media!=null)t+=`<span class="tag ${d.vs_media<0?'low':'high'}">${d.vs_media>0?'+':''}${d.vs_media}% vs média</span>`;
  if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';if(d.novo)t+='<span class="tag low">🆕 novo</span>';return t}
+function tagsCard(d){let t='';if(d.bateria)t+=`<span class="tag ${d.bateria>=BAT?'low':'warn'}">🔋 ${d.bateria}%</span>`;else if(d.cat==='iPhone')t+='<span class="tag">🔋 não informada</span>';
+ if(d.alerta)t+='<span class="tag warn">⚠ cita defeito</span>';if(d.conta_nova)t+=`<span class="tag warn">⚠ conta nova (${d.conta_nova})</span>`;return t?`<div class="tags">${t}</div>`:''}
+const BAT=75;
 const card=d=>`<div class="c${d.destaque?' hi':''}" data-id="${d.id}"><div class="n"><div class="ph" style="${bg(d,0)}"></div><span class="cnt">📷 ${d.nf}</span>
  ${d.vs_media!=null?`<span class="pct ${d.vs_media<0?'low':'high'}">${d.vs_media>0?'+':''}${d.vs_media}%</span>`:''}${d.novo?'<span class="nv">NOVO</span>':''}</div>
  <div class="b"><div class="p">${fmt(d.preco)}${d.preco_antes&&d.preco_antes!==d.preco?` <s class="m">${fmt(d.preco_antes)}</s>`:''}</div><div class="t">${esc(d.titulo)}</div>
- <div class="m">${esc(d.mod)} · ${esc(d.local.split(',')[0])}</div>${d.alerta?'<div class="tags"><span class="tag warn">⚠ cita defeito</span></div>':''}${d.destaque?`<div class="why">⭐ ${esc(d.destaque)}</div>`:''}</div></div>`;
+ <div class="m">${esc(d.mod)} · ${esc(d.local.split(',')[0])}</div>${tagsCard(d)}${d.destaque?`<div class="why">⭐ ${esc(d.destaque)}</div>`:''}</div></div>`;
 function abas(){
  $('cats').innerHTML=cats.map(c=>`<button class="${c===cat?'on':''}" data-c="${esc(c)}">${ICONE[c]||'🔎'} ${esc(c)} <small>${D.filter(d=>d.cat===c).length}</small></button>`).join('');
  $('views').querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.v===view));
@@ -117,7 +121,9 @@ function anuncios(){const L=daCat(),N=L.filter(d=>d.novo).sort((a,b)=>(a.vs_medi
  const ms=[...new Set(L.map(d=>d.mod))].sort((a,b)=>a.localeCompare(b,'pt',{numeric:true}));
  $('mods').innerHTML='<option value="">Todos os modelos</option>'+ms.map(m=>`<option>${esc(m)}</option>`).join('');lista()}
 function lista(){const mod=$('mods').value,q=$('q').value.toLowerCase(),o=$('ord').value;
- let L=daCat().filter(d=>(!mod||d.mod===mod)&&(!q||(d.titulo+' '+d.descricao).toLowerCase().includes(q)));
+ const bt=cat==='iPhone'?$('bat').value:'';$('bat').hidden=cat!=='iPhone';
+ let L=daCat().filter(d=>(!mod||d.mod===mod)&&(!q||(d.titulo+' '+d.descricao).toLowerCase().includes(q))
+  &&(!bt||(d.bateria?d.bateria>=BAT:bt==='75')));
  L.sort(o==='p'?(a,b)=>a.preco-b.preco:o==='P'?(a,b)=>b.preco-a.preco:o==='n'?(a,b)=>b.novo-a.novo||a.preco-b.preco:(a,b)=>(a.vs_media??99)-(b.vs_media??99));
  $('ntodos').textContent=L.length;
  $('g').innerHTML=L.length?L.map(card).join(''):'<div class="vazio">Nada encontrado.</div>'}
@@ -152,7 +158,7 @@ function foto(i){idx=(i+cur.nf)%cur.nf;$('big').style.cssText=bg(cur,idx);
 function fechar(){$('mod').style.display='none';document.body.style.overflow='';cur=null}
 $('cats').onclick=e=>{const b=e.target.closest('button');if(b){cat=b.dataset.c;$('q').value='';tudo();scrollTo(0,0)}};
 $('views').onclick=e=>{const b=e.target.closest('button');if(b){view=b.dataset.v;abas()}};
-['mods','ord'].forEach(i=>$(i).onchange=lista);$('q').oninput=lista;
+['mods','ord','bat'].forEach(i=>$(i).onchange=lista);$('q').oninput=lista;
 ['g','top','novos'].forEach(i=>$(i).onclick=e=>{const c=e.target.closest('.c');if(c)abrir(c.dataset.id)});
 $('th').onclick=e=>{if(e.target.dataset.i)foto(+e.target.dataset.i)};
 pv.onclick=()=>foto(idx-1);nx.onclick=()=>foto(idx+1);
