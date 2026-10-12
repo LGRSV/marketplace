@@ -12,7 +12,7 @@ import re
 import statistics
 import sys
 from collections import Counter, defaultdict
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from PIL import Image
@@ -41,10 +41,12 @@ for d in D:
 D = [d for d in D if d["cat"] != "Outros"]
 # preço simbólico ("R$ 1", "R$ 30" num celular) é "chama no chat", não preço de venda: fica fora da página
 PRECO_MIN = {"iPhone": 300, "Galaxy": 300, "Videogame": 100, "TV": 100}
-simb = [d for d in D if d["preco"] < PRECO_MIN.get(d["cat"], 0)]
+# e preço absurdo ("R$ 65.893" num iPhone) é erro de digitação: também fica fora
+PRECO_MAX = {"iPhone": 20000, "Galaxy": 20000, "Videogame": 15000, "TV": 40000, "Jogos e acessórios": 15000}
+simb = [d for d in D if not PRECO_MIN.get(d["cat"], 0) <= d["preco"] <= PRECO_MAX.get(d["cat"], 10**9)]
 D = [d for d in D if d not in simb]
 if simb:
-    print(f"preço simbólico: {len(simb)} anúncios fora da página ({', '.join(f'{d['mod']} R$ {d['preco']}' for d in simb)})")
+    print(f"preço simbólico ou absurdo: {len(simb)} anúncios fora da página ({', '.join(f'{d['mod']} R$ {d['preco']}' for d in simb)})")
 H = historico.carregar(PROJ)
 D = [d for d in D if H.get(d["id"], {}).get("status", "ativo") == "ativo"]  # vendidos/apagados saem da página
 G = golpistas.carregar(PROJ)
@@ -186,7 +188,7 @@ evol = json.loads(arq_m.read_text(encoding="utf-8")) if arq_m.exists() else {}
 evol[date.today().isoformat() if len(sys.argv) < 2 else "-".join(reversed(DATA.split("/")))] = {k: v[:2] for k, v in medias.items()}
 arq_m.parent.mkdir(exist_ok=True)
 arq_m.write_text(json.dumps(evol, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
-resumo = {"data": DATA, "medias": {k: v for k, v in sorted(medias.items())}, "vendas": vendas}
+resumo = {"data": DATA, "hora": datetime.now().strftime("%H:%M"), "medias": {k: v for k, v in sorted(medias.items())}, "vendas": vendas}
 (PROJ / "index.html").write_text(tpl.replace("__GOLPE__", golpistas.pagina_js(PROJ))
                                 .replace("__DADOS__", json.dumps(D, ensure_ascii=False).replace("</", "<\\/"))
                                 .replace("__RESUMO__", json.dumps(resumo, ensure_ascii=False)), encoding="utf-8")

@@ -46,7 +46,7 @@ const golpeOculto=d=>GOLPE.a.includes(d.id)||(d.vendedor&&GOLPE.v.includes(d.ven
 for(let i=D.length-1;i>=0;i--)if(golpeOculto(D[i]))D.splice(i,1);
 function golpeLink(d){const corpo=`Vendedor: ${d.vendedor||'(o script descobre)'}\nAnúncio: ${d.titulo} | R$ ${d.preco}\n${d.link}\n\nNa próxima rodada (de 2 em 2 horas) o script tira os anúncios desse vendedor do site e fecha esta issue.`;
  return `https://github.com/__REPO__/issues/new?title=${encodeURIComponent('golpista '+d.id)}&body=${encodeURIComponent(corpo)}`}
-function golpeBotao(d){return `${d.vendedor?`<div class="m" style="margin-top:6px">Vendedor: ${esc(d.vendedor)}</div>`:''}<div class="acts"><a href="${golpeLink(d)}" target="_blank" rel="noopener" style="background:#c62828" onclick="golpeMarcar('${d.id}')">🚩 Marcar como golpista</a></div>`}
+function golpeBotao(d){return `${d.vendedor?`<div class="m" style="margin-top:6px">Vendedor: ${esc(d.vendedor)}</div>`:''}<div class="acts"><a href="${golpeLink(d)}" target="_blank" rel="noopener" style="background:transparent;border-color:var(--bad);color:var(--bad)" onclick="golpeMarcar('${d.id}')">🚩 Marcar como golpista</a></div>`}
 function golpeMarcar(id){const d=D.find(x=>x.id===id);if(!d)return;GOLPE.a.push(id);if(d.vendedor)GOLPE.v.push(d.vendedor);
  try{localStorage.setItem('golpe',JSON.stringify(GOLPE))}catch(e){}
  const fora=D.filter(golpeOculto).map(x=>x.id);fora.forEach(i=>document.querySelectorAll(`.c[data-id="${i}"]`).forEach(e=>e.remove()));

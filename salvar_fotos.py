@@ -28,7 +28,8 @@ MEDIA_IPHONE = {
 }
 
 # Galaxy: só os Ultra das buscas; "Capa Galaxy S25 Ultra" (acessório antes do modelo) não conta, "S25 Ultra com capa" conta
-GALAXY = re.compile(r"\bs\s?(25|26)\s*ultra")
+GALAXY = re.compile(r"\bs\s?(25|26)(?:\s*(ultra|plus|edge|fe)\b|\s*(\+))?")
+GALAXY_NOME = {"ultra": " Ultra", "plus": "+", "+": "+", "edge": " Edge", "fe": " FE"}
 GALAXY_PECA = re.compile(r"\bcapa|capinha|\bcase\b|pel[íi]cula|carregador|\bcabo\b|\bfone|display|\bpe[çc]a\b|carca[çc]a|\bcaneta\b|^s\s?pen")
 
 ALERTA = re.compile(r"(?<!sem )(?<!nenhum )defeito|queimad|retirada de pe[çc]a|(?<!tem )(?<!sem )trinca(do)?\b|quebrad|n[ãa]o liga"
@@ -49,8 +50,11 @@ def classificar(titulo, descricao):
         suf = {"pro max": " Pro Max", "pro": " Pro", "plus": " Plus", "mini": " mini", "e": "e"}.get(v, "")
         return "iPhone", f"iPhone {m.group(1)}{suf}"
     m = GALAXY.search(t)
-    if m:
-        return ("Outros", "Outros") if GALAXY_PECA.search(t[:m.start()]) else ("Galaxy", f"Galaxy S{m.group(1)} Ultra")
+    # S25 só o Ultra; S26 todas as versões. Sem "Ultra" só vale com "galaxy"/"samsung" no título ("s26" sozinho pode ser outra coisa)
+    if m and (m.group(2) == "ultra" or (m.group(1) == "26" and re.search(r"galaxy|samsung", t))):
+        if GALAXY_PECA.search(t[:m.start()]):
+            return "Outros", "Outros"
+        return "Galaxy", f"Galaxy S{m.group(1)}{GALAXY_NOME.get(m.group(2) or m.group(3), '')}"
     if re.search(r"\b(tv|televis|smart)", t):
         pol = (re.search(r"(\d{2})\s*(\"|”|pol|plg|p\b)", t) or re.search(r"\b(2[4-9]|[3-8]\d)\b", t)
                or re.search(r"(\d{2})\s*(\"|”|pol|plg)", descricao.lower()))

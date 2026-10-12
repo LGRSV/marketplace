@@ -39,7 +39,7 @@ LOG = os.path.join(DADOS, "coleta.log")
 MARKETPLACE = "https://www.facebook.com/marketplace/113043862042267"  # Palmas/TO
 BUSCAS = {
     "iphone": [f"iphone {n}{s}" for n in (13, 14, 15, 16, 17, 18) for s in ("", " pro", " pro max")],
-    "galaxy": ["galaxy s25 ultra", "galaxy s26 ultra"],
+    "galaxy": ["galaxy s25 ultra", "samsung s25 ultra", "galaxy s26 ultra", "galaxy s26", "samsung s26"],
     "tv": ["smart tv", "televisao"],
     "videogame": ["ps5", "ps4", "xbox", "nintendo switch", "playstation portal"],
 }

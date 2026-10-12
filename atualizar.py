@@ -1,7 +1,7 @@
 """
 Atualização contínua entre as coletas completas (agendada pelo agendar_atualizacao.ps1).
 
-    python atualizar.py novos  [--proj iphone|aluguel] [--max 5] [--buscas 3]
+    python atualizar.py novos  [--proj iphone|aluguel] [--max 6] [--buscas 4]
         A cada 2 horas: abre poucas buscas ordenadas por "mais recentes", pega até --max anúncios que
         ainda não estão no histórico, lê cada um (com fotos) e grava em dados/_anuncios_novos_<dia>.json.
         Depois refaz a página e publica no GitHub. Sem Haiku no iPhone (o modelo sai do título);
@@ -70,6 +70,10 @@ def preparar(nome):
     return proj, buscas
 
 
+PRIORIDADE = ["iphone 18", "iphone 18 pro", "iphone 18 pro max", "galaxy s25 ultra", "samsung s25 ultra",
+              "galaxy s26 ultra", "galaxy s26", "samsung s26"]
+N_PRIO = 2  # quantas buscas prioritárias por rodada (de --buscas)
+
 FILTRO = None  # no projeto iphone: só abre o que é iPhone 13+, TV ou console (o card da busca já traz o título)
 
 
@@ -128,7 +132,11 @@ async def buscar_novos(proj, buscas, maximo, n_buscas):
         try:
             pg = await nova_guia()
             fila = []
-            for k, termo in enumerate(random.sample(buscas, min(n_buscas, len(buscas)))):
+            # as buscas prioritárias (iPhone 18, Galaxy S25 Ultra/S26) entram em toda rodada; as outras são sorteadas
+            prio = [t for t in PRIORIDADE if t in buscas]
+            resto = [t for t in buscas if t not in prio]
+            termos = random.sample(prio, min(N_PRIO, len(prio))) + random.sample(resto, max(0, min(n_buscas - N_PRIO, len(resto))))
+            for k, termo in enumerate(termos):
                 if k:
                     await coleta.dormir(coleta.PAUSA_BUSCA)
                 await pg.goto(url_recentes(termo), wait_until="domcontentloaded")
@@ -212,8 +220,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("modo", choices=["novos", "diario"])
     ap.add_argument("--proj", choices=list(PROJETOS), default="iphone")
-    ap.add_argument("--max", type=int, default=5)
-    ap.add_argument("--buscas", type=int, default=3)
+    ap.add_argument("--max", type=int, default=6)
+    ap.add_argument("--buscas", type=int, default=4)
     ap.add_argument("--conferir", type=int, default=40)
     ap.add_argument("--conferir-novos", type=int, default=6, help="anúncios antigos conferidos em cada rodada 'novos'")
     a = ap.parse_args()
