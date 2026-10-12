@@ -68,10 +68,10 @@
   "ultimo_ativo": "2026-10-08"
  },
  "1010100041636036": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "Nintendo Switch",
   "precos": [
    [
     "2026-10-08",
@@ -600,7 +600,11 @@
   "status": "ativo",
   "titulo": "Tv smart 32 polegadas",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Julia Prado",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid031sDL828qxQsdefZApai3jBU7SHDPUSE44hDVPqrmfNpgPPczN2esjsYdyaDZEHyHl",
+  "verificado": "2026-10-12"
  },
  "1072759082180918": {
   "cat": "iPhone",
@@ -1076,10 +1080,10 @@
   "ultimo_ativo": "2026-10-08"
  },
  "1098524169282722": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-11",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "Nintendo Switch",
   "precos": [
    [
     "2026-10-11",
@@ -1168,10 +1172,10 @@
   "verificado": "2026-10-09"
  },
  "1102037812413508": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-11",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "PlayStation 4",
   "precos": [
    [
     "2026-10-11",
@@ -1534,6 +1538,26 @@
   "vendedor_id": "pfbid02PB2zYALV8vzjj2UdEvQzykudqd2pKukXxYhcvim42KGdC2prgMnrvU9SNjxgmggMl",
   "verificado": "2026-10-11"
  },
+ "1119692804184627": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-12",
+    4300
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "S25 ultra 256Gb",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Jonathan Souza Passos",
+  "vendedor_desde": 2009,
+  "vendedor_id": "pfbid02M78766v9U9hf4ZSZa6HGc9QSKTJ1r66L5KPMt3ZnzLRJ5MKVba7KtSLFD6AGfoxJl"
+ },
  "1119696780483598": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -1549,7 +1573,10 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Lucas Mendes",
+  "vendedor_id": "pfbid02hXBMTRkerCvafZEu9hTj1rL1LVy1NbkmukDRvjthq3qHm9wMKAXb63YGRtFSUtC3l",
+  "verificado": "2026-10-12"
  },
  "1120185333870506": {
   "cat": "iPhone",
@@ -1724,7 +1751,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 PRO MAX",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Kalebe Paz",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid036RB4MsL7prfHey2q2FZck5rUbSPBXMoK1xGC3FHrVPPznhTCwxqxuDTWfgRFQxj7l",
+  "verificado": "2026-10-12"
  },
  "1128184956530728": {
   "cat": "Videogame",
@@ -1900,6 +1931,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1266222493239447": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-12",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-12",
+    5500
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "S25 Ultra",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Bernardo Rotterdan",
+  "vendedor_desde": 2022,
+  "vendedor_id": "pfbid0fVn8yYfzSi9ukLUYgTJjo9YPpFX1DXQ76Fe95tkVw7rwEggq1e7muhvHqgM8C3xGl"
+ },
  "1271929901738085": {
   "cat": "iPhone",
   "data_status": "2026-10-10",
@@ -1920,10 +1971,10 @@
   "vendedor_id": "pfbid0gsiiKRrpLFm6dTiDKLLQ3XvMDqmiv3EEBe1sC1jaBR6tsmiTZRZohgnvbDH5BBkJl"
  },
  "1302689255138710": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "Nintendo Switch",
   "precos": [
    [
     "2026-10-08",
@@ -2522,7 +2573,7 @@
  },
  "1417795327220394": {
   "cat": "Videogame",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-12",
   "local": "Palmas, TO",
   "mod": "Xbox One",
   "precos": [
@@ -2532,10 +2583,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Xbox One S 500gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Netão Soares",
+  "vendedor_desde": 2020,
+  "vendedor_id": "pfbid02bsmToq4KbjTwrb1YsMSsBzpPwQK49XuVUn56qcRJhbhdCJ1DNRFnWfh22AJZeGtAl",
+  "verificado": "2026-10-12"
  },
  "1418099039714444": {
   "cat": "Videogame",
@@ -3296,10 +3351,10 @@
   "ultimo_ativo": "2026-10-08"
  },
  "1521321879802415": {
-  "cat": "TV",
+  "cat": "Videogame",
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
-  "mod": "TV 32 pol",
+  "mod": "Xbox 360",
   "precos": [
    [
     "2026-10-08",
@@ -3441,10 +3496,10 @@
   "ultimo_ativo": "2026-10-12"
  },
  "1555859855536199": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "PlayStation 4",
   "precos": [
    [
     "2026-10-08",
@@ -3458,10 +3513,10 @@
   "ultimo_ativo": "2026-10-08"
  },
  "1562826688930660": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-11",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "Xbox One",
   "precos": [
    [
     "2026-10-11",
@@ -3675,6 +3730,26 @@
   "vendedor": "Eduardo Garcia",
   "vendedor_id": "pfbid0YrbTpjit61exn6dmcyVeXAcEuaXgPEKPdmJRHX4kMuvNPsuo6T2JWzSxMELpmTk1l",
   "verificado": "2026-10-11"
+ },
+ "1611388350643049": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-12",
+    5299
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "Galaxy S25 Ultra 512Gb (impecável)",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Peter Richard",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid02QA9pcdLpMQpfSCfmUAfss8WRyVK2xL9p9G7ce4KisT5MArWKBnrLVn1FvfVXuoqkl"
  },
  "1611838097177495": {
   "data_status": "2026-10-08",
@@ -4232,10 +4307,10 @@
   "ultimo_ativo": "2026-10-09"
  },
  "1680577826824895": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-11",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "Xbox Series S",
   "precos": [
    [
     "2026-10-11",
@@ -4301,6 +4376,26 @@
   "titulo": "iPhone 16 pro max",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "1698362224691368": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S26 Ultra",
+  "precos": [
+   [
+    "2026-10-12",
+    8299
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "SAMSUNG GALAXY S26 ULTRA 512GB",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Wanderson Borges Araújo",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid02x62bQ2k4stMfeTDm154VA1sE7WBaBNKKRibRNkMaPuJQCxStRgQQpNAMnMkrGKJAl"
  },
  "1698881314536920": {
   "cat": "iPhone",
@@ -5041,7 +5136,7 @@
  },
  "1827412194936311": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-12",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro",
   "precos": [
@@ -5051,10 +5146,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 16 pro 128GB 95% bateria",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Marconi Muniz Monteiro",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid02RT55Df6DDNwhMEEJfDkA7zbQPKkMBHJuZsBJ12mQnAWpYu72ShhGz1s6xX3dcYsfl",
+  "verificado": "2026-10-12"
  },
  "1828883418121028": {
   "cat": "Videogame",
@@ -5071,7 +5170,11 @@
   "status": "ativo",
   "titulo": "Playstation 5 fat 1tb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Henrique Alves",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid0eZB3aDJgG8i4W8LbdXfQrZ7ShKPzYKVegKDqHsxrhoJE29RtDH6yqCRDRpP6xpfql",
+  "verificado": "2026-10-12"
  },
  "1832915991048085": {
   "cat": "iPhone",
@@ -5289,6 +5392,26 @@
   "ultima_coleta": "2026-10-10",
   "ultimo_ativo": "2026-10-10"
  },
+ "1885389839513362": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-12",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-12",
+    5500
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "Galaxy S25 ULTRA 512GB",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Bernardo Rotterdan",
+  "vendedor_desde": 2022,
+  "vendedor_id": "pfbid0fVn8yYfzSi9ukLUYgTJjo9YPpFX1DXQ76Fe95tkVw7rwEggq1e7muhvHqgM8C3xGl"
+ },
  "1889808115542986": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -5440,10 +5563,10 @@
   "ultimo_ativo": "2026-10-08"
  },
  "1978146059521947": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "Nintendo Switch",
   "precos": [
    [
     "2026-10-08",
@@ -5496,6 +5619,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
+ },
+ "1987229428619615": {
+  "cat": "Galaxy",
+  "data_status": "2026-10-12",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-10-12",
+    5500
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "Galaxy s25 Ultra",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Bernardo Rotterdan",
+  "vendedor_desde": 2022,
+  "vendedor_id": "pfbid0fVn8yYfzSi9ukLUYgTJjo9YPpFX1DXQ76Fe95tkVw7rwEggq1e7muhvHqgM8C3xGl"
  },
  "1991238274918078": {
   "cat": "iPhone",
@@ -5586,10 +5729,10 @@
   "ultimo_ativo": "2026-10-08"
  },
  "2003810963621454": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-11",
   "local": "Porto Nacional, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "Nintendo Switch",
   "precos": [
    [
     "2026-10-11",
@@ -6364,10 +6507,10 @@
   "verificado": "2026-10-09"
  },
  "2492594524600367": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "PlayStation 4",
   "precos": [
    [
     "2026-10-08",
@@ -7181,10 +7324,10 @@
   "ultimo_ativo": "2026-10-08"
  },
  "38779129438401588": {
-  "cat": "Jogos e acessórios",
+  "cat": "Videogame",
   "data_status": "2026-10-09",
   "local": "Palmas, TO",
-  "mod": "Jogos e acessórios",
+  "mod": "PlayStation 4",
   "precos": [
    [
     "2026-10-09",
