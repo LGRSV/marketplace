@@ -5,3 +5,5 @@ pagina/
 __pycache__/
 *.log
 *.tmp
+index.html
+s/

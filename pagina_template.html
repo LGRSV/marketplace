@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="app-page" content="marketplace">
 <title>Oportunidades Marketplace</title>
 <style>
 :root{--bg:#f3f4f7;--card:#fff;--tx:#1c1e21;--mut:#65676b;--bd:#dfe2e7;--ac:#1877f2;--acs:#e7f0fe;--ok:#1a7f37;--oks:#e6f4ea;--bad:#c62828;--bads:#fdecea;--warn:#b26a00;--warns:#fff4e0;--hi:#fffaf0;--sh:0 1px 3px #0000000f,0 4px 14px #0000000a}
@@ -8,7 +8,8 @@
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.45 system-ui,Segoe UI,Roboto,sans-serif}
 .in{max-width:1400px;margin:0 auto;padding:0 16px}
 header{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--bd);box-shadow:var(--sh)}
-.top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-top:12px}
+.top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding-top:calc(12px + env(safe-area-inset-top))}
+.voltar{display:grid;place-items:center;flex:none;width:36px;height:36px;border:1px solid var(--bd);border-radius:11px;color:var(--tx);text-decoration:none}.voltar svg{width:19px;height:19px}
 h1{margin:0;font-size:19px}.sub{color:var(--mut);font-size:13px}
 /* abas das buscas */
 #cats{display:flex;gap:4px;overflow-x:auto;margin-top:10px;scrollbar-width:none}#cats::-webkit-scrollbar{display:none}
@@ -60,8 +61,9 @@ table.md tr.z td{color:var(--mut)}.pos{display:inline-block;width:22px;height:22
 .x{float:right;background:none;border:0;font-size:26px;color:var(--mut);cursor:pointer;line-height:1}
 footer{color:var(--mut);font-size:12px;padding:24px 0 40px}
 </style></head><body>
+<script>(function(){function h(){try{for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!k||!/^sb-.*-auth-token$/.test(k))continue;var r=JSON.parse(localStorage.getItem(k)||"null");var s=r&&(r.currentSession||r.session||r);if(s&&(s.refresh_token||s.access_token))return true;}}catch(_){}return false;}if(!h()){location.replace("../?locked=1");}})();</script>
 <header><div class="in">
-<div class="top"><h1>Oportunidades no Marketplace — Palmas/TO</h1><span class="sub" id="sub"></span></div>
+<div class="top"><a class="voltar" href="../" aria-label="Voltar para a agenda"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></a><h1>Oportunidades no Marketplace — Palmas/TO</h1><span class="sub" id="sub"></span></div>
 <nav id="cats"></nav>
 </div></header>
 <div class="in">
