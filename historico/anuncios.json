@@ -34,6 +34,22 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1003955349380229": {
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-12",
+    18
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "Cases Iphone 17 base",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12"
+ },
  "1005170535645530": {
   "cat": "Jogos e acessórios",
   "data_status": "2026-10-08",
@@ -3099,15 +3115,21 @@
    [
     "2026-10-08",
     3199
+   ],
+   [
+    "2026-10-12",
+    3000
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "iPhone 15",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08",
+  "ultimo_ativo": "2026-10-12",
   "vendedor": "Rafael Elias Batista Rodrigues",
-  "vendedor_id": "100053008161696"
+  "vendedor_desde": 2020,
+  "vendedor_id": "100053008161696",
+  "verificado": "2026-10-12"
  },
  "1495075672424109": {
   "cat": "iPhone",
@@ -3208,7 +3230,10 @@
   "status": "ativo",
   "titulo": "Vende-se PSPortal",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Rafael Guollo",
+  "vendedor_id": "pfbid032THbZFcXc9yZC3uF5LDhVXfVkDwwkkAgbHKdYFXzsUtXNUoxDGy71pMTj5yMDqaLl",
+  "verificado": "2026-10-12"
  },
  "1517248066826567": {
   "cat": "iPhone",
@@ -3354,6 +3379,23 @@
   "ultimo_ativo": "2026-10-10",
   "vendedor": "Davi Pimentel Parente",
   "vendedor_id": "pfbid02KA69adr75rRR5cdN9zrkxBcYzc39zmF2MtTmAS3vQBu7WDCbPhAvrxp8XPNSQKoml"
+ },
+ "1548087180520985": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    3000
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro Max 128GB Azul",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12"
  },
  "1555859855536199": {
   "cat": "Jogos e acessórios",
@@ -3873,6 +3915,23 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1634623091675924": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-10-12",
+    1500
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iphone 13 126g",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12"
+ },
  "1635939648183440": {
   "cat": "TV",
   "data_status": "2026-10-08",
@@ -3888,7 +3947,11 @@
   "status": "ativo",
   "titulo": "Smart TV 32 Polegadas Semp",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Claudio Calebe",
+  "vendedor_desde": 2013,
+  "vendedor_id": "pfbid036KvzYuTqRcBCPbezbzRaLBvZXLgMDoFHUH5QYiKVRnW6F86kvWTFCgL53ErE8Bokl",
+  "verificado": "2026-10-12"
  },
  "1636367178197277": {
   "cat": "iPhone",
@@ -4724,6 +4787,23 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1780341919909382": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    2000
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "IPhone 13 Pro Max",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12"
+ },
  "1781004756511506": {
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
@@ -5310,7 +5390,11 @@
   "status": "ativo",
   "titulo": "NINTENDO SWITCH DESBLOQUEADO – 512 GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Tarick Victor Rodrigues",
+  "vendedor_desde": 2012,
+  "vendedor_id": "100003887535516",
+  "verificado": "2026-10-12"
  },
  "1980813569289129": {
   "data_status": "2026-10-08",
@@ -6157,7 +6241,7 @@
  },
  "2477462216083872": {
   "cat": "Videogame",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-12",
   "local": "Porto Nacional, TO",
   "mod": "PlayStation 5",
   "precos": [
@@ -6167,10 +6251,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Ps5",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Kael Silva",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid0258UWZEMLQnFJaSeyigAunyNbtEhqprqKMLLwKEizi7mqVtSNNKGJKAapgB2yK2Uxl",
+  "verificado": "2026-10-12"
  },
  "2486411268546987": {
   "cat": "iPhone",
@@ -6706,6 +6794,23 @@
   "titulo": "Xbox 360",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
+ },
+ "28869382192693247": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-10-12",
+    2000
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "Vendo iPhone 13 128 giga",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12"
  },
  "2926749414354005": {
   "cat": "iPhone",
@@ -7796,7 +7901,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 Pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Edilene Donato",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid0ktSwP27rCyrLnb3KN9aAbcJeQ6xqQ674GPPR3LGDdGGkY2FXK2q9ZiBjeraDdiQpl",
+  "verificado": "2026-10-12"
  },
  "998507572543833": {
   "cat": "Videogame",
