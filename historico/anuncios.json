@@ -321,7 +321,8 @@
   "status": "ativo",
   "titulo": "Jogos Mídia Física de PS4 PS5 e Xbox 360",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "verificado": "2026-10-12"
  },
  "1053328484328809": {
   "cat": "Videogame",
@@ -359,7 +360,8 @@
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "verificado": "2026-10-12"
  },
  "1055548867187549": {
   "cat": "iPhone",
@@ -580,7 +582,8 @@
   "status": "ativo",
   "titulo": "iPhone 15",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "verificado": "2026-10-12"
  },
  "1072538475545626": {
   "cat": "TV",
@@ -2497,6 +2500,26 @@
   "vendedor": "Alessandro Almeida",
   "vendedor_id": "pfbid0wBVujmcdmBxaykKWKn5cnYJfqECi7irRaNw6UAXEpZCE78h1GKHgUpouFCG4pjGFl"
  },
+ "1415435364048855": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "iPhone 14 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    3400
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 14 Pro Max Dourado",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Humberto Doreto",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid025dXQP97PMerGA3JszbdfXjRnor1qgspPZ11L8nrCbnVM4nXXDt98VfKMz9s6J2SAl"
+ },
  "1417795327220394": {
   "cat": "Videogame",
   "data_status": "2026-10-08",
@@ -2827,6 +2850,26 @@
   "vendedor": "Manuele Samara",
   "vendedor_id": "pfbid02LuSKhBXAHvNjiXiG9pbHFB6yFtpgAQwkPCi9iiD6861BdqkAHaCVs5QSqHrC79hDl",
   "verificado": "2026-10-11"
+ },
+ "1447481507295057": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15",
+  "precos": [
+   [
+    "2026-10-12",
+    3099
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 15 128 Gb impecável ✅",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Anny Castro",
+  "vendedor_desde": 2025,
+  "vendedor_id": "61578636938673"
  },
  "1449609027174390": {
   "cat": "iPhone",
@@ -3647,7 +3690,8 @@
   "status": "ativo",
   "titulo": "iPhone sabor 17 256gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "verificado": "2026-10-12"
  },
  "1616444869888934": {
   "cat": "iPhone",
@@ -4820,6 +4864,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1789386748861795": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14 Pro",
+  "precos": [
+   [
+    "2026-10-12",
+    3300
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "IPHONE 14 PRO 128GB - TODO ORIGINAL",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Gabriel Souza",
+  "vendedor_desde": 2010,
+  "vendedor_id": "pfbid02ZQheu6iTbSYGbT7Zqhpns3kCKmKAFgy2zLpD9bP6o7FAhwmdiQTXo8b3HLDnp9ufl"
+ },
  "1789856765670093": {
   "cat": "iPhone",
   "data_status": "2026-10-09",
@@ -5628,6 +5692,26 @@
   "ultima_coleta": "2026-10-09",
   "ultimo_ativo": "2026-10-09"
  },
+ "2085684462056944": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-12",
+    4000
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 15 Pro 256gb Saúde Bateria 100% e original",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Emanuelle Carmo",
+  "vendedor_desde": 2014,
+  "vendedor_id": "pfbid0ivsMq1Z8s6xVnteAsSNRYJCQRRJYuGgzhgvZkKXpU8JUj2mUy6Twp1pYx4zhKX5Zl"
+ },
  "2087030485181217": {
   "data_status": "2026-10-08",
   "local": "Palmas, TO",
@@ -5679,7 +5763,8 @@
   "status": "ativo",
   "titulo": "📺 Smart TV Samsung 32” em ótimo estado, super conservada",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "verificado": "2026-10-12"
  },
  "2116575769287820": {
   "cat": "Jogos e acessórios",
@@ -6514,6 +6599,26 @@
   "ultima_coleta": "2026-10-09",
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-11"
+ },
+ "27663200190022463": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    2999
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 14 Pro Max",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Joao Philipe",
+  "vendedor_desde": 2011,
+  "vendedor_id": "100003217497644"
  },
  "2777682155962625": {
   "cat": "TV",
@@ -7513,13 +7618,18 @@
    [
     "2026-10-08",
     1600
+   ],
+   [
+    "2026-10-12",
+    1500
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Televisão 55 polegadas",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "verificado": "2026-10-12"
  },
  "919723074314066": {
   "cat": "iPhone",
