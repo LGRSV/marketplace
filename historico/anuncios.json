@@ -180,7 +180,11 @@
   "status": "ativo",
   "titulo": "IPHONE 15PROMAX 512GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Anna Rodrigues",
+  "vendedor_desde": 2014,
+  "vendedor_id": "100007486656165",
+  "verificado": "2026-10-12"
  },
  "1033848492823189": {
   "cat": "iPhone",
@@ -844,6 +848,26 @@
   "vendedor": "Thiago Lima",
   "vendedor_id": "pfbid024ub3x5eq2RaAfsvomjjZA32mT5nhmoCisYjzyUUYVbAoqxa1YBnqFU8G3aJ7Zbg1l"
  },
+ "1083342294689160": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-12",
+    4250
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 15 PRO 256GB",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Vinicius Taveira Rocha",
+  "vendedor_desde": 2010,
+  "vendedor_id": "100000648724398"
+ },
  "1084836144154201": {
   "data_status": "2026-10-08",
   "local": "Nova Rosalândia, TO",
@@ -1271,6 +1295,26 @@
   "ultimo_ativo": "2026-10-11",
   "vendedor": "Sérgio Kastro",
   "vendedor_id": "pfbid03CRhGWtjLa9CwJWXW7z23yGKgmctQmGMqxSsS87gdrjYKEoSqRaZTy9j6ygCDji3l"
+ },
+ "1104671299120835": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    4800
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 15 pro Max",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "João Ricardo Zampieri",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid025hto8UwULCf26GgFAEpFNN94yDVyJ4eFxmrK7iKs8asmovjXA6H2Hr1cCWRF3fptl"
  },
  "1105510775702378": {
   "cat": "iPhone",
@@ -1766,7 +1810,11 @@
   "status": "ativo",
   "titulo": "Controle ps4 original",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Jorge Ribeiro",
+  "vendedor_desde": 2018,
+  "vendedor_id": "pfbid0ezWbpU3VUsuxTfFAn6DjZM4gRmiRNtgejfNahzf3Hqxs6NZ64TQ5SiBxWiduoam8l",
+  "verificado": "2026-10-12"
  },
  "1126735453251112": {
   "cat": "iPhone",
@@ -2292,7 +2340,11 @@
   "status": "ativo",
   "titulo": "VENDO TV PHILIPS 32\" HD",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Dhone Milton",
+  "vendedor_desde": 2013,
+  "vendedor_id": "100005712154354",
+  "verificado": "2026-10-12"
  },
  "1393827582771283": {
   "cat": "Videogame",
@@ -2763,7 +2815,7 @@
  },
  "1422112613427592": {
   "cat": "Jogos e acessórios",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-12",
   "local": "Palmas, TO",
   "mod": "Jogos e acessórios",
   "precos": [
@@ -2773,10 +2825,31 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Painel de televisão",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "verificado": "2026-10-12"
+ },
+ "1423730533195642": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    3800
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "VENDO IPHONE 15 PRO MAX",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Giovanna Barbosa",
+  "vendedor_desde": 2025,
+  "vendedor_id": "pfbid02GtVXc8JyvQ5iXHQ1yXokVQK6PLsxyBQPgxgmdujzSx7hjqP4MCFouxMBe9jZLqegl"
  },
  "1425694496360985": {
   "cat": "iPhone",
@@ -3255,7 +3328,11 @@
   "status": "ativo",
   "titulo": "PS PORTAL - PLAYSTATION PORTAL",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Allaylson Sousa",
+  "vendedor_desde": 2021,
+  "vendedor_id": "pfbid02UYwUhT92EvaDbxzFpQn6v1NmWmdu7j5UsWfwkymV7nmraAcp8oxxaNWLPNYRZubPl",
+  "verificado": "2026-10-12"
  },
  "1489016963059205": {
   "cat": "iPhone",
@@ -4318,6 +4395,26 @@
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
  },
+ "1648295950091964": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-12",
+    3599
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "IPHONE 15 PRO TODO ORIGINAL",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Davi Pimentel Parente",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid02Jyw9HVaNGQddmczUBCGy6GzqCMRHntfUsBkGLiZisfiW8E5muCrG2hYd8mGsVYLWl"
+ },
  "1660604335599236": {
   "cat": "iPhone",
   "data_status": "2026-10-12",
@@ -4973,7 +5070,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 16 pro Max 256G",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Fellipe Marcelo",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid038MswR2DXuAZbz3475Yr8xcmrXibV491PqfMfYsoqv8BHfYHq9nzuVZKzpekTACUnl",
+  "verificado": "2026-10-12"
  },
  "1768935517675578": {
   "cat": "iPhone",
@@ -4995,6 +5096,26 @@
   "vendedor_desde": 2026,
   "vendedor_id": "61587227034759",
   "verificado": "2026-10-12"
+ },
+ "1769630067452994": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    4200
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "iPhone 15 Pro max pego qualquer coisa na troca",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Eduardo Oliveira",
+  "vendedor_desde": 2020,
+  "vendedor_id": "pfbid021ZXFaQmWzXaVKCH9XMjjXfPezKVe6e7noqPHDZxTDXsFkSMAQWjofLM9S8xvAx7xl"
  },
  "1773417947240736": {
   "cat": "iPhone",
@@ -5325,6 +5446,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1822111755906993": {
+  "cat": "iPhone",
+  "data_status": "2026-10-12",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro Max",
+  "precos": [
+   [
+    "2026-10-12",
+    1700
+   ]
+  ],
+  "primeiro_visto": "2026-10-12",
+  "status": "ativo",
+  "titulo": "Iphone 15 pro max completo com caixa nota e acessórios originais tudo funcionando perfeitamente",
+  "ultima_coleta": "2026-10-12",
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Lukas Castro",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid02E4tvAXibDkpx4Mutw4sXeiJ1gGMv3VPcVkSGJQJpcihLB4o3iaPMeubQiK5gNzZSl"
+ },
  "1827412194936311": {
   "cat": "iPhone",
   "data_status": "2026-10-12",
@@ -5420,7 +5561,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro Impecável",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Ruth Ellen Plácido",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid02ZmfqqFGHgVoMbBeStTFB25xA2vjUKyk2xvpoDbrinZ32SnMabnBCrq9TVvupnZeJl",
+  "verificado": "2026-10-12"
  },
  "1837699750592075": {
   "cat": "iPhone",
@@ -7021,7 +7166,10 @@
   "status": "ativo",
   "titulo": "Televisão+smart",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Morena Vsb",
+  "vendedor_id": "pfbid02LPWnEtN1m2ff1oU4bbZ2K5vDzKgkVanYifAnqpX3wAB3QQxSXj9taSQmQZQrzBVwl",
+  "verificado": "2026-10-12"
  },
  "27857916443887495": {
   "cat": "iPhone",
@@ -8093,7 +8241,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max 256gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Ana Gabriele Silva",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid02hFLtx3KLEjm8jUwSCrty3VAavc73Au2FNhUJYGGejhSdJt5TwApAhqJam6SKEGiPl",
+  "verificado": "2026-10-12"
  },
  "925523606818938": {
   "cat": "Jogos e acessórios",
@@ -8110,7 +8262,11 @@
   "status": "ativo",
   "titulo": "Desbloqueio Nintendo Switch",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-12",
+  "vendedor": "Baroi Info Games",
+  "vendedor_desde": 2022,
+  "vendedor_id": "100078775220646",
+  "verificado": "2026-10-12"
  },
  "935428929151660": {
   "cat": "iPhone",
