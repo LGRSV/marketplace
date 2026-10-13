@@ -19,6 +19,7 @@ from PIL import Image
 
 import golpistas
 import historico
+import privado
 
 sys.stdout.reconfigure(encoding="utf-8")
 PROJ = Path(__file__).resolve().parent
@@ -165,12 +166,17 @@ for d in D:  # preço bom demais: avisa
     if d["destaque"] and ((pct is not None and pct <= -35) or re.search(r"(\d+)% abaixo", d["destaque"]) and int(re.search(r"(\d+)% abaixo", d["destaque"]).group(1)) >= 35):
         d["destaque"] += " ⚠ Muito abaixo do normal: confira bem, pode ser golpe."
 
-# Tiras de fotos em s/<id>.jpg: cada uma é criada uma vez só, então cada publicação leva só as novas.
+# Tiras de fotos em s/<hmac do id>.jpg (o nome não revela o anúncio): cada uma é criada uma vez só, então cada
+# publicação leva só as novas.
 TIRAS = PROJ / "s"
 TIRAS.mkdir(exist_ok=True)
+ACESSOS = privado.carregar()
 for d in D:
     fotos = d["fotos"][:MAXF]
-    arq = TIRAS / f"{d['id']}.jpg"
+    nome = privado.nome_tira(d["id"], ACESSOS)
+    arq = TIRAS / f"{nome}.jpg"
+    if (TIRAS / f"{d['id']}.jpg").exists() and not arq.exists():  # tira do tempo em que o nome era o id
+        (TIRAS / f"{d['id']}.jpg").rename(arq)
     if fotos and not arq.exists():
         tira = Image.new("RGB", (LADO * len(fotos), LADO), (0, 0, 0))
         for i, f in enumerate(fotos):
@@ -178,11 +184,11 @@ for d in D:
             im.thumbnail((LADO, LADO))
             tira.paste(im, (i * LADO + (LADO - im.width) // 2, (LADO - im.height) // 2))
         tira.save(arq, "JPEG", quality=52, optimize=True)
-    d["tira"], d["nf"] = f"s/{d['id']}.jpg", len(fotos)
+    d["tira"], d["nf"] = f"s/{nome}.jpg", len(fotos)
     for k in ("fotos", "pasta"):
         d.pop(k, None)
 for velha in TIRAS.glob("*.jpg"):  # anúncio que saiu da página leva a tira junto
-    if velha.stem not in {d["id"] for d in D}:
+    if velha.stem not in {d["tira"][2:-4] for d in D}:
         velha.unlink()
 
 historico.definir_modelos(PROJ, {d["id"]: (d["cat"], d["mod"]) for d in D})
@@ -195,9 +201,9 @@ evol[date.today().isoformat() if len(sys.argv) < 2 else "-".join(reversed(DATA.s
 arq_m.parent.mkdir(exist_ok=True)
 arq_m.write_text(json.dumps(evol, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 resumo = {"data": DATA, "hora": datetime.now().strftime("%H:%M"), "medias": {k: v for k, v in sorted(medias.items())}, "vendas": vendas}
+# Os anúncios vão criptografados (privado.py): o HTML público não tem nenhum dado legível sem a senha.
 (PROJ / "index.html").write_text(tpl.replace("__GOLPE__", golpistas.pagina_js(PROJ))
-                                .replace("__DADOS__", json.dumps(D, ensure_ascii=False).replace("</", "<\\/"))
-                                .replace("__RESUMO__", json.dumps(resumo, ensure_ascii=False)), encoding="utf-8")
+                                .replace("__COFRE__", json.dumps(privado.cifrar({"D": D, "R": resumo}))), encoding="utf-8")
 tam = ((PROJ / "index.html").stat().st_size + sum(f.stat().st_size for f in TIRAS.glob("*.jpg"))) / 1e6
 print(len(D), "anúncios |", sum(1 for d in D if d["destaque"]), "destaques |", f"página + fotos: {tam:.1f} MB")
 for k, (v, q, _, mo, vz) in sorted(medias.items()):

@@ -86,10 +86,26 @@ table.md td:first-child,table.md th:first-child{text-align:left}table.md tr.z td
 footer{padding:24px 0 calc(40px + env(safe-area-inset-bottom));color:var(--faint);font-size:12px}
 @media (max-width:760px){#mod{padding:8px}#mod .box{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr;padding:14px}.filtros{grid-template-columns:1fr 1fr}.filtros input{grid-column:1/-1}
  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.row{grid-auto-columns:46%}.c{border-radius:17px}.p{font-size:17px}.c .b{padding:9px 10px 11px}}
+/* cofre: os anúncios vêm criptografados; só abrem com a senha de quem foi liberado (privado.py) */
+html.trancado body>*:not(header):not(#cofre){display:none!important}
+#cofre{display:none;max-width:420px;margin:8vh auto 0;padding:0 16px}
+html.trancado #cofre{display:block}
+#cofre form{display:grid;gap:12px;padding:22px;border:1px solid var(--line);border-radius:24px;background:var(--surface);box-shadow:var(--shadow)}
+#cofre h2{margin:0;font-size:20px}#cofre p{margin:0;color:var(--muted);font-size:14px;line-height:1.45}
+#cofre input[type=password]{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:15px;background:var(--soft);color:var(--text);font:inherit;font-size:16px}
+#cofre label{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:14px}
+#cofre button{padding:13px;border:0;border-radius:15px;background:var(--accent);color:var(--accentInk);font:inherit;font-weight:750;font-size:15px}
+#cofre button:disabled{opacity:.6}#cofreMsg{min-height:1.2em;font-size:14px;color:var(--muted)}#cofreMsg.erro{color:var(--bad)}
+.esquecer{display:block;margin:-30px 0 40px;color:var(--faint);font-size:12px;background:none;border:0;padding:0;text-decoration:underline}
 </style></head><body>
-<script>(function(){function h(){try{for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(!k||!/^sb-.*-auth-token$/.test(k))continue;var r=JSON.parse(localStorage.getItem(k)||"null");var s=r&&(r.currentSession||r.session||r);if(s&&(s.refresh_token||s.access_token))return true;}}catch(_){}return false;}if(!h()){location.replace("../?locked=1");}})();</script>
 <header class="in"><div class="topbar"><a class="voltar" href="../" aria-label="Voltar para a agenda"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></a>
 <div><span class="eyebrow">Marketplace · Palmas/TO</span><h1>Oportunidades</h1><span class="sub" id="sub"></span></div></div></header>
+<div id="cofre"><form id="cofreForm" autocomplete="on"><h2>🔒 Acesso restrito</h2>
+<p>Os anúncios desta página são criptografados. Digite a sua senha de acesso.</p>
+<input type="text" name="username" value="marketplace" autocomplete="username" hidden>
+<input id="cofreSenha" type="password" autocomplete="current-password" placeholder="Senha" required>
+<label><input id="cofreLembrar" type="checkbox" checked> Lembrar neste aparelho</label>
+<button id="cofreBotao">Entrar</button><div id="cofreMsg" role="status"></div></form></div>
 <div class="barra"><div class="in"><nav id="cats"></nav></div></div>
 <div class="in">
 <div class="views" id="views"><button data-v="a">🛒 Anúncios</button><button data-v="m">💲 Preço médio</button><button data-v="r">📈 Ranking de vendas</button></div>
@@ -111,9 +127,9 @@ footer{padding:24px 0 calc(40px + env(safe-area-inset-bottom));color:var(--faint
 </div>
 <div id="mod"><div class="box"><div class="gal"><div class="big ph" id="big"></div><button class="nav prev" id="pv">‹</button><button class="nav next" id="nx">›</button><div class="th" id="th"></div></div>
 <div class="det" id="det"></div></div></div>
-<script>
-const D=__DADOS__;__GOLPE__
-const R=__RESUMO__;
+<script type="text/plain" id="app">
+const D=window.__D;__GOLPE__
+const R=window.__R;
 const $=id=>document.getElementById(id);
 const bg=(d,i)=>`background-image:url(${d.tira});background-size:${d.nf*100}% 100%;background-position:${d.nf>1?i/(d.nf-1)*100:0}% 0`;
 const fmt=v=>'R$ '+v.toLocaleString('pt-BR');
@@ -193,4 +209,29 @@ $('sub').textContent=`Atualizado em ${R.data}${R.hora?' às '+R.hora:''} · ${D.
 $('aviso').textContent='Confira no Facebook se o anúncio ainda está ativo antes de chamar o vendedor. Preço muito abaixo do normal pode ser golpe.';
 $('rod').textContent='Atualizado automaticamente de 2 em 2 horas (7h–21h). Cada anúncio é comparado com a média do mesmo modelo na região de Palmas.';
 tudo();
+</script>
+<script>
+(()=>{const COFRE=__COFRE__,LS='marketplace_chaves',H=document.documentElement;
+const u8=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0)),b64=b=>btoa(String.fromCharCode(...new Uint8Array(b)));
+const lidas=()=>{try{return JSON.parse(localStorage.getItem(LS)||'{}')||{}}catch(_){return{}}};
+const aes=(raw,uso)=>crypto.subtle.importKey('raw',raw,'AES-GCM',false,[uso]);
+async function abrir(kek,sl){const k=await crypto.subtle.decrypt({name:'AES-GCM',iv:u8(sl.iv)},await aes(kek,'decrypt'),u8(sl.k));
+ const t=await crypto.subtle.decrypt({name:'AES-GCM',iv:u8(COFRE.iv)},await aes(k,'decrypt'),u8(COFRE.ct));return JSON.parse(new TextDecoder().decode(t))}
+async function derivar(senha,salt){const base=await crypto.subtle.importKey('raw',new TextEncoder().encode(senha),'PBKDF2',false,['deriveBits']);
+ return crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:u8(salt),iterations:COFRE.iter},base,256)}
+function iniciar(x){window.__D=x.D;window.__R=x.R;H.classList.remove('trancado');document.getElementById('cofre').remove();
+ const s=document.createElement('script');s.textContent=document.getElementById('app').textContent;document.body.appendChild(s);
+ const b=document.createElement('button');b.className='esquecer in';b.textContent='Esquecer a senha neste aparelho';
+ b.onclick=()=>{try{localStorage.removeItem(LS)}catch(_){}location.reload()};document.body.appendChild(b)}
+const msg=(t,erro)=>{const m=document.getElementById('cofreMsg');m.textContent=t;m.classList.toggle('erro',!!erro)};
+H.classList.add('trancado');
+(async()=>{const S=lidas();for(const sl of COFRE.slots)if(S[sl.salt]){try{return iniciar(await abrir(u8(S[sl.salt]),sl))}catch(_){}}
+ document.getElementById('cofreSenha').focus()})();
+document.getElementById('cofreForm').onsubmit=async e=>{e.preventDefault();const bt=document.getElementById('cofreBotao'),senha=document.getElementById('cofreSenha').value;
+ bt.disabled=true;msg('Conferindo a senha…');
+ for(const sl of COFRE.slots){let kek,x;try{kek=await derivar(senha,sl.salt);x=await abrir(kek,sl)}catch(_){continue}
+  if(document.getElementById('cofreLembrar').checked){const S=lidas();S[sl.salt]=b64(kek);try{localStorage.setItem(LS,JSON.stringify(S))}catch(_){}}
+  return iniciar(x)}
+ bt.disabled=false;msg('Senha incorreta.',true)};
+})();
 </script></body></html>
