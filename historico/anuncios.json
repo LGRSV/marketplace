@@ -223,9 +223,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max 256GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08",
+  "ultimo_ativo": "2026-10-13",
   "vendedor": "Jeferson Maia",
-  "vendedor_id": "pfbid023qEENMhWvbzVJf5SBm9acbQt9K5zPiDp53AV32k7uJ3vujYeS7rSHhZbMrHey9orl"
+  "vendedor_desde": 2016,
+  "vendedor_id": "pfbid02492kdrzyvonyx8eDpkU9RKZkC8H4hA7FKbXaiLv1qLUEd9ZB29xjvEo4K1eDzxqpl",
+  "verificado": "2026-10-13"
  },
  "1035408039518450": {
   "cat": "iPhone",
@@ -661,7 +663,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro 256GB titânio preto",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "José Lucas Marques",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid0beSkaKsymYHZEbihLUoLrc2fNAMnpoywbWry3xcc4JFPXvFsVLcoryb9LPr76UWEl",
+  "verificado": "2026-10-13"
  },
  "1074230271847916": {
   "cat": "TV",
@@ -1785,7 +1791,11 @@
   "status": "ativo",
   "titulo": "VENDE-SE IPHONE 15 PRO MAX 512GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Ribeiro Santos Diogo",
+  "vendedor_desde": 2012,
+  "vendedor_id": "pfbid07CVsARLuxckj6YHzxsFduwGQXpQTpGqL6hk5iA6SKMQTbKnYRF35Pf7NwHSy5Zyhl",
+  "verificado": "2026-10-13"
  },
  "1124121080080158": {
   "cat": "iPhone",
@@ -2109,6 +2119,26 @@
   "ultimo_ativo": "2026-10-10",
   "vendedor": "Gabriel Pimentel",
   "vendedor_id": "pfbid0gsiiKRrpLFm6dTiDKLLQ3XvMDqmiv3EEBe1sC1jaBR6tsmiTZRZohgnvbDH5BBkJl"
+ },
+ "1278323695374929": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-13",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-13",
+    200
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "Jogos ps4",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Kauã Henrique",
+  "vendedor_desde": 2020,
+  "vendedor_id": "pfbid02epF8NCCWnJ1SaoE23qUmAbaufyuHZ8icjVJ2P6QWU6edfzpAJf14bF5jY6y7B9K6l"
  },
  "1302689255138710": {
   "cat": "Videogame",
@@ -2753,6 +2783,26 @@
   "ultimo_ativo": "2026-10-11",
   "vendedor": "Alessandro Almeida",
   "vendedor_id": "pfbid0wBVujmcdmBxaykKWKn5cnYJfqECi7irRaNw6UAXEpZCE78h1GKHgUpouFCG4pjGFl"
+ },
+ "1413732166952381": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-13",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-13",
+    1600
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "Troco jogo de rodas 17 por Ps4, notebook, pc gamer",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Luiz Ribeiro",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid0xL1UjfXapRaAVapMu9uuYtpS6tTXqpcJSwD8s6mQgwTgF1fXi9qbGi7LeWx6dfeVl"
  },
  "1415435364048855": {
   "cat": "iPhone",
@@ -4663,7 +4713,11 @@
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Jose Luiz Coelho",
+  "vendedor_desde": 2016,
+  "vendedor_id": "100011343653052",
+  "verificado": "2026-10-13"
  },
  "1670411181315111": {
   "cat": "iPhone",
@@ -4892,6 +4946,26 @@
   "titulo": "iPhone 14 Pro 256GB",
   "ultima_coleta": "2026-10-09",
   "ultimo_ativo": "2026-10-09"
+ },
+ "1713246063683065": {
+  "cat": "Videogame",
+  "data_status": "2026-10-13",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-10-13",
+    3200
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "Ps5 FAT",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Marcos Vinícius",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid02XYurwY56yNCYoxvJgWZQq4PrG7i2KKiKaV4tmHxkrkCX3Pb6mWrgQKYzLgzUh87Wl"
  },
  "1717945525902860": {
   "data_status": "2026-10-08",
@@ -5179,6 +5253,26 @@
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
  },
+ "1755245508910585": {
+  "cat": "Videogame",
+  "data_status": "2026-10-13",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-10-13",
+    1700
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "Ps4 slim 1tb Desbl0que4ad0",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Marcos Vinícius",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid02XYurwY56yNCYoxvJgWZQq4PrG7i2KKiKaV4tmHxkrkCX3Pb6mWrgQKYzLgzUh87Wl"
+ },
  "1756912218871155": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -5188,15 +5282,21 @@
    [
     "2026-10-08",
     2000
+   ],
+   [
+    "2026-10-13",
+    1900
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08",
+  "ultimo_ativo": "2026-10-13",
   "vendedor": "Rafael Patrício",
-  "vendedor_id": "pfbid04XXdXbjcmTWtDARF3hwK6cNXp6DDgWefU6fJyf9H2W75tiF5d8j9545WxCojEBY6l"
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid04qL9o735mTwGPUJ1wdmrmQRpY1KFHSBVXpq9GyNDH5zuNjXkjFM2Seb6tkHeF9dTl",
+  "verificado": "2026-10-13"
  },
  "1762610841612883": {
   "cat": "iPhone",
@@ -5350,7 +5450,10 @@
   "status": "ativo",
   "titulo": "Xbox one s",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Dhone Milton",
+  "vendedor_id": "100005712154354",
+  "verificado": "2026-10-13"
  },
  "1777513940153324": {
   "cat": "iPhone",
@@ -5548,7 +5651,11 @@
   "status": "ativo",
   "titulo": "16 pro Max 512gb com caixa original",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Higor Samuel",
+  "vendedor_desde": 2012,
+  "vendedor_id": "100004222391038",
+  "verificado": "2026-10-13"
  },
  "1807678803584408": {
   "cat": "iPhone",
@@ -5902,7 +6009,11 @@
   "status": "ativo",
   "titulo": "iphone 14",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Leo Brinqued",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0jwJCVucmDoGjjkmHi8vRHxG8A9ui54xAoCXnUcPFk2LeVUk5z4HBwmwAxPNb6PAzl",
+  "verificado": "2026-10-13"
  },
  "1873477703822001": {
   "cat": "TV",
@@ -6224,7 +6335,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16E",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Gabriel Feitosa",
+  "vendedor_desde": 2020,
+  "vendedor_id": "pfbid02PPbURwQmagSiGfwWb12GC6k1dLZeAjYtTraaLifGKYDHdw65FHz1rDM2DyURCo6Yl",
+  "verificado": "2026-10-13"
  },
  "1991680841461698": {
   "cat": "Videogame",
@@ -6550,6 +6665,26 @@
   "titulo": "Sony PS3 Slim 250GB com 3 controles e acessorios",
   "ultima_coleta": "2026-10-09",
   "ultimo_ativo": "2026-10-09"
+ },
+ "2149207515689850": {
+  "cat": "Videogame",
+  "data_status": "2026-10-13",
+  "local": "Palmas, TO",
+  "mod": "Xbox One",
+  "precos": [
+   [
+    "2026-10-13",
+    950
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "Xbox one",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Ane Silva Alves",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid02DMwbcXh75kPriQLDwRGLPXVqYEuG7dSyXVASrraAAdtPw7eYtPt2124WR8R1szn3l"
  },
  "2152750292291617": {
   "cat": "Videogame",
@@ -7743,6 +7878,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
+ },
+ "2975505776155408": {
+  "cat": "Videogame",
+  "data_status": "2026-10-13",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-10-13",
+    1500
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "Vendo PlayStation 4 slim 500g Desblq",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Renato Maione",
+  "vendedor_desde": 2012,
+  "vendedor_id": "pfbid0YPHxzYKRg3BiSW78Bq8xs9EZkDYFFqvd6CvfRVNSg5m3dvWv7emWAXfgGp8KNWful"
  },
  "3076141136050676": {
   "cat": "iPhone",
@@ -8943,6 +9098,10 @@
   "status": "ativo",
   "titulo": "Nintendo switch",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Elias Menezes de Souza",
+  "vendedor_desde": 2014,
+  "vendedor_id": "pfbid02CEk7Wmkkgr3WGeGfLrKJui8xkn8eZXm2VBPRjza1ZU2yt9sHgDSzkMdGhpCwP6QDl",
+  "verificado": "2026-10-13"
  }
 }
