@@ -71,6 +71,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08"
  },
+ "1005353112601406": {
+  "cat": "iPhone",
+  "data_status": "2026-10-13",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-10-13",
+    2350
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro Max 128 gb",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Jose Augusto",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid02b1Cm1EFmbzHcC1jtTbCb9sYtf7Ym9U9HQfACBRDztV54ywKaCB5Y4eWf6UkyXavsl"
+ },
  "1010100041636036": {
   "cat": "Videogame",
   "data_status": "2026-10-08",
@@ -1761,7 +1781,7 @@
  },
  "1122351397120935": {
   "cat": "TV",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-13",
   "local": "Palmas, TO",
   "mod": "TV 40 pol",
   "precos": [
@@ -1771,10 +1791,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Tv Smart Samsung",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "verificado": "2026-10-13"
  },
  "1123586993343153": {
   "cat": "iPhone",
@@ -1831,7 +1852,11 @@
   "status": "ativo",
   "titulo": "Iphone 15 Pro Max 256",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Euris Espindola",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid0jELswubH5eS4XqqqaHjiy6Bv5EmdivxBJZ2GkJ7aH7NvNJ8D2qKHsty7JfufTAFTl",
+  "verificado": "2026-10-13"
  },
  "1124846336859540": {
   "cat": "Videogame",
@@ -2538,7 +2563,11 @@
   "status": "ativo",
   "titulo": "Controle Ps5",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Pedro Borges",
+  "vendedor_desde": 2016,
+  "vendedor_id": "100013100760527",
+  "verificado": "2026-10-13"
  },
  "1405918804994590": {
   "cat": "Jogos e acessórios",
@@ -3681,13 +3710,21 @@
    [
     "2026-10-08",
     2300
+   ],
+   [
+    "2026-10-13",
+    2400
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Kaleber San Silva",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid02ARFGHm3N3RuUjrxRFjA8o848j7T9gzD8oib33xHFeFFGqRhsaCHMAJiSMttYGLSUl",
+  "verificado": "2026-10-13"
  },
  "1521321879802415": {
   "cat": "Videogame",
@@ -4431,7 +4468,9 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro leia a descrição",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Tiago Emerson",
+  "vendedor_id": "pfbid0dfr2XRroc4yTHoMyjVH2QwoPFvMnZXQJKw379jcvjPS23HozXs6A25whwQ7UtJLGl"
  },
  "1630795982105226": {
   "cat": "iPhone",
@@ -4739,6 +4778,26 @@
   "vendedor_desde": 2018,
   "vendedor_id": "pfbid02EuVdWiaJLxj7BNWmbze98uuFN6SJh924excQMmZso1FaTDNxcQtLR4BExteWZcDXl",
   "verificado": "2026-10-12"
+ },
+ "1673057357780221": {
+  "cat": "iPhone",
+  "data_status": "2026-10-13",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-10-13",
+    2650
+   ]
+  ],
+  "primeiro_visto": "2026-10-13",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro Max funcionando perfeitamente barato",
+  "ultima_coleta": "2026-10-13",
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Osvaldo Teodoro",
+  "vendedor_desde": 2013,
+  "vendedor_id": "100005512509173"
  },
  "1674221287605451": {
   "cat": "iPhone",
@@ -6599,7 +6658,7 @@
  },
  "2116575769287820": {
   "cat": "Jogos e acessórios",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-13",
   "local": "Palmas, TO",
   "mod": "Jogos e acessórios",
   "precos": [
@@ -6609,10 +6668,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Mario nintendo switch",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "verificado": "2026-10-13"
  },
  "2139811873300292": {
   "cat": "TV",
@@ -7255,9 +7315,11 @@
   "status": "ativo",
   "titulo": "PlayStation 4 Slim 1TB + DOIS JOGOS",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08",
+  "ultimo_ativo": "2026-10-13",
   "vendedor": "Dhenyfer Pontes Rocha",
-  "vendedor_id": "pfbid0gSPENt3JdVFwVhbqphF8ygNZdzeBRES7jvjNBUGuLkodrhacnx7bMDJ7XzwuR1a6l"
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid02josQzuPvf6w3wgBqw7TvLGbjfjGAwCkBJwTr9yae6PNuCeVsHyGDHVotaNhDNxUAl",
+  "verificado": "2026-10-13"
  },
  "2511286936020068": {
   "cat": "Galaxy",
@@ -7859,7 +7921,10 @@
   "status": "ativo",
   "titulo": "IPHONE 16PRO MAX 256GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Brwno Rykardo",
+  "vendedor_id": "pfbid0HLp8LC6q68Hh5GepMLc3cdMbbaTVJnRgZ217xfJkZMpGGhaAuU9RH9tbExxcEnR2l",
+  "verificado": "2026-10-13"
  },
  "2964789483869770": {
   "cat": "Videogame",
@@ -7937,7 +8002,7 @@
  },
  "3202843443259907": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-13",
   "local": "Palmas, TO",
   "mod": "iPhone 13 Pro",
   "precos": [
@@ -7947,10 +8012,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 13 Pro 256 gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "vendedor": "Hygor Barbosa",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid02oaqS61zxCcWSfLHpzwKTqeEtBTUjLBkD7u28nimoSadEwWedBrexe3gwneWcqD92l",
+  "verificado": "2026-10-13"
  },
  "3231215677051008": {
   "cat": "Galaxy",
@@ -9000,7 +9069,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max 256 gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-13",
+  "vendedor": "Ana Gabriele Silva",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid02hFLtx3KLEjm8jUwSCrty3VAavc73Au2FNhUJYGGejhSdJt5TwApAhqJam6SKEGiPl",
+  "verificado": "2026-10-13"
  },
  "968898218829667": {
   "cat": "Videogame",
