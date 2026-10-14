@@ -158,7 +158,7 @@
  },
  "1020763447703487": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-14",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro Max",
   "precos": [
@@ -168,11 +168,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 16 pro max",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-09",
-  "verificado": "2026-10-09"
+  "verificado": "2026-10-14"
  },
  "1022502494199548": {
   "cat": "Videogame",
@@ -1198,6 +1198,26 @@
   "vendedor_id": "pfbid0C3c5wKfuRfKupY5QVcDiKPfatzHmDKjvmjVP7aoCs5KD6cxwomtqXLHpu1iVYX9Wl",
   "verificado": "2026-10-13"
  },
+ "1093495686750050": {
+  "cat": "Videogame",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "Nintendo Switch",
+  "precos": [
+   [
+    "2026-10-14",
+    2200
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "NINTENDO SWITCH OLED DESBLOQUEADO",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Anderson Waldhelm",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid08dcEM7yc8VxcCroq9NBE94PMRVYja4BjRqvu1DeebCmFFqjQUhWC6k7WNZg5r1hZl"
+ },
  "1093701386864273": {
   "cat": "iPhone",
   "data_status": "2026-10-14",
@@ -1376,8 +1396,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-09",
-  "verificado": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Henrique Sousa",
+  "vendedor_desde": 2020,
+  "vendedor_id": "pfbid0UScCqPYTWNFMpsByZXkDvZLAyFAod63KNqjwFKDWDJmqYSBnmxFpB7TzRkivAtJpl",
+  "verificado": "2026-10-14"
  },
  "1102037812413508": {
   "cat": "Videogame",
@@ -1527,7 +1550,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Jaqueline Souza Souza",
+  "vendedor_desde": 2022,
+  "vendedor_id": "pfbid0289yeTrmZfLTDWGYLKmWKLWntnSJEa1UDdcKzYMJhRjmvMwV9UcjeeyT53uZZZM8tl",
+  "verificado": "2026-10-14"
  },
  "1108923801687027": {
   "cat": "iPhone",
@@ -3613,7 +3640,7 @@
  },
  "1449609027174390": {
   "cat": "iPhone",
-  "data_status": "2026-10-09",
+  "data_status": "2026-10-14",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro Max",
   "precos": [
@@ -3623,10 +3650,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-09",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 16 pro max",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-14"
  },
  "1451369046960918": {
   "cat": "Videogame",
@@ -3955,7 +3983,11 @@
   "status": "ativo",
   "titulo": "Ps4 slim",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Wilker Ramos",
+  "vendedor_desde": 2015,
+  "vendedor_id": "100009113291053",
+  "verificado": "2026-10-14"
  },
  "1499193528931732": {
   "cat": "iPhone",
@@ -3977,6 +4009,26 @@
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid028e3TYEpLjWCiQHvRGfxgjaKZ3Dy84377MefQp9EKYoavtAAWKiMvby7Bm7roaaBcl",
   "verificado": "2026-10-12"
+ },
+ "1502163858468199": {
+  "cat": "Videogame",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "Xbox One",
+  "precos": [
+   [
+    "2026-10-14",
+    1000
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "Xbox One S com controle",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Lukas Castro",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid02DtjusPSrQBUoukHTygPWqYmaCW11AwgsmJnFp8t5N7ZifNXp5nFuRwq5PN3Jmo8Tl"
  },
  "1504190654867713": {
   "cat": "iPhone",
@@ -4071,14 +4123,21 @@
    [
     "2026-10-08",
     890
+   ],
+   [
+    "2026-10-14",
+    840
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Vendo Projeto Xbox 360 Turnado Com TV",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-09",
-  "verificado": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Weslley Gomes Batista",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid0JrHtGEZcEJcvR9QoBgmq88w6ekVq7ZfjEK7rH5sBxxnvZorQygNCUPYRnuzWXaMel",
+  "verificado": "2026-10-14"
  },
  "1524839926351645": {
   "cat": "Videogame",
@@ -4989,7 +5048,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 PRO 256GB - TODO ORIGINAL",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Gabriel Souza",
+  "vendedor_desde": 2010,
+  "vendedor_id": "pfbid0VguTgnpMvmEZgD3EejqCQMFg82Pa7dpSj5B6NjrotqqTp9RJw9zKbmTySDXXwTaml",
+  "verificado": "2026-10-14"
  },
  "1636542594633780": {
   "cat": "Jogos e acessórios",
@@ -5301,7 +5364,10 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Emmanuel Costa",
+  "vendedor_id": "pfbid0PTxx5jn7pq41ogWqLvoqTY1Z57cSc8Ykxf6sdxkjWtn7fPSzB4PoBreEdWZQyo5pl",
+  "verificado": "2026-10-14"
  },
  "1680577826824895": {
   "cat": "Videogame",
@@ -7233,6 +7299,26 @@
   "vendedor_id": "100003217497644",
   "verificado": "2026-10-13"
  },
+ "2095328007760276": {
+  "cat": "Videogame",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "Xbox One",
+  "precos": [
+   [
+    "2026-10-14",
+    1100
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "Xbox one fat 500gb",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Thiago Keven",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid0GJy3RbnY2CpvLLj3KZxQtxVQaM9rZNj1wtRW8pP7vGr5PQRdM2ZzY4Z8DGByJEAol"
+ },
  "2102878950262746": {
   "cat": "TV",
   "data_status": "2026-10-08",
@@ -8420,6 +8506,26 @@
   "vendedor": "Joao Victor Rodrigues Pereira",
   "vendedor_id": "pfbid0m6MHoQTyt7PzB3y3NU3KWjLoSAMJ8TeErVvgxoi7oG68foxbjc1jFxr5Txy1RB8fl"
  },
+ "28450837584618602": {
+  "cat": "Videogame",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "Xbox One",
+  "precos": [
+   [
+    "2026-10-14",
+    950
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "Xbox one fat 500gb",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Thiago Keven",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid0GJy3RbnY2CpvLLj3KZxQtxVQaM9rZNj1wtRW8pP7vGr5PQRdM2ZzY4Z8DGByJEAol"
+ },
  "2847543785618927": {
   "cat": "iPhone",
   "data_status": "2026-10-12",
@@ -8856,6 +8962,26 @@
   "vendedor_desde": 2011,
   "vendedor_id": "pfbid028ufDqz71egvPEkJtLfpYLF1PDzYr8qy4Ve2KKPusCb5zGpdNL4Y69sq94ueKNsZ8l"
  },
+ "3238399176348910": {
+  "cat": "Videogame",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "Xbox 360",
+  "precos": [
+   [
+    "2026-10-14",
+    800
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "Vendo Xbox 360",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Jair Alves",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid093k5wumoJEAQXtxYx5pmSL4QqLKbJvmQ1Be9upU3McthYPLTAmfs8GRjQffefdUwl"
+ },
  "3253308814877198": {
   "cat": "TV",
   "data_status": "2026-10-12",
@@ -8909,7 +9035,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max 128 g",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "James Mark",
+  "vendedor_desde": 2011,
+  "vendedor_id": "100002272785443",
+  "verificado": "2026-10-14"
  },
  "3562588217237775": {
   "cat": "Videogame",
@@ -9234,13 +9364,21 @@
    [
     "2026-10-09",
     4200
+   ],
+   [
+    "2026-10-14",
+    3900
    ]
   ],
   "primeiro_visto": "2026-10-09",
   "status": "ativo",
   "titulo": "PS5 impecável",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Lázaro Basto",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid0YaYQrehK8q2UY6841b3M1mKaJLuXFiTjnHiPphG7HDUW9NRKvhPjBJEM7rv7yZySl",
+  "verificado": "2026-10-14"
  },
  "4478368749076314": {
   "cat": "iPhone",
@@ -10093,6 +10231,26 @@
   "vendedor": "Fabio Correia",
   "vendedor_id": "pfbid02dAMgq1uHqSiJ2RKkJ7xQJVZeradFW4yiEvUckyqVp3Xxjiw4tNqcKArAakkoYrzPl",
   "verificado": "2026-10-11"
+ },
+ "969953996166856": {
+  "cat": "Videogame",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "Xbox 360",
+  "precos": [
+   [
+    "2026-10-14",
+    300
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "Xbox 360 slim",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Mattheus Dourado",
+  "vendedor_desde": 2012,
+  "vendedor_id": "pfbid029hK1be9D4sbju7DWmQqKdPd1z2MQ86oJhiUQ6Av3SqAadtPur9R6hDih8P9UTzTCl"
  },
  "992976220506200": {
   "cat": "TV",
