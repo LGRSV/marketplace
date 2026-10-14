@@ -1741,6 +1741,23 @@
   "vendedor": "Ygor Silva",
   "vendedor_id": "pfbid0XUYTMiDsuu5RhcmL4GNfNmDxaTs1ja8L8GscDYD2F8vFjYGrs5xhirDscq4WCBFil"
  },
+ "1116221804199893": {
+  "cat": "iPhone",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15",
+  "precos": [
+   [
+    "2026-10-14",
+    3100
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "iPhone 15 rosa",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14"
+ },
  "1117511004167702": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -2210,6 +2227,23 @@
   "vendedor_id": "pfbid0h8MbMXZ26DzVmdaxs3FJCVS6syUgG8r6WVPjPAGyjkWiJcZ5aGFygKKxgvk1jE2Pl",
   "verificado": "2026-10-12"
  },
+ "1155325397059903": {
+  "cat": "iPhone",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-14",
+    3200
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "IPHONE 15 PRO 128GB",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14"
+ },
  "1170249979247550": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -2246,7 +2280,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max ( 128gb )",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Lindenberg Cardoso",
+  "vendedor_desde": 2018,
+  "vendedor_id": "pfbid0fzq77AMLupGYUDxWwERZn3FAe89jKUcEzKMNEp7GByyUe9quksFpNdevPPeSCpAcl",
+  "verificado": "2026-10-14"
  },
  "1266222493239447": {
   "cat": "Galaxy",
@@ -3101,7 +3139,10 @@
   "status": "ativo",
   "titulo": "iPhone 15 normal pega moto de menor valor",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Rita Ferreira Dos Santos Lima",
+  "vendedor_id": "pfbid0E6Rhs4ToL61BXP5TAWRYuBB9FXV81ZuF1EoDbXFd3E9Mk8cgDKnaQnWDRTMfBmAUl",
+  "verificado": "2026-10-14"
  },
  "1420223132897481": {
   "cat": "iPhone",
@@ -4757,7 +4798,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 15 normal 128gb",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Mateus Lima",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid036XWVS6PFM86VHV33oHf6vRN8rEx3RYf47v3mMdZHKRUZPMomDbeLAkL8hYh7SpF8l",
+  "verificado": "2026-10-14"
  },
  "1629229928581141": {
   "cat": "iPhone",
@@ -4968,8 +5013,11 @@
   "status": "ativo",
   "titulo": "IPHONE 13PROMAX",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-09",
-  "verificado": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Victória Ribeiro",
+  "vendedor_desde": 2012,
+  "vendedor_id": "pfbid02sXxc5giKbfAL69MKGL6b6cjAR8PVXxA1viW9oXSocUfZJ9RfSYzH7ZTaG7X5MS3fl",
+  "verificado": "2026-10-14"
  },
  "1648295950091964": {
   "cat": "iPhone",
@@ -5223,6 +5271,23 @@
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid02GoU9zobMDTcFTkTkRpadBBvDnUENZZSCGYrWZqWTnX1jVNjKQQFjvbjC5gUH56SKl",
   "verificado": "2026-10-12"
+ },
+ "1686593172997788": {
+  "cat": "iPhone",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15",
+  "precos": [
+   [
+    "2026-10-14",
+    3500
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "iPhone 15 128GB",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14"
  },
  "1688666616166748": {
   "data_status": "2026-10-08",
@@ -5507,8 +5572,11 @@
   "status": "ativo",
   "titulo": "Vendo está televisão retirada de peças",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-09",
-  "verificado": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "João Batista Carvalho Baddin",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid041iUKycSqZUaZyT2piQkSAzf8RHDq8uXwVd8duxiXLSRH9j6nGd1JL7GTFLNLjhRl",
+  "verificado": "2026-10-14"
  },
  "1742542943716519": {
   "cat": "iPhone",
@@ -6049,7 +6117,7 @@
  },
  "1795189835058520": {
   "cat": "iPhone",
-  "data_status": "2026-10-09",
+  "data_status": "2026-10-14",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro Max",
   "precos": [
@@ -6059,10 +6127,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-09",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 16 pro max 🔋100%",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-14"
  },
  "1798334031418422": {
   "data_status": "2026-10-08",
@@ -7775,8 +7844,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 (aceito propostas)",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-09",
-  "verificado": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Bruno Conde",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid0cgQJ3J9Yxu2J4gVm31LdPiCXtyjGQVNuWaLxYkwkGewcuALitAMFgD3zAtSvAhePl",
+  "verificado": "2026-10-14"
  },
  "2477462216083872": {
   "cat": "Videogame",
@@ -8370,6 +8442,17 @@
   "ultimo_ativo": "2026-10-09",
   "verificado": "2026-10-09"
  },
+ "2875882652767453": {
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14"
+ },
  "28769691056048735": {
   "data_status": "2026-10-08",
   "local": "Barreiras, BA",
@@ -8484,6 +8567,23 @@
   "titulo": "Vendo iPhone 13 128 giga",
   "ultima_coleta": "2026-10-12",
   "ultimo_ativo": "2026-10-12"
+ },
+ "28891355803832044": {
+  "cat": "iPhone",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15",
+  "precos": [
+   [
+    "2026-10-14",
+    3000
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "IPhone 15 256gb",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14"
  },
  "2919530995096994": {
   "cat": "iPhone",
@@ -9125,6 +9225,23 @@
   "vendedor_id": "pfbid032xfVXmduLXQNnBJLQYv4crHDS813EGWKinoAV1f3NQcqN1Yc7fcvLTbjXpJQCuzXl",
   "verificado": "2026-10-12"
  },
+ "4670744063156852": {
+  "cat": "iPhone",
+  "data_status": "2026-10-14",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15",
+  "precos": [
+   [
+    "2026-10-14",
+    2350
+   ]
+  ],
+  "primeiro_visto": "2026-10-14",
+  "status": "ativo",
+  "titulo": "iPhone 15",
+  "ultima_coleta": "2026-10-14",
+  "ultimo_ativo": "2026-10-14"
+ },
  "4675950792726636": {
   "cat": "iPhone",
   "data_status": "2026-10-11",
@@ -9472,7 +9589,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 Pro max 256GB | Bateria 90%",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-14",
+  "vendedor": "Antonio Junior",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid035aMkYytAMwof7aVXq3teZgdPVPeYrHYvCE4sJmvMGvNcontpVWQfn7J9A4wEc9aAl",
+  "verificado": "2026-10-14"
  },
  "938405135595927": {
   "cat": "iPhone",
@@ -9580,7 +9701,7 @@
  },
  "950211444469404": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-14",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro Max",
   "precos": [
@@ -9590,10 +9711,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 16 Pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-08"
+  "ultimo_ativo": "2026-10-08",
+  "verificado": "2026-10-14"
  },
  "951134960915678": {
   "cat": "iPhone",
@@ -9761,7 +9883,7 @@
  },
  "964496160035694": {
   "cat": "iPhone",
-  "data_status": "2026-10-09",
+  "data_status": "2026-10-14",
   "local": "Palmas, TO",
   "mod": "iPhone 14 Pro Max",
   "precos": [
@@ -9771,10 +9893,11 @@
    ]
   ],
   "primeiro_visto": "2026-10-09",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 14 PRO MAX 256GB - IMPECÁVEL",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-09"
+  "ultimo_ativo": "2026-10-09",
+  "verificado": "2026-10-14"
  },
  "965582839921679": {
   "cat": "iPhone",
