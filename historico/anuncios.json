@@ -355,14 +355,20 @@
    [
     "2026-10-08",
     5200
+   ],
+   [
+    "2026-10-15",
+    1
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Vendo iPhone 16 pro max 256gb desert sem detalhes",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-11",
-  "verificado": "2026-10-11"
+  "ultimo_ativo": "2026-10-15",
+  "vendedor": "Nelson Quirino",
+  "vendedor_id": "pfbid0BEKTVGnnxaPib6WVDgyJ3xGDxy3JUfRFmyHXHGmJaPL1AQqYuSYXNDp71yYccgHLl",
+  "verificado": "2026-10-15"
  },
  "1048396394918204": {
   "cat": "iPhone",
@@ -665,15 +671,21 @@
    [
     "2026-10-11",
     1790
+   ],
+   [
+    "2026-10-15",
+    1590
    ]
   ],
   "primeiro_visto": "2026-10-11",
   "status": "ativo",
   "titulo": "Iphone 18 pro montado no xr lacrado",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Samuel Sousa",
-  "vendedor_id": "pfbid02BH9xo9KGTxjt4iGcykRoLTzF8aasvQwGfNMzcEDVqtkEfyMrGineE8TKtezHpXBJl"
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid02BQoUmWLzegUnLwRGSj9tVpJsPEXPeZ8P886Qszb6oUHC5Tn2wpZyNCRhwg3U7HZzl",
+  "verificado": "2026-10-15"
  },
  "1071145672629109": {
   "cat": "iPhone",
@@ -711,9 +723,11 @@
   "status": "ativo",
   "titulo": "✅IPHONE 15 PRO MAX, IMPECÁVEL 🤩",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Marcus Vinicio De Souza Prado",
-  "vendedor_id": "61592287096701"
+  "vendedor_desde": 2026,
+  "vendedor_id": "61592287096701",
+  "verificado": "2026-10-15"
  },
  "1071966978930439": {
   "cat": "iPhone",
@@ -3834,6 +3848,26 @@
   "vendedor_id": "pfbid02hXBMTRkerCvafZEu9hTj1rL1LVy1NbkmukDRvjthq3qHm9wMKAXb63YGRtFSUtC3l",
   "verificado": "2026-10-12"
  },
+ "1420390192869441": {
+  "cat": "TV",
+  "data_status": "2026-10-15",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-15",
+    350
+   ]
+  ],
+  "primeiro_visto": "2026-10-15",
+  "status": "ativo",
+  "titulo": "TELEVISÃO+LED+TCL+32+POLEGADAS+220w",
+  "ultima_coleta": "2026-10-15",
+  "ultimo_ativo": "2026-10-15",
+  "vendedor": "Sidney Honorato",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid0vumunm8bH2ZCs2C1G1C2Tkwy48WsyWzgNZAcjvYWG8aPh65CwUkrjkGchKGVpie7l"
+ },
  "1420952940102654": {
   "cat": "iPhone",
   "data_status": "2026-10-10",
@@ -4381,10 +4415,11 @@
   "status": "ativo",
   "titulo": "Xbox 360 Com Jogos + Controles",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Eduarda Vidal",
-  "vendedor_id": "pfbid0Zu6bu1r2QPBXdvbUWnXzjX64k8FBDbzqLxaVgneDDwBZgK3Brxcwm9nzqTDixGa9l",
-  "verificado": "2026-10-11"
+  "vendedor_desde": 2025,
+  "vendedor_id": "pfbid0a2k7sNskb1LsUjahTaz7bF7shpyUbhaSNbLLdyZhUafBrnWYCCPLpFxBEgo4AwnAl",
+  "verificado": "2026-10-15"
  },
  "1453504557839279": {
   "cat": "iPhone",
@@ -5193,10 +5228,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro 256GB",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Wilber Felippe Assis",
-  "vendedor_id": "pfbid02896sfJAxseRaXXp2N47wStLQ4a4rWcpgjqQ79DVHvJhnm8iEVWeVRY38nBifrJDgl",
-  "verificado": "2026-10-11"
+  "vendedor_desde": 2014,
+  "vendedor_id": "pfbid028GkPdfCh4FqFDHWsmCDkgyHaPnncUjM6HFwERHvTffaSNRV3KS47D8WxKe8Q8o3gl",
+  "verificado": "2026-10-15"
  },
  "1584541826607511": {
   "cat": "iPhone",
@@ -5593,15 +5629,21 @@
    [
     "2026-10-11",
     65893
+   ],
+   [
+    "2026-10-15",
+    6599
    ]
   ],
   "primeiro_visto": "2026-10-11",
   "status": "ativo",
   "titulo": "iPhone 17 Pro Max 256gb",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Ambar Decantes",
-  "vendedor_id": "pfbid02RLxJuqYdYoi9Pi4W5x3qdrax2k6UdYDvm4KyfjomKtTkXenErU4VGFbmAgjzSUjhl"
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid02QzeJKZ19um4EN1Y3uU8UwYd3QxKgM2Eh6N6kSRwYM1jExgKkHXUWYRqrSx4VkY81l",
+  "verificado": "2026-10-15"
  },
  "1619550336341422": {
   "data_status": "2026-10-08",
@@ -6668,6 +6710,26 @@
   "vendedor_id": "pfbid0PViFLWaK13q9P8MBaDfK8XkMSodq4YedhyGyPCr4nnX8Lv3PA5G5BhdtP2S6hRMal",
   "verificado": "2026-10-12"
  },
+ "1724223205344454": {
+  "cat": "TV",
+  "data_status": "2026-10-15",
+  "local": "Palmas, TO",
+  "mod": "TV 43 pol",
+  "precos": [
+   [
+    "2026-10-15",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-10-15",
+  "status": "ativo",
+  "titulo": "Televisão 43 polegadas",
+  "ultima_coleta": "2026-10-15",
+  "ultimo_ativo": "2026-10-15",
+  "vendedor": "Yasmin Parreão",
+  "vendedor_desde": 2010,
+  "vendedor_id": "pfbid07WQmgbgMa84XwvtmY7kcji1CfYpUmAdkS1aJemd4ycJ7H7nH2hCEXDrqNKYDDi6Ll"
+ },
  "1726246085126073": {
   "data_status": "2026-10-12",
   "local": "Palmas, TO",
@@ -7475,6 +7537,26 @@
   "vendedor_desde": 2017,
   "vendedor_id": "100019249806616"
  },
+ "1803232014333457": {
+  "cat": "TV",
+  "data_status": "2026-10-15",
+  "local": "Porto Nacional, TO",
+  "mod": "TV 50 pol",
+  "precos": [
+   [
+    "2026-10-15",
+    1500
+   ]
+  ],
+  "primeiro_visto": "2026-10-15",
+  "status": "ativo",
+  "titulo": "Leia descrição TV Smart Samsung",
+  "ultima_coleta": "2026-10-15",
+  "ultimo_ativo": "2026-10-15",
+  "vendedor": "Lopez Dias",
+  "vendedor_desde": 2014,
+  "vendedor_id": "pfbid0bwheoHgmor95unowE3kTN53kUCXRhPMiUibCmqSk64v4UUDVtHvgNE9tLW1ffsEcl"
+ },
  "1807678803584408": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -7741,9 +7823,11 @@
   "status": "ativo",
   "titulo": "[Novo/Lacrado] - Smartphone Samsung Galaxy A57 5G, 128Gb, 8Gb RAM, 6.7\" - Cinza",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Alon Neto",
-  "vendedor_id": "pfbid02v6V2PcEWfVJ2JmoX9jU2thZPHsYx8R3AgLUXQaFGtjQSNY1Yda9ot4Us8ZV4rKGil"
+  "vendedor_desde": 2014,
+  "vendedor_id": "pfbid02vE8YMyGEqykRXfpkFEccyvTtt7a4vcGkcUuG4qaQ6Z1czrrTkSEEFDGuA577JmKJl",
+  "verificado": "2026-10-15"
  },
  "1835093320813058": {
   "cat": "iPhone",
@@ -8192,10 +8276,11 @@
   "status": "ativo",
   "titulo": "Nintendo Switch OLED à venda 🎮",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Paulo Henrique Soares",
+  "vendedor_desde": 2012,
   "vendedor_id": "100003949838091",
-  "verificado": "2026-10-11"
+  "verificado": "2026-10-15"
  },
  "1977905526239413": {
   "cat": "TV",
@@ -9507,10 +9592,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 256GB – Original + Caixa + NF",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Ana Gabriela Pereira Rodrigues",
-  "vendedor_id": "pfbid022B89W1XqxhoEq9Cm3QoNLgfyQTej551QPLh7bvXdxXkpDGGBXamXuGcVVZEvgqxAl",
-  "verificado": "2026-10-11"
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid035gFr6PvCB553uaehU2i3djapPfP5oK9y7YUHABG2bjXEDLymhKD2JQaxTBibVXJKl",
+  "verificado": "2026-10-15"
  },
  "2460375661121124": {
   "cat": "iPhone",
@@ -10076,15 +10162,21 @@
    [
     "2026-10-11",
     3700
+   ],
+   [
+    "2026-10-15",
+    3500
    ]
   ],
   "primeiro_visto": "2026-10-11",
   "status": "ativo",
   "titulo": "Ps5 slim 1Tb mídia digital",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-11",
+  "ultimo_ativo": "2026-10-15",
   "vendedor": "Brendon Keven",
-  "vendedor_id": "pfbid0JWQxrQeDuiKN3HmF6A4xNU64c7MvJC1No2MUHKzJzxP4J57BRMUY9RC9sQMBtb7fl"
+  "vendedor_desde": 2025,
+  "vendedor_id": "pfbid0Je4Upmfx6P27eEsvtbQJomvbeLeNcEQH2vu7zgEa4XeHHRCq8XEcAh3oY989qvC1l",
+  "verificado": "2026-10-15"
  },
  "28534205919601667": {
   "data_status": "2026-10-08",
@@ -10401,6 +10493,26 @@
   "vendedor_id": "61590114908593",
   "verificado": "2026-10-14"
  },
+ "2967331970267480": {
+  "cat": "TV",
+  "data_status": "2026-10-15",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-15",
+    650
+   ]
+  ],
+  "primeiro_visto": "2026-10-15",
+  "status": "ativo",
+  "titulo": "Vendo TV Philco 32 Polegadas Smart TV",
+  "ultima_coleta": "2026-10-15",
+  "ultimo_ativo": "2026-10-15",
+  "vendedor": "Henrique Gomes",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid023h3KGZw2LNp6jw3dsZiqYEGQVz5yuoCLkbJjJR6YEGkeM31N6Hr35SqVcXNboxCkl"
+ },
  "2975505776155408": {
   "cat": "Videogame",
   "data_status": "2026-10-13",
@@ -10537,6 +10649,25 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08",
   "verificado": "2026-10-12"
+ },
+ "3295823687275524": {
+  "data_status": "2026-10-15",
+  "local": "Miracema do Tocantins, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-15",
+    200
+   ]
+  ],
+  "primeiro_visto": "2026-10-15",
+  "status": "ativo",
+  "titulo": "Televisão",
+  "ultima_coleta": "2026-10-15",
+  "ultimo_ativo": "2026-10-15",
+  "vendedor": "Julia Silva",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid02vwQs4aZ3mh6NjFFUsL8JxHLnW8HNiS2bjZYNgviP83ywaK4poymfdXJjxq6dSn9cl"
  },
  "3357792164429068": {
   "cat": "Videogame",
@@ -12037,6 +12168,26 @@
   "vendedor": "Gabriel Brito",
   "vendedor_desde": 2022,
   "vendedor_id": "pfbid02JLFvXH7RVqpAo2taa22nbn9UxSiKDh1VWYxpXDaX1CW2HM23To3UKXbMB9jNFf2Ul"
+ },
+ "989162797546922": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-15",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-15",
+    1300
+   ]
+  ],
+  "primeiro_visto": "2026-10-15",
+  "status": "ativo",
+  "titulo": "Rack p/ Televisão 75 Polegadas",
+  "ultima_coleta": "2026-10-15",
+  "ultimo_ativo": "2026-10-15",
+  "vendedor": "Efren Carlos",
+  "vendedor_desde": 2010,
+  "vendedor_id": "pfbid0JWrRZPrppZERxwKecU16mWjMQWYCNrpt2vvWS7GCgZFr5bpKJE4xTGUx7Tavp68al"
  },
  "992976220506200": {
   "cat": "TV",
