@@ -1072,7 +1072,7 @@
  },
  "1083807621349517": {
   "cat": "iPhone",
-  "data_status": "2026-10-12",
+  "data_status": "2026-10-16",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro Max",
   "precos": [
@@ -1082,13 +1082,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-12",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 16 PRO MAX 256GB - IMPECÁVEL",
   "ultima_coleta": "2026-10-12",
   "ultimo_ativo": "2026-10-12",
   "vendedor": "João Vittor Parente",
   "vendedor_desde": 2015,
-  "vendedor_id": "100008821351970"
+  "vendedor_id": "100008821351970",
+  "verificado": "2026-10-16"
  },
  "1084836144154201": {
   "data_status": "2026-10-12",
@@ -1628,6 +1629,23 @@
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid021awhHz8zRFKwUYtBc42CBKevjx4pQSxCnPRgkwHkPnJJv5PAtLD3Ypn1RPgwfKqgl",
   "verificado": "2026-10-15"
+ },
+ "1102632169403621": {
+  "cat": "TV",
+  "data_status": "2026-10-16",
+  "local": "Palmas, TO",
+  "mod": "TV 43 pol",
+  "precos": [
+   [
+    "2026-10-16",
+    1150
+   ]
+  ],
+  "primeiro_visto": "2026-10-16",
+  "status": "ativo",
+  "titulo": "Tv smart Aiwa 43 polegadas na caixa.",
+  "ultima_coleta": "2026-10-16",
+  "ultimo_ativo": "2026-10-16"
  },
  "1103073129134875": {
   "cat": "iPhone",
@@ -4455,7 +4473,7 @@
  },
  "1447481507295057": {
   "cat": "iPhone",
-  "data_status": "2026-10-12",
+  "data_status": "2026-10-16",
   "local": "Palmas, TO",
   "mod": "iPhone 15",
   "precos": [
@@ -4465,13 +4483,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-12",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 15 128 Gb impecável ✅",
   "ultima_coleta": "2026-10-12",
   "ultimo_ativo": "2026-10-12",
   "vendedor": "Anny Castro",
   "vendedor_desde": 2025,
-  "vendedor_id": "61578636938673"
+  "vendedor_id": "61578636938673",
+  "verificado": "2026-10-16"
  },
  "1447584234018351": {
   "cat": "iPhone",
@@ -5362,10 +5381,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 PRO MAX 256GB",
   "ultima_coleta": "2026-10-12",
-  "ultimo_ativo": "2026-10-12",
+  "ultimo_ativo": "2026-10-16",
   "vendedor": "Bruno Souza",
   "vendedor_desde": 2014,
-  "vendedor_id": "100005462988687"
+  "vendedor_id": "100005462988687",
+  "verificado": "2026-10-16"
  },
  "1570648594864636": {
   "cat": "iPhone",
@@ -6764,11 +6784,11 @@
   "status": "ativo",
   "titulo": "iPhone 12 Pro Max 128 gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-12",
+  "ultimo_ativo": "2026-10-16",
   "vendedor": "Luyge Alves",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02GoU9zobMDTcFTkTkRpadBBvDnUENZZSCGYrWZqWTnX1jVNjKQQFjvbjC5gUH56SKl",
-  "verificado": "2026-10-12"
+  "vendedor_id": "pfbid02Gw7fyAd5Q6DkWthoKW5FWv6zF8FJFeRYBPuaQ2GusmPG8iELfBwXoYUpbd6LDFSgl",
+  "verificado": "2026-10-16"
  },
  "1686593172997788": {
   "cat": "iPhone",
@@ -8849,11 +8869,11 @@
   "status": "ativo",
   "titulo": "Controle 8BitDo Ultimate 2 Bluetooth Com Giroscópio para Switch + Sensor de movimento. Novo Lacrado",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-12",
+  "ultimo_ativo": "2026-10-16",
   "vendedor": "Jdavid Aires",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid0JE9ApDBoan4GtjtisiMx85EEv6zA1nwVLkE3dGfVbPN8vX6gbnqStc9cWFfLxTG2l",
-  "verificado": "2026-10-12"
+  "vendedor_id": "pfbid0HsqADveKwahvMykKSN44U9TxDUQjjjgA2b7tY7Qg5ozdojgVYjMBSWvFDnxNx9cxl",
+  "verificado": "2026-10-16"
  },
  "2022592195116051": {
   "data_status": "2026-10-15",
@@ -11021,10 +11041,11 @@
   "status": "ativo",
   "titulo": "S25 ultra 256gb",
   "ultima_coleta": "2026-10-12",
-  "ultimo_ativo": "2026-10-12",
+  "ultimo_ativo": "2026-10-16",
   "vendedor": "Victor Lucas",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid028ufDqz71egvPEkJtLfpYLF1PDzYr8qy4Ve2KKPusCb5zGpdNL4Y69sq94ueKNsZ8l"
+  "vendedor_id": "pfbid028ZMDFhZY1cCnK1zqhPFc97jcf9pFcrZZ1mkLJeZWkwJF1baLozEJio5ajR6ebob4l",
+  "verificado": "2026-10-16"
  },
  "3238399176348910": {
   "cat": "Videogame",
@@ -11599,6 +11620,23 @@
   "vendedor_id": "pfbid0v72q5YprFn7soVL8tSke4wNTiEDUuMQ3gTuHDv3SkCYHAQmqQDeL7sCDKk3K5zWDl",
   "verificado": "2026-10-13"
  },
+ "4484976651816745": {
+  "cat": "TV",
+  "data_status": "2026-10-16",
+  "local": "Palmas, TO",
+  "mod": "TV",
+  "precos": [
+   [
+    "2026-10-16",
+    1250
+   ]
+  ],
+  "primeiro_visto": "2026-10-16",
+  "status": "ativo",
+  "titulo": "Smart tv aoc",
+  "ultima_coleta": "2026-10-16",
+  "ultimo_ativo": "2026-10-16"
+ },
  "4507015819573934": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -12002,7 +12040,7 @@
  },
  "918362141139446": {
   "cat": "TV",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-16",
   "local": "Palmas, TO",
   "mod": "TV 55 pol",
   "precos": [
@@ -12016,11 +12054,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Televisão 55 polegadas",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-12",
-  "verificado": "2026-10-12"
+  "vendedor": "Jose Luiz Coelho",
+  "vendedor_desde": 2016,
+  "vendedor_id": "100011343653052",
+  "verificado": "2026-10-16"
  },
  "919723074314066": {
   "cat": "iPhone",
@@ -12072,11 +12113,11 @@
   "status": "ativo",
   "titulo": "Desbloqueio Nintendo Switch",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-12",
+  "ultimo_ativo": "2026-10-16",
   "vendedor": "Baroi Info Games",
   "vendedor_desde": 2022,
   "vendedor_id": "100078775220646",
-  "verificado": "2026-10-12"
+  "verificado": "2026-10-16"
  },
  "935428929151660": {
   "cat": "iPhone",
@@ -12215,11 +12256,11 @@
   "status": "ativo",
   "titulo": "Ps4",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-12",
+  "ultimo_ativo": "2026-10-16",
   "vendedor": "Will Lorram",
   "vendedor_desde": 2022,
   "vendedor_id": "100080504358373",
-  "verificado": "2026-10-12"
+  "verificado": "2026-10-16"
  },
  "950211444469404": {
   "cat": "iPhone",
@@ -12613,17 +12654,21 @@
    [
     "2026-10-08",
     100
+   ],
+   [
+    "2026-10-16",
+    6800
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Televisão 32 polegadas Não dá vídeo",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-12",
+  "ultimo_ativo": "2026-10-16",
   "vendedor": "Daniel Souza",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid037ehx6cgVuVH4D6ag5xx2tNHV2BUWsPXEa2JpTdvhKC3wCQ7iF9aZW6VkhjtUygSwl",
-  "verificado": "2026-10-12"
+  "vendedor_id": "pfbid037nMU4yiE6CAvU6BVuZSKYV2AWsT5Mb7ksiN6ELw5UPEnRE1uNzeGD7jWbaoBQ7VYl",
+  "verificado": "2026-10-16"
  },
  "994281990366381": {
   "cat": "iPhone",
