@@ -797,11 +797,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro 256GB titânio preto",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "José Lucas Marques",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid0beSkaKsymYHZEbihLUoLrc2fNAMnpoywbWry3xcc4JFPXvFsVLcoryb9LPr76UWEl",
-  "verificado": "2026-10-13"
+  "vendedor_id": "pfbid0bJ8jz3LW8W1gBLrgzJDZx9YssBuYvuQqWi99wMwqdGS9tzcKjm8gyETDsnP9x5sml",
+  "verificado": "2026-10-17"
  },
  "1074230271847916": {
   "cat": "TV",
@@ -2780,10 +2780,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 256gb",
   "ultima_coleta": "2026-10-13",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "Ricardo Ramos",
   "vendedor_desde": 2018,
-  "vendedor_id": "pfbid02G8NZpigEY5QcTkhKVGqZKuwzThsjFKgGBSbe8VefUQVUSkgyYGQ7LtPsdw2HuRxpl"
+  "vendedor_id": "pfbid0CQaNcQn8sHJjtQBFUDA3wCoktyiH74xwVCYDLbFCCQBHciZs7o96Y4pTRjm6sM61l",
+  "verificado": "2026-10-17"
  },
  "1142449631650648": {
   "cat": "iPhone",
@@ -2903,6 +2904,26 @@
   "ultima_coleta": "2026-10-14",
   "ultimo_ativo": "2026-10-14"
  },
+ "1159334686759010": {
+  "cat": "TV",
+  "data_status": "2026-10-17",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-17",
+    550
+   ]
+  ],
+  "primeiro_visto": "2026-10-17",
+  "status": "ativo",
+  "titulo": "TV PHILCO",
+  "ultima_coleta": "2026-10-17",
+  "ultimo_ativo": "2026-10-17",
+  "vendedor": "Vitória Régia Pereira",
+  "vendedor_desde": 2016,
+  "vendedor_id": "100012286410761"
+ },
  "1169910678934584": {
   "data_status": "2026-10-15",
   "local": "Palmas, TO",
@@ -3020,6 +3041,26 @@
   "vendedor_id": "pfbid0gsiiKRrpLFm6dTiDKLLQ3XvMDqmiv3EEBe1sC1jaBR6tsmiTZRZohgnvbDH5BBkJl",
   "verificado": "2026-10-14"
  },
+ "1278247014484786": {
+  "cat": "TV",
+  "data_status": "2026-10-17",
+  "local": "Porto Nacional, TO",
+  "mod": "TV 39 pol",
+  "precos": [
+   [
+    "2026-10-17",
+    600
+   ]
+  ],
+  "primeiro_visto": "2026-10-17",
+  "status": "ativo",
+  "titulo": "TV smart 39 polegadas Philips",
+  "ultima_coleta": "2026-10-17",
+  "ultimo_ativo": "2026-10-17",
+  "vendedor": "Willian Ribeiro",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid02GoUL3T546M6XNkRVfN1YmbUf5RA9gKVD6jxCnbLjhm8X2rPiNsM1Hk719n8RCZDwl"
+ },
  "1278323695374929": {
   "cat": "Jogos e acessórios",
   "data_status": "2026-10-13",
@@ -3059,6 +3100,25 @@
   "vendedor": "Arthur Santana",
   "vendedor_desde": 2019,
   "vendedor_id": "pfbid02yneSNkBriKdHTZEEX7x3f4p9tiDgkwuQGx2LJV9wjAq8dZwJvidKY7iixYMYFi3il"
+ },
+ "1299662679908083": {
+  "data_status": "2026-10-17",
+  "local": "Porto Nacional, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-17",
+    10
+   ]
+  ],
+  "primeiro_visto": "2026-10-17",
+  "status": "ativo",
+  "titulo": "📺 TESTE TV SMART TV BOX 📺 TRANSFORME SUA TV ✅CA.NAI.S✅",
+  "ultima_coleta": "2026-10-17",
+  "ultimo_ativo": "2026-10-17",
+  "vendedor": "Thiago Ewertton",
+  "vendedor_desde": 2013,
+  "vendedor_id": "pfbid02TcLXuXcK6HNTxNFEQiz6dKc3qJSa3JNG1KVCCxyPJU2mqF5FkkdXoStQLMVkogeAl"
  },
  "1302689255138710": {
   "cat": "Videogame",
@@ -5262,7 +5322,7 @@
  },
  "1517248066826567": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-17",
   "local": "Palmas, TO",
   "mod": "iPhone 13 Pro Max",
   "precos": [
@@ -5276,14 +5336,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 13 Pro Max",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-13",
   "vendedor": "Kaleber San Silva",
   "vendedor_desde": 2019,
   "vendedor_id": "pfbid02ARFGHm3N3RuUjrxRFjA8o848j7T9gzD8oib33xHFeFFGqRhsaCHMAJiSMttYGLSUl",
-  "verificado": "2026-10-13"
+  "verificado": "2026-10-17"
  },
  "1521321879802415": {
   "cat": "Videogame",
@@ -7623,11 +7683,11 @@
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "Rafael Patrício",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid04qL9o735mTwGPUJ1wdmrmQRpY1KFHSBVXpq9GyNDH5zuNjXkjFM2Seb6tkHeF9dTl",
-  "verificado": "2026-10-13"
+  "vendedor_id": "pfbid04V29CpVc8Vuy5Eet8hvW5eLkNhLKPAqGDCBM4xNjTqpFhhJWTHFERskvdEcDNyXGl",
+  "verificado": "2026-10-17"
  },
  "1762610841612883": {
   "cat": "iPhone",
@@ -8907,11 +8967,11 @@
   "status": "ativo",
   "titulo": "TV smart 75 polegadas",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "Eriky Supla",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid02KzudSAmmRguqq9LhAs8W7eJiSk2TLrwSA5pSZu5eKioAr8hvGB4TpMagJtDd69Sil",
-  "verificado": "2026-10-13"
+  "vendedor_id": "pfbid02KebcqtEHnaxTQuM8nt2ihVshVAnNEoH6rcjxcW2LmGLfzLyjJz6VUJfg9f9rDbkKl",
+  "verificado": "2026-10-17"
  },
  "1978146059521947": {
   "cat": "Videogame",
@@ -9395,10 +9455,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Todo original impecável",
   "ultima_coleta": "2026-10-13",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "Vanessa Reis",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid032fJP6nGqZqLtQ5VcvLqGBFMJM1fC7p1VvaGXafkeEcmKkearGjZLJbz698Lhae1rl"
+  "vendedor_id": "pfbid032nwu59JZkQXSFhyZQiXLpAgYQBNC7USQif2HueMobAw6Vrb3VwJibnDJjEYB67SHl",
+  "verificado": "2026-10-17"
  },
  "2139811873300292": {
   "cat": "TV",
@@ -9870,17 +9931,21 @@
    [
     "2026-10-08",
     2350
+   ],
+   [
+    "2026-10-17",
+    2300
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Iphone 14",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "Kalebe Ramos",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid0hpSEquYJofbiRrPnhW1UrW97YAjqoQkNhuC6bd25XgrRW1sdPexzzQHgoQtxFTJpl",
-  "verificado": "2026-10-13"
+  "vendedor_id": "pfbid0hx5kpGa2zLy6Rmn4Uo8WXEt8xdACStNyx3eCb5wDY5aLoanuAq8U4m5gNRtPQ6nkl",
+  "verificado": "2026-10-17"
  },
  "2254330368632760": {
   "cat": "iPhone",
@@ -10212,6 +10277,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08",
   "verificado": "2026-10-12"
+ },
+ "2375347872873019": {
+  "cat": "TV",
+  "data_status": "2026-10-17",
+  "local": "Palmas, TO",
+  "mod": "TV 39 pol",
+  "precos": [
+   [
+    "2026-10-17",
+    330
+   ]
+  ],
+  "primeiro_visto": "2026-10-17",
+  "status": "ativo",
+  "titulo": "Tv 39 polegadas não é smart",
+  "ultima_coleta": "2026-10-17",
+  "ultimo_ativo": "2026-10-17",
+  "vendedor": "Wender Maciel",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid02rp2NpoTGTjcT3L3SvAggfVbhCcg1fYgcUiKQXY9si9RvGAqm5z6tMjhuM8xcKCQFl"
  },
  "2383764992450345": {
   "cat": "iPhone",
@@ -10772,7 +10857,7 @@
  },
  "2777682155962625": {
   "cat": "TV",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-17",
   "local": "Porto Nacional, TO",
   "mod": "TV",
   "precos": [
@@ -10782,13 +10867,13 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Televisão+smart",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-12",
   "vendedor": "Morena Vsb",
   "vendedor_id": "pfbid02LPWnEtN1m2ff1oU4bbZ2K5vDzKgkVanYifAnqpX3wAB3QQxSXj9taSQmQZQrzBVwl",
-  "verificado": "2026-10-12"
+  "verificado": "2026-10-17"
  },
  "27857916443887495": {
   "cat": "iPhone",
@@ -11308,6 +11393,26 @@
   "vendedor": "Hitallo Hyan",
   "vendedor_id": "pfbid0rjsYGSZBuHiRWpuEPTxB27ASznvkVsLkYV62rPqWdvM7CCYaMVkonvZfWePuqPMrl",
   "verificado": "2026-10-14"
+ },
+ "3076362672695268": {
+  "cat": "TV",
+  "data_status": "2026-10-17",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "TV 28 pol",
+  "precos": [
+   [
+    "2026-10-17",
+    200
+   ]
+  ],
+  "primeiro_visto": "2026-10-17",
+  "status": "ativo",
+  "titulo": "Tv 28 polegadas com pequena macha na tela",
+  "ultima_coleta": "2026-10-17",
+  "ultimo_ativo": "2026-10-17",
+  "vendedor": "Isaac Cardoso",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid02SYrPPRhCRT9qiRuAfoCaEUBs9un8fcs9M8pe6btKnSmdBnGB6KkLEs2D6ZMU3TVEl"
  },
  "3189687374563558": {
   "cat": "iPhone",
@@ -11899,6 +12004,26 @@
   "vendedor": "Tales Suellem",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid0gVzJt3E4whGaDVv1YgY6Mh2hsgo6bYUwUkkqj4g74ZAyYdyUjouv9pcg62nqzKzzl"
+ },
+ "4416150265290018": {
+  "cat": "TV",
+  "data_status": "2026-10-17",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-17",
+    450
+   ]
+  ],
+  "primeiro_visto": "2026-10-17",
+  "status": "ativo",
+  "titulo": "Vendo tv smart 32 polegadas",
+  "ultima_coleta": "2026-10-17",
+  "ultimo_ativo": "2026-10-17",
+  "vendedor": "ウィリアム ウィリアム ウィリアム",
+  "vendedor_desde": 2018,
+  "vendedor_id": "pfbid0NkU5nuBGF57wZC9RmJgq9CxeszjgexPkvXioL898Bdj1XAeG4cXHSiR7M4rGTDB1l"
  },
  "4446958222114727": {
   "cat": "iPhone",
@@ -12679,11 +12804,11 @@
   "status": "ativo",
   "titulo": "Jogos PS4 God of War e God of War Ragnarok",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "Emilly Geovana",
   "vendedor_desde": 2016,
-  "vendedor_id": "pfbid0KWd8kuCJQmLeSVS5ve2tt3xpP1SGf6FToQpd6BL6oW1iiaxi2rAtiDicbV8TNceBl",
-  "verificado": "2026-10-13"
+  "vendedor_id": "pfbid0KeGejGE2bRMGiQbekXqzBUohy7fmPmm7MDyx2MrXYTrDP2m9MA7QkUwZoKjkf4i8l",
+  "verificado": "2026-10-17"
  },
  "956100703592485": {
   "cat": "TV",
@@ -12843,11 +12968,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max 256 gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-13",
+  "ultimo_ativo": "2026-10-17",
   "vendedor": "Ana Gabriele Silva",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid02hFLtx3KLEjm8jUwSCrty3VAavc73Au2FNhUJYGGejhSdJt5TwApAhqJam6SKEGiPl",
-  "verificado": "2026-10-13"
+  "vendedor_id": "pfbid02gu2tMkmrbXBzyVDP8MVQGq5gi7f68LQpxFqhT8WtzMNNVTfBHyjNuX8dsu3goQxrl",
+  "verificado": "2026-10-17"
  },
  "968898218829667": {
   "cat": "Videogame",
