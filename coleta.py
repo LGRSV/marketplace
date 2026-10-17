@@ -106,6 +106,8 @@ BLOQUEIO = ("temporariamente bloqueado", "você está indo rápido demais", "you
             "going too fast", "confirme que é você", "checkpoint")
 ARGS_EXTRA = []  # o atualizar.py abre a janela fora da tela
 ANONIMO = True  # padrão: guias anônimas, sem cookies entre coletas (--perfil usa o perfil salvo)
+LEVE = True  # a página não carrega fotos, vídeos e fontes (menos RAM); as fotos vêm à parte em baixar_fotos
+PESADOS = {"image", "media", "font"}
 
 
 class Parar(Exception):
@@ -123,18 +125,34 @@ async def dormir(faixa):
     await asyncio.sleep(random.uniform(*faixa))
 
 
+async def aliviar(ctx):
+    """Com LEVE, corta fotos/vídeos/fontes da página; o extrator só lê o endereço das fotos (im.src), não a imagem."""
+    if not LEVE:
+        return
+
+    async def filtro(rota):
+        if rota.request.resource_type in PESADOS:
+            await rota.abort()
+        else:
+            await rota.continue_()
+    await ctx.route("**/*", filtro)
+
+
 async def abrir_chrome(p):
     """Devolve (navegador, função que abre uma guia nova)."""
     opcoes = dict(locale="pt-BR", viewport={"width": 1280, "height": 900})
-    args = ["--disable-blink-features=AutomationControlled"] + ARGS_EXTRA
+    args = ["--disable-blink-features=AutomationControlled", "--mute-audio"] + ARGS_EXTRA
     if ANONIMO:
         nav = await p.chromium.launch(channel="chrome", headless=False, args=args)
 
         async def nova_guia():  # cada guia é um contexto anônimo próprio (cookies separados)
-            return await (await nav.new_context(**opcoes)).new_page()
+            ctx = await nav.new_context(**opcoes)
+            await aliviar(ctx)
+            return await ctx.new_page()
         return nav, nova_guia
     os.makedirs(PERFIL, exist_ok=True)
     ctx = await p.chromium.launch_persistent_context(PERFIL, channel="chrome", headless=False, args=args, **opcoes)
+    await aliviar(ctx)
     return ctx, ctx.new_page
 
 
