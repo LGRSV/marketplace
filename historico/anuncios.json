@@ -157,10 +157,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Joao Philipe",
+  "vendedor_desde": 2011,
   "vendedor_id": "100003217497644",
-  "verificado": "2026-10-14"
+  "verificado": "2026-10-19"
  },
  "1020763447703487": {
   "cat": "iPhone",
@@ -1822,11 +1823,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Henrique Sousa",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid0UScCqPYTWNFMpsByZXkDvZLAyFAod63KNqjwFKDWDJmqYSBnmxFpB7TzRkivAtJpl",
-  "verificado": "2026-10-14"
+  "vendedor_id": "pfbid02XwjuRmvoia5dGMVVGdJUr43tHLUofSHqHkjNB1MMct5HGRhtgYFNjxh8z27emUBil",
+  "verificado": "2026-10-19"
  },
  "1102035232458255": {
   "cat": "iPhone",
@@ -3771,10 +3772,11 @@
   "status": "ativo",
   "titulo": "IPHONE 15 PRO 256GB AZUL 87%",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Jackson Ferreira",
   "vendedor_desde": 2014,
-  "vendedor_id": "100007476306466"
+  "vendedor_id": "100007476306466",
+  "verificado": "2026-10-19"
  },
  "1341310575732822": {
   "cat": "Videogame",
@@ -3987,11 +3989,11 @@
   "status": "ativo",
   "titulo": "Comprei e não usei nem sei pq tirei da caixa kk troco em iPhone 14 pro max",
   "ultima_coleta": "2026-10-10",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Israel Pereira",
   "vendedor_desde": 2015,
   "vendedor_id": "100009972584867",
-  "verificado": "2026-10-14"
+  "verificado": "2026-10-19"
  },
  "1364852999207404": {
   "cat": "iPhone",
@@ -4299,10 +4301,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 15",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Ana Beatriz Carvalho Borges",
   "vendedor_desde": 2018,
-  "vendedor_id": "pfbid0L4BjphxGYqWivPoSV8wNR53fH9VBCw7kQPbM1KZCtN74TeJfkoD9QskHz91a1tTAl"
+  "vendedor_id": "pfbid02PZKSR6Lckykrjkp3hi1vzGSq6Jd7VRRYq55V127suKXBHbVt27WoWbLaUFHiy5wPl",
+  "verificado": "2026-10-19"
  },
  "1399052742296675": {
   "cat": "Jogos e acessórios",
@@ -5346,17 +5349,21 @@
    [
     "2026-10-09",
     4500
+   ],
+   [
+    "2026-10-19",
+    4000
    ]
   ],
   "primeiro_visto": "2026-10-09",
   "status": "ativo",
   "titulo": "PS5",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Leonardo Póvoa",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02QAvDAWuSXje3tN9nvBihEWe5TnvaTPctN5tg7GxasbK12Y3FZz67vBGdyoZJY9jbl",
-  "verificado": "2026-10-14"
+  "vendedor_id": "pfbid0LkvYDiJosEop8XNAakxw2hMnwqULeeJ4kS7HYdNaiwWC4J7H3cG9uN1NedELxaSfl",
+  "verificado": "2026-10-19"
  },
  "1438834048202862": {
   "cat": "iPhone",
@@ -7679,10 +7686,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 128gb",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Rômulo Araújo",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02L4BhnihCxPGDbHB2y25yLM8kAhjCh3QUHDLzFzZtKyW4mhjNoL4UuV2NX69KC79vl"
+  "vendedor_id": "pfbid02KhshCS9jKQ22G2tSsHptz3u71s6ugqUdUt7t1wp89jzagmgoTHw2EkAGhPTXzUfil",
+  "verificado": "2026-10-19"
  },
  "1660604335599236": {
   "cat": "iPhone",
@@ -7812,6 +7820,26 @@
   "vendedor_desde": 2016,
   "vendedor_id": "100011343653052",
   "verificado": "2026-10-18"
+ },
+ "1669430751292292": {
+  "cat": "iPhone",
+  "data_status": "2026-10-19",
+  "local": "Palmas, TO",
+  "mod": "iPhone 18 Pro",
+  "precos": [
+   [
+    "2026-10-19",
+    9300
+   ]
+  ],
+  "primeiro_visto": "2026-10-19",
+  "status": "ativo",
+  "titulo": "iPhone 18 Pro 256g caixa lacrada",
+  "ultima_coleta": "2026-10-19",
+  "ultimo_ativo": "2026-10-19",
+  "vendedor": "Victória Couto",
+  "vendedor_desde": 2010,
+  "vendedor_id": "1093155798"
  },
  "1670411181315111": {
   "cat": "iPhone",
@@ -10173,6 +10201,26 @@
   "vendedor_desde": 2022,
   "vendedor_id": "pfbid02izuqZw4LfAJkjfqn8pzgKBnx11tk3A8asHLBc7bMh7f4J7e7WeAbNJRv8fktoS5Pl",
   "verificado": "2026-10-16"
+ },
+ "1987520998890065": {
+  "cat": "iPhone",
+  "data_status": "2026-10-19",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro",
+  "precos": [
+   [
+    "2026-10-19",
+    3450
+   ]
+  ],
+  "primeiro_visto": "2026-10-19",
+  "status": "ativo",
+  "titulo": "iPhone 15 pro 256 gb",
+  "ultima_coleta": "2026-10-19",
+  "ultimo_ativo": "2026-10-19",
+  "vendedor": "Iandro De Medeiros",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid0v4XLkmaqcpgWGyhRVC9owxnW2t1fQVFvnbLtffcejCDxLmJ1PcYUDyaPkSsTRWd4l"
  },
  "1990821858542515": {
   "cat": "iPhone",
@@ -12865,11 +12913,11 @@
   "status": "ativo",
   "titulo": "Vendo ou troco ps4 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Kauan Lima",
   "vendedor_desde": 2026,
   "vendedor_id": "61590114908593",
-  "verificado": "2026-10-14"
+  "verificado": "2026-10-19"
  },
  "2967331970267480": {
   "cat": "TV",
@@ -13765,10 +13813,11 @@
   "status": "ativo",
   "titulo": "Iphone 16 pro max",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Maria Luziê",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0w3xx4j6b4niKzJDyovywG4eFdoFXAUt1FguMeo28nHQYS6NtQzBaxZSxzGDXiXftl"
+  "vendedor_id": "pfbid03134BDm496h9VpqQsEAnxpqg3chF32tRa99WhU4WMcLZkpXnCGiYyyEPRVMarwDoel",
+  "verificado": "2026-10-19"
  },
  "4561783664089963": {
   "cat": "TV",
@@ -14702,10 +14751,11 @@
   "status": "ativo",
   "titulo": "iphone 17 pro max",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-10-14",
+  "ultimo_ativo": "2026-10-19",
   "vendedor": "Arthur Santana",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid0vF1FTaZVs5RAVfrhraph8vuLRrHnzKmM13sdeBhdbPTAgyE5QAGRsBY5fZs957Abl"
+  "vendedor_id": "pfbid02yk8x3xwr5ZjQYX7RtJGx4JwzbpzTmtEdtXFdniCakVjAug96MTwnGdG8cBfqXFF2l",
+  "verificado": "2026-10-19"
  },
  "971124269388751": {
   "cat": "Videogame",
