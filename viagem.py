@@ -43,6 +43,7 @@ PROJ = Path(__file__).resolve().parent
 CFG_ARQ = PROJ / "dados" / "viagem.json"
 PASTA = PROJ / "dados" / "viagem"
 VISTOS = PASTA / "vistos.json"
+ESTADO = PASTA / "estado.json"  # a última coleta (quando, quantas buscas, bloqueio)
 SITE = PASTA / "site"
 DESTINO = "marketplace/viagem"
 BUSCAS = ["iphone", "iphone 15", "iphone 16", "samsung galaxy s", "notebook", "macbook", "ps5", "xbox",
@@ -225,6 +226,8 @@ def coletar(cfg, buscas):
         log(f"busca {n + 1}/{len(buscas)}: {len(L)} anúncios")
     PASTA.mkdir(parents=True, exist_ok=True)
     VISTOS.write_text(json.dumps(vistos, ensure_ascii=False), encoding="utf-8")
+    ESTADO.write_text(json.dumps({"quando": datetime.now().strftime("%d/%m %H:%M"), "buscas": feitas, "de": len(buscas),
+                                  "bloqueio": bloqueio}, ensure_ascii=False), encoding="utf-8")
     return feitas, bloqueio
 
 
@@ -318,8 +321,9 @@ def motivo_fora(d, cat, pos):
 
 
 # ---------------------------------------------------------------- página
-def gerar(cfg, n_buscas, bloqueio):
+def gerar(cfg):
     vistos = json.loads(VISTOS.read_text(encoding="utf-8")) if VISTOS.exists() else {}
+    est = json.loads(ESTADO.read_text(encoding="utf-8")) if ESTADO.exists() else {}
     cidades = {sem_acento(c) for c in cfg["cidades"]}
     G = golpistas.carregar(str(PROJ))
     nomes_golpe = {golpistas.nome_chave(v.get("nome")) for v in G["vendedores"].values()} - {""}
@@ -386,8 +390,8 @@ def gerar(cfg, n_buscas, bloqueio):
         saida.append(item)
     saida.sort(key=lambda x: (x["pct"] if x["pct"] is not None else 999, x["preco"]))
     resumo = {"data": agora.strftime("%d/%m"), "hora": agora.strftime("%H:%M"), "rotulo": cfg["rotulo"], "ate": cfg["ate"],
-              "refs": refs, "fora": cfg.get("fora", []), "dicas": cfg.get("dicas", []), "n_buscas": n_buscas,
-              "bloqueio": bloqueio, "n_ref": N_REF, "faixa": [DESCONTO_MIN, BOM_DEMAIS]}
+              "refs": refs, "fora": cfg.get("fora", []), "dicas": cfg.get("dicas", []), "coleta": est.get("quando", ""),
+              "n_buscas": est.get("buscas", 0), "bloqueio": est.get("bloqueio"), "n_ref": N_REF, "faixa": [DESCONTO_MIN, BOM_DEMAIS]}
     tpl = (PROJ / "viagem_template.html").read_text(encoding="utf-8")
     SITE.mkdir(parents=True, exist_ok=True)
     (SITE / "index.html").write_text(tpl.replace("__COFRE__", json.dumps(privado.cifrar({"D": saida, "R": resumo}))), encoding="utf-8")
@@ -462,8 +466,9 @@ def main():
         if livre < RAM_MIN and not a.sem_coleta:
             log(f"só {livre} MB de RAM livres (mínimo {RAM_MIN}): rodada adiada")
             return 0
-        feitas, bloqueio = (0, None) if a.sem_coleta else coletar(cfg, BUSCAS[:2] if a.teste else BUSCAS)
-        gerar(cfg, feitas, bloqueio)
+        if not a.sem_coleta:
+            coletar(cfg, BUSCAS[:2] if a.teste else BUSCAS)
+        gerar(cfg)
         if a.teste:
             log(f"teste: página local em {SITE / 'index.html'} (não publicada)")
             return 0

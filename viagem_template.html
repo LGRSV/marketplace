@@ -123,7 +123,7 @@ if(Date.now()>Date.parse(R.ate+'T23:59:59-03:00')){
  $('cats').remove();$('lista').innerHTML='<div class="painel"><h2>Tela da viagem encerrada</h2><div class="m"><a href="../">Voltar ao Marketplace</a></div></div>';
 }else{
  $('sub').textContent=`${R.rotulo} · atualizado em ${R.data} às ${R.hora} · até ${br(R.ate)}`;
- $('rod').textContent=`Primeira página de cada busca no Facebook (${R.n_buscas} buscas nesta rodada${R.bloqueio?'; Facebook barrou: '+R.bloqueio:''}). Média = média do mesmo modelo, sem preços fora de 40%–250% da mediana: na própria região quando há ${R.n_ref}+ anúncios, senão a de Palmas. Fora: peça, troca, acessório, defeito citado, vendido e vendedores marcados como golpistas.`;
+ $('rod').textContent=`Primeira página de cada busca no Facebook (coleta de ${R.coleta||R.data}: ${R.n_buscas} buscas${R.bloqueio?'; Facebook barrou: '+R.bloqueio:''}). Média = média do mesmo modelo, sem preços fora de 40%–250% da mediana: na própria região quando há ${R.n_ref}+ anúncios, senão a de Palmas. Fora: peça, troca, acessório, defeito citado, vendido e vendedores marcados como golpistas.`;
  mostrar();
 }
 </script>
