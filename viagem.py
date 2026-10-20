@@ -47,7 +47,10 @@ ESTADO = PASTA / "estado.json"  # a última coleta (quando, quantas buscas, bloq
 SITE = PASTA / "site"
 DESTINO = "marketplace/viagem"
 BUSCAS = ["iphone", "iphone 15", "iphone 16", "samsung galaxy s", "notebook", "macbook", "ps5", "xbox",
-          "nintendo switch", "smart tv", "airpods", "apple watch", "ipad", "monitor"]
+          "nintendo switch", "smart tv", "airpods", "apple watch", "ipad", "monitor",
+          # 20/10/2026: só a 1ª página (24 anúncios) de cada busca; termos por modelo trazem anúncios que a busca larga não mostra
+          "iphone 13", "iphone 14", "iphone 12", "iphone 11", "iphone 17", "galaxy s23", "galaxy s24", "galaxy s25",
+          "notebook gamer", "ps4", "tv 50", "tv 55"]
 PAUSA = (2, 4)
 RAM_MIN = 250        # MB livres; abaixo disso a rodada fica para depois
 DESCONTO_MIN = 25    # % abaixo da referência para "muito barato"
@@ -84,7 +87,8 @@ FORA = re.compile(r"\bpe[çc]as?\b|retirad[ao] (de|pra|para) pe|caixa vazia|s[ó
                   r"|\b(tipo|estilo|similar|igual)\s+(ao?\s+|o\s+)?(air ?pods?|iphone|apple ?watch)|primeira linha|linha premium|\b1[:.]1\b", re.I)
 # acessório antes do aparelho ("Capa iPhone 15", "Controle PS5") ou "para <aparelho>" ("Película para iPad"): é o acessório
 ACESS = re.compile(r"\bcapas?\b|capinha|pel[íi]cula|\bcase\b|carregador|\bcabo\b|\bfonte\b|suporte|pulseira|controle|\bjogos?\b|headset|\bfones?\b"
-                   r"|\btela\b|display|bateria|carca[çc]a|teclado|mouse|\bbase\b|\bdock\b|\bkit\b|bolsa|mochila|volante|adaptador|\bhub\b|cooler|\bssd\b|\bhd\b|mem[óo]ria|estojo", re.I)
+                   r"|\btela\b|display|bateria|carca[çc]a|teclado|mouse|\bbase\b|\bdock\b|\bkit\b|bolsa|mochila|volante|adaptador|\bhub\b|cooler|\bssd\b|\bhd\b|mem[óo]ria|estojo"
+                   r"|\bcaixas?\b", re.I)  # "Caixa iPhone 13" é a caixa; "iPhone 13 na caixa" continua sendo o aparelho
 PARA = re.compile(r"\b(para|pra|p/)\s+(o\s+|a\s+)?(iphone|galaxy|samsung|ipad|macbook|notebook|apple ?watch|air ?pods|ps[45]|playstation|xbox|switch|nintendo|tv|monitor)", re.I)
 LACRADO = re.compile(r"lacrad", re.I)
 # modelo genérico demais para ter média (como "TV" sem polegada em gerar_pagina.py)
@@ -202,7 +206,7 @@ def extrair(html):
 def coletar(cfg, buscas):
     vistos = json.loads(VISTOS.read_text(encoding="utf-8")) if VISTOS.exists() else {}
     agora = datetime.now().isoformat(timespec="minutes")
-    feitas, bloqueio = 0, None
+    feitas, bloqueio, vazias = 0, None, 0
     for n, termo in enumerate(buscas):
         if n:
             time.sleep(random.uniform(*PAUSA))
@@ -214,10 +218,15 @@ def coletar(cfg, buscas):
             bloqueio = f"busca {n + 1} de {len(buscas)}: {e}"
             log(f"Facebook barrou a coleta ({bloqueio}); fico com o que já veio")
             break
-        if not L:
-            bloqueio = f"busca {n + 1} de {len(buscas)} veio sem anúncios (página mudou ou bloqueio)"
-            log(bloqueio + "; paro aqui")
-            break
+        if not L:  # uma busca vazia pode ser só falta de anúncio; duas seguidas, bloqueio ou página mudada
+            vazias += 1
+            if vazias >= 2:
+                bloqueio = f"buscas {n} e {n + 1} de {len(buscas)} vieram sem anúncios (página mudou ou bloqueio)"
+                log(bloqueio + "; paro aqui")
+                break
+            log(f"busca {n + 1}/{len(buscas)} ({termo}) veio vazia; sigo para a próxima")
+            continue
+        vazias = 0
         feitas += 1
         for d in L:
             v = vistos.get(d["id"], {"primeiro_visto": agora})
@@ -236,6 +245,10 @@ def classificar(titulo):
     """(categoria, modelo, posição do aparelho no título). Mesma normalização do projeto onde ela existe."""
     titulo = re.sub(r"(?<=\w)[+_](?=\w)", " ", titulo)  # "Iphone+18+pro+max" (mas "S23+ 256" continua Plus)
     t = titulo.lower().replace("promax", "pro max")
+    # aparelho de streaming, não TV ("Smart TV 43 pol Fire TV" tem polegada e continua TV)
+    if re.search(r"apple\s*tv|tv\s*box|chromecast|fire\s*(tv\s*)?stick|mi\s*box|roku", t) and \
+            not re.search(r"\b\d{2}\s*(\"|”|''|pol|polegadas|plg)", t):
+        return "Outros", "Outros", 0
     m = re.search(r"\bipad\b", t)
     if m:
         v = re.search(r"\b(pro|air|mini)\b", t)
