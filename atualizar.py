@@ -199,8 +199,13 @@ def montar_e_publicar(nome, proj, msg, haiku):
         ok = subprocess.run([py, os.path.join(proj, "gerar_pagina.py")], cwd=proj).returncode == 0
     else:  # aluguel: sem o Haiku o anúncio não tem tipo/finalidade e não aparece; são só os poucos novos
         ok = subprocess.run([py, os.path.join(proj, "gerar_aluguel.py"), "--diario"], cwd=proj).returncode == 0
-    if ok:
-        publicar(proj, msg)
+    if not ok:
+        coleta.log("geração da página falhou: nada publicado")
+        return 1
+    r = publicar(proj, msg)
+    if r:  # a tarefa agendada saía 0x0 mesmo com o push recusado (18–19/10); agora o erro aparece
+        coleta.log(f"publicação falhou (código {r})")
+    return r
 
 
 def conferir_antigos(proj, maximo):
@@ -219,7 +224,7 @@ def diario(nome, proj, conferir, rodape=""):
     hoje = datetime.now()
     coleta.log(f"Compilado do dia: conferindo {conferir} anúncios antigos ...")
     conferir_antigos(proj, conferir)  # se a conferência falhar, o compilado sai mesmo assim
-    montar_e_publicar(nome, proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}" + rodape, haiku=True)
+    return montar_e_publicar(nome, proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}" + rodape, haiku=True)
 
 
 def main():
@@ -245,10 +250,10 @@ def main():
             # cada rodada também confere alguns antigos, e assim a lista inteira roda ao longo da semana
             n_conf = conferir_antigos(proj, a.conferir_novos)
             if n or n_conf or fechar:
-                montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}" + rodape, haiku=False)
-        else:
-            diario(a.proj, proj, a.conferir, rodape)
+                return montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}" + rodape, haiku=False)
+            return 0
+        return diario(a.proj, proj, a.conferir, rodape)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
