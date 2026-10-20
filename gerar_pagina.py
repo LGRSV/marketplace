@@ -201,6 +201,15 @@ evol[date.today().isoformat() if len(sys.argv) < 2 else "-".join(reversed(DATA.s
 arq_m.parent.mkdir(exist_ok=True)
 arq_m.write_text(json.dumps(evol, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 resumo = {"data": DATA, "hora": datetime.now().strftime("%H:%M"), "medias": {k: v for k, v in sorted(medias.items())}, "vendas": vendas}
+# Tela temporária da viagem (viagem.py): o link vai só dentro do cofre, enquanto dados/viagem.json valer e a pasta
+# marketplace/viagem/ existir no worktree de publicação; depois da data ou do "viagem.py --remover" some sozinho.
+try:
+    from publicar import AGENDA
+    _v = json.loads((PROJ / "dados" / "viagem.json").read_text(encoding="utf-8"))
+    if date.today().isoformat() <= _v["ate"] and (Path(AGENDA) / "marketplace" / "viagem" / "index.html").exists():
+        resumo["viagem"] = {"rotulo": _v["rotulo"], "ate": _v["ate"]}
+except (OSError, ValueError, KeyError, ImportError):
+    pass
 # Os anúncios vão criptografados (privado.py): o HTML público não tem nenhum dado legível sem a senha.
 (PROJ / "index.html").write_text(tpl.replace("__GOLPE__", golpistas.pagina_js(PROJ))
                                 .replace("__COFRE__", json.dumps(privado.cifrar({"D": D, "R": resumo}))), encoding="utf-8")

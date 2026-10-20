@@ -35,6 +35,7 @@ h1{margin:0;font-size:clamp(28px,7vw,40px);line-height:.98;letter-spacing:-.06em
 .st b{display:block;font-size:26px;font-weight:800;letter-spacing:-.06em;line-height:1.1}.st span{color:var(--muted);font-size:12px;font-weight:650}
 .aviso{margin:12px 0 0;padding:12px 13px;border:1px solid var(--line);border-radius:15px;background:var(--soft);color:var(--muted);font-size:13px;line-height:1.45}
 .aviso:before{content:"⚠ ";color:var(--warn)}
+.aviso.viagem{display:block;border-color:var(--accent);color:var(--text);font-weight:750;text-decoration:none}.aviso.viagem:before{content:none}
 h3{display:flex;align-items:baseline;gap:8px;margin:24px 0 0;font-size:17px;letter-spacing:-.025em}h3 small{color:var(--muted);font-size:12px;font-weight:700}
 /* filtros */
 .filtros{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) minmax(0,1.6fr);gap:8px;padding:12px 0 4px}
@@ -208,6 +209,9 @@ document.onkeydown=e=>{if(!cur)return;if(e.key==='Escape')fechar();if(e.key==='A
 $('sub').textContent=`Atualizado em ${R.data}${R.hora?' às '+R.hora:''} · ${D.length} anúncios da região`;
 $('aviso').textContent='Confira no Facebook se o anúncio ainda está ativo antes de chamar o vendedor. Preço muito abaixo do normal pode ser golpe.';
 $('rod').textContent='Atualizado automaticamente de 2 em 2 horas (7h–21h). Cada anúncio é comparado com a média do mesmo modelo na região de Palmas.';
+// tela temporária da viagem (viagem.py): só aparece dentro do cofre, até a data final e se viagem/ ainda estiver no ar
+if(R.viagem&&Date.now()<=Date.parse(R.viagem.ate+'T23:59:59-03:00'))fetch('viagem/',{method:'HEAD',cache:'no-store'}).then(r=>{if(!r.ok)return;
+ const a=document.createElement('a');a.href='viagem/';a.className='aviso viagem';a.textContent='🧳 Viagem: eletrônicos baratos em '+R.viagem.rotulo+' →';$('va').prepend(a)}).catch(()=>{});
 tudo();
 </script>
 <script>

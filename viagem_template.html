@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="app-page" content="marketplace">
+<meta name="robots" content="noindex,nofollow">
+<title>Viagem — eletrônicos</title>
+<meta name="theme-color" content="#050506">
+<script>try{if(localStorage.getItem('agenda_lagares_theme')==='light')document.documentElement.dataset.theme='light'}catch(_){}</script>
+<style>
+/* mesmas cores, fonte e cantos do Jarvis e da página principal do Marketplace (pagina_template.html) */
+:root{color-scheme:dark;--bg:#050506;--surface:#0c0c0f;--soft:#15151a;--soft2:#202027;--text:#f8f8fa;--muted:#afb0b8;--faint:#7b7d87;--line:#2e2e36;--accent:#75cbff;--accent2:#3baee8;--accentInk:#061b26;
+ --ok:#6fdc9a;--bad:#ff9c9c;--warn:#f5c451;--shadow:0 14px 34px rgba(0,0,0,.5)}
+:root[data-theme="light"]{color-scheme:light;--bg:#f4f6fa;--surface:#fff;--soft:#f5f7fb;--soft2:#e8edf4;--text:#18212d;--muted:#657080;--faint:#8993a1;--line:#dfe5ed;--accent:#147fb7;--accent2:#0d72aa;--accentInk:#fff;
+ --ok:#1a8a4a;--bad:#ba3e3e;--warn:#a86b00;--shadow:0 12px 28px rgba(27,40,58,.08)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,Helvetica,Arial,sans-serif;letter-spacing:-.01em}
+button,input{font:inherit}button{cursor:pointer}
+a{color:var(--accent)}
+.in{width:min(100%,1180px);margin:0 auto;padding:0 16px}
+.topbar{display:flex;align-items:flex-start;gap:12px;padding:calc(18px + env(safe-area-inset-top)) 0 14px}
+.voltar{display:grid;place-items:center;flex:none;width:46px;height:46px;border:1px solid var(--line);border-radius:15px;background:var(--surface);color:var(--text);text-decoration:none;transition:transform .14s cubic-bezier(.23,1,.32,1)}
+.voltar svg{width:20px;height:20px}
+.eyebrow{display:block;margin-bottom:6px;color:var(--accent);font-size:11px;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+h1{margin:0;font-size:clamp(28px,7vw,40px);line-height:.98;letter-spacing:-.06em}
+.sub{display:block;margin-top:8px;color:var(--muted);font-size:13.5px}
+.barra{position:sticky;top:0;z-index:5;padding:8px 0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+#cats{display:flex;gap:4px;overflow-x:auto;padding:4px;border:1px solid var(--line);border-radius:15px;background:var(--soft);scrollbar-width:none}#cats::-webkit-scrollbar{display:none}
+#cats button{flex:1 0 auto;min-height:37px;padding:0 14px;border:0;border-radius:11px;background:transparent;color:var(--muted);font-size:13px;font-weight:800;white-space:nowrap;transition:transform .14s cubic-bezier(.23,1,.32,1)}
+#cats button.on{background:var(--surface);color:var(--text);box-shadow:0 1px 7px rgba(0,0,0,.16)}#cats button small{margin-left:3px;color:var(--faint);font-weight:700}
+#cats button:active,.c:active,.voltar:active{transform:scale(.96)}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0 0;padding:16px;border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,var(--surface),var(--soft));box-shadow:var(--shadow)}
+.st b{display:block;font-size:26px;font-weight:800;letter-spacing:-.06em;line-height:1.1}.st span{color:var(--muted);font-size:12px;font-weight:650}
+.aviso{margin:12px 0 0;padding:12px 13px;border:1px solid color-mix(in srgb,var(--warn) 45%,var(--line));border-radius:15px;background:color-mix(in srgb,var(--warn) 8%,var(--soft));color:var(--text);font-size:13px;line-height:1.45}
+.aviso b{color:var(--warn)}
+h3{display:flex;align-items:baseline;flex-wrap:wrap;gap:8px;margin:24px 0 0;font-size:17px;letter-spacing:-.025em}h3 small{color:var(--muted);font-size:12px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:12px;padding:12px 0}
+.c{display:block;overflow:hidden;border:1px solid var(--line);border-radius:20px;background:var(--surface);box-shadow:var(--shadow);color:var(--text);text-decoration:none;transition:transform .14s cubic-bezier(.23,1,.32,1),border-color .14s}
+.c:hover{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.c.hi{border-color:color-mix(in srgb,var(--ok) 55%,var(--line));background:linear-gradient(180deg,color-mix(in srgb,var(--ok) 8%,var(--surface)),var(--surface))}
+.c.bad{border-color:color-mix(in srgb,var(--bad) 55%,var(--line))}
+.n{position:relative;aspect-ratio:1;background:var(--soft2)}
+.n img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.n .pct{position:absolute;left:8px;top:8px;padding:4px 9px;border-radius:999px;color:#fff;font-size:12px;font-weight:800}
+.pct.low{background:#14874a}.pct.high{background:#b93636}
+.c .b{padding:11px 12px 13px}.p{font-size:19px;font-weight:800;letter-spacing:-.04em}
+.t{display:-webkit-box;margin:2px 0 4px;overflow:hidden;font-size:14px;font-weight:650;line-height:1.35;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.m{color:var(--muted);font-size:12.5px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.tag{--tag:var(--faint);display:inline-flex;align-items:center;gap:5px;padding:3px 8px 3px 6px;border:1px solid color-mix(in srgb,var(--tag) 44%,var(--line));border-radius:999px;background:color-mix(in srgb,var(--tag) 14%,transparent);color:var(--text);font-size:10.5px;font-weight:800;line-height:1.2}
+.tag:before{content:"";width:6px;height:6px;flex:none;border-radius:50%;background:var(--tag)}
+.tag.low{--tag:var(--ok)}.tag.high{--tag:var(--bad)}.tag.warn{--tag:var(--warn)}
+.vazio{grid-column:1/-1;padding:34px 18px;border:1px dashed var(--line);border-radius:21px;color:var(--muted);text-align:center}
+.painel{margin:14px 0;padding:16px;border:1px solid var(--line);border-radius:20px;background:var(--surface);box-shadow:var(--shadow)}
+.painel h2{margin:0 0 6px;font-size:18px;letter-spacing:-.03em}
+.fora{display:grid;gap:4px;padding:12px 0;border-bottom:1px solid var(--line)}.fora:last-child{border-bottom:0}
+.fora .p{font-size:16px}.fora a{font-size:13.5px;font-weight:700;overflow-wrap:anywhere}
+ul.dicas{margin:8px 0 0;padding-left:18px;color:var(--text);font-size:14px}ul.dicas li{margin:6px 0}
+footer{padding:24px 0 calc(40px + env(safe-area-inset-bottom));color:var(--faint);font-size:12px}
+@media (max-width:760px){.stats{grid-template-columns:1fr 1fr;padding:14px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.c{border-radius:17px}.p{font-size:17px}.c .b{padding:9px 10px 11px}}
+/* cofre: igual à página principal (privado.py) */
+html.trancado body>*:not(header):not(#cofre){display:none!important}
+#cofre{display:none;max-width:420px;margin:8vh auto 0;padding:0 16px}
+html.trancado #cofre{display:block}
+#cofre form{display:grid;gap:12px;padding:22px;border:1px solid var(--line);border-radius:24px;background:var(--surface);box-shadow:var(--shadow)}
+#cofre h2{margin:0;font-size:20px}#cofre p{margin:0;color:var(--muted);font-size:14px;line-height:1.45}
+#cofre input[type=password]{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:15px;background:var(--soft);color:var(--text);font:inherit;font-size:16px}
+#cofre label{display:flex;gap:8px;align-items:center;color:var(--muted);font-size:14px}
+#cofre button{padding:13px;border:0;border-radius:15px;background:var(--accent);color:var(--accentInk);font:inherit;font-weight:750;font-size:15px}
+#cofre button:disabled{opacity:.6}#cofreMsg{min-height:1.2em;font-size:14px;color:var(--muted)}#cofreMsg.erro{color:var(--bad)}
+.esquecer{display:block;margin:-30px 0 40px;color:var(--faint);font-size:12px;background:none;border:0;padding:0;text-decoration:underline}
+</style></head><body>
+<header class="in"><div class="topbar"><a class="voltar" href="../" aria-label="Voltar para o Marketplace"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></a>
+<div><span class="eyebrow">Marketplace · Viagem</span><h1>Eletrônicos</h1><span class="sub" id="sub"></span></div></div></header>
+<div id="cofre"><form id="cofreForm" autocomplete="on"><h2>🔒 Acesso restrito</h2>
+<p>Os anúncios desta página são criptografados. Digite a sua senha de acesso (a mesma do Marketplace).</p>
+<input type="text" name="username" value="marketplace" autocomplete="username" hidden>
+<input id="cofreSenha" type="password" autocomplete="current-password" placeholder="Senha" required>
+<label><input id="cofreLembrar" type="checkbox" checked> Lembrar neste aparelho</label>
+<button id="cofreBotao">Entrar</button><div id="cofreMsg" role="status"></div></form></div>
+<div class="barra"><div class="in"><nav id="cats"></nav></div></div>
+<div class="in" id="corpo">
+<div class="aviso"><b>Antes de comprar:</b> encontre só em local público e movimentado, de dia; teste tudo antes de pagar; desconfie de “lacrado” barato; nunca pague sinal nem Pix adiantado.</div>
+<section id="lista"></section>
+<footer id="rod"></footer>
+</div>
+<script type="text/plain" id="app">
+const D=window.__D,R=window.__R;
+const $=id=>document.getElementById(id);
+const fmt=v=>'R$ '+Number(v).toLocaleString('pt-BR');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const url=u=>/^https:\/\//.test(u||'')?esc(u):'#';
+const br=d=>String(d||'').split('-').reverse().join('/');
+const ICONE={'iPhone':'📱','Galaxy':'📲','Notebook':'💻','iPad':'📱','AirPods':'🎧','Apple Watch':'⌚','Videogame':'🎮','TV':'📺','Monitor':'🖥️'};
+const ORDEM=['iPhone','Galaxy','Notebook','iPad','AirPods','Apple Watch','Videogame','TV','Monitor'];
+function ha(ts){if(!ts)return'';const h=(Date.now()/1000-ts)/3600;return h<1?'anunciado há menos de 1 h':h<48?`anunciado há ${Math.round(h)} h`:`anunciado há ${Math.round(h/24)} dias`}
+const card=d=>`<a class="c${d.grupo==='barato'?' hi':d.grupo==='demais'?' bad':''}" href="${url(d.link)}" target="_blank" rel="noopener noreferrer">
+ <div class="n">${d.foto?`<img src="${url(d.foto)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:''}
+ ${d.pct!=null?`<span class="pct ${d.pct<0?'low':'high'}">${d.pct>0?'+':''}${d.pct}%</span>`:''}</div>
+ <div class="b"><div class="p">${fmt(d.preco)}</div><div class="t">${esc(d.titulo)}</div>
+ <div class="m">${esc(d.mod)} · ${esc(d.cidade)}</div>
+ <div class="m">${d.ref?`Média ${fmt(d.ref)} · ${esc(d.ref_fonte)} (${d.ref_n})${d.pct<0?` · ${-d.pct}% abaixo`:''}`:'Sem referência de preço'}</div>
+ <div class="tags">${(d.tags||[]).map(([k,t])=>`<span class="tag ${esc(k)}">${esc(t)}</span>`).join('')}${d.criado?`<span class="tag">${ha(d.criado)}</span>`:''}</div></div></a>`;
+const grade=(L,vazio)=>`<div class="grid">${L.length?L.map(card).join(''):`<div class="vazio">${vazio}</div>`}</div>`;
+const cats=[...new Set(D.map(d=>d.cat))].sort((a,b)=>((ORDEM.indexOf(a)+99)%99)-((ORDEM.indexOf(b)+99)%99)||a.localeCompare(b));
+const B=D.filter(d=>d.grupo==='barato'),X=D.filter(d=>d.grupo==='demais');
+const ABAS=[['$','💰 Muito baratos',B.length],...cats.map(c=>[c,`${ICONE[c]||'🔎'} ${c}`,D.filter(d=>d.cat===c).length]),['f','🌐 Fora do Facebook',(R.fora||[]).length]];
+let aba='$';try{const h=decodeURIComponent(location.hash.slice(1));if(ABAS.some(a=>a[0]===h))aba=h}catch(_){}
+function abas(){$('cats').innerHTML=ABAS.map(([k,t,n])=>`<button class="${k===aba?'on':''}" data-k="${esc(k)}">${esc(t)} <small>${n}</small></button>`).join('');history.replaceState(null,'','#'+encodeURIComponent(aba))}
+function mostrar(){abas();let h='';
+ if(aba==='$'){
+  h+=`<div class="stats">${[[D.length,'anúncios na região'],[B.length,'muito baratos'],[X.length,'bons demais'],[Object.keys(R.refs||{}).length,'modelos com média']].map(([v,t])=>`<div class="st"><b>${v}</b><span>${t}</span></div>`).join('')}</div>`;
+  h+=`<h3>💰 Muito baratos <small>${R.faixa[0]}% a ${R.faixa[1]}% abaixo da média do mesmo modelo · maior desconto primeiro</small></h3>`+grade(B,`Nenhum anúncio da região está ${R.faixa[0]}% abaixo da média nesta rodada. Veja as abas por categoria.`);
+  if(X.length)h+=`<h3>🚨 Bom demais para ser verdade <small>mais de ${R.faixa[1]}% abaixo: quase sempre golpe, peça ou erro</small></h3>`+grade(X,'');
+ }else if(aba==='f'){
+  h+=`<div class="painel"><h2>🌐 Fora do Facebook</h2><div class="m">Achados por buscador (OLX e outros). <b>Não verificados</b>: podem ter sido vendidos ou não existir mais. Abra e confira antes de chamar o vendedor.</div>`+
+   (R.fora||[]).map(f=>`<div class="fora"><div><span class="tag warn">não verificado</span></div><div class="p">${esc(f.preco)}</div><div class="t">${esc(f.titulo)}</div><div class="m">${esc(f.obs)}</div><a href="${url(f.link)}" target="_blank" rel="noopener noreferrer">Abrir o anúncio ou a busca →</a></div>`).join('')+'</div>';
+  if((R.dicas||[]).length)h+=`<div class="painel"><h2>🛡️ Para comprar com segurança</h2><ul class="dicas">${R.dicas.map(t=>`<li>${esc(t)}</li>`).join('')}</ul></div>`;
+ }else{
+  const L=D.filter(d=>d.cat===aba);
+  h+=`<h3>${ICONE[aba]||''} ${esc(aba)} <small>${L.length} anúncios · mais abaixo da média primeiro; sem média no fim</small></h3>`+grade(L,'Nada nesta categoria.');
+ }
+ $('lista').innerHTML=h}
+$('cats').onclick=e=>{const b=e.target.closest('button');if(b){aba=b.dataset.k;mostrar();scrollTo(0,0)}};
+if(Date.now()>Date.parse(R.ate+'T23:59:59-03:00')){
+ $('cats').remove();$('lista').innerHTML='<div class="painel"><h2>Tela da viagem encerrada</h2><div class="m"><a href="../">Voltar ao Marketplace</a></div></div>';
+}else{
+ $('sub').textContent=`${R.rotulo} · atualizado em ${R.data} às ${R.hora} · até ${br(R.ate)}`;
+ $('rod').textContent=`Primeira página de cada busca no Facebook (${R.n_buscas} buscas nesta rodada${R.bloqueio?'; Facebook barrou: '+R.bloqueio:''}). Média = média do mesmo modelo, sem preços fora de 40%–250% da mediana: na própria região quando há ${R.n_ref}+ anúncios, senão a de Palmas. Fora: peça, troca, acessório, defeito citado, vendido e vendedores marcados como golpistas.`;
+ mostrar();
+}
+</script>
+<script>
+(()=>{const COFRE=__COFRE__,LS='marketplace_chaves',H=document.documentElement;
+const u8=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0)),b64=b=>btoa(String.fromCharCode(...new Uint8Array(b)));
+const lidas=()=>{try{return JSON.parse(localStorage.getItem(LS)||'{}')||{}}catch(_){return{}}};
+const aes=(raw,uso)=>crypto.subtle.importKey('raw',raw,'AES-GCM',false,[uso]);
+async function abrir(kek,sl){const k=await crypto.subtle.decrypt({name:'AES-GCM',iv:u8(sl.iv)},await aes(kek,'decrypt'),u8(sl.k));
+ const t=await crypto.subtle.decrypt({name:'AES-GCM',iv:u8(COFRE.iv)},await aes(k,'decrypt'),u8(COFRE.ct));return JSON.parse(new TextDecoder().decode(t))}
+async function derivar(senha,salt){const base=await crypto.subtle.importKey('raw',new TextEncoder().encode(senha),'PBKDF2',false,['deriveBits']);
+ return crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt:u8(salt),iterations:COFRE.iter},base,256)}
+function iniciar(x){window.__D=x.D;window.__R=x.R;H.classList.remove('trancado');document.getElementById('cofre').remove();
+ const s=document.createElement('script');s.textContent=document.getElementById('app').textContent;document.body.appendChild(s);
+ const b=document.createElement('button');b.className='esquecer in';b.textContent='Esquecer a senha neste aparelho';
+ b.onclick=()=>{try{localStorage.removeItem(LS)}catch(_){}location.reload()};document.body.appendChild(b)}
+const msg=(t,erro)=>{const m=document.getElementById('cofreMsg');m.textContent=t;m.classList.toggle('erro',!!erro)};
+H.classList.add('trancado');
+(async()=>{const S=lidas();for(const sl of COFRE.slots)if(S[sl.salt]){try{return iniciar(await abrir(u8(S[sl.salt]),sl))}catch(_){}}
+ document.getElementById('cofreSenha').focus()})();
+document.getElementById('cofreForm').onsubmit=async e=>{e.preventDefault();const bt=document.getElementById('cofreBotao'),senha=document.getElementById('cofreSenha').value;
+ bt.disabled=true;msg('Conferindo a senha…');
+ for(const sl of COFRE.slots){let kek,x;try{kek=await derivar(senha,sl.salt);x=await abrir(kek,sl)}catch(_){continue}
+  if(document.getElementById('cofreLembrar').checked){const S=lidas();S[sl.salt]=b64(kek);try{localStorage.setItem(LS,JSON.stringify(S))}catch(_){}}
+  return iniciar(x)}
+ bt.disabled=false;msg('Senha incorreta.',true)};
+})();
+</script></body></html>
