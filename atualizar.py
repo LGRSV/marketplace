@@ -227,6 +227,52 @@ def diario(nome, proj, conferir, rodape=""):
     return montar_e_publicar(nome, proj, f"Compilado de {hoje:%d/%m/%Y %H:%M}" + rodape, haiku=True)
 
 
+def data_ate(arq):
+    """Campo "ate" (AAAA-MM-DD) de um JSON gravado à mão no Windows: o PowerShell grava com BOM, em UTF-16 (">")
+    ou em cp1252 (Set-Content). Formato errado levanta ValueError/TypeError/AttributeError."""
+    b = open(arq, "rb").read()
+    if b[:2] in (b"\xff\xfe", b"\xfe\xff"):
+        txt = b.decode("utf-16")
+    else:
+        try:
+            txt = b.decode("utf-8-sig")
+        except UnicodeDecodeError:
+            txt = b.decode("cp1252")
+    return date.fromisoformat(str(json.loads(txt).get("ate", ""))).isoformat()
+
+
+def pausado(dados, hoje=None):
+    """dados/pausa.json {"ate": "AAAA-MM-DD"}: as rodadas são puladas até essa data, inclusive. Fica em dados/, fora do git."""
+    arq = os.path.join(dados, "pausa.json")
+    if not os.path.exists(arq):
+        return ""
+    try:
+        ate = data_ate(arq)
+    except (OSError, ValueError, TypeError, AttributeError) as e:
+        # arquivo existe mas não dá para ler: a pausa foi pedida, então na dúvida não coleta (e avisa no log).
+        # Arquivo ilegível esquecido há mais de 14 dias não segura a coleta para sempre.
+        velho = time.time() - os.path.getmtime(arq) > 14 * 86400
+        print(f"{datetime.now():%d/%m %H:%M} dados/pausa.json ilegível ({type(e).__name__}): "
+              + ("ignorado (mais de 14 dias)" if velho else "rodada pulada; corrija ou apague o arquivo"))
+        return "" if velho else "(ilegível)"
+    return ate if (hoje or date.today()).isoformat() <= ate else ""
+
+
+def encerrar_tela_temporaria(hoje=None):
+    """A tela temporária de viagem.py sai do ar sozinha na primeira rodada depois da data final de dados/viagem.json.
+    dados/viagem/site some quando a remoção é publicada; se o push falhar, a próxima rodada tenta de novo."""
+    arq = os.path.join(AQUI, "dados", "viagem.json")
+    if not os.path.exists(arq):
+        return
+    try:
+        ate = data_ate(arq)
+    except (OSError, ValueError, TypeError, AttributeError) as e:   # nunca derruba a rodada normal
+        print(f"{datetime.now():%d/%m %H:%M} dados/viagem.json sem data final legível ({type(e).__name__}): a tela temporária não sai sozinha")
+        return
+    if (hoje or date.today()).isoformat() > ate and os.path.isdir(os.path.join(AQUI, "dados", "viagem", "site")):
+        subprocess.run([sys.executable, os.path.join(AQUI, "viagem.py"), "--remover"], cwd=AQUI)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
@@ -239,6 +285,12 @@ def main():
     a = ap.parse_args()
     proj, buscas = preparar(a.proj)
     os.makedirs(coleta.DADOS, exist_ok=True)
+    if a.proj == "iphone":
+        encerrar_tela_temporaria()
+    ate = pausado(coleta.DADOS)
+    if ate:  # print, não coleta.log: mexer no coleta.log faz o viagem.py achar que há coleta completa rodando
+        print(f"{datetime.now():%d/%m %H:%M} rodada {a.modo} pulada: coleta pausada até {ate} (dados/pausa.json)")
+        return 0
     with Trava(coleta.DADOS):
         # marcações "🚩 golpista" feitas no site viram issues no GitHub; o commit que publica fecha cada uma
         fechar = golpistas.sincronizar(proj, coleta.log)

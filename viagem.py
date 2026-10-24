@@ -84,12 +84,14 @@ NEGA = re.compile(r"(\bsem\b|\bnenhum|\bnem\b|n[ãa]o (tem|possui|apresenta|h[á
 FORA = re.compile(r"\bpe[çc]as?\b|retirad[ao] (de|pra|para) pe|caixa vazia|s[óo] (a )?caixa|\btroc[oa]s?\b|\btroca\b|\bcompro\b|\bprocuro\b"
                   r"|\balug[oa]\b|\baluguel\b|\bconserto\b|assist[êe]ncia|\bbloquead|r[ée]plica|\bclone\b|\bsabor\b|xing ?ling|\bmontado\b"
                   r"|placa[- ]m[ãa]e|s[óo] (o )?(carregador|controle|case|estojo|fone)|(case|estojo) avulso|fone (direito|esquerdo)|lado (direito|esquerdo)"
-                  r"|\b(tipo|estilo|similar|igual)\s+(ao?\s+|o\s+)?(air ?pods?|iphone|apple ?watch)|primeira linha|linha premium|\b1[:.]1\b", re.I)
+                  r"|\b(tipo|estilo|similar|igual)\s+(ao?\s+|o\s+)?(air ?pods?|iphone|apple ?watch)|primeira linha|linha premium|\b1[:.]1\b"
+                  r"|caixas? de som|soundbar|\bprojetor", re.I)  # "Caixa de som Smart JBL" e projetor "Smart TV" não são TV
 # acessório antes do aparelho ("Capa iPhone 15", "Controle PS5") ou "para <aparelho>" ("Película para iPad"): é o acessório
 ACESS = re.compile(r"\bcapas?\b|capinha|pel[íi]cula|\bcase\b|carregador|\bcabo\b|\bfonte\b|suporte|pulseira|controle|\bjogos?\b|headset|\bfones?\b"
-                   r"|\btela\b|display|bateria|carca[çc]a|teclado|mouse|\bbase\b|\bdock\b|\bkit\b|bolsa|mochila|volante|adaptador|\bhub\b|cooler|\bssd\b|\bhd\b|mem[óo]ria|estojo"
-                   r"|\bcaixas?\b", re.I)  # "Caixa iPhone 13" é a caixa; "iPhone 13 na caixa" continua sendo o aparelho
-PARA = re.compile(r"\b(para|pra|p/)\s+(o\s+|a\s+)?(iphone|galaxy|samsung|ipad|macbook|notebook|apple ?watch|air ?pods|ps[45]|playstation|xbox|switch|nintendo|tv|monitor)", re.I)
+                   r"|\btela\b|display|bateria|carca[çc]a|teclado|mouse|\bbase\b|\bdock\b|\bkit\b|bolsa|mochila|volante|adaptador|\bhub\b|cooler|\bssd\b|\bhd\b|mem[óo]ria|estojo", re.I)
+# "Caixa iPhone 13" vendida sozinha já cai no PRECO_MIN; "caixa" aqui descartava "Na caixa iPhone 13" e "PS4 com caixa"
+STREAMING = re.compile(r"apple\s*tv|tv\s*box|chromecast|fire\s*(tv\s*)?stick|mi\s*box|roku", re.I)
+PARA = re.compile(r"\b(para|pra|p/)\s+(o\s+|a\s+)?(iphone|galaxy|samsung|ipad|macbook|notebook|apple ?watch|air ?pods|ps[45]|playstation|xbox|switch|nintendo|tv|smart|monitor)", re.I)
 LACRADO = re.compile(r"lacrad", re.I)
 # modelo genérico demais para ter média (como "TV" sem polegada em gerar_pagina.py)
 GENERICOS = {"iPad", "iPad Pro", "iPad Air", "iPad mini", "Notebook", "Notebook gamer", "MacBook", "MacBook Air", "MacBook Pro",
@@ -99,6 +101,17 @@ GENERICO = re.compile(r"^Notebook (i\d|Ryzen|Core)|\(Intel\)")
 
 def sem_acento(s):
     return "".join(c for c in unicodedata.normalize("NFKD", str(s or "")) if not unicodedata.combining(c)).lower().strip()
+
+
+def ler_json(arq):
+    """JSON gravado à mão no Windows: UTF-8 com ou sem BOM, UTF-16 (">" do PowerShell 5.1) ou cp1252 (Set-Content)."""
+    b = Path(arq).read_bytes()
+    if b[:2] in (b"\xff\xfe", b"\xfe\xff"):
+        return json.loads(b.decode("utf-16"))
+    try:
+        return json.loads(b.decode("utf-8-sig"))
+    except UnicodeDecodeError:
+        return json.loads(b.decode("cp1252"))
 
 
 def cita_defeito(t):
@@ -245,10 +258,6 @@ def classificar(titulo):
     """(categoria, modelo, posição do aparelho no título). Mesma normalização do projeto onde ela existe."""
     titulo = re.sub(r"(?<=\w)[+_](?=\w)", " ", titulo)  # "Iphone+18+pro+max" (mas "S23+ 256" continua Plus)
     t = titulo.lower().replace("promax", "pro max")
-    # aparelho de streaming, não TV ("Smart TV 43 pol Fire TV" tem polegada e continua TV)
-    if re.search(r"apple\s*tv|tv\s*box|chromecast|fire\s*(tv\s*)?stick|mi\s*box|roku", t) and \
-            not re.search(r"\b\d{2}\s*(\"|”|''|pol|polegadas|plg)", t):
-        return "Outros", "Outros", 0
     m = re.search(r"\bipad\b", t)
     if m:
         v = re.search(r"\b(pro|air|mini)\b", t)
@@ -291,6 +300,11 @@ def classificar(titulo):
         pol = re.search(r"(\d{2})(?:[.,]\d)?\s*(\"|”|''|pol|polegadas|plg)", t) or re.search(r"\b(1[89]|2[0-9]|3[0-4]|4[0-9])\b", t)
         return "Monitor", f"Monitor {pol.group(1)} pol" if pol else "Monitor", m.start()
     cat, mod = classificar_base(titulo, "")
+    # Apple TV, TV Box, Fire Stick: aparelho de streaming, não TV. "TV Box 32 GB" e "Fire Stick 1080p" davam polegada falsa:
+    # sem os números de memória/resolução, se não sobrar polegada é streaming ("TV AOC Roku 43" continua TV 43 pol).
+    if cat == "TV" and STREAMING.search(t):
+        if classificar_base(re.sub(r"\b\d+\s*(gb|tb|mb|p|hz|fps|k)\b", " ", titulo, flags=re.I), "")[1] == "TV":
+            return "Outros", "Outros", 0
     if cat == "Videogame" and not re.search(r"ps\s?\d|playstation|xbox|nintendo|switch", t):
         cat, mod = "Outros", "Outros"  # "câmera 360", "one" solto
     if mod == "Nintendo Switch" and re.search(r"\blite\b|switch\s*2\b", t):  # Lite custa metade; o 2, bem mais
@@ -437,12 +451,16 @@ def publicar_site(msg, remover=False):
         shutil.copyfile(SITE / "index.html", os.path.join(destino, "index.html"))
     git("add", "-A", "--", DESTINO)
     if git("diff", "--cached", "--quiet", "--", DESTINO).returncode == 0:
-        log("publicação: nada mudou.")
-        return 0
-    c = git("commit", "-m", msg, "--", DESTINO)
-    if c.returncode:
-        log("publicação: commit falhou: " + (c.stderr or c.stdout).strip()[:200])
-        return 1
+        # nada novo, mas um commit de antes pode ter ficado sem push (ex.: remoção cujo push falhou): manda de novo
+        if git("rev-list", "--count", "origin/main..HEAD").stdout.strip() in ("", "0"):
+            log("publicação: nada mudou.")
+            return 0
+        log("publicação: há commit local sem push; tentando de novo")
+    else:
+        c = git("commit", "-m", msg, "--", DESTINO)
+        if c.returncode:
+            log("publicação: commit falhou: " + (c.stderr or c.stdout).strip()[:200])
+            return 1
     for _ in range(3):
         r = git("push", "origin", "HEAD:main")
         if r.returncode == 0:
@@ -469,7 +487,7 @@ def main():
     a = ap.parse_args()
     if not CFG_ARQ.exists():
         raise SystemExit(f"falta {CFG_ARQ} (configuração privada da viagem)")
-    cfg = json.loads(CFG_ARQ.read_text(encoding="utf-8"))
+    cfg = ler_json(CFG_ARQ)
     with Trava(str(PROJ / "dados")):
         if a.remover or date.today().isoformat() > cfg["ate"]:
             if not a.remover:

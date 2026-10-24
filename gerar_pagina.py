@@ -205,7 +205,7 @@ resumo = {"data": DATA, "hora": datetime.now().strftime("%H:%M"), "medias": {k: 
 # marketplace/viagem/ existir no worktree de publicação; depois da data ou do "viagem.py --remover" some sozinho.
 try:
     from publicar import AGENDA
-    _v = json.loads((PROJ / "dados" / "viagem.json").read_text(encoding="utf-8"))
+    _v = json.loads((PROJ / "dados" / "viagem.json").read_text(encoding="utf-8-sig"))
     if date.today().isoformat() <= _v["ate"] and (Path(AGENDA) / "marketplace" / "viagem" / "index.html").exists():
         resumo["viagem"] = {"rotulo": _v["rotulo"], "ate": _v["ate"]}
 except (OSError, ValueError, KeyError, ImportError):
