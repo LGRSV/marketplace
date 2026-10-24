@@ -1172,7 +1172,7 @@
  },
  "1083095611412736": {
   "cat": "iPhone",
-  "data_status": "2026-10-15",
+  "data_status": "2026-10-24",
   "local": "Palmas, TO",
   "mod": "iPhone 17 Pro Max",
   "precos": [
@@ -1182,13 +1182,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-15",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 17 PRO MAX",
   "ultima_coleta": "2026-10-15",
   "ultimo_ativo": "2026-10-15",
   "vendedor": "Lázaro Basto",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0YQPQZWRaKHNoEWas8SRchtGza4mFB41FMTjAUT2eTMqS9sS3EoCGZ3yf3qotmyxbl"
+  "vendedor_id": "pfbid0YQPQZWRaKHNoEWas8SRchtGza4mFB41FMTjAUT2eTMqS9sS3EoCGZ3yf3qotmyxbl",
+  "verificado": "2026-10-24"
  },
  "1083342294689160": {
   "cat": "iPhone",
@@ -1368,11 +1369,11 @@
   "status": "ativo",
   "titulo": "Iphone 18 pro montado no xr",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "Samuel Sousa",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid07ZMmaqRAoHBkRpjXTvQ66L43fHfHnnbA7d1LLEpombicCAujeHPQDcM9EBS6MkY5l",
-  "verificado": "2026-10-15"
+  "vendedor_id": "pfbid02BC8z9aqFCGRB4f1eUtXy3i5nnZziUHrJX5wRmLdHftJYZuSTBtKSvpjcDQ4wiEXVl",
+  "verificado": "2026-10-24"
  },
  "1089282940391319": {
   "cat": "TV",
@@ -2420,16 +2421,21 @@
    [
     "2026-10-15",
     2800
+   ],
+   [
+    "2026-10-24",
+    2600
    ]
   ],
   "primeiro_visto": "2026-10-15",
   "status": "ativo",
   "titulo": "Vendo iPhone 14 Pro Max 128Gb",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "Victoria Pinheiro",
   "vendedor_desde": 2013,
-  "vendedor_id": "100006904834500"
+  "vendedor_id": "100006904834500",
+  "verificado": "2026-10-24"
  },
  "1111146855190628": {
   "cat": "iPhone",
@@ -2720,11 +2726,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro Max pra arrumar",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "Elieusa Vieira",
   "vendedor_desde": 2009,
-  "vendedor_id": "pfbid0Km3KbMjrURHdtQG7Zch2uzsFn7FR9opuukGAhKZFyPDGcDc5dmK4f67E5DEBawx5l",
-  "verificado": "2026-10-15"
+  "vendedor_id": "pfbid0KYNpySE71ujC31SEtxJt9R4aBKJs6vcHADLTUfWPJ5rbmrk4SZKVZGrej6FNHPpyl",
+  "verificado": "2026-10-24"
  },
  "1119692804184627": {
   "cat": "Galaxy",
@@ -3046,16 +3052,21 @@
    [
     "2026-10-15",
     80
+   ],
+   [
+    "2026-10-24",
+    50
    ]
   ],
   "primeiro_visto": "2026-10-15",
   "status": "ativo",
   "titulo": "Televisão pra retirada de peças",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "Bruna Bezerra",
   "vendedor_desde": 2024,
-  "vendedor_id": "61557679984432"
+  "vendedor_id": "61557679984432",
+  "verificado": "2026-10-24"
  },
  "1124846336859540": {
   "cat": "Videogame",
@@ -3450,6 +3461,23 @@
   "vendedor_desde": 2018,
   "vendedor_id": "pfbid0CQaNcQn8sHJjtQBFUDA3wCoktyiH74xwVCYDLbFCCQBHciZs7o96Y4pTRjm6sM61l",
   "verificado": "2026-10-17"
+ },
+ "1139949941908858": {
+  "cat": "TV",
+  "data_status": "2026-10-24",
+  "local": "Palmas, TO",
+  "mod": "TV 48 pol",
+  "precos": [
+   [
+    "2026-10-24",
+    600
+   ]
+  ],
+  "primeiro_visto": "2026-10-24",
+  "status": "ativo",
+  "titulo": "Vendo televisão Samsung 48 polegadas",
+  "ultima_coleta": "2026-10-24",
+  "ultimo_ativo": "2026-10-24"
  },
  "1142449631650648": {
   "cat": "iPhone",
@@ -5811,11 +5839,11 @@
   "status": "ativo",
   "titulo": "Xbox 360 Com Jogos + Controles",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "Eduarda Vidal",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid0a2k7sNskb1LsUjahTaz7bF7shpyUbhaSNbLLdyZhUafBrnWYCCPLpFxBEgo4AwnAl",
-  "verificado": "2026-10-15"
+  "vendedor_id": "pfbid02dfXLS8HpyubPWyNLPQrBSdGV6K242XrJgYwgZ57ed1SCvoftpnw73taoJCnzi3Kol",
+  "verificado": "2026-10-24"
  },
  "1452969670047579": {
   "cat": "iPhone",
@@ -6305,10 +6333,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro Max",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "James Mark",
   "vendedor_desde": 2011,
-  "vendedor_id": "100002272785443"
+  "vendedor_id": "100002272785443",
+  "verificado": "2026-10-24"
  },
  "1494129175886866": {
   "cat": "iPhone",
@@ -7107,11 +7136,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 128gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "Mateus Santos",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid02wrvcdtNcfzfJjiMNcBAwJdLjo99VwDmoNT4DWaJPLWnqY3MRUirgCeuwv3LRGJoil",
-  "verificado": "2026-10-15"
+  "vendedor_id": "pfbid0t6cw6oEWNMpkTYxc5Jr87JQ282kYUa9Y33WQMCwmWJA4e7vFoGZat2vXGr2UrnBFl",
+  "verificado": "2026-10-24"
  },
  "1606316327700630": {
   "cat": "TV",
@@ -7475,11 +7504,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro",
   "ultima_coleta": "2026-10-10",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "Dhone Milton",
   "vendedor_desde": 2013,
   "vendedor_id": "100005712154354",
-  "verificado": "2026-10-15"
+  "verificado": "2026-10-24"
  },
  "1621879116296857": {
   "cat": "Videogame",
@@ -7832,6 +7861,23 @@
   "vendedor": "Félix Emanuel",
   "vendedor_desde": 2021,
   "vendedor_id": "pfbid02K8tmbEDnwxx6TBhatTUMVR7x8DpP6say7T5zbUJML7MmAXixDUUAr2vQumHp15qMl"
+ },
+ "1635849371505220": {
+  "cat": "TV",
+  "data_status": "2026-10-24",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-24",
+    570
+   ]
+  ],
+  "primeiro_visto": "2026-10-24",
+  "status": "ativo",
+  "titulo": "Tv Samsung smart",
+  "ultima_coleta": "2026-10-24",
+  "ultimo_ativo": "2026-10-24"
  },
  "1635939648183440": {
   "cat": "TV",
@@ -9235,6 +9281,23 @@
   "vendedor_id": "pfbid04V29CpVc8Vuy5Eet8hvW5eLkNhLKPAqGDCBM4xNjTqpFhhJWTHFERskvdEcDNyXGl",
   "verificado": "2026-10-17"
  },
+ "1759441468688605": {
+  "cat": "TV",
+  "data_status": "2026-10-24",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-24",
+    500
+   ]
+  ],
+  "primeiro_visto": "2026-10-24",
+  "status": "ativo",
+  "titulo": "Televisão",
+  "ultima_coleta": "2026-10-24",
+  "ultimo_ativo": "2026-10-24"
+ },
  "1762610841612883": {
   "cat": "iPhone",
   "data_status": "2026-10-10",
@@ -10630,6 +10693,23 @@
   "vendedor_id": "pfbid02xAj8uPg5fzSSSFimGFG8ag7e23vSKotvxkbAGw6WztcZ6xAqmaE6ky5HP5Hn8HV1l",
   "verificado": "2026-10-17"
  },
+ "1947048142928612": {
+  "cat": "TV",
+  "data_status": "2026-10-24",
+  "local": "Palmas, TO",
+  "mod": "TV 43 pol",
+  "precos": [
+   [
+    "2026-10-24",
+    890
+   ]
+  ],
+  "primeiro_visto": "2026-10-24",
+  "status": "ativo",
+  "titulo": "Tv Toshiba 43 pegadas smart nova",
+  "ultima_coleta": "2026-10-24",
+  "ultimo_ativo": "2026-10-24"
+ },
  "1952093412432789": {
   "cat": "iPhone",
   "data_status": "2026-10-11",
@@ -11592,6 +11672,23 @@
   "vendedor_desde": 2018,
   "vendedor_id": "pfbid02Erz9BwLHi8EXxTxWv7e9rpLpXVdxAQpV2C4UPsvYMffVLhBUZR3NDYjUhh5ekir6l",
   "verificado": "2026-10-18"
+ },
+ "2159030974695224": {
+  "cat": "TV",
+  "data_status": "2026-10-24",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-24",
+    650
+   ]
+  ],
+  "primeiro_visto": "2026-10-24",
+  "status": "ativo",
+  "titulo": "Smart tv 32 polegadas NOVA",
+  "ultima_coleta": "2026-10-24",
+  "ultimo_ativo": "2026-10-24"
  },
  "2160256867960835": {
   "cat": "iPhone",
@@ -13966,6 +14063,23 @@
   "vendedor_id": "pfbid0tKcZ3WD5obBLGjzPae7Bb56nEMTLwy2p22t6bGEovoRRCZkpagrD1FvKT9pRVh9Ql",
   "verificado": "2026-10-20"
  },
+ "3442113245970229": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-24",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-24",
+    150
+   ]
+  ],
+  "primeiro_visto": "2026-10-24",
+  "status": "ativo",
+  "titulo": "Vende-se painel para televisão",
+  "ultima_coleta": "2026-10-24",
+  "ultimo_ativo": "2026-10-24"
+ },
  "3470864899762254": {
   "cat": "iPhone",
   "data_status": "2026-10-09",
@@ -14805,11 +14919,11 @@
   "status": "ativo",
   "titulo": "Ps5 825G completo",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-15",
+  "ultimo_ativo": "2026-10-24",
   "vendedor": "SóBatatas Araucária",
   "vendedor_desde": 2018,
-  "vendedor_id": "pfbid0WBC3GWw6DHeF1bjAwKXzjkZX9S2BLp4B4ziwqK2f1imWCRgaaGvujiy5o3oHnabyl",
-  "verificado": "2026-10-15"
+  "vendedor_id": "pfbid02ZoyFqGMAcRFuqLVS6humyMA6m3p3DdLtqhrZkqyKGBQYVkUE2nyePLx1kY5CGgxZl",
+  "verificado": "2026-10-24"
  },
  "4739636596363067": {
   "cat": "iPhone",
