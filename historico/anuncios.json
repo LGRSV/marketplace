@@ -1612,11 +1612,11 @@
   "status": "ativo",
   "titulo": "Iphone 16",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-17",
+  "ultimo_ativo": "2026-10-25",
   "vendedor": "Yago Thiago",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0BhJ5M38RnRyvKnTUz5RGX9oJCMCmtBkvDXqS3MmNDDq497A11xy8ExyWqBvMxJTAl",
-  "verificado": "2026-10-17"
+  "vendedor_id": "pfbid0Bxb7HmBt9qySt5kPKvBpsf3yCVExmStUK5VJX8hx8j4JhivRiwa3i4o9dYkRyELVl",
+  "verificado": "2026-10-25"
  },
  "1093495686750050": {
   "cat": "Videogame",
@@ -2153,6 +2153,23 @@
   "vendedor_desde": 2017,
   "vendedor_id": "pfbid02QmKpqebrioCy7tEMkNhNdoaEw2nAF73BLzNH8DQVxWYdscS6pDWZqzEAXyJh4rBul",
   "verificado": "2026-10-25"
+ },
+ "1102784106005548": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-25",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-25",
+    900
+   ]
+  ],
+  "primeiro_visto": "2026-10-25",
+  "status": "ativo",
+  "titulo": "Painel para televisão todo no MDF",
+  "ultima_coleta": "2026-10-25",
+  "ultimo_ativo": "2026-10-25"
  },
  "1103073129134875": {
   "cat": "iPhone",
@@ -4703,6 +4720,23 @@
   "vendedor_id": "pfbid07RAnBLjNgu6BXrYFD6UieDp1PCx1AtobMztwv87WqPi5W9U2bnUt3KnVZB6j3AAgl",
   "verificado": "2026-10-17"
  },
+ "1383765187166118": {
+  "cat": "TV",
+  "data_status": "2026-10-25",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-10-25",
+    350
+   ]
+  ],
+  "primeiro_visto": "2026-10-25",
+  "status": "ativo",
+  "titulo": "Tv Samsung 32",
+  "ultima_coleta": "2026-10-25",
+  "ultimo_ativo": "2026-10-25"
+ },
  "1385169360115162": {
   "cat": "iPhone",
   "data_status": "2026-10-19",
@@ -4942,7 +4976,7 @@
  },
  "1405918804994590": {
   "cat": "Jogos e acessórios",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-25",
   "local": "Palmas, TO",
   "mod": "Jogos e acessórios",
   "precos": [
@@ -4952,14 +4986,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Jogos ps4/ps5",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-17",
   "vendedor": "Kaique Tavares",
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid02H1hkv9bp4zCQNrFMzgBRzqKbeuusfU2h9HYJeBrajMfoGX3ZiPVC73JRrbxYhXGCl",
-  "verificado": "2026-10-17"
+  "verificado": "2026-10-25"
  },
  "1406032991212366": {
   "cat": "Videogame",
@@ -5155,7 +5189,7 @@
  },
  "1411391057107840": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-25",
   "local": "Palmas, TO",
   "mod": "iPhone 14 Pro Max",
   "precos": [
@@ -5165,14 +5199,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 14 Pro Max",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-17",
   "vendedor": "Gabriel Vieira",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid024aoo2LbVuDjScxXU3jzjUWbpj9iXTvvPpY99s5pH49U9PEyRbiofEKu5Wd8ckMkWl",
-  "verificado": "2026-10-17"
+  "vendedor_id": "pfbid024N9JQR5kSnVcyx6h4jFTP1uQQqYh4aZV6F8nVzEGF7kt4fKWBXxZgvEmNsUdEXqVl",
+  "verificado": "2026-10-25"
  },
  "1411594617788143": {
   "cat": "iPhone",
@@ -7011,11 +7045,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 128gb todo original",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-17",
+  "ultimo_ativo": "2026-10-25",
   "vendedor": "Welinton Santos",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid06HXw7Y8pjwrMTDkGaykBJdMCB8ZuW7S44faiJDbMusYxGD6yqphVYMHUjfiYfYNXl",
-  "verificado": "2026-10-17"
+  "vendedor_id": "pfbid064sSVcd5HRPaZLESL5twvrks1YCC8MeVAkLXonJNaBj9j31cfmU3Rvy49N5jhHB5l",
+  "verificado": "2026-10-25"
  },
  "1508497597225107": {
   "data_status": "2026-10-16",
@@ -8233,11 +8267,11 @@
   "status": "ativo",
   "titulo": "IPHONE 13 256GB SEMI NOVO",
   "ultima_coleta": "2026-10-13",
-  "ultimo_ativo": "2026-10-17",
+  "ultimo_ativo": "2026-10-25",
   "vendedor": "Brwno Rykardo",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02LqwpvaVBJJze6aAVeoWgLrq4XKEFEHc21AuChB4cGmxgqHbBJNS7YzUAfz9mkBXsl",
-  "verificado": "2026-10-17"
+  "vendedor_id": "pfbid02LdHLJeyRqwoxEm3GMHXbsKRaLYB5FZPbuxQMguixWDCHaesyx4XYKyHy5r6YLw7Sl",
+  "verificado": "2026-10-25"
  },
  "1623262515959007": {
   "cat": "Videogame",
@@ -8757,10 +8791,11 @@
   "status": "ativo",
   "titulo": "PS4 SLIM 500GB",
   "ultima_coleta": "2026-10-17",
-  "ultimo_ativo": "2026-10-17",
+  "ultimo_ativo": "2026-10-25",
   "vendedor": "Tamires Amaral",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0NfZ28YaJdGLYRj8RASBZJ7jWhuwZHbcv4bUPznKaN5BGxVEWhXHUqqjArF3hYMb5l"
+  "vendedor_id": "pfbid0NStXWd4ZAmthmivpyBMmPzcBkW6PupSyqMMCDd3Rr2ioabRkogwRP93U557PBdWcl",
+  "verificado": "2026-10-25"
  },
  "1648093720181744": {
   "cat": "iPhone",
@@ -9583,6 +9618,23 @@
   "vendedor_id": "pfbid0PQhGgx6HjGYSVHhSdMWJYGnbCHCZM6kFVLJ4zkPP3Z6Ujo7cJnZRKit4RxAsFEnGl",
   "verificado": "2026-10-24"
  },
+ "1723022725907024": {
+  "cat": "TV",
+  "data_status": "2026-10-25",
+  "local": "Palmas, TO",
+  "mod": "TV 40 pol",
+  "precos": [
+   [
+    "2026-10-25",
+    800
+   ]
+  ],
+  "primeiro_visto": "2026-10-25",
+  "status": "ativo",
+  "titulo": "Vendo tv Philco 40 polegadas",
+  "ultima_coleta": "2026-10-25",
+  "ultimo_ativo": "2026-10-25"
+ },
  "1724223205344454": {
   "cat": "TV",
   "data_status": "2026-10-15",
@@ -9987,7 +10039,7 @@
  },
  "1755245508910585": {
   "cat": "Videogame",
-  "data_status": "2026-10-13",
+  "data_status": "2026-10-25",
   "local": "Paraíso do Tocantins, TO",
   "mod": "PlayStation 4",
   "precos": [
@@ -10001,14 +10053,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-13",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Ps4 slim 1tb Desbl0que4ad0",
   "ultima_coleta": "2026-10-13",
   "ultimo_ativo": "2026-10-17",
   "vendedor": "Marcos Vinícius",
   "vendedor_desde": 2015,
   "vendedor_id": "pfbid02XgZNuu6q9zmMyAf6686XhePmHbDNXXdwjwxPLkaMcGUdLucZUto5nNoucXjT5fDxl",
-  "verificado": "2026-10-17"
+  "verificado": "2026-10-25"
  },
  "1755482715719924": {
   "cat": "iPhone",
@@ -12246,7 +12298,7 @@
   "verificado": "2026-10-17"
  },
  "2064526654165674": {
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-25",
   "local": "Palmas, TO",
   "mod": "",
   "precos": [
@@ -12256,14 +12308,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Volante gamer (VALOR BAIXO PARA VENDER LOGO)",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-17",
   "vendedor": "Luis Gustavo Barros",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid02mPVwnMTSbc43tEidmtFERKPHrAXRc2o2ehRoiVhxZzgGMpyu7ymjum2obX3mRZcsl",
-  "verificado": "2026-10-17"
+  "vendedor_id": "pfbid02menyj5WtxtPTtQzCFM619knLH1CJpSUeqwkbMEPrfoMqypDe95yV6R7MVmTwV3Pyl",
+  "verificado": "2026-10-25"
  },
  "2065871840666142": {
   "data_status": "2026-10-08",
@@ -12709,11 +12761,11 @@
   "status": "ativo",
   "titulo": "Xbox one",
   "ultima_coleta": "2026-10-13",
-  "ultimo_ativo": "2026-10-17",
+  "ultimo_ativo": "2026-10-25",
   "vendedor": "Ane Silva Alves",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid02D1db2F9dSggpPx1Mf8FGWR2ETn7yEYDdqVeizgAzaExVhCAqh8VH23RzHpsr3qPkl",
-  "verificado": "2026-10-17"
+  "vendedor_id": "pfbid09FKuVA1X9A1zS6AayiKm1WgDPJ6Euw6N5a1wWFFKK5ZiKQVNBK7MNUKuKcL7jgrQl",
+  "verificado": "2026-10-25"
  },
  "2150007389052820": {
   "cat": "Jogos e acessórios",
@@ -13100,11 +13152,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 128gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-17",
+  "ultimo_ativo": "2026-10-25",
   "vendedor": "Pedro Henrique Amorim",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid0d2iYyw62zj2eT5HsVQcVy3UiaY7Sw34ucWJh53XsdLZefs7MhaZhmedj4EhzzRhKl",
-  "verificado": "2026-10-17"
+  "vendedor_id": "pfbid0cp44N1aHYTrMSSwxveyXs5sJVJJC7K2faJvSjM9uMwfYRgNMaAW59E9QdJ7VFRLrl",
+  "verificado": "2026-10-25"
  },
  "2196894627558014": {
   "cat": "iPhone",
@@ -13230,6 +13282,23 @@
   "vendedor": "Yuri Dias",
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid0U4SiDYHcoKiS8Pg91c1bqhUijVdzwqQoVfzY3JaV4e1CDf47bmMHWjwTedn8EUBGl"
+ },
+ "2220064788931267": {
+  "cat": "TV",
+  "data_status": "2026-10-25",
+  "local": "Palmas, TO",
+  "mod": "TV",
+  "precos": [
+   [
+    "2026-10-25",
+    680
+   ]
+  ],
+  "primeiro_visto": "2026-10-25",
+  "status": "ativo",
+  "titulo": "Sofá retrátil. Vendo ou troco por televisão smart. [hidden information]4",
+  "ultima_coleta": "2026-10-25",
+  "ultimo_ativo": "2026-10-25"
  },
  "2229369864685228": {
   "cat": "Videogame",
@@ -15279,6 +15348,23 @@
   "vendedor_id": "pfbid0YWwUxuM9rZotwookzsYV4AGzYcAwXdGFhNCgsHhSMUfYmtqs5o4ejQ2Zh2pW9SmZl",
   "verificado": "2026-10-17"
  },
+ "3065312990485889": {
+  "cat": "TV",
+  "data_status": "2026-10-25",
+  "local": "Palmas, TO",
+  "mod": "TV 50 pol",
+  "precos": [
+   [
+    "2026-10-25",
+    1280
+   ]
+  ],
+  "primeiro_visto": "2026-10-25",
+  "status": "ativo",
+  "titulo": "Tv Phillips 50 polegadas smart",
+  "ultima_coleta": "2026-10-25",
+  "ultimo_ativo": "2026-10-25"
+ },
  "3076141136050676": {
   "cat": "iPhone",
   "data_status": "2026-10-14",
@@ -16959,6 +17045,23 @@
   "vendedor": "Wanderson Azevedo Matos",
   "vendedor_id": "100095332448150",
   "verificado": "2026-10-13"
+ },
+ "953434574079740": {
+  "cat": "TV",
+  "data_status": "2026-10-25",
+  "local": "Palmas, TO",
+  "mod": "TV 50 pol",
+  "precos": [
+   [
+    "2026-10-25",
+    1280
+   ]
+  ],
+  "primeiro_visto": "2026-10-25",
+  "status": "ativo",
+  "titulo": "Vendo tv Philco 50 polegadas smart",
+  "ultima_coleta": "2026-10-25",
+  "ultimo_ativo": "2026-10-25"
  },
  "953492943811701": {
   "cat": "Jogos e acessórios",
