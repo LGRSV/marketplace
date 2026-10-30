@@ -2462,6 +2462,25 @@
   "vendedor_id": "pfbid02u8MMNNrkqYACn9yEu4ZsFYbv1Axwx8d3B1FktDGRAmiN3EGNfGYDnjqJ8bWF5nHTl",
   "verificado": "2026-10-24"
  },
+ "1103314902495277": {
+  "data_status": "2026-10-30",
+  "local": "Miracema do Tocantins, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-10-30",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-10-30",
+  "status": "ativo",
+  "titulo": "PS4",
+  "ultima_coleta": "2026-10-30",
+  "ultimo_ativo": "2026-10-30",
+  "vendedor": "Nayane Rodrigues",
+  "vendedor_desde": 2016,
+  "vendedor_id": "pfbid0tH7BtuAaNNJGKoGSnuJ8JK21qCyjENX5N6x8RPxevzL1rL2C5NSCPSjjii3TBthWl"
+ },
  "1103459692569820": {
   "cat": "iPhone",
   "data_status": "2026-10-29",
@@ -6386,11 +6405,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max 128gb",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Alessandro Almeida",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid02zwveGt4SLvVsSqCdYyUdpQ2kYi6Ftwx4tiSfzSx2JYHrCtVtXaNM1i15bJuXDKQsl",
-  "verificado": "2026-10-24"
+  "vendedor_id": "pfbid02zuR9x6pRi2ytPJCpZP18payKugVCUsNN6ywwHdf3WF6uwQ7XMdyMSkmHrEoRAJoPl",
+  "verificado": "2026-10-30"
  },
  "1413732166952381": {
   "cat": "Jogos e acessórios",
@@ -7051,7 +7070,7 @@
  },
  "1427991685467447": {
   "cat": "iPhone",
-  "data_status": "2026-10-24",
+  "data_status": "2026-10-30",
   "local": "Palmas, TO",
   "mod": "iPhone 16",
   "precos": [
@@ -7061,13 +7080,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-24",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 16 preto 128GB impecável",
   "ultima_coleta": "2026-10-24",
   "ultimo_ativo": "2026-10-24",
   "vendedor": "Felipe CR",
   "vendedor_desde": 2016,
-  "vendedor_id": "pfbid0khyFbKu6X24cVa9B9267rYLap52icPXkEcBktKz7t2xFg2fgc2ogVPGoFn4VWAUNl"
+  "vendedor_id": "pfbid02pD6xBiHSjF9kXnSMzjfrbDmvc4BAYfeN2Q2tpozEWVHTxaektHFGicViUjKJUzqPl",
+  "verificado": "2026-10-30"
  },
  "1428212059274012": {
   "cat": "iPhone",
@@ -7508,6 +7528,26 @@
   "vendedor_id": "pfbid02NVQ9r4XD6HMrQTjtV46CPfmwG7htS1rUmMv6mvF79zrLsHrnjR1heDpN1DavWkr5l",
   "verificado": "2026-10-25"
  },
+ "1445316290897437": {
+  "cat": "Videogame",
+  "data_status": "2026-10-30",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-10-30",
+    4150
+   ]
+  ],
+  "primeiro_visto": "2026-10-30",
+  "status": "ativo",
+  "titulo": "PS5 Slim",
+  "ultima_coleta": "2026-10-30",
+  "ultimo_ativo": "2026-10-30",
+  "vendedor": "Thais Santos",
+  "vendedor_desde": 2013,
+  "vendedor_id": "100005162280770"
+ },
  "1445474644175647": {
   "cat": "iPhone",
   "data_status": "2026-10-29",
@@ -7649,11 +7689,11 @@
   "status": "ativo",
   "titulo": "Xbox 360 Com Jogos + Controles",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Eduarda Vidal",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02dfXLS8HpyubPWyNLPQrBSdGV6K242XrJgYwgZ57ed1SCvoftpnw73taoJCnzi3Kol",
-  "verificado": "2026-10-24"
+  "vendedor_id": "pfbid02dd1r7M3pLzcrqvpw3y3TmFezuc3K9zYEuE5DspaZXxfecuzSVzi3x843rvs2gRNCl",
+  "verificado": "2026-10-30"
  },
  "1452298713698843": {
   "cat": "TV",
@@ -8311,6 +8351,26 @@
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid0TuV1c6itbpzMWHLYrCnJkk3dKq3XyPM3nReiFfdusVtbWMbNXeKkc4YqJm2o4s3Jl",
   "verificado": "2026-10-25"
+ },
+ "1491964466094893": {
+  "cat": "Videogame",
+  "data_status": "2026-10-30",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-10-30",
+    1500
+   ]
+  ],
+  "primeiro_visto": "2026-10-30",
+  "status": "ativo",
+  "titulo": "Ps4 Fat",
+  "ultima_coleta": "2026-10-30",
+  "ultimo_ativo": "2026-10-30",
+  "vendedor": "Eliane Souza",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid02nk8yoGjtJESAp7tEt4i8koSviXLHV1ewkxfewCoWym3o7xF3zXxuGFyTDMMpbCjbl"
  },
  "1493467696166080": {
   "cat": "iPhone",
@@ -9463,7 +9523,7 @@
  },
  "1605951764213556": {
   "cat": "iPhone",
-  "data_status": "2026-10-08",
+  "data_status": "2026-10-30",
   "local": "Palmas, TO",
   "mod": "iPhone 13",
   "precos": [
@@ -9473,14 +9533,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 13 128gb",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-24",
   "vendedor": "Mateus Santos",
   "vendedor_desde": 2019,
   "vendedor_id": "pfbid0t6cw6oEWNMpkTYxc5Jr87JQ282kYUa9Y33WQMCwmWJA4e7vFoGZat2vXGr2UrnBFl",
-  "verificado": "2026-10-24"
+  "verificado": "2026-10-30"
  },
  "1606316327700630": {
   "cat": "TV",
@@ -12909,10 +12969,11 @@
   "status": "ativo",
   "titulo": "IPHONE 15PRO 128GB SEMI NOVO",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Brwno Rykardo",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid0HFo9gdcopKjA4pAYNCx6Avp6hdTmwtd7NcfbdMuNkbqegQoUkm52p6anNaNNdn3Tl"
+  "vendedor_id": "pfbid02LkvrH21A2fE9ro9rZdqgiPxRqZMCP5gZnMSmEhpeg8vkEDGph1dCSfxJ5KLh7GoMl",
+  "verificado": "2026-10-30"
  },
  "1803232014333457": {
   "cat": "TV",
@@ -13764,11 +13825,11 @@
   "status": "ativo",
   "titulo": "Televisão 32 polegadas TCl",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Leonardo Costa",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid02LcdJaCogS7rZWCSwjcaUdJQmY5Wjijd1ZAaAVsSmXWvrQ9ccoxh14FErFKRz4HfJl",
-  "verificado": "2026-10-24"
+  "vendedor_id": "pfbid0HCdddQD3mao3S8paboQFZFfHN8iQjL8t6C6wKHDD7rQUpbWDwqiyhvSzNssuCj1Nl",
+  "verificado": "2026-10-30"
  },
  "1873784113592350": {
   "cat": "iPhone",
@@ -14101,11 +14162,11 @@
   "status": "ativo",
   "titulo": "TV 75 Samsung com controle, estudo troca em algo do interesse, com air play, espelhamento apple",
   "ultima_coleta": "2026-10-16",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Ronan Avelar",
   "vendedor_desde": 2022,
   "vendedor_id": "100087855297811",
-  "verificado": "2026-10-24"
+  "verificado": "2026-10-30"
  },
  "1926923961326185": {
   "cat": "iPhone",
@@ -14144,6 +14205,26 @@
   "titulo": "iPhone 14 | 128GB",
   "ultima_coleta": "2026-10-29",
   "ultimo_ativo": "2026-10-29"
+ },
+ "1936337973812585": {
+  "cat": "Videogame",
+  "data_status": "2026-10-30",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-10-30",
+    3300
+   ]
+  ],
+  "primeiro_visto": "2026-10-30",
+  "status": "ativo",
+  "titulo": "Playstation 5 Fat",
+  "ultima_coleta": "2026-10-30",
+  "ultimo_ativo": "2026-10-30",
+  "vendedor": "Ricardo Ramos",
+  "vendedor_desde": 2018,
+  "vendedor_id": "pfbid02GB179XDwT6NeQQSDKhcNKKvcRDwzF9AdLspuExBfhmHcmG8asJr8AGEfzC5Nbzdil"
  },
  "1947048142928612": {
   "cat": "TV",
@@ -16025,6 +16106,26 @@
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid02RhVf1ssNiJNPhs8PNd2Fu2wy1hzoXiqcWqevLjAHBHRhpRkprJ3DLf5SGH9pszpDl"
  },
+ "2245146116408169": {
+  "cat": "Videogame",
+  "data_status": "2026-10-30",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-10-30",
+    3490
+   ]
+  ],
+  "primeiro_visto": "2026-10-30",
+  "status": "ativo",
+  "titulo": "PS5 STANDARD 1TB",
+  "ultima_coleta": "2026-10-30",
+  "ultimo_ativo": "2026-10-30",
+  "vendedor": "Arthur Felipe",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid0X4dwGgCxGSQ2C12JVvwDYC7JBgE1kcBMDB3ohVUDFjwvYbpGo3qAnLnUFCSi8bS5l"
+ },
  "2245897106257069": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -16204,11 +16305,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 PRO 256GB - TODO ORIGINAL",
   "ultima_coleta": "2026-10-12",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Gabriel Souza",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid0Vn3VLNc5UQsC1ZbUuLj1k3GTW2E2ZcZHmCvmzVYbvhp8xcTxecALsEsvpDJtN4sQl",
-  "verificado": "2026-10-24"
+  "vendedor_id": "pfbid02ZHBBvkzRgq27rFN9TNnq1NMmatWVSBLTsQ2M6LqnYvUdUDeSi5b7YGSQ96UCMW9rl",
+  "verificado": "2026-10-30"
  },
  "2275497606326639": {
   "cat": "iPhone",
@@ -17669,11 +17770,11 @@
   "status": "ativo",
   "titulo": "smart+tv",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Palmas On",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid0Wrqd1fwPSwvYyYojjrG9rLTfMzVNyBGWAQeiKxQJ2QU3txQFPs7Sm6LgxwhSV1orl",
-  "verificado": "2026-10-24"
+  "vendedor_id": "pfbid0WpL8gthNp1JgAXPy32grmCk4ZkifH5j3hAXzi48KwJDFCPj2u7K99HC7t1gXUfU1l",
+  "verificado": "2026-10-30"
  },
  "2642759752837321": {
   "cat": "iPhone",
@@ -19066,11 +19167,11 @@
   "status": "ativo",
   "titulo": "S25 ultra 256gb",
   "ultima_coleta": "2026-10-12",
-  "ultimo_ativo": "2026-10-24",
+  "ultimo_ativo": "2026-10-30",
   "vendedor": "Victor Lucas",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid05H14HFzdXZfGkQnHLGwJwJJD1rYKUR5L8eYeEJ1VoaHPAJ9T5fkszzYjLg6bi47Kl",
-  "verificado": "2026-10-24"
+  "vendedor_id": "pfbid028n8kseNyk26qT668U7PibnHUkk9XQyvRUsFJuSq9QxrK1qotqu29J7ZhoERuigUzl",
+  "verificado": "2026-10-30"
  },
  "3238399176348910": {
   "cat": "Videogame",
@@ -19519,6 +19620,26 @@
   "vendedor": "Herick Willy",
   "vendedor_desde": 2019,
   "vendedor_id": "pfbid0pFwgAyAeTdei12b54eArnmNvXdsF1WHYBZ4zyp5htQ7nfTkuAYt6wNXSugbBC6UCl"
+ },
+ "3740563739433198": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-10-30",
+  "local": "Porto Nacional, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-10-30",
+    250
+   ]
+  ],
+  "primeiro_visto": "2026-10-30",
+  "status": "ativo",
+  "titulo": "Vendo controle dualsense ps5, cor preta.",
+  "ultima_coleta": "2026-10-30",
+  "ultimo_ativo": "2026-10-30",
+  "vendedor": "Vinícius Soares",
+  "vendedor_desde": 2021,
+  "vendedor_id": "pfbid036MoGVzeRMawXRzcxqBZfvRkbC6xWztQ5QnhbJ61R4qE8gZkT77cSedeHf38eriVql"
  },
  "3790898007715201": {
   "cat": "Videogame",
