@@ -7361,15 +7361,15 @@
   "status": "ativo",
   "titulo": "Controle Xbox Wireless Velocity Green Sem Fio",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Lucas Luan",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02MUD87A1mGrWFAHiwAQ7ohnD6DF9YUidpja6uiM1tjL6Nn6K6hRfrj1ENCekbNZp5l",
-  "verificado": "2026-10-28"
+  "vendedor_id": "pfbid02M7u7WsUHdmtHmVHvh9FfZx8Zdj1F34WwQNkC1KkCcuLoLYuXybx34BZPP82UFqHHl",
+  "verificado": "2026-11-02"
  },
  "1419140243708764": {
   "cat": "iPhone",
-  "data_status": "2026-10-28",
+  "data_status": "2026-11-02",
   "local": "Palmas, TO",
   "mod": "iPhone 14 Pro Max",
   "precos": [
@@ -7379,13 +7379,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-28",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 14 Pro Max",
   "ultima_coleta": "2026-10-28",
   "ultimo_ativo": "2026-10-28",
   "vendedor": "Jefferson Marques",
   "vendedor_desde": 2014,
-  "vendedor_id": "pfbid0ZfnNmTqjcXChsUghcZUzeTDHQ1YPxPDAXoxztvJVvSBdewDbcZy3sMkmW7TB8GThl"
+  "vendedor_id": "pfbid0ZfnNmTqjcXChsUghcZUzeTDHQ1YPxPDAXoxztvJVvSBdewDbcZy3sMkmW7TB8GThl",
+  "verificado": "2026-11-02"
  },
  "1419923096378102": {
   "cat": "iPhone",
@@ -8644,16 +8645,21 @@
    [
     "2026-10-28",
     400
+   ],
+   [
+    "2026-11-02",
+    380
    ]
   ],
   "primeiro_visto": "2026-10-28",
   "status": "ativo",
   "titulo": "Tv 32 polegadas não e smart.",
   "ultima_coleta": "2026-10-28",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Erasmo Nt",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid02MyUfGEeGEp6WxkgSjaGwuD8KKM99pT1Y8Rqn9c6K3x4FU2i5UABn1Rx9wGWrscEpl"
+  "vendedor_id": "pfbid0J5XTknURkP6T5kqDdD8AGZEYfs1QBmF3KyBfRJxjpoEBrJxYz432MEeRBcQK6YR3l",
+  "verificado": "2026-11-02"
  },
  "1452969670047579": {
   "cat": "iPhone",
@@ -9778,17 +9784,21 @@
    [
     "2026-10-28",
     650
+   ],
+   [
+    "2026-11-02",
+    600
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Vendo Projeto Xbox 360 Turnado Com TV",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Weslley Gomes Batista",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid0K55RtBP3xnbMjDF5p6ePqwRwT8CsGeNtH3rjStXqgBYoCbfXCw95cxe1SP8pQiG6l",
-  "verificado": "2026-10-28"
+  "vendedor_id": "pfbid02NaD8UZmQBDVuQbbx3sGcEyuT1voSqhD1viF7hUkMLpTLqSnKU4H6pQHwssPDFvaYl",
+  "verificado": "2026-11-02"
  },
  "1524839926351645": {
   "cat": "Videogame",
@@ -10224,11 +10234,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro 128gb",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Willian Montfort Moreira",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid0ZYo1hjBG2vynEpHmY9EW8gWNERK1R8RVBdcnd1C6VmBCZAHJpRYNZ3cY589rjdtDl",
-  "verificado": "2026-10-28"
+  "vendedor_id": "pfbid0ZgSXg6CzDiXfQsNn2DTwKa9QoSHcyzTfgWXzX1ded8qDuRzwHxZmU4aarspLuXvBl",
+  "verificado": "2026-11-02"
  },
  "1572514751227591": {
   "cat": "iPhone",
@@ -12481,11 +12491,11 @@
   "status": "ativo",
   "titulo": "PlayStation 5 novo ✅",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Igor Jensen",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0SFc3LPaabw1sLGnnbZmXi1MuB41zTLcwmCGsp3rxnq6rJ5R1YaB77JbC2DWoK5bcl",
-  "verificado": "2026-10-28"
+  "vendedor_id": "pfbid0SPFZJkcJna7cd6mK4VXh9gXaVgujUscPZ4TetU4Kxz2owzmi2uebur6S5n8X2Eeql",
+  "verificado": "2026-11-02"
  },
  "1677436654020787": {
   "cat": "iPhone",
@@ -15717,11 +15727,11 @@
   "status": "ativo",
   "titulo": "IPHONE 17 PRO MAX 256GB - (AZUL)",
   "ultima_coleta": "2026-10-10",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "João Marcos Resende",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid024Sx6zGrEekzT4MysBDVXEbyEHyH7VG9zzQvP3iB8dfNqXhEjVMiqGSdcYuvVbNBUl",
-  "verificado": "2026-10-28"
+  "vendedor_id": "pfbid024abcxdsxqVPVX56ME5ouRiNEcdsxJtfxCMfyAGmEHn2tn9hsvDGG7CfZs4dqAhdKl",
+  "verificado": "2026-11-02"
  },
  "1879968456510171": {
   "cat": "iPhone",
@@ -17804,11 +17814,11 @@
   "status": "ativo",
   "titulo": "Vendo IPhone 15 pro Max 256 gb",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Ismael Marques Dias",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid0GiEhEEhSiTsbaSvLrmf8BDUAC1SNJjjRiab63VXbfEJaZWkGuSyWJBby4pZ4u38jl",
-  "verificado": "2026-10-28"
+  "vendedor_id": "pfbid02LDNPpd5nvp32yaj1Ez6ZGZmiDRD5V1nsB7Bhbt5WADPMAM3N2eX7bayjWx9eZjT7l",
+  "verificado": "2026-11-02"
  },
  "2184284302470478": {
   "cat": "iPhone",
@@ -17930,16 +17940,21 @@
    [
     "2026-10-28",
     7100
+   ],
+   [
+    "2026-11-02",
+    6799
    ]
   ],
   "primeiro_visto": "2026-10-28",
   "status": "ativo",
   "titulo": "IPHONE 17 PRO MAX - GARANTIA APPLE ATÉ 07/27",
   "ultima_coleta": "2026-10-28",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Lucas Schiling",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid022sDPS2sYpbLRZ3MLDT1RK4wTcnXvUniVUEXjhgbYWik8yybrNkYXyJDTi9PoXRySl"
+  "vendedor_id": "pfbid022zruQPuH1E7Fkyd8S55QdRXudwNmcwxx9XHb5AwfhueWJKcdXUMsAUs6dWUn8fYMl",
+  "verificado": "2026-11-02"
  },
  "2196894627558014": {
   "cat": "iPhone",
@@ -20579,11 +20594,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 128GB SEMI NOVOS",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-10-28",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Brwno Rykardo",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid0HPSfezeXzxfHDcVP3qGqAWEmdHdou3BUGhuiE2Uf1DG24qM8P4QyeM3rFsnT5VUfl",
-  "verificado": "2026-10-28"
+  "vendedor_id": "pfbid0H38f4i74Mx6B3u6DNs7eprYrukDinqkgYVaf4wU7GhQ3ujPSsojZs4F5MEViyoFsl",
+  "verificado": "2026-11-02"
  },
  "2870362576684385": {
   "cat": "iPhone",
