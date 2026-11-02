@@ -950,7 +950,7 @@
  },
  "1069614366123315": {
   "cat": "iPhone",
-  "data_status": "2026-10-29",
+  "data_status": "2026-11-02",
   "local": "Palmas, TO",
   "mod": "iPhone 15",
   "precos": [
@@ -960,13 +960,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-29",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 15 256gn",
   "ultima_coleta": "2026-10-29",
   "ultimo_ativo": "2026-10-29",
   "vendedor": "Ozklautau Pa",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid06xdzZ6CrNEwZ2dj2xjwqoKrXVPvQfSK6pE7Kj48ZiCHw9uu6MBuKF1VzvmrVMityl"
+  "vendedor_id": "pfbid06xdzZ6CrNEwZ2dj2xjwqoKrXVPvQfSK6pE7Kj48ZiCHw9uu6MBuKF1VzvmrVMityl",
+  "verificado": "2026-11-02"
  },
  "1069643139227114": {
   "cat": "iPhone",
@@ -4919,6 +4920,26 @@
   "vendedor_desde": 2016,
   "vendedor_id": "pfbid02B4VpGWkvmJsRCLu5ASkDUtDJC2HbyYiTU5bngUXLrRVPdejMvNtFrw8gyxeYF2Xol"
  },
+ "1137249272194631": {
+  "cat": "Videogame",
+  "data_status": "2026-11-02",
+  "local": "Porto Nacional, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-02",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-11-02",
+  "status": "ativo",
+  "titulo": "Vende-se PS4 com 2 jogos e 2 controles preço negociável",
+  "ultima_coleta": "2026-11-02",
+  "ultimo_ativo": "2026-11-02",
+  "vendedor": "Ian Carlos",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0UFhRsEhcVnwPpASTxK7pFR5rtdgtC8DG5eTqSGwLGJdxQYu3Dx3g5WzaSgbDdoZcl"
+ },
  "1137351825331075": {
   "cat": "iPhone",
   "data_status": "2026-10-13",
@@ -5434,6 +5455,26 @@
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid0chd2PYfLUfRM2nQpmNKf6EoiikqHcCn5YhJQdH61ZzuUfJWkMY1KmM9uAmY1odhl"
  },
+ "1161029196874932": {
+  "cat": "Videogame",
+  "data_status": "2026-11-02",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-02",
+    1350
+   ]
+  ],
+  "primeiro_visto": "2026-11-02",
+  "status": "ativo",
+  "titulo": "PS4 FAT",
+  "ultima_coleta": "2026-11-02",
+  "ultimo_ativo": "2026-11-02",
+  "vendedor": "Lucas Bryan",
+  "vendedor_desde": 2011,
+  "vendedor_id": "100000795556819"
+ },
  "1161876100125259": {
   "cat": "Videogame",
   "data_status": "2026-10-27",
@@ -5643,10 +5684,31 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro novinho 128gb",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Oliveira Junior",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02vXcUssB6LVMSswNvMqfqJ6ydcAsnBoe2EXvtgNuM9KMbshEfxbr8AKNrw1cT8nSNl"
+  "vendedor_id": "pfbid02vfFzrECpX7njgqYdASos96mo3xmqgeeKKM2pmX73JqGDyjLdmop1srPF2vweF7NUl",
+  "verificado": "2026-11-02"
+ },
+ "1182008770921941": {
+  "cat": "Videogame",
+  "data_status": "2026-11-02",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-02",
+    1350
+   ]
+  ],
+  "primeiro_visto": "2026-11-02",
+  "status": "ativo",
+  "titulo": "Playstation 4 Baroi Info PS4",
+  "ultima_coleta": "2026-11-02",
+  "ultimo_ativo": "2026-11-02",
+  "vendedor": "Gerenciador Baroi",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid02egijhZPnPoxsNaHiH2XK99FhWS4LnzSUuynduFfK2mFfCtWXDnGRX5GdejnFTfXtl"
  },
  "1187591396927960": {
   "cat": "iPhone",
@@ -5683,10 +5745,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 128GB",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Jeffti Pereira",
   "vendedor_desde": 2016,
-  "vendedor_id": "pfbid02ojh56qr1hyrYyQqHnaTriShe4ME9kGNxdKDtLA5omvYKJqYSb5L3APqyqdRkKnUkl"
+  "vendedor_id": "pfbid02osLb5CsjtjDjDPbguSebDDda5gfGGCrv6oaegbZ8jGL3kmSY3X5C8Ud4M9XQHVmcl",
+  "verificado": "2026-11-02"
  },
  "1193490636677229": {
   "cat": "iPhone",
@@ -6119,11 +6182,11 @@
   "status": "ativo",
   "titulo": "Nintendo switch lite",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Abilio Werncke",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid0dANAhEgAYFGWxs5vCcfuHW57MjmnEm8exavFCrTsYSpRZNQCdbCbfLBHS6xEmgyAl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid02hH6updfSky7trUZDLektmkN45Ngo8j6Jha37CsnU57M1bF2LPo9HUNoAAi56gSXYl",
+  "verificado": "2026-11-02"
  },
  "1341409248204497": {
   "cat": "iPhone",
@@ -6235,7 +6298,7 @@
   "verificado": "2026-10-30"
  },
  "1358124686488973": {
-  "data_status": "2026-10-08",
+  "data_status": "2026-11-02",
   "local": "Parauapebas, PA",
   "mod": "",
   "precos": [
@@ -6245,14 +6308,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "PlayStation Portal novo - case e carregador",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-29",
   "vendedor": "Dercio Darlay Costa",
   "vendedor_desde": 2009,
   "vendedor_id": "100000532835107",
-  "verificado": "2026-10-29"
+  "verificado": "2026-11-02"
  },
  "1358453179254065": {
   "data_status": "2026-10-08",
@@ -7963,6 +8026,26 @@
   "vendedor_id": "pfbid0qQ83YNhU1iXshAZZsN3DphVSpF2JympDWwCt62RJyLGtjGufWJbzonUd1usAGnKMl",
   "verificado": "2026-10-24"
  },
+ "1427460899599919": {
+  "cat": "Videogame",
+  "data_status": "2026-11-02",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-02",
+    130
+   ]
+  ],
+  "primeiro_visto": "2026-11-02",
+  "status": "ativo",
+  "titulo": "Mk11 e red dead 2 em mídia digital para ps4",
+  "ultima_coleta": "2026-11-02",
+  "ultimo_ativo": "2026-11-02",
+  "vendedor": "Italo Rafael",
+  "vendedor_desde": 2020,
+  "vendedor_id": "pfbid0vE9Aqbsib3Lce6T8VUJiVbHVAYxr5ibmj9SVMfnNoi7RvN4pcScRHMBwiFq6RaGHl"
+ },
  "1427948816151608": {
   "cat": "Jogos e acessórios",
   "data_status": "2026-11-01",
@@ -8468,6 +8551,26 @@
   "vendedor_desde": 2021,
   "vendedor_id": "pfbid026WRkeTosy54sQs2HYvsKuMFNXCi135scyCQdcxLHCeP7TLmQsUmFUYQP99Dzq19al",
   "verificado": "2026-10-31"
+ },
+ "1438881477602466": {
+  "cat": "Videogame",
+  "data_status": "2026-11-02",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-02",
+    1300
+   ]
+  ],
+  "primeiro_visto": "2026-11-02",
+  "status": "ativo",
+  "titulo": "PS4",
+  "ultima_coleta": "2026-11-02",
+  "ultimo_ativo": "2026-11-02",
+  "vendedor": "Gabryel S. Coelho",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid0HauuTgjUWrmZx2ZEgDaW8yECWp12pfgfLQ5EQcncdwcSX8XNeCm4KRYnm6C5JcUDl"
  },
  "1439128668193428": {
   "cat": "iPhone",
@@ -9335,11 +9438,11 @@
   "status": "ativo",
   "titulo": "Xbox 360 desbloqueado",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Mariana Alencar",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid022vP6y9Q7aq2Xukzgt743RKSmk5CueG7gXzohL9gcykNDVUnk1pk4rXLM9LuW2y4Gl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid02342cwWRqmb1tp45qVF7t1nxaTw3tq9XqMUVfp8HUYDBgGMpfyUir5QPQzgAt34Gpl",
+  "verificado": "2026-11-02"
  },
  "1484225826866739": {
   "cat": "iPhone",
@@ -16359,7 +16462,7 @@
  },
  "1932561124372515": {
   "cat": "iPhone",
-  "data_status": "2026-10-29",
+  "data_status": "2026-11-02",
   "local": "Porto Nacional, TO",
   "mod": "iPhone 14",
   "precos": [
@@ -16369,10 +16472,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-29",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 14 | 128GB",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-10-29"
+  "ultimo_ativo": "2026-10-29",
+  "vendedor": "Félix Emanuel",
+  "vendedor_desde": 2021,
+  "vendedor_id": "pfbid02JsineXU2rmRdXdYF56JBsVqPYRGgtaNhDYNuhvYAvMbtHeSdtaFEF4yaCft5RAP2l",
+  "verificado": "2026-11-02"
  },
  "1936337973812585": {
   "cat": "Videogame",
@@ -17427,6 +17534,26 @@
   "vendedor_id": "pfbid02wuSo9FXSpHY1wyddadzD533gW7Zsb4KqSW1WvCpgqeSErhNRz7A3rASgaQx59vTJl",
   "verificado": "2026-10-30"
  },
+ "2105551523413078": {
+  "cat": "Videogame",
+  "data_status": "2026-11-02",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-02",
+    900
+   ]
+  ],
+  "primeiro_visto": "2026-11-02",
+  "status": "ativo",
+  "titulo": "PlayStation 4 FAT 500 GB",
+  "ultima_coleta": "2026-11-02",
+  "ultimo_ativo": "2026-11-02",
+  "vendedor": "Diones Costa",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0MC3sXo3tLyR25zzb1wHuxnuLTxQtT2JHeh5t51UX1KE4JyofG3ADxpqxP2DnLdYzl"
+ },
  "2112326382976832": {
   "cat": "Videogame",
   "data_status": "2026-10-29",
@@ -17638,11 +17765,11 @@
   "status": "ativo",
   "titulo": "Televisão 55 polegadas smart Philco",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Kacio Antunes",
   "vendedor_desde": 2018,
-  "vendedor_id": "pfbid0vsvXW8ydZyiQ8vPEgADpqE92X5R7AZNuesPRfbFMqYVMCyzhgcFUMP7XLfr3MAazl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid02zWhk4tPhxyd6779KerCLJ64k7ZLCc6LWr3XgStaHNap9qcJG5R9CdqfNJzuRVHQjl",
+  "verificado": "2026-11-02"
  },
  "2146728775932035": {
   "cat": "Videogame",
@@ -20114,10 +20241,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro Max 256",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "James Mark",
   "vendedor_desde": 2011,
-  "vendedor_id": "100002272785443"
+  "vendedor_id": "100002272785443",
+  "verificado": "2026-11-02"
  },
  "2575915896218649": {
   "cat": "iPhone",
@@ -20388,11 +20516,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max 128 gb",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-02",
   "vendedor": "Arthur Oliveira",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid0dYyVYbk7kNeM1sZCsVbvc5YDrjajz6xyQuj5DdFZNBDkFmXU7jv4a2oTpkzNu1ysl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid0dCfUxKCe7K3fcYQFUpANcqSHJ8fWkBBosM1Az3FYbWfuK7CdoDf5UFcgo4wuBJXAl",
+  "verificado": "2026-11-02"
  },
  "2619185031870448": {
   "cat": "Videogame",
