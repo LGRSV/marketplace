@@ -80,7 +80,7 @@ def modelo_no_texto(txt, modelos):
 
 
 def preco_no_texto(txt):
-    m = re.search(r"r\$\s*(\d{1,2}[.,]?\d{3}|\d{3})\b", txt, re.I) or re.search(r"\b(\d{1,2}[.,]?\d{3}|\d{3})\s*(?:reais|conto)\b", txt, re.I)
+    m = re.search(r"r\$\s*(\d{1,2}[.,]?\d{3}|\d{3})\b", txt, re.I) or re.search(r"\b(\d{1,2}[.,]?\d{3}|\d{3})(?:,00)?\s*(?:reais|conto|no pix|pix|[àa] vista)\b", txt, re.I)
     return int(re.sub(r"\D", "", m.group(1))) if m else None
 
 
