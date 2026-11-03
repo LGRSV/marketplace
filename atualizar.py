@@ -273,6 +273,16 @@ def encerrar_tela_temporaria(hoje=None):
         subprocess.run([sys.executable, os.path.join(AQUI, "viagem.py"), "--remover"], cwd=AQUI)
 
 
+def avisar(nome, proj):
+    """Alertas de bons negócios no WhatsApp; falha aqui nunca derruba a coleta."""
+    if nome != "iphone":
+        return
+    try:
+        subprocess.run([sys.executable, os.path.join(proj, "alertas.py")], cwd=proj, timeout=300)
+    except Exception as err:
+        coleta.log(f"alertas falharam: {err!r}")
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
@@ -301,10 +311,14 @@ def main():
             # o compilado sozinho não dá conta (o Facebook barra a guia anônima depois de uns 7 anúncios):
             # cada rodada também confere alguns antigos, e assim a lista inteira roda ao longo da semana
             n_conf = conferir_antigos(proj, a.conferir_novos)
+            r = 0
             if n or n_conf or fechar:
-                return montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}" + rodape, haiku=False)
-            return 0
-        return diario(a.proj, proj, a.conferir, rodape)
+                r = montar_e_publicar(a.proj, proj, f"Novos anúncios {datetime.now():%d/%m %H:%M}" + rodape, haiku=False)
+            avisar(a.proj, proj)
+            return r
+        r = diario(a.proj, proj, a.conferir, rodape)
+        avisar(a.proj, proj)
+        return r
 
 
 if __name__ == "__main__":
