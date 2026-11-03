@@ -106,7 +106,7 @@
  },
  "1005499371817916": {
   "cat": "iPhone",
-  "data_status": "2026-10-29",
+  "data_status": "2026-11-03",
   "local": "Palmas, TO",
   "mod": "iPhone 13 Pro Max",
   "precos": [
@@ -116,10 +116,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-29",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "📱 **iPHONE 13 PRO MAX — 256 GB** Aparelho original! ✅",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-10-29"
+  "ultimo_ativo": "2026-10-29",
+  "vendedor": "Suzanaenndyy Soaresoliveira",
+  "vendedor_desde": 2025,
+  "vendedor_id": "pfbid02bwPD4LWoabnzqL41WbMtrywkBS6P6WJupSpf4NioNmLxMLdi5Zn6kFRPFLFXiSChl",
+  "verificado": "2026-11-03"
  },
  "1008311292288830": {
   "cat": "Videogame",
@@ -2370,11 +2374,11 @@
   "status": "ativo",
   "titulo": "iPhone 18 pro max NOVO",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Fernando Dongenski",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid0kzTtSaLmaTTVzrDH9DKvsJKUHC3pBiEmxr4GXwqfvnoVrn8uZ38fm3ppWnZzePHxl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid0m87QQwNVm7ZHc7XrW8g5eYSPTR5BwPCsEKvyvrkSjrttoM9RXWWRC68SFzmf5AUGl",
+  "verificado": "2026-11-03"
  },
  "1097974929784788": {
   "cat": "iPhone",
@@ -2412,11 +2416,11 @@
   "status": "ativo",
   "titulo": "Nintendo Switch V2 Desbloqueado com Combo de jogos",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Antonio Carlos Novais",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02V5xkwY5XVWWUFFDb2ipbr822nTcef58Sb6dsggM3nF2yrTSQnCe9wjPSwLxgsfUwl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid02VB6nb7sF38vW6JpMTQerQ7CvCtQkhAn7jzmwiFEpVg3UmwkXmHNeq7PAw5vg61c7l",
+  "verificado": "2026-11-03"
  },
  "1098643452933218": {
   "cat": "iPhone",
@@ -3486,6 +3490,23 @@
   "vendedor_desde": 2014,
   "vendedor_id": "pfbid02eohgNJBYhMiRPZgfMNTw2J7uW3rZsuAwhazQVfSp5nv6v2yFZpDuEEa5pihstD1Yl",
   "verificado": "2026-10-19"
+ },
+ "1112330844847271": {
+  "cat": "iPhone",
+  "data_status": "2026-11-03",
+  "local": "Palmas, TO",
+  "mod": "iPhone 17 Pro",
+  "precos": [
+   [
+    "2026-11-03",
+    6450
+   ]
+  ],
+  "primeiro_visto": "2026-11-03",
+  "status": "ativo",
+  "titulo": "iPhone 17 Pro 256gb na garantia",
+  "ultima_coleta": "2026-11-03",
+  "ultimo_ativo": "2026-11-03"
  },
  "1112403211772779": {
   "cat": "iPhone",
@@ -6312,11 +6333,11 @@
   "status": "ativo",
   "titulo": "Xbox seris s",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Real Outfit",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02ATeiTACopigpezbSgUckeH7i5ctQfqEshurF7h31auKgRDFNHFEU1oM8xSfgawBCl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid02AL8FUpUmv26ynhpxE34TUfvYS6rKicWs3VSPXhFFbM3RHX4NJCZ8Ex1sEqkLStnrl",
+  "verificado": "2026-11-03"
  },
  "1339191625951846": {
   "cat": "iPhone",
@@ -9113,6 +9134,23 @@
   "vendedor_id": "pfbid02dd1r7M3pLzcrqvpw3y3TmFezuc3K9zYEuE5DspaZXxfecuzSVzi3x843rvs2gRNCl",
   "verificado": "2026-10-30"
  },
+ "1451676127079060": {
+  "cat": "Videogame",
+  "data_status": "2026-11-03",
+  "local": "Palmas, TO",
+  "mod": "Xbox 360",
+  "precos": [
+   [
+    "2026-11-03",
+    700
+   ]
+  ],
+  "primeiro_visto": "2026-11-03",
+  "status": "ativo",
+  "titulo": "Xbox 360 com o desbloqueio vem com 29 jogos como pes 2018, Red dead, resideat evil 4",
+  "ultima_coleta": "2026-11-03",
+  "ultimo_ativo": "2026-11-03"
+ },
  "1452298713698843": {
   "cat": "TV",
   "data_status": "2026-10-28",
@@ -9960,11 +9998,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro Max",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "James Mark",
   "vendedor_desde": 2011,
   "vendedor_id": "100002272785443",
-  "verificado": "2026-10-29"
+  "verificado": "2026-11-03"
  },
  "1494096495898248": {
   "cat": "iPhone",
@@ -10270,16 +10308,21 @@
    [
     "2026-10-29",
     3250
+   ],
+   [
+    "2026-11-03",
+    3000
    ]
   ],
   "primeiro_visto": "2026-10-29",
   "status": "ativo",
   "titulo": "iPhone 15 256 gb",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Vitor Emanuel",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid0knzmp4TLG33eE2mcHJXktVSpHVwRChAW4EyojwkWUy1BVBMLfpZx4BZZsjrjCJERl"
+  "vendedor_id": "pfbid02pJ8UQSqgUJ7e2G2owSXNRACJKxBKwXKwWY5Mv4w9s2p4LavL4utzz2vZW8Fhjh2Nl",
+  "verificado": "2026-11-03"
  },
  "1521321879802415": {
   "cat": "Videogame",
@@ -11956,6 +11999,23 @@
   "titulo": "✅IPHONE 13, FUNCIONANDO TUDO PERFEITAMENTE🤩",
   "ultima_coleta": "2026-11-01",
   "ultimo_ativo": "2026-11-01"
+ },
+ "1625895249312339": {
+  "cat": "iPhone",
+  "data_status": "2026-11-03",
+  "local": "Palmas, TO",
+  "mod": "iPhone 17",
+  "precos": [
+   [
+    "2026-11-03",
+    4500
+   ]
+  ],
+  "primeiro_visto": "2026-11-03",
+  "status": "ativo",
+  "titulo": "iPhone 17 256gb",
+  "ultima_coleta": "2026-11-03",
+  "ultimo_ativo": "2026-11-03"
  },
  "1625954082593687": {
   "cat": "iPhone",
@@ -14730,11 +14790,11 @@
   "status": "ativo",
   "titulo": "PLAYSTATION 5 ASTRO BOT 825GB – SONY PS5",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Lucas Luan",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0HScQdLpCbqCznVBkyaJ3siaPLrcEXrmmVG5SfX1RTsbN5XCPsxZZuMzwkKke1Dipl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid02MRhdnNmke12sGzTNRDx2asKhqYzgcVJVfZrka6wkPoT4EzFWoKLCwVCBsNFXtgxml",
+  "verificado": "2026-11-03"
  },
  "1773036937133504": {
   "cat": "Videogame",
@@ -15465,7 +15525,7 @@
  },
  "1802142117488064": {
   "cat": "iPhone",
-  "data_status": "2026-10-15",
+  "data_status": "2026-11-03",
   "local": "Palmas, TO",
   "mod": "iPhone 17 Pro Max",
   "precos": [
@@ -15475,14 +15535,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-15",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 17 Pro Max 256GB",
   "ultima_coleta": "2026-10-15",
   "ultimo_ativo": "2026-10-29",
   "vendedor": "Victor Trajano",
   "vendedor_desde": 2017,
   "vendedor_id": "100019249806616",
-  "verificado": "2026-10-29"
+  "verificado": "2026-11-03"
  },
  "1802216274335063": {
   "cat": "iPhone",
@@ -15961,6 +16021,23 @@
   "vendedor_desde": 2011,
   "vendedor_id": "pfbid02Q2dMeHcnSsBeEt1F2y7KshFkivpCuPfPrskhUTx5Tg2snHyQkGEHT6MjSbYL9Y8bl",
   "verificado": "2026-10-30"
+ },
+ "1824585498743198": {
+  "cat": "iPhone",
+  "data_status": "2026-11-03",
+  "local": "Palmas, TO",
+  "mod": "iPhone 17 Pro Max",
+  "precos": [
+   [
+    "2026-11-03",
+    6500
+   ]
+  ],
+  "primeiro_visto": "2026-11-03",
+  "status": "ativo",
+  "titulo": "iPhone 17 Pro Max 256GB",
+  "ultima_coleta": "2026-11-03",
+  "ultimo_ativo": "2026-11-03"
  },
  "1827412194936311": {
   "cat": "iPhone",
@@ -17281,11 +17358,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro 256 gb",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Iandro De Medeiros",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid02zBG5tAa7qY57DUBjLvHXYd3RZ6fs8pKKGES2uWACpK5pSHPZs6oxKRRwPng4citGl",
-  "verificado": "2026-10-29"
+  "vendedor_id": "pfbid0vHJtNiQHMLUEVpzqqmUaucBjG6HV8qHWHiKFMV8of9cnsSFfPKrxZcQuhL6N51hGl",
+  "verificado": "2026-11-03"
  },
  "1990453088294428": {
   "cat": "iPhone",
@@ -21484,10 +21561,11 @@
   "status": "ativo",
   "titulo": "IPHONE 15 PRO MAX 512gb 🇺🇸",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-10-29",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Ribeiro Santos Diogo",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid02Accb7FFEuGXP47TLYnAcTisVVeNhhWvDDcAdw8AzLBLgJynCUpnUGLYYG1uN7ZHAl"
+  "vendedor_id": "pfbid02AkG75cGy612Nf164bbzbkfaXVJDmyXPS3PmEFXEnLZx9LBwP4ymqquAdBAQbZBv7l",
+  "verificado": "2026-11-03"
  },
  "28354603334168444": {
   "cat": "iPhone",
@@ -22333,6 +22411,23 @@
   "vendedor": "Ruth Ellen Plácido",
   "vendedor_desde": 2017,
   "vendedor_id": "pfbid0WQJiDFDMvsChkEAepHHoa9YFzjW9J9x9A9f3r6DQ4VUK7CexPYw1G9rqFNPSgnvHl"
+ },
+ "29250142074609839": {
+  "cat": "Videogame",
+  "data_status": "2026-11-03",
+  "local": "Palmas, TO",
+  "mod": "Xbox 360",
+  "precos": [
+   [
+    "2026-11-03",
+    500
+   ]
+  ],
+  "primeiro_visto": "2026-11-03",
+  "status": "ativo",
+  "titulo": "Vendo XBOX 360 (desbloqueado)",
+  "ultima_coleta": "2026-11-03",
+  "ultimo_ativo": "2026-11-03"
  },
  "29251550531115432": {
   "cat": "Videogame",
