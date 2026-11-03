@@ -2752,5 +2752,135 @@
    10062,
    7
   ]
+ },
+ "2026-11-03": {
+  "Galaxy S25 Ultra": [
+   5043,
+   8
+  ],
+  "Nintendo Switch": [
+   1898,
+   19
+  ],
+  "PlayStation 3": [
+   1250,
+   3
+  ],
+  "PlayStation 4": [
+   1447,
+   29
+  ],
+  "PlayStation 5": [
+   3265,
+   24
+  ],
+  "PlayStation Portal": [
+   900,
+   2
+  ],
+  "TV 32 pol": [
+   686,
+   14
+  ],
+  "TV 40 pol": [
+   750,
+   2
+  ],
+  "TV 43 pol": [
+   1073,
+   6
+  ],
+  "TV 50 pol": [
+   1454,
+   9
+  ],
+  "TV 55 pol": [
+   1500,
+   3
+  ],
+  "TV 65 pol": [
+   2400,
+   2
+  ],
+  "Xbox 360": [
+   531,
+   9
+  ],
+  "Xbox One": [
+   1157,
+   7
+  ],
+  "Xbox Series S": [
+   2740,
+   2
+  ],
+  "iPhone 13": [
+   1931,
+   20
+  ],
+  "iPhone 13 Pro": [
+   2450,
+   13
+  ],
+  "iPhone 13 Pro Max": [
+   2631,
+   48
+  ],
+  "iPhone 14": [
+   2217,
+   35
+  ],
+  "iPhone 14 Pro": [
+   2997,
+   13
+  ],
+  "iPhone 14 Pro Max": [
+   3114,
+   53
+  ],
+  "iPhone 15": [
+   2858,
+   24
+  ],
+  "iPhone 15 Pro": [
+   3612,
+   34
+  ],
+  "iPhone 15 Pro Max": [
+   4074,
+   30
+  ],
+  "iPhone 16": [
+   3766,
+   20
+  ],
+  "iPhone 16 Pro": [
+   4688,
+   20
+  ],
+  "iPhone 16 Pro Max": [
+   5064,
+   46
+  ],
+  "iPhone 17": [
+   5150,
+   11
+  ],
+  "iPhone 17 Pro": [
+   6079,
+   12
+  ],
+  "iPhone 17 Pro Max": [
+   6685,
+   50
+  ],
+  "iPhone 18 Pro": [
+   8670,
+   5
+  ],
+  "iPhone 18 Pro Max": [
+   10062,
+   7
+  ]
  }
 }
