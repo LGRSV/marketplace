@@ -5087,10 +5087,11 @@
   "status": "ativo",
   "titulo": "iPhone 16e",
   "ultima_coleta": "2026-10-30",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Iandro De Medeiros",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid0v9fNQMNZAj1VK8a4fgPM8fPoUoHmpihxhRiZ1usikfQ1fUt7VccLgdV8rEEfMie9l"
+  "vendedor_id": "pfbid02z8kbZPL7CfBiXT5ZcUvBS9nP1LF12wbmyFVK4qSwfUX98aXe38LQWoPxtNx8adK4l",
+  "verificado": "2026-11-03"
  },
  "1136932296065169": {
   "cat": "iPhone",
@@ -5193,6 +5194,26 @@
   "vendedor": "Jadson Batista",
   "vendedor_desde": 2020,
   "vendedor_id": "pfbid026eBXhKg5ZSge4YPwBS6g5db9v9RV5pc8QxKiGxUhXSZ5RPCoNb8UQMQE2FhNv5UAl"
+ },
+ "1137719675397179": {
+  "cat": "TV",
+  "data_status": "2026-11-03",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-11-03",
+    800
+   ]
+  ],
+  "primeiro_visto": "2026-11-03",
+  "status": "ativo",
+  "titulo": "Televisão smart 32 polegadas",
+  "ultima_coleta": "2026-11-03",
+  "ultimo_ativo": "2026-11-03",
+  "vendedor": "Sania Marielly",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid0d7RU1pcZPYPUumCCtoKD4igV1P8UJcbpvudR1xMxasVThJZE9Ao1UgwhXdw14KpNl"
  },
  "1137780588587497": {
   "cat": "iPhone",
@@ -9515,11 +9536,11 @@
   "status": "ativo",
   "titulo": "PS3 HD 1T",
   "ultima_coleta": "2026-10-25",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "RoGer Soa Res",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid0uycdBhwHksgJbT7CGvk8XiWA1NRRhe4S8fGsJUjNm3QHkGQhHUTJ5qUfCkjkXURPl",
-  "verificado": "2026-10-30"
+  "vendedor_id": "pfbid0udJcbRPp7rAt9DYqCeVBGJUtS9g72BEPHPfBeCVLLpU5xWsh7Cu2of7xLEst1eKQl",
+  "verificado": "2026-11-03"
  },
  "1466240915608011": {
   "cat": "iPhone",
@@ -9668,6 +9689,26 @@
   "vendedor_desde": 2017,
   "vendedor_id": "pfbid02CZ6u8wBWUpY7PuYSnzLyyASxEx3PdsyEhNGDqGt6oxF7BvChEv57bcxASCyn9gFAl",
   "verificado": "2026-11-01"
+ },
+ "1473909681296384": {
+  "cat": "TV",
+  "data_status": "2026-11-03",
+  "local": "Palmas, TO",
+  "mod": "TV",
+  "precos": [
+   [
+    "2026-11-03",
+    300
+   ]
+  ],
+  "primeiro_visto": "2026-11-03",
+  "status": "ativo",
+  "titulo": "Televisão Samsung",
+  "ultima_coleta": "2026-11-03",
+  "ultimo_ativo": "2026-11-03",
+  "vendedor": "Hamanda Franca",
+  "vendedor_desde": 2015,
+  "vendedor_id": "100010289314704"
  },
  "1476898557830144": {
   "cat": "TV",
@@ -10374,11 +10415,11 @@
   "status": "ativo",
   "titulo": "Vende-se PSPortal",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Rafael Guollo",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid032Km8autVhSHdn6Tpo7rPqumYaTmDVCELDAxQoMagZuQoobH7JbGXVoQ9tpniqnX8l",
-  "verificado": "2026-10-30"
+  "vendedor_id": "pfbid032TQeZGvDtDanp14zyaaPLhcfNtCRugNkvKH4vH1vLi7Q6TzpnYkH7o1k4BfKpG2El",
+  "verificado": "2026-11-03"
  },
  "1511359657494655": {
   "cat": "TV",
@@ -14468,11 +14509,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 pro max",
   "ultima_coleta": "2026-10-25",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Isabela Morgado",
   "vendedor_desde": 2010,
   "vendedor_id": "100001042709240",
-  "verificado": "2026-10-30"
+  "verificado": "2026-11-03"
  },
  "1748869389551081": {
   "cat": "iPhone",
@@ -15319,10 +15360,11 @@
   "status": "ativo",
   "titulo": "Ps Portal",
   "ultima_coleta": "2026-10-30",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Andre Filipy",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid033yDBiotRFcoEzV5fDpke4ZyY4JB8rwTxQEffaEUiwcQWXRcx14MjUmZTpkVF3GiWl"
+  "vendedor_id": "pfbid0z5FzDMiamRJoBgBTnsc3qC56FhokuCC6LPUrCmqwNfBcvZYVaSkvSNGd5N9TmGQCl",
+  "verificado": "2026-11-03"
  },
  "1782881143021513": {
   "cat": "TV",
@@ -16224,11 +16266,11 @@
   "status": "ativo",
   "titulo": "Iphone 17 Pro Max 256Gb azul (Novo Lacrado)",
   "ultima_coleta": "2026-10-25",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Peter Richard",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02Q2dMeHcnSsBeEt1F2y7KshFkivpCuPfPrskhUTx5Tg2snHyQkGEHT6MjSbYL9Y8bl",
-  "verificado": "2026-10-30"
+  "vendedor_id": "pfbid02QAGsceeWdVbvrkPGEpav1aviNz6GvpwiE3JMPo8CJgvpnyMVyspenwb2cd1WMrisl",
+  "verificado": "2026-11-03"
  },
  "1824585498743198": {
   "cat": "iPhone",
@@ -17779,11 +17821,11 @@
   "status": "ativo",
   "titulo": "Celular sabor iPhone 18 PRO MAX",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Erick Erick",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02m7ftEjFjRC9d6PEu68JFfZvk4mtGHULsMYH2iwKwnRc16ufqZMN4WKbnBTrXapGrl",
-  "verificado": "2026-10-30"
+  "vendedor_id": "pfbid0hDigjH5tvoQsTNxb1qUQnAmzWNXz57pMKA7j54egTMicAHdM9kzBruGWRfvYbJsPl",
+  "verificado": "2026-11-03"
  },
  "2003810963621454": {
   "cat": "Videogame",
@@ -20607,11 +20649,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 PRO MAX - 256GB ORIGINAL",
   "ultima_coleta": "2026-10-16",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Lucas Schiling",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid036if6choNg6aZwdp3JLqsMNMKjJ661HHVTvT8vkiF6bPk5ch9EiFTsZKDb9vy9engl",
-  "verificado": "2026-10-30"
+  "vendedor_id": "pfbid022phu7FdYBqQ5TKmrwhmmmTDoX1MaYsK1rztK73NdxQKPjvPYRkh2HAnyyQeEktEHl",
+  "verificado": "2026-11-03"
  },
  "2386141042209492": {
   "cat": "iPhone",
@@ -22658,11 +22700,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 14 Pro Max 128GB",
   "ultima_coleta": "2026-10-17",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Victoria Pinheiro",
   "vendedor_desde": 2013,
   "vendedor_id": "100006904834500",
-  "verificado": "2026-10-30"
+  "verificado": "2026-11-03"
  },
  "29190509117277993": {
   "cat": "Videogame",
@@ -26199,10 +26241,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 PRO 253GB",
   "ultima_coleta": "2026-10-30",
-  "ultimo_ativo": "2026-10-30",
+  "ultimo_ativo": "2026-11-03",
   "vendedor": "Amanda Marinho",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid0nQhXhBf4dzPCehmjKmCRHLtmc6gU5PXgheMtQ8TvFRkGpGnLmULzR9T5qxe7kmXZl"
+  "vendedor_id": "pfbid02rPnkrDccgAgfcD31qeSN5kww4krwWsVh3HFrUryjx6WhucLn2mr8zJSs8BNJK8X8l",
+  "verificado": "2026-11-03"
  },
  "989162797546922": {
   "cat": "Jogos e acessórios",
