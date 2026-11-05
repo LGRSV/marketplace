@@ -2151,11 +2151,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-10-18",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Joao Philipe",
   "vendedor_desde": 2011,
   "vendedor_id": "100003217497644",
-  "verificado": "2026-10-31"
+  "verificado": "2026-11-05"
  },
  "1093665706768407": {
   "cat": "Videogame",
@@ -2824,11 +2824,11 @@
   "status": "ativo",
   "titulo": "Tv smart Aiwa 43 polegadas na caixa.",
   "ultima_coleta": "2026-10-16",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Francilúcia Britto",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid02QipLWsMr5vdRCLiS3KDvbpiKWTjmQyLW7rJZ9YZLZDQ9juUnLYhSY7DDjSUNLvDXl",
-  "verificado": "2026-10-31"
+  "vendedor_id": "pfbid02QgJrC67qT8i8weD2qqwwRHcUmKfzwNvCKvvytEvkyxE5rcfwe83JUKugbqpb5AMNl",
+  "verificado": "2026-11-05"
  },
  "1102784106005548": {
   "cat": "Jogos e acessórios",
@@ -6359,6 +6359,23 @@
   "vendedor_id": "pfbid08xHzgf2asNKJWSYhp9CUNnXadxHADyTR8wevhtFGfDWGS77zTZLYV9hxRb1W5nb1l",
   "verificado": "2026-11-02"
  },
+ "1173123868571393": {
+  "cat": "iPhone",
+  "data_status": "2026-11-05",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-11-05",
+    1899
+   ]
+  ],
+  "primeiro_visto": "2026-11-05",
+  "status": "ativo",
+  "titulo": "IPHONE 13 ORIGINAL - IMPECÁVEL",
+  "ultima_coleta": "2026-11-05",
+  "ultimo_ativo": "2026-11-05"
+ },
  "1174942508190474": {
   "cat": "iPhone",
   "data_status": "2026-11-03",
@@ -7648,11 +7665,11 @@
   "status": "ativo",
   "titulo": "iphone 17 pro max",
   "ultima_coleta": "2026-10-18",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Lázaro Basto",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02cUcfN8AqtxgRThrFdNbrZQz2YcvoZ8XhU2dGd5xkja7nGAZYszAs1svJS2pgQDK8l",
-  "verificado": "2026-10-31"
+  "vendedor_id": "pfbid02cS7B3LvqG7RJphhv6oDbDh5w9RTXFQ3ZzSSadTuxXsVxDQmegjHFS5BZUqx2HBfdl",
+  "verificado": "2026-11-05"
  },
  "1395473076982623": {
   "cat": "iPhone",
@@ -9231,10 +9248,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 PRO MAX",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Félix Emanuel",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid02K3snwfjmgGzY2p7a7JPmfVTFJNzubrSZP7i36iCW2aqnbpZjap8YtFKrpCUgWESkl"
+  "vendedor_id": "pfbid0F9vbSDZwBwAfSsD88WQ2TiSozobPRqQvW6ywa1VubRUyxMAi958E6CnfxfWgPM7Vl",
+  "verificado": "2026-11-05"
  },
  "1433273012269286": {
   "cat": "TV",
@@ -9373,16 +9391,21 @@
    [
     "2026-10-31",
     5500
+   ],
+   [
+    "2026-11-05",
+    4950
    ]
   ],
   "primeiro_visto": "2026-10-31",
   "status": "ativo",
   "titulo": "Iphone 16 pro max 256",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Geovanna Lopes",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02SkKwrB6SrLBmSSXNmEYtsZEWRQfNMazUr78EcA7za3SVMbBKruukpewfrjwqrCHEl"
+  "vendedor_id": "pfbid0NrNkLivcNAv9qz1ArLFXcZbGbLp85CQrwC33WbeVX9WDe4NTxLaabbeHm1VRLZByl",
+  "verificado": "2026-11-05"
  },
  "1438025059388438": {
   "cat": "iPhone",
@@ -9604,6 +9627,23 @@
   "vendedor": "Lethycia Castro",
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid0GnwBs8MFqFmnyKJhjkRbTxXq7v5bcxLz63TPnsgDrcnFhwKqdSN9qDz35s1EE2VTl"
+ },
+ "1443724687164424": {
+  "cat": "iPhone",
+  "data_status": "2026-11-05",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-11-05",
+    2200
+   ]
+  ],
+  "primeiro_visto": "2026-11-05",
+  "status": "ativo",
+  "titulo": "Vendo iPhone 13 Pro Max 256gb",
+  "ultima_coleta": "2026-11-05",
+  "ultimo_ativo": "2026-11-05"
  },
  "1445316290897437": {
   "cat": "Videogame",
@@ -15174,6 +15214,23 @@
   "vendedor_id": "pfbid0JjRGyhXcrhzcDr1vsbBXifPyPNSVC1EwozhpC39SLevuz9kG5b6vMEWwJrWxkpSjl",
   "verificado": "2026-11-02"
  },
+ "1717053053186826": {
+  "cat": "iPhone",
+  "data_status": "2026-11-05",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-11-05",
+    2700
+   ]
+  ],
+  "primeiro_visto": "2026-11-05",
+  "status": "ativo",
+  "titulo": "IPHONE 13 PRO MAX 256G",
+  "ultima_coleta": "2026-11-05",
+  "ultimo_ativo": "2026-11-05"
+ },
  "1717945525902860": {
   "data_status": "2026-10-08",
   "local": "Luís Eduardo Magalhães, BA",
@@ -17908,6 +17965,23 @@
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid02b5NE3DmKuUxfAEcMkbzfGuhivwvmkXdtG4YtTWBRKzq2scnAmnZKMkGKtBCrfN4Nl",
   "verificado": "2026-11-05"
+ },
+ "1853011882805518": {
+  "cat": "iPhone",
+  "data_status": "2026-11-05",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-11-05",
+    2500
+   ]
+  ],
+  "primeiro_visto": "2026-11-05",
+  "status": "ativo",
+  "titulo": "iPhone 13 Pro Max 128gb",
+  "ultima_coleta": "2026-11-05",
+  "ultimo_ativo": "2026-11-05"
  },
  "1855451389233466": {
   "cat": "iPhone",
@@ -22509,6 +22583,23 @@
   "vendedor_id": "pfbid02gQKYFdMLuVME1s1VsuNWdhaewn3HswbuZoZmM5YJCe9Vu2ZpYNQTBuVqx1DMtFjUl",
   "verificado": "2026-11-02"
  },
+ "2462117047875808": {
+  "cat": "iPhone",
+  "data_status": "2026-11-05",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-11-05",
+    1850
+   ]
+  ],
+  "primeiro_visto": "2026-11-05",
+  "status": "ativo",
+  "titulo": "✅IPHONE 13 IMPECÁVEL 🤩",
+  "ultima_coleta": "2026-11-05",
+  "ultimo_ativo": "2026-11-05"
+ },
  "2463944970799087": {
   "cat": "iPhone",
   "data_status": "2026-10-27",
@@ -22998,11 +23089,11 @@
   "status": "ativo",
   "titulo": "Vendo jogos para Nintendo Switch.",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Sérgio Kastro",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid03NhkZgUARvY2whqxz1yRPJVWRdFH8Bn7JZnpZi2ZmM2PQUFcC3x8JJz2KPt88UVZl",
-  "verificado": "2026-10-31"
+  "vendedor_id": "pfbid026sqTA4rWeFVibZKqHwAEGQzns18CvtnqTJY3AhrrDumhFbtqvngKtP3EMaQvpP2il",
+  "verificado": "2026-11-05"
  },
  "2588969031616736": {
   "cat": "iPhone",
@@ -23279,6 +23370,23 @@
   "vendedor_desde": 2021,
   "vendedor_id": "pfbid02aKTqHH5j2LygWDyvbnTm6xScCrTyikGyN5gy5hnj6neB2kwRPkqAiUadPPdPq1RYl",
   "verificado": "2026-11-04"
+ },
+ "2633574610462986": {
+  "cat": "iPhone",
+  "data_status": "2026-11-05",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-11-05",
+    1700
+   ]
+  ],
+  "primeiro_visto": "2026-11-05",
+  "status": "ativo",
+  "titulo": "✅IPHONE 13 IMPECÁVEL 🤩",
+  "ultima_coleta": "2026-11-05",
+  "ultimo_ativo": "2026-11-05"
  },
  "2642759752837321": {
   "cat": "iPhone",
@@ -23707,11 +23815,11 @@
   "status": "ativo",
   "titulo": "[hidden information]0",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Romario Gomes",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid0RJtgrZNo1Vuan8DxSv7jbvu8Rg81RPf2vnTFSSC8cLYzEu3zQmJLgEanYLsJ3TCFl",
-  "verificado": "2026-10-31"
+  "vendedor_id": "pfbid02Up2PSwm9DjpSTKU7GdGRkDDu4tetc97TsjJ29eoZWMw1QswG9vgtSYW71MK6ApLtl",
+  "verificado": "2026-11-05"
  },
  "28562021866742559": {
   "cat": "Videogame",
@@ -24668,10 +24776,11 @@
   "status": "ativo",
   "titulo": "VENDO IPHONE 14 PRO MAX",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Lukas Rodrigues",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02FniyveY7jz9waXHfHAhKNaJSGZ8xPUPM2B2nqDAmhe1rAWE3sjry5R2X5wHo65KLl"
+  "vendedor_id": "pfbid02GEB2AWsJvg1sEpr48XhTAS1JrDjx22hNB5ZtKesutfty36Ek7NomFYRdcimCpgxSl",
+  "verificado": "2026-11-05"
  },
  "29353543290949768": {
   "cat": "iPhone",
@@ -24895,10 +25004,11 @@
   "status": "ativo",
   "titulo": "Vendo smart tv 55 polegadas 4K",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-05",
   "vendedor": "Smart Eletro",
   "vendedor_desde": 2012,
-  "vendedor_id": "100003505150456"
+  "vendedor_id": "100003505150456",
+  "verificado": "2026-11-05"
  },
  "3019862595022533": {
   "cat": "iPhone",
