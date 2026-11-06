@@ -4838,11 +4838,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 256GB Branco",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-06",
   "vendedor": "Fernando Mourao",
   "vendedor_desde": 2024,
   "vendedor_id": "61568423973355",
-  "verificado": "2026-10-31"
+  "verificado": "2026-11-06"
  },
  "1127562389748756": {
   "cat": "iPhone",
@@ -11753,7 +11753,7 @@
  },
  "1563233975821267": {
   "cat": "TV",
-  "data_status": "2026-10-31",
+  "data_status": "2026-11-06",
   "local": "Palmas, TO",
   "mod": "TV 43 pol",
   "precos": [
@@ -11763,13 +11763,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-31",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Smart TV 43 Polegadas TCL Qled",
   "ultima_coleta": "2026-10-31",
   "ultimo_ativo": "2026-10-31",
   "vendedor": "Claudio Calebe",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid0362FXHRU4hKroiAsHvBgLjj4XTDh7VSUi14r26RaQ1pNHYHR4EeQpQb4dmhgEXwu3l"
+  "vendedor_id": "pfbid0362FXHRU4hKroiAsHvBgLjj4XTDh7VSUi14r26RaQ1pNHYHR4EeQpQb4dmhgEXwu3l",
+  "verificado": "2026-11-06"
  },
  "1564914272058396": {
   "cat": "iPhone",
@@ -12905,11 +12906,11 @@
   "status": "ativo",
   "titulo": "playstation 5",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-06",
   "vendedor": "Andre Costa",
   "vendedor_desde": 2018,
-  "vendedor_id": "pfbid02dxg2T4YMJ1SfWvPDZmwyXT1e2ZAVRtvaFvu93JDZTsByBEiMgyXwGoVT7BGcEuDDl",
-  "verificado": "2026-10-31"
+  "vendedor_id": "pfbid0a4ipwcNWofypSXSm53ReLSMm6sw4m9DF4SHXQreZuUZHR6bJazZximMFu6HyMq3Yl",
+  "verificado": "2026-11-06"
  },
  "1619116146322229": {
   "cat": "iPhone",
@@ -15156,16 +15157,21 @@
    [
     "2026-10-31",
     650
+   ],
+   [
+    "2026-11-06",
+    550
    ]
   ],
   "primeiro_visto": "2026-10-31",
   "status": "ativo",
   "titulo": "VENDO = TELEVISÃO FAÇO ENTREGA",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-06",
   "vendedor": "Souza Elzin",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02nue5Y93NuPTguTmxYLsiVB8Rg8xzXx1Rw5fPFJ91EC3UAudTkxRLLkgmTUdncPzvl"
+  "vendedor_id": "pfbid02ns8bDMoNGd6JyAGp4cYwfHbG9H7i6EgdxZc8yQdKicX6qW7tyeqVFKPxUcCrqfqFl",
+  "verificado": "2026-11-06"
  },
  "1698881314536920": {
   "cat": "iPhone",
@@ -16731,7 +16737,7 @@
  },
  "1782881143021513": {
   "cat": "TV",
-  "data_status": "2026-10-31",
+  "data_status": "2026-11-06",
   "local": "Paraíso do Tocantins, TO",
   "mod": "TV 32 pol",
   "precos": [
@@ -16741,13 +16747,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-31",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "TV smart 32 polegadas",
   "ultima_coleta": "2026-10-31",
   "ultimo_ativo": "2026-10-31",
   "vendedor": "Lara Siqueira",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02cR7zYsfA2iGo1hLGd8FbzdJ2iE7uwxY1qR99NGZySfznWDntENZcAZLMRxgW4AgGl"
+  "vendedor_id": "pfbid0YXAo3RVKYU925jSDwJ1ZhwP938Am93WhPAKWdXxSDTcDNvoMkep5NWxKUmSNUijNl",
+  "verificado": "2026-11-06"
  },
  "1788096262245241": {
   "cat": "iPhone",
@@ -22029,11 +22036,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro 128gb todo original",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-06",
   "vendedor": "Murilo Melo",
   "vendedor_desde": 2024,
   "vendedor_id": "61556933757419",
-  "verificado": "2026-10-31"
+  "verificado": "2026-11-06"
  },
  "2321014821991009": {
   "data_status": "2026-10-27",
@@ -22309,11 +22316,11 @@
   "status": "ativo",
   "titulo": "Capinha IPhone 15 Pro Max",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-06",
   "vendedor": "Rodrigo Campos",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0rZco2jt6JZ2WnyCcvdwQq6dQZMfy1uXW5bEZWLCeEMco9rmD8b7wD438GJ9nTTX6l",
-  "verificado": "2026-10-31"
+  "vendedor_id": "pfbid02v4kVd8GSWoKu3sj2DKfuHbU5NH6psoa6SiRsJPbaZfLdaC8JkoQZ6DEAuSbB8vd6l",
+  "verificado": "2026-11-06"
  },
  "2368574813884393": {
   "cat": "iPhone",
@@ -22734,6 +22741,26 @@
   "vendedor": "Caio Henrique",
   "vendedor_desde": 2021,
   "vendedor_id": "pfbid02vbmMUDLEVThhEfSkWTNkvqurhcQXd7CBW2XFp4RpZZe9ae7p5duGHbLRv22rtTKJl"
+ },
+ "2431835924222017": {
+  "cat": "iPhone",
+  "data_status": "2026-11-06",
+  "local": "Palmas, TO",
+  "mod": "iPhone 16 Pro Max",
+  "precos": [
+   [
+    "2026-11-06",
+    5299
+   ]
+  ],
+  "primeiro_visto": "2026-11-06",
+  "status": "ativo",
+  "titulo": "iPhone 16 Pro Max",
+  "ultima_coleta": "2026-11-06",
+  "ultimo_ativo": "2026-11-06",
+  "vendedor": "Edilene Donato",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid02pZrhGa5dWt9VDLU7sJxwxQ8i3qRN8ybrq4kiL8RHQe4zxnxWn6edkttCHDEwr4ARl"
  },
  "2434439357087522": {
   "cat": "Jogos e acessórios",
@@ -24388,11 +24415,11 @@
   "status": "ativo",
   "titulo": "Iphone 15 PRO 128gb estado de novo",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-06",
   "vendedor": "Keila Rocha Moreira",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid02DsYnELDYfMp2riYgEL3dD5eJZtuQCmz2FRGwzdjtAa5nEbUBQH28hwFkWwS34B2Kl",
-  "verificado": "2026-10-31"
+  "vendedor_id": "pfbid02EJzpUCYjrCytm28mbTHVr5R4ZoFALncKpt3Lz5ToH5RRfpM7VHfUASq3MeCt2bkSl",
+  "verificado": "2026-11-06"
  },
  "28823422947318748": {
   "cat": "iPhone",
@@ -26080,11 +26107,11 @@
   "status": "ativo",
   "titulo": "Ps4 oportunidade pra sair HOJE⚠️",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-10-31",
+  "ultimo_ativo": "2026-11-06",
   "vendedor": "Will Lorram",
   "vendedor_desde": 2022,
   "vendedor_id": "100080504358373",
-  "verificado": "2026-10-31"
+  "verificado": "2026-11-06"
  },
  "3826344010837219": {
   "cat": "iPhone",
@@ -26555,7 +26582,7 @@
  },
  "4416939488556596": {
   "cat": "iPhone",
-  "data_status": "2026-10-31",
+  "data_status": "2026-11-06",
   "local": "Porto Nacional, TO",
   "mod": "iPhone 14 Pro",
   "precos": [
@@ -26565,13 +26592,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-31",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "vendo ou troco iPhone 14 pro 256gb",
   "ultima_coleta": "2026-10-31",
   "ultimo_ativo": "2026-10-31",
   "vendedor": "Acinomar Júnior",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid02gqyyUK9yiNpALGtFahUKRzg2oC28MCXzuktVjvbw1RQwwsEGth2UKwFQPeJDbXTgl"
+  "vendedor_id": "pfbid02goUV9Xuy5byWNy6aJ8QWEHSmgjd1CoRT9VXH648JrRewJzyxD38zHkhGDdpE2dJVl",
+  "verificado": "2026-11-06"
  },
  "4446958222114727": {
   "cat": "iPhone",
