@@ -2883,11 +2883,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Henrique Sousa",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid0UBSDtgnhR4kTq8pUuoJ1La5TfUKg2Nj3NT26pV2no6VJpsEeV5u5US6SEfenfLy4l",
-  "verificado": "2026-11-02"
+  "vendedor_id": "pfbid02Y81xiwWEp96EzL2MNhtDQRGzECQqWV1WY4a4GGuKHwzyCYAYx2FgJ7YcNimEXpn9l",
+  "verificado": "2026-11-08"
  },
  "1102035232458255": {
   "cat": "iPhone",
@@ -3819,11 +3819,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 14 Pro Max 128Gb",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Victoria Pinheiro",
   "vendedor_desde": 2013,
   "vendedor_id": "100006904834500",
-  "verificado": "2026-11-02"
+  "verificado": "2026-11-08"
  },
  "1111146855190628": {
   "cat": "iPhone",
@@ -6892,6 +6892,22 @@
   "vendedor": "Lucas Carvalho",
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid0wfoJgFqgkqqpA58LezEMigopAvBshMYnNYsK1c9QXx9exWq2AzDawiwFBNESGxzpl"
+ },
+ "1170550038976938": {
+  "data_status": "2026-11-08",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-08",
+    50
+   ]
+  ],
+  "primeiro_visto": "2026-11-08",
+  "status": "ativo",
+  "titulo": "Película bepro iPhone 16 pro max & 17 pro Max",
+  "ultima_coleta": "2026-11-08",
+  "ultimo_ativo": "2026-11-08"
  },
  "1173123868571393": {
   "cat": "iPhone",
@@ -11219,17 +11235,21 @@
    [
     "2026-10-24",
     2000
+   ],
+   [
+    "2026-11-08",
+    1900
    ]
   ],
   "primeiro_visto": "2026-10-24",
   "status": "ativo",
   "titulo": "Tv smart 50 plgd",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Esthevao Sousa",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0WZb9Bi1JgKLQyYuJndybeXDZN7NNGK1fM6Z9Rr6KP1JuMUj23ADnWeQxgKYRvwrYl",
-  "verificado": "2026-11-02"
+  "vendedor_id": "pfbid02aYgNLjxriPMXYTxzGG77gxYSRNVoSyVVUnsttu7ZuWK7FeR493u8KDFf687Yivb2l",
+  "verificado": "2026-11-08"
  },
  "1480279527336624": {
   "cat": "iPhone",
@@ -12591,11 +12611,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro Max - 256GB",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Maria Júlia Sousa",
   "vendedor_desde": 2010,
   "vendedor_id": "100001179678274",
-  "verificado": "2026-11-02"
+  "verificado": "2026-11-08"
  },
  "1572726380700372": {
   "cat": "iPhone",
@@ -13736,10 +13756,11 @@
   "status": "ativo",
   "titulo": "IPHONE 15/ 128 gb",
   "ultima_coleta": "2026-11-02",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Sarah Araújo",
   "vendedor_desde": 2012,
-  "vendedor_id": "100004698450839"
+  "vendedor_id": "100004698450839",
+  "verificado": "2026-11-08"
  },
  "1619550336341422": {
   "data_status": "2026-10-16",
@@ -14487,17 +14508,21 @@
    [
     "2026-11-02",
     5000
+   ],
+   [
+    "2026-11-08",
+    5700
    ]
   ],
   "primeiro_visto": "2026-10-29",
   "status": "ativo",
   "titulo": "IPhone 16 Pro",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Zuppdv Zuppdv",
   "vendedor_desde": 2026,
   "vendedor_id": "61593830865628",
-  "verificado": "2026-11-02"
+  "verificado": "2026-11-08"
  },
  "1637076941397848": {
   "cat": "Videogame",
@@ -15310,17 +15335,21 @@
    [
     "2026-10-19",
     9300
+   ],
+   [
+    "2026-11-08",
+    8800
    ]
   ],
   "primeiro_visto": "2026-10-19",
   "status": "ativo",
   "titulo": "iPhone 18 Pro 256g caixa lacrada",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Victória Couto",
   "vendedor_desde": 2010,
   "vendedor_id": "1093155798",
-  "verificado": "2026-11-02"
+  "verificado": "2026-11-08"
  },
  "1670411181315111": {
   "cat": "iPhone",
@@ -16332,10 +16361,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 TODO ORIGINAL 128gb",
   "ultima_coleta": "2026-11-02",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Artur Assis Garcia",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid0ke9rR4AC6bQosfUS7BNpeHGKh7s9WMYq5ztNJUr3RT6icRrfbaWokY95wNR7xVzhl"
+  "vendedor_id": "pfbid02p9HZ1SYYK5fQ3aqNry3s6SYDAtbKjbeREA6V2ASHoDx7a6gHU9PGNL2EmSdwbTDJl",
+  "verificado": "2026-11-08"
  },
  "1715432473369113": {
   "cat": "Videogame",
@@ -18255,7 +18285,7 @@
  },
  "1802008521009499": {
   "cat": "iPhone",
-  "data_status": "2026-10-28",
+  "data_status": "2026-11-08",
   "local": "Palmas, TO",
   "mod": "iPhone 14 Pro Max",
   "precos": [
@@ -18269,14 +18299,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-28",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 14 PRO MAX 256gb",
   "ultima_coleta": "2026-10-28",
   "ultimo_ativo": "2026-11-02",
   "vendedor": "Lucas Carvalho",
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid0wY9nhtoxa9Zf1ERYFGZDZ2ZoHj1YcBxuMudjAHqxnF2wPvUq5D612yeNxL7vdxMZl",
-  "verificado": "2026-11-02"
+  "verificado": "2026-11-08"
  },
  "1802142117488064": {
   "cat": "iPhone",
@@ -18694,6 +18724,23 @@
   "vendedor_desde": 2011,
   "vendedor_id": "100002061344740",
   "verificado": "2026-10-26"
+ },
+ "1816568046266147": {
+  "cat": "iPhone",
+  "data_status": "2026-11-08",
+  "local": "Palmas, TO",
+  "mod": "iPhone 16 Pro Max",
+  "precos": [
+   [
+    "2026-11-08",
+    5000
+   ]
+  ],
+  "primeiro_visto": "2026-11-08",
+  "status": "ativo",
+  "titulo": "IPHONE 16 pro Max",
+  "ultima_coleta": "2026-11-08",
+  "ultimo_ativo": "2026-11-08"
  },
  "1818808309110305": {
   "cat": "iPhone",
@@ -19454,11 +19501,11 @@
   "status": "ativo",
   "titulo": "Desbloqueio Nintendo Switch",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-11-02",
+  "ultimo_ativo": "2026-11-08",
   "vendedor": "Gerenciador Baroi",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02egijhZPnPoxsNaHiH2XK99FhWS4LnzSUuynduFfK2mFfCtWXDnGRX5GdejnFTfXtl",
-  "verificado": "2026-11-02"
+  "vendedor_id": "pfbid02eeDFNn9mkrJfRCdCB5BiynfrYLigtt8vuWgvjq58BnPLHM8oxepHzxBG67KSV36gl",
+  "verificado": "2026-11-08"
  },
  "1858482681828196": {
   "cat": "iPhone",
@@ -21235,6 +21282,23 @@
   "vendedor_id": "pfbid0dfjeGkppzxMYrdAqUiGRuALNKayCcrcp15nUR14MBzvyUq9qDd3yQnN5yCycv3T7l",
   "verificado": "2026-10-15"
  },
+ "2087823685207539": {
+  "cat": "iPhone",
+  "data_status": "2026-11-08",
+  "local": "Palmas, TO",
+  "mod": "iPhone 17 Pro Max",
+  "precos": [
+   [
+    "2026-11-08",
+    6899
+   ]
+  ],
+  "primeiro_visto": "2026-11-08",
+  "status": "ativo",
+  "titulo": "iPhone 17 pro max menos 30 dias de uso",
+  "ultima_coleta": "2026-11-08",
+  "ultimo_ativo": "2026-11-08"
+ },
  "2090984518448253": {
   "cat": "iPhone",
   "data_status": "2026-11-05",
@@ -22642,6 +22706,23 @@
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid0t1vEz2TtXxCdpexrJm9ffFn1rzaWwHTdHUTBJnEmyJ8fERsc3dwNGVGSkQLSJtMWl",
   "verificado": "2026-10-15"
+ },
+ "2231838284041467": {
+  "cat": "iPhone",
+  "data_status": "2026-11-08",
+  "local": "Palmas, TO",
+  "mod": "iPhone 17 Pro Max",
+  "precos": [
+   [
+    "2026-11-08",
+    6500
+   ]
+  ],
+  "primeiro_visto": "2026-11-08",
+  "status": "ativo",
+  "titulo": "IPHONE 17 PRO MAX 256 - IMPECÁVEL",
+  "ultima_coleta": "2026-11-08",
+  "ultimo_ativo": "2026-11-08"
  },
  "2233845017560771": {
   "cat": "iPhone",
@@ -26607,6 +26688,23 @@
   "vendedor_id": "pfbid02WY4FkEhhDEGL2fbqPsXSBoLRMVETPLhKAVyaZVUtLUM1VmnorqYdJYBrXjvpCxibl",
   "verificado": "2026-10-28"
  },
+ "29253646800960429": {
+  "cat": "iPhone",
+  "data_status": "2026-11-08",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "iPhone 16 Pro Max",
+  "precos": [
+   [
+    "2026-11-08",
+    4500
+   ]
+  ],
+  "primeiro_visto": "2026-11-08",
+  "status": "ativo",
+  "titulo": "Vendo som automotivo Troco em iPhone 16 pro Max",
+  "ultima_coleta": "2026-11-08",
+  "ultimo_ativo": "2026-11-08"
+ },
  "29259833523707811": {
   "cat": "iPhone",
   "data_status": "2026-11-02",
@@ -27166,6 +27264,23 @@
   "vendedor_desde": 2010,
   "vendedor_id": "pfbid0ZWHXNwwFQ5Cdyk8dVn1A8o3G1NFe9dabJKhTGRJpcy6r6sv7RFk6QHyuCTEgEGYjl",
   "verificado": "2026-11-04"
+ },
+ "3132441127103257": {
+  "cat": "iPhone",
+  "data_status": "2026-11-08",
+  "local": "Palmas, TO",
+  "mod": "iPhone 16 Pro Max",
+  "precos": [
+   [
+    "2026-11-08",
+    4950
+   ]
+  ],
+  "primeiro_visto": "2026-11-08",
+  "status": "ativo",
+  "titulo": "iPhone 16 pro max",
+  "ultima_coleta": "2026-11-08",
+  "ultimo_ativo": "2026-11-08"
  },
  "3142634142596964": {
   "cat": "iPhone",
