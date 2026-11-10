@@ -1836,11 +1836,31 @@
   "status": "ativo",
   "titulo": "iPhone 14 | 128GB",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Félix Emanuel",
   "vendedor_desde": 2021,
   "vendedor_id": "pfbid0F9vbSDZwBwAfSsD88WQ2TiSozobPRqQvW6ywa1VubRUyxMAi958E6CnfxfWgPM7Vl",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
+ },
+ "1085168931221680": {
+  "cat": "iPhone",
+  "data_status": "2026-11-10",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14",
+  "precos": [
+   [
+    "2026-11-10",
+    2000
+   ]
+  ],
+  "primeiro_visto": "2026-11-10",
+  "status": "ativo",
+  "titulo": "Iphone 14 128gb SOMENTE VENDA! 81% bateria",
+  "ultima_coleta": "2026-11-10",
+  "ultimo_ativo": "2026-11-10",
+  "vendedor": "Nayara Vieira",
+  "vendedor_desde": 2012,
+  "vendedor_id": "100003631740074"
  },
  "1085703261128094": {
   "cat": "TV",
@@ -1940,11 +1960,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 128",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Ambar Decantes",
   "vendedor_desde": 2024,
   "vendedor_id": "pfbid0MdHAhYxE9xok2ewoonZsBj8vpCsAnjZVNjinutPB5AvKSRoHTJDEme4xUUDzxbEal",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "1087883900746186": {
   "cat": "iPhone",
@@ -3519,10 +3539,11 @@
   "status": "ativo",
   "titulo": "PS4 slim 500gb Controle Base de carregamento *dispenso curiosos*",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Mada Fialho",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid058bhLBUVe2NHq3utimgaAA77Hcc98MiQhr95zjzbbk2RX7Ubxvu7j89x5u5w9MGdl"
+  "vendedor_id": "pfbid028djPvZrqrLc1tCiUeGsXXn16vJGNpfJKps9ntEKM1ZvMZ1Xim4JSWFS5v1D3TNsel",
+  "verificado": "2026-11-10"
  },
  "1107684978798366": {
   "cat": "iPhone",
@@ -5331,6 +5352,26 @@
   "vendedor_desde": 2016,
   "vendedor_id": "100012252854913",
   "verificado": "2026-10-26"
+ },
+ "1127686086336674": {
+  "cat": "iPhone",
+  "data_status": "2026-11-10",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14",
+  "precos": [
+   [
+    "2026-11-10",
+    1850
+   ]
+  ],
+  "primeiro_visto": "2026-11-10",
+  "status": "ativo",
+  "titulo": "IPHONE 14 - 128 GB",
+  "ultima_coleta": "2026-11-10",
+  "ultimo_ativo": "2026-11-10",
+  "vendedor": "Cesar Ribeiro Carvalho",
+  "vendedor_desde": 2025,
+  "vendedor_id": "61585871572162"
  },
  "1128184956530728": {
   "cat": "Videogame",
@@ -7783,11 +7824,11 @@
   "status": "ativo",
   "titulo": "iphone 17 pro max",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Arthur Santana",
   "vendedor_desde": 2019,
   "vendedor_id": "pfbid0vF8JTbsC9CZyKCorFpmD5MrUJ2CWoTs1XaEZX4oQtokJ9x4iPzzVMHr8qwuEdhCKl",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "1296117712641623": {
   "cat": "iPhone",
@@ -11515,9 +11556,28 @@
   "vendedor_id": "100002272785443",
   "verificado": "2026-11-07"
  },
+ "1461166878681616": {
+  "data_status": "2026-11-10",
+  "local": "Miracema do Tocantins, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-10",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-11-10",
+  "status": "ativo",
+  "titulo": "Iphone 14 todo original 128gb",
+  "ultima_coleta": "2026-11-10",
+  "ultimo_ativo": "2026-11-10",
+  "vendedor": "Luciana Brito",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid022gQhVjPUM5ksUCcYVn3eLGeFzte1J3zpz5YSni1LHXcY3c7GANBxm5WJk6w38RBEl"
+ },
  "1461704179246312": {
   "cat": "Videogame",
-  "data_status": "2026-11-05",
+  "data_status": "2026-11-10",
   "local": "Palmas, TO",
   "mod": "Nintendo Switch",
   "precos": [
@@ -11527,13 +11587,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-05",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Teclado Mecânico Ajazz Hero68HE Magnetic Switch",
   "ultima_coleta": "2026-11-05",
   "ultimo_ativo": "2026-11-05",
   "vendedor": "Cris Alves",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid0gDBaytBoAUhJDgyV9dRLX5Qqk9mMU6p7fUUB2Un9g43XYswqTwqFVyRH33a46U6Bl"
+  "vendedor_id": "pfbid0gDBaytBoAUhJDgyV9dRLX5Qqk9mMU6p7fUUB2Un9g43XYswqTwqFVyRH33a46U6Bl",
+  "verificado": "2026-11-10"
  },
  "1461722862580980": {
   "cat": "iPhone",
@@ -12847,17 +12908,21 @@
    [
     "2026-10-31",
     50
+   ],
+   [
+    "2026-11-10",
+    40
    ]
   ],
   "primeiro_visto": "2026-10-10",
   "status": "ativo",
   "titulo": "switch 5 portas gigabit",
   "ultima_coleta": "2026-10-10",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Igor Francisco",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid02JMuet8yxmjZeG7tvQeQqgr7xLqzqWQzfF3cnFxwFGHwrVa7SkxzNKwm91Z94gDhHl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid0EwuywLPL76rLHKt3a1tmCfse9U1bBBjyKMHxcJ26dbDS88bmJ9XkLhwaCKgmpGjtl",
+  "verificado": "2026-11-10"
  },
  "1526117862684171": {
   "cat": "iPhone",
@@ -13328,11 +13393,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 PRO MAX 256GB",
   "ultima_coleta": "2026-10-12",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Bruno Souza",
   "vendedor_desde": 2014,
   "vendedor_id": "100005462988687",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "1570648594864636": {
   "cat": "iPhone",
@@ -17711,11 +17776,11 @@
   "status": "ativo",
   "titulo": "Vendo tv Philco 40 polegadas",
   "ultima_coleta": "2026-10-25",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Jeovana Vieira",
   "vendedor_desde": 2014,
-  "vendedor_id": "pfbid02Phjju7AaZ96ACJFyJFPqBKzUjuhMeRLZKczvYwgCvLhqoikqeEgKSms3ANDadLJYl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid0KonYPezk4vjzQ4J5FVe5dRKoPqX4J2JD2864BBAPtzuFotqkRCyzyZsRTvTYzjEJl",
+  "verificado": "2026-11-10"
  },
  "1724223205344454": {
   "cat": "TV",
@@ -19380,11 +19445,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 Pro Max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Naason Bento",
   "vendedor_desde": 2019,
   "vendedor_id": "100041294633790",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "1791234435480848": {
   "cat": "Jogos e acessórios",
@@ -20359,11 +20424,11 @@
   "status": "ativo",
   "titulo": "📱 VENDO IPHONE 14 PRO MAX – 256GB",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Alex Santoss",
   "vendedor_desde": 2017,
   "vendedor_id": "pfbid0gf4p99hV2b7afNHPscv7bffLkwsoLyUiRjhTA4Mfzi5SPW6763MvotJFNxvYjpsnl",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "1822080512254565": {
   "cat": "iPhone",
@@ -21012,11 +21077,11 @@
   "status": "ativo",
   "titulo": "PS2 slim Leia o anúncio!",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Célia Santos",
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid02b5NE3DmKuUxfAEcMkbzfGuhivwvmkXdtG4YtTWBRKzq2scnAmnZKMkGKtBCrfN4Nl",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "1853011882805518": {
   "cat": "iPhone",
@@ -21510,11 +21575,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Dhone Milton",
   "vendedor_desde": 2013,
   "vendedor_id": "100005712154354",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "1890257508597898": {
   "cat": "iPhone",
@@ -22783,11 +22848,11 @@
   "status": "ativo",
   "titulo": "Suporte pra ps5",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Wesley Campelo",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0XCBAjJm7CgcimDs3gms7UcJpb2QoT2vnAqeueEMNdQGm2sJ2cV5scXfpcSUnWtiFl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid02ahJsKh9TR4FKwLD3xLit1bpcfVUoZhHicUypCph4ZoQFFrwbJXoMWi48uRFwpbwZl",
+  "verificado": "2026-11-10"
  },
  "2064015737649994": {
   "cat": "iPhone",
@@ -25445,11 +25510,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max 128g",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Maykon Pereira",
   "vendedor_desde": 2011,
   "vendedor_id": "100002658278662",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "2305158823618881": {
   "cat": "iPhone",
@@ -26741,11 +26806,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 256gb 100%",
   "ultima_coleta": "2026-10-13",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Davyd Freitas",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02aL1XdXVhWFR1N6Pbpj72J68rD34xnt7TH1weev4S9moyh3aEF3wn9VXVru4tZJsDl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid02aHW3JkFgsKq6MXuLBV9txqH1yrTKjgLXkZ32SJH5aVzPQNcoee2qPrAEB4ta4Tzdl",
+  "verificado": "2026-11-10"
  },
  "2503245816750938": {
   "cat": "iPhone",
@@ -28238,11 +28303,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max Gold 128 Gb",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Anny Castro",
   "vendedor_desde": 2025,
   "vendedor_id": "61578636938673",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "2875882652767453": {
   "data_status": "2026-10-14",
@@ -29284,6 +29349,26 @@
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid0YhDYG4vax8zuab5WxNQrJ8iQ7qKL7hADr7HkKgviDwq11mxhDeiDTWMhmWSduWipl",
   "verificado": "2026-11-05"
+ },
+ "29775119112174583": {
+  "cat": "iPhone",
+  "data_status": "2026-11-10",
+  "local": "Porto Nacional, TO",
+  "mod": "iPhone 14",
+  "precos": [
+   [
+    "2026-11-10",
+    2550
+   ]
+  ],
+  "primeiro_visto": "2026-11-10",
+  "status": "ativo",
+  "titulo": "Vende iPhone 14",
+  "ultima_coleta": "2026-11-10",
+  "ultimo_ativo": "2026-11-10",
+  "vendedor": "Clayson Riquelme",
+  "vendedor_desde": 2013,
+  "vendedor_id": "pfbid0xzo2jK8JTPURzTFXEnmAofM4oZsbV7BB2fJwvoXULLPrQUR5yoX9iCFFngU1d3iSl"
  },
  "29823463103921650": {
   "cat": "iPhone",
@@ -30697,6 +30782,26 @@
   "vendedor_id": "pfbid02UE4Z8rbdrd9g2bg8A8SeyroHcMdEp1zLrJXVUDkTRsWmYQftdfWBsFRDzDCURHQzl",
   "verificado": "2026-11-09"
  },
+ "4081119412183388": {
+  "cat": "iPhone",
+  "data_status": "2026-11-10",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14 Pro Max",
+  "precos": [
+   [
+    "2026-11-10",
+    3300
+   ]
+  ],
+  "primeiro_visto": "2026-11-10",
+  "status": "ativo",
+  "titulo": "iPhone 14 PRO MAX 256GB ORIGINAL",
+  "ultima_coleta": "2026-11-10",
+  "ultimo_ativo": "2026-11-10",
+  "vendedor": "Wanderson Azevedo Matos",
+  "vendedor_desde": 2023,
+  "vendedor_id": "100095332448150"
+ },
  "4090974201205758": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -31083,11 +31188,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro Max 256GB",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Hugo Oliveira",
   "vendedor_desde": 2011,
   "vendedor_id": "pfbid0FnjC1HGtD6keaC2p2p4AD1B6cUZSYuFdF5xWUUxH35FrFymdbQTUnSPszJeKZqwwl",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "4478368749076314": {
   "cat": "iPhone",
@@ -31963,11 +32068,11 @@
   "status": "ativo",
   "titulo": "IPHONE 13 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Maria Eduarda",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid035EiKGKaebx9V8rCosGvcj2MgRe6CwBNRh8dQhFj84YZfc6DidAS8o5Syqy9TRwKLl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid021Lm7ksQp7bkYn5SPMQBeS5fskc2WrAGHweih1RiGDkou9A8ABNRZvNpk978UJZJNl",
+  "verificado": "2026-11-10"
  },
  "881125001656178": {
   "cat": "iPhone",
@@ -32519,11 +32624,11 @@
   "status": "ativo",
   "titulo": "Vendo TV smart 32 polegadas",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Paulo Silva",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02LWJGTjzALxehksv6SSeKmjAnMGpnN6Ho4mDZexTHowtaszHuq2QpEc8J7oAF4EZFl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid0GcM4xHpKrWSE4fNsiLz17uoH5M5v14ggJasu9p42dwe9NBtBS9SSvNcc5tG9ovtKl",
+  "verificado": "2026-11-10"
  },
  "951134960915678": {
   "cat": "iPhone",
@@ -32753,11 +32858,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 13 Pro Max!",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-10",
   "vendedor": "Plzinn Silva",
   "vendedor_desde": 2020,
   "vendedor_id": "pfbid032fK9b56xbSEeMNni2G1DKajKZnSqrW4qXcpJAp6Z6UyTv91eWs2TBeragkfPXM7Yl",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-10"
  },
  "961704703656579": {
   "cat": "Videogame",
