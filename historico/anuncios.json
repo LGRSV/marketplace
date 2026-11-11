@@ -2433,7 +2433,7 @@
  },
  "1094342726753666": {
   "cat": "iPhone",
-  "data_status": "2026-10-31",
+  "data_status": "2026-11-11",
   "local": "Palmas, TO",
   "mod": "iPhone 14 Pro Max",
   "precos": [
@@ -2443,14 +2443,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-31",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 14 PRO MAX 128GB - IMPECÁVEL",
   "ultima_coleta": "2026-10-31",
   "ultimo_ativo": "2026-11-05",
   "vendedor": "João Vittor Parente",
   "vendedor_desde": 2015,
   "vendedor_id": "100008821351970",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-11"
  },
  "1094605156789366": {
   "cat": "iPhone",
@@ -2773,11 +2773,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 15 Pro 128GB",
   "ultima_coleta": "2026-10-09",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-11",
   "vendedor": "Victoria Pinheiro",
   "vendedor_desde": 2013,
   "vendedor_id": "100006904834500",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-11"
  },
  "1099038806461410": {
   "data_status": "2026-11-10",
@@ -10028,6 +10028,26 @@
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid02GtVXc8JyvQ5iXHQ1yXokVQK6PLsxyBQPgxgmdujzSx7hjqP4MCFouxMBe9jZLqegl",
   "verificado": "2026-10-16"
+ },
+ "1424176806534026": {
+  "cat": "iPhone",
+  "data_status": "2026-11-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 16",
+  "precos": [
+   [
+    "2026-11-11",
+    3699
+   ]
+  ],
+  "primeiro_visto": "2026-11-11",
+  "status": "ativo",
+  "titulo": "IPHONE 16 128GB TODO ORIGINAL",
+  "ultima_coleta": "2026-11-11",
+  "ultimo_ativo": "2026-11-11",
+  "vendedor": "Gabriel Pimentel",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid0gxyny2xEA5L1wwxo4CUekfG5fp5q26kvhfk1jHZ1aSYCDVUN4q1aGcxXdLMGXdHYl"
  },
  "1424527409188596": {
   "cat": "iPhone",
@@ -19970,6 +19990,26 @@
   "vendedor_id": "pfbid02LfusdTX8ko8Aq93mq2vv8cTr6NkTBNsRbNdZ7dhyq9hbpzahmKUJoK2qHyN4q8B8l",
   "verificado": "2026-11-10"
  },
+ "1802532431017364": {
+  "cat": "iPhone",
+  "data_status": "2026-11-11",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14 Pro Max",
+  "precos": [
+   [
+    "2026-11-11",
+    3299
+   ]
+  ],
+  "primeiro_visto": "2026-11-11",
+  "status": "ativo",
+  "titulo": "IPHONE 14 PRO MAX 128GB",
+  "ultima_coleta": "2026-11-11",
+  "ultimo_ativo": "2026-11-11",
+  "vendedor": "Davi Pimentel Parente",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid0FPuX3a1h4MoRAT7171uh4yyWtUZSpdL1Q1nXCevpaJ68oYoWGLKwqo8thZ2ac5T9l"
+ },
  "1803232014333457": {
   "cat": "TV",
   "data_status": "2026-10-20",
@@ -20279,7 +20319,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 PRO MAX 256G",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-05"
+  "ultimo_ativo": "2026-11-11",
+  "vendedor": "Jonathan Souza Passos",
+  "vendedor_desde": 2009,
+  "vendedor_id": "pfbid02MNYC2rHJ7RhDw5YhUzq4DTUrE6ETWoP9rC42kjQDTbHuF18J5isFB2zYbdFArpZZl",
+  "verificado": "2026-11-11"
  },
  "1814422969760911": {
   "cat": "iPhone",
@@ -24240,11 +24284,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max 256",
   "ultima_coleta": "2026-10-18",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-11",
   "vendedor": "James Mark",
   "vendedor_desde": 2011,
   "vendedor_id": "100002272785443",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-11"
  },
  "2178112456449889": {
   "cat": "iPhone",
@@ -25073,7 +25117,7 @@
  },
  "2246455769420111": {
   "cat": "iPhone",
-  "data_status": "2026-11-05",
+  "data_status": "2026-11-11",
   "local": "Palmas, TO",
   "mod": "iPhone 15 Pro Max",
   "precos": [
@@ -25083,13 +25127,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-05",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 15 PRO MAX 256GB - IMPECÁVEL",
   "ultima_coleta": "2026-11-05",
   "ultimo_ativo": "2026-11-05",
   "vendedor": "João Vittor Parente",
   "vendedor_desde": 2015,
-  "vendedor_id": "100008821351970"
+  "vendedor_id": "100008821351970",
+  "verificado": "2026-11-11"
  },
  "2247857185793205": {
   "cat": "Jogos e acessórios",
@@ -27276,10 +27321,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 lacrado",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-11",
   "vendedor": "Mirian Lira",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid02D6EEydqgRbxjVE6Am29R11tqyTJWAbBww6N4mEaTgDtP7SoHc4mxT9stzs7TS7LTl"
+  "vendedor_id": "pfbid02D3ikerbfnhoXcoVDmEuDb5narKNYzhDwwMvkPgk3ecAxFd9cmg6jqjjkFA28w4gBl",
+  "verificado": "2026-11-11"
  },
  "2548856332249793": {
   "data_status": "2026-11-06",
@@ -29166,10 +29212,11 @@
   "status": "ativo",
   "titulo": "Iphone 16 Pro Max 512gb",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-11",
   "vendedor": "Higor Samuel",
   "vendedor_desde": 2012,
-  "vendedor_id": "100004222391038"
+  "vendedor_id": "100004222391038",
+  "verificado": "2026-11-11"
  },
  "29135859959371067": {
   "cat": "iPhone",
@@ -29414,11 +29461,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max",
   "ultima_coleta": "2026-10-17",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-11",
   "vendedor": "Lara B P Rocha",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid0om1N5cZNqZGNtdWEAJSKVzwW7cos6bkwd3ZPQzxkoAC6hqi2VxdhN1fz3zPKYYBzl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid0pCTQKUta2P15n6cE7TZQWq6PnbMyYLVmB21KBfK6GKdqTkfe9wcu7ZwM3aQLgiEol",
+  "verificado": "2026-11-11"
  },
  "29326973180326930": {
   "cat": "iPhone",
@@ -29799,11 +29846,11 @@
   "status": "ativo",
   "titulo": "Vendo smart tv 55 polegadas 4K",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-05",
+  "ultimo_ativo": "2026-11-11",
   "vendedor": "Smart Eletro",
   "vendedor_desde": 2012,
   "vendedor_id": "100003505150456",
-  "verificado": "2026-11-05"
+  "verificado": "2026-11-11"
  },
  "3019862595022533": {
   "cat": "iPhone",
@@ -32287,7 +32334,7 @@
  },
  "846931375146493": {
   "cat": "iPhone",
-  "data_status": "2026-10-14",
+  "data_status": "2026-11-11",
   "local": "Palmas, TO",
   "mod": "iPhone 14",
   "precos": [
@@ -32297,14 +32344,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-14",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "IPHONE 14 256GB - TODO ORIGINAL",
   "ultima_coleta": "2026-10-14",
   "ultimo_ativo": "2026-11-05",
   "vendedor": "Gabriel Souza",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid0Vh2Wgp84Ciy5SaQFmnVAmo3V6j6bJWbcfTSRRycgdaXcYhQ4hT8VHXtx1vjjoY6gl",
-  "verificado": "2026-11-05"
+  "vendedor_id": "pfbid02ZCADHCWQQw6eWLDwCb9rZFmQt3FAtwdav1rL6oB7MTCJUEEfEZt5YDwq2PPTGkJKl",
+  "verificado": "2026-11-11"
  },
  "863842556754925": {
   "cat": "iPhone",
