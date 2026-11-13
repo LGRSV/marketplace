@@ -531,7 +531,7 @@
  },
  "1038682109236528": {
   "cat": "iPhone",
-  "data_status": "2026-11-06",
+  "data_status": "2026-11-12",
   "local": "Palmas, TO",
   "mod": "iPhone 15",
   "precos": [
@@ -541,10 +541,11 @@
    ]
   ],
   "primeiro_visto": "2026-11-06",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 15 128GB TODO ORIGINAL",
   "ultima_coleta": "2026-11-06",
-  "ultimo_ativo": "2026-11-06"
+  "ultimo_ativo": "2026-11-06",
+  "verificado": "2026-11-12"
  },
  "1039951919089708": {
   "cat": "iPhone",
@@ -5058,11 +5059,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-11-06",
+  "ultimo_ativo": "2026-11-12",
   "vendedor": "Mirian Lira",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid02Cv5EgVZwc7ZQ3JmkAWPyBBWpwzAZqSE4SyYxrEN8mLTPPqi6hpYXdwFeeGQMXzktl",
-  "verificado": "2026-11-06"
+  "vendedor_id": "pfbid02DMXGvMu8nz6RUr1HAzRVq7iaQ9ravKARyN4kE1uypwT7DgxC4Y17SeaEKVmCMCVJl",
+  "verificado": "2026-11-12"
  },
  "1123030840654674": {
   "cat": "iPhone",
@@ -8884,11 +8885,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max 128GB",
   "ultima_coleta": "2026-10-18",
-  "ultimo_ativo": "2026-11-06",
+  "ultimo_ativo": "2026-11-12",
   "vendedor": "Naldo Marttins",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid02teWrNWx9THmt1b6WXZ54QduTpTsrJtNrZWNZDaw6TTcsyHxVMYm7wTaGDwB3BW83l",
-  "verificado": "2026-11-06"
+  "vendedor_id": "pfbid0q4NB8a5myC6ycR4NQfGNgbKWoaLKD4Z2eAUP7rwtYM8ti1tRpEFYqnfAdYRMDzJzl",
+  "verificado": "2026-11-12"
  },
  "1369422585118578": {
   "cat": "iPhone",
@@ -15275,7 +15276,7 @@
  },
  "1615252567017186": {
   "cat": "iPhone",
-  "data_status": "2026-11-06",
+  "data_status": "2026-11-12",
   "local": "Palmas, TO",
   "mod": "iPhone 15 Pro Max",
   "precos": [
@@ -15285,13 +15286,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-06",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 15 Pro Max 256",
   "ultima_coleta": "2026-11-06",
   "ultimo_ativo": "2026-11-06",
   "vendedor": "Rafael Rodrigues",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02GHtQceAkLEwEdZcJwwsdhaZw85WvMvV2BfBHVpEDfw8T2qdxZv2ggBjuQA21qTBvl"
+  "vendedor_id": "pfbid02GHtQceAkLEwEdZcJwwsdhaZw85WvMvV2BfBHVpEDfw8T2qdxZv2ggBjuQA21qTBvl",
+  "verificado": "2026-11-12"
  },
  "1615600657013262": {
   "data_status": "2026-11-07",
@@ -17481,11 +17483,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Rose - 128 GB✅",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-11-06",
+  "ultimo_ativo": "2026-11-12",
   "vendedor": "May Silva",
   "vendedor_desde": 2018,
-  "vendedor_id": "pfbid0U2bUYKyG8WLkzooB3JB4R6xaxkwhNajBt7Ho7xRFCJUoS7mskgwkRzXwpHFbYbWkl",
-  "verificado": "2026-11-06"
+  "vendedor_id": "pfbid0UU3WnCJTKKrwSdy73Un7ZrF83bhFW2uChx7SHyp37eyrJnYickiwbhM8uvSZNfDBl",
+  "verificado": "2026-11-12"
  },
  "1672575797813536": {
   "cat": "Videogame",
@@ -19398,11 +19400,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-06",
+  "ultimo_ativo": "2026-11-12",
   "vendedor": "João Victor Avelino Ferreria",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0fCKWX7fUT6MvBDZvF9b1rs6PhcxyYQkwyabEptocEoFcHqQaP8zPhbsedtCSd6RCl",
-  "verificado": "2026-11-06"
+  "vendedor_id": "pfbid0f9p2CLRTpHKtrgKjuifmXfPoXM9z6DzeUF8Q9ZKMqEyBKvVL3BzYYBcEKBtaPNiwl",
+  "verificado": "2026-11-12"
  },
  "1753927402549316": {
   "cat": "Videogame",
@@ -21371,7 +21373,7 @@
  },
  "1815629236249965": {
   "cat": "Videogame",
-  "data_status": "2026-11-06",
+  "data_status": "2026-11-12",
   "local": "Palmas, TO",
   "mod": "Xbox Series X",
   "precos": [
@@ -21381,13 +21383,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-06",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "GameSir Kaleid Flux para Xbox Series X|S, Xbox One e PC (Windows) Iluminação RGB personalizável",
   "ultima_coleta": "2026-11-06",
   "ultimo_ativo": "2026-11-06",
   "vendedor": "Jonas Jonas",
   "vendedor_desde": 2022,
-  "vendedor_id": "100078381526916"
+  "vendedor_id": "100078381526916",
+  "verificado": "2026-11-12"
  },
  "1815903533061224": {
   "cat": "iPhone",
@@ -23954,7 +23957,7 @@
  },
  "2031283200902948": {
   "cat": "iPhone",
-  "data_status": "2026-11-06",
+  "data_status": "2026-11-12",
   "local": "Palmas, TO",
   "mod": "iPhone 16",
   "precos": [
@@ -23964,13 +23967,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-06",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 16 128GB | Todo original!",
   "ultima_coleta": "2026-11-06",
   "ultimo_ativo": "2026-11-06",
   "vendedor": "Nayara Cristiane",
   "vendedor_desde": 2016,
-  "vendedor_id": "pfbid02zvWhG1UyhxsVw6VGXqsvdAVgyUCBGGHLkxQSPdzHnXQLXQq6wV5BbrrzS4EHEXWPl"
+  "vendedor_id": "pfbid02zvWhG1UyhxsVw6VGXqsvdAVgyUCBGGHLkxQSPdzHnXQLXQq6wV5BbrrzS4EHEXWPl",
+  "verificado": "2026-11-12"
  },
  "2031699244867160": {
   "cat": "iPhone",
@@ -25681,11 +25685,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 128GB SEMI NOVO",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-06",
+  "ultimo_ativo": "2026-11-12",
   "vendedor": "Brwno Rykardo",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid0H38f4i74Mx6B3u6DNs7eprYrukDinqkgYVaf4wU7GhQ3ujPSsojZs4F5MEViyoFsl",
-  "verificado": "2026-11-06"
+  "vendedor_id": "pfbid02LyiPtxpbm8Vb3ENqiFNg9T1ZtT7KvtjtSvUM6zaXPv5KzFp4cdSCks2dNE53mFSZl",
+  "verificado": "2026-11-12"
  },
  "2197626717799986": {
   "cat": "iPhone",
@@ -27268,11 +27272,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Plus ao 17",
   "ultima_coleta": "2026-10-27",
-  "ultimo_ativo": "2026-11-06",
+  "ultimo_ativo": "2026-11-12",
   "vendedor": "Willian Montfort Moreira",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid0ZL8X5ofWadmcGQ8p6TEfkGxPZsstQQpssBu4HDqe8vxBtm2MivVHM3bPL1yNr76Xl",
-  "verificado": "2026-11-06"
+  "vendedor_id": "pfbid02d94jwhMKo4b8t37azaqBqJ2aAYrh5M57Ci9gJ493sdNHjMcdxjSBfejh8DztV3ekl",
+  "verificado": "2026-11-12"
  },
  "2339358263535227": {
   "cat": "iPhone",
