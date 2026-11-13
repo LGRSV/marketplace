@@ -98,11 +98,11 @@
   "status": "ativo",
   "titulo": "Desbloqueou Nintendo Switch",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-13",
   "vendedor": "Fabricio Ferreira Lima",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid0CnsEtLeymKK2ecRtfG5KL9k2bJhtuavonqgeFfR1TMy4N6YMJsChQvNn1BvCQJ7Kl",
-  "verificado": "2026-11-07"
+  "vendedor_id": "pfbid0CkMkZZQy8J4iQW2hjTuM8KzGSgFUvgabC9sqmdVQ28mCAjUprJS5GVuk5cpdqgVTl",
+  "verificado": "2026-11-13"
  },
  "1005353112601406": {
   "cat": "iPhone",
@@ -3774,11 +3774,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 128GB",
   "ultima_coleta": "2026-11-01",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-13",
   "vendedor": "Ricardo Ramos",
   "vendedor_desde": 2018,
-  "vendedor_id": "pfbid02Fzr6rNxCdYWW62TjZj3Wxa2MpYyUD13eexJkusPjuz2bbmcn15nPE3NUqYoz5s6tl",
-  "verificado": "2026-11-07"
+  "vendedor_id": "pfbid02Fuq8CpUBMbt4gpzdpMxcDHYt67Yb5K6ka99GDpoWFA38b6jrYTYRM1LFB8wJr2oQl",
+  "verificado": "2026-11-13"
  },
  "1108385771669240": {
   "cat": "Videogame",
@@ -5330,6 +5330,26 @@
   "vendedor_id": "pfbid0j1oSL1PDu8ZmeYGzUCQyxYtP4jdgWLHSRRUKz7PH14EqfhxAGGTkLhUd5jnv8SXel",
   "verificado": "2026-11-12"
  },
+ "1124621320489514": {
+  "cat": "Videogame",
+  "data_status": "2026-11-13",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 3",
+  "precos": [
+   [
+    "2026-11-13",
+    750
+   ]
+  ],
+  "primeiro_visto": "2026-11-13",
+  "status": "ativo",
+  "titulo": "VENDO PLAYSTATION 3 ( COM LOJAS , SO BAIXAR E JOGAR )",
+  "ultima_coleta": "2026-11-13",
+  "ultimo_ativo": "2026-11-13",
+  "vendedor": "Gabriel Souza",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0uZbaEb3nU7n5ioLTDzLMW9PkQAi7oLYjW5RURQXVcn3QZbEn3ytywp89YiFD6eeWl"
+ },
  "1124769063235481": {
   "data_status": "2026-10-15",
   "local": "Paraíso do Tocantins, TO",
@@ -6341,11 +6361,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 GARANTIA APPLE",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-13",
   "vendedor": "Lázaro Basto",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0YQWTZXjGbJKE6E3AD3MtJ9thXc9tuiQtT63k8eepJQZ949FA9K6iZhqdKiRqcybSl",
-  "verificado": "2026-11-07"
+  "vendedor_id": "pfbid0YMzyEkVFxHEvvmGyQFvKgdjKLf9VWmG5gZkFcHs3qyWXC5QpUv89cPjnzdywTsCul",
+  "verificado": "2026-11-13"
  },
  "1136083942213210": {
   "cat": "iPhone",
@@ -6890,7 +6910,7 @@
  },
  "1142444248261281": {
   "cat": "iPhone",
-  "data_status": "2026-11-07",
+  "data_status": "2026-11-13",
   "local": "Porto Nacional, TO",
   "mod": "iPhone 17 Pro Max",
   "precos": [
@@ -6900,10 +6920,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-07",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 17 pro Max 256g",
   "ultima_coleta": "2026-11-07",
-  "ultimo_ativo": "2026-11-07"
+  "ultimo_ativo": "2026-11-07",
+  "vendedor": "Jeffersom Guilherme",
+  "vendedor_desde": 2013,
+  "vendedor_id": "pfbid028DhySvNpyAiukdRCjYMCbsxzaGHXXkNdB4ozmC1Wg97rtPhAS1iMW6yk5dVZvgxql",
+  "verificado": "2026-11-13"
  },
  "1142449631650648": {
   "cat": "iPhone",
@@ -7792,16 +7816,21 @@
    [
     "2026-11-07",
     950
+   ],
+   [
+    "2026-11-13",
+    900
    ]
   ],
   "primeiro_visto": "2026-11-07",
   "status": "ativo",
   "titulo": "Smart Tv 32",
   "ultima_coleta": "2026-11-07",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-13",
   "vendedor": "Fábio Fernandes da Silva",
   "vendedor_desde": 2011,
-  "vendedor_id": "100003117187392"
+  "vendedor_id": "100003117187392",
+  "verificado": "2026-11-13"
  },
  "1168039022461529": {
   "cat": "iPhone",
@@ -9978,6 +10007,26 @@
   "vendedor_id": "pfbid024N9JQR5kSnVcyx6h4jFTP1uQQqYh4aZV6F8nVzEGF7kt4fKWBXxZgvEmNsUdEXqVl",
   "verificado": "2026-10-25"
  },
+ "1411486080967455": {
+  "cat": "Videogame",
+  "data_status": "2026-11-13",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-11-13",
+    3799
+   ]
+  ],
+  "primeiro_visto": "2026-11-13",
+  "status": "ativo",
+  "titulo": "PS5 SLIM",
+  "ultima_coleta": "2026-11-13",
+  "ultimo_ativo": "2026-11-13",
+  "vendedor": "Lázaro Basto",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid0YMzyEkVFxHEvvmGyQFvKgdjKLf9VWmG5gZkFcHs3qyWXC5QpUv89cPjnzdywTsCul"
+ },
  "1411594617788143": {
   "cat": "iPhone",
   "data_status": "2026-10-10",
@@ -10932,17 +10981,21 @@
    [
     "2026-11-01",
     149
+   ],
+   [
+    "2026-11-13",
+    140
    ]
   ],
   "primeiro_visto": "2026-11-01",
   "status": "ativo",
   "titulo": "ÚLTIMAS UNIDADES - Controle Gamer Gamesir T4n Lite PC, Nintendo Switch, Android",
   "ultima_coleta": "2026-11-01",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-13",
   "vendedor": "Gabriel Martins",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid0arhZyQPqKvxedkBRjChZPjMomNmxoDj5jfWHCLY5L6SuE8TxnptJ5kQGja1M6tfHl",
-  "verificado": "2026-11-07"
+  "vendedor_id": "pfbid0apC5ed9ph5e85Xt2dnTwV8w6pS9y68hVQkt6mwBY7Q4pQvaD8rogowZi55qmBHxCl",
+  "verificado": "2026-11-13"
  },
  "1427957109458119": {
   "cat": "iPhone",
@@ -12183,7 +12236,7 @@
  },
  "1455389536728800": {
   "cat": "iPhone",
-  "data_status": "2026-11-07",
+  "data_status": "2026-11-13",
   "local": "Palmas, TO",
   "mod": "iPhone 13",
   "precos": [
@@ -12193,13 +12246,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-07",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-11-07",
   "ultimo_ativo": "2026-11-07",
   "vendedor": "Marcelo Cavina",
   "vendedor_desde": 2009,
-  "vendedor_id": "pfbid02iVYfDEatGwg9eECT9E2fVNsoCMWYZ3MJS4rRtNAF9JK4zBAz6Bm1UxrdyZ1r3B9Rl"
+  "vendedor_id": "pfbid02iVYfDEatGwg9eECT9E2fVNsoCMWYZ3MJS4rRtNAF9JK4zBAz6Bm1UxrdyZ1r3B9Rl",
+  "verificado": "2026-11-13"
  },
  "1456425539387219": {
   "cat": "iPhone",
@@ -17076,11 +17130,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 128gb",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-13",
   "vendedor": "Rômulo Araújo",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0G2i3JvoLZTUDCz1rrtejkCmrYNvZ9t6nLSYM3NGQWAb5MjsEydFyK2AmWRGJ94NLl",
-  "verificado": "2026-11-07"
+  "vendedor_id": "pfbid0FzCYz9ZKvVRXx4h19FCMWk2yWaD7kXZSijZUCbJwN9JePbfHSF5yN7vKPPDafVDul",
+  "verificado": "2026-11-13"
  },
  "1648415333533644": {
   "cat": "iPhone",
@@ -23134,7 +23188,7 @@
  },
  "1888188155679772": {
   "cat": "Videogame",
-  "data_status": "2026-11-07",
+  "data_status": "2026-11-13",
   "local": "Palmas, TO",
   "mod": "Xbox One",
   "precos": [
@@ -23144,13 +23198,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-07",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Xbox one fat",
   "ultima_coleta": "2026-11-07",
   "ultimo_ativo": "2026-11-07",
   "vendedor": "Luis Sampaio",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid0GrsPh4zr8XfVUqHAA2BqXqti3fmwTMtCte3Sv5TNWJeCj2KK7io5VWKRkHEa6GeLl"
+  "vendedor_id": "pfbid0GpMuNHkqVf8b71yvWFHcZK7yyrjdwEZySS9WmEc42F9i8dbP8MKLk6Rzzxh8csz7l",
+  "verificado": "2026-11-13"
  },
  "1889527328704452": {
   "cat": "iPhone",
@@ -23379,11 +23434,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 16 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-13",
   "vendedor": "Guilherme Rodrigues",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid0xe3SFsAihtXVECtP8Az7ZV47TagxqT9u7wdRP7TnNgi9Gv4oUetPw3Wn189WCPodl",
-  "verificado": "2026-11-07"
+  "vendedor_id": "pfbid0xbXww5vi55S62PAovcH2fT1ipwDZ6isr7pDz3h5KFS8sknNpnpVZ4ccte33cMz1wl",
+  "verificado": "2026-11-13"
  },
  "1908846490097208": {
   "cat": "iPhone",
@@ -29078,6 +29133,46 @@
   "vendedor_id": "pfbid02nZmdPnGuXwpt7KdFjTVJtMCyeZthhkpfusjiCb5TMcKYP9pSfMoEQ6fhteS7QtE7l",
   "verificado": "2026-11-12"
  },
+ "2555299808294872": {
+  "cat": "Videogame",
+  "data_status": "2026-11-13",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 3",
+  "precos": [
+   [
+    "2026-11-13",
+    750
+   ]
+  ],
+  "primeiro_visto": "2026-11-13",
+  "status": "ativo",
+  "titulo": "VENDO PLAYSTATION 3 ( COM LOJAS , SO BAIXAR E JOGAR )",
+  "ultima_coleta": "2026-11-13",
+  "ultimo_ativo": "2026-11-13",
+  "vendedor": "Gabriel Souza",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0uZbaEb3nU7n5ioLTDzLMW9PkQAi7oLYjW5RURQXVcn3QZbEn3ytywp89YiFD6eeWl"
+ },
+ "2557392158116102": {
+  "cat": "iPhone",
+  "data_status": "2026-11-13",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro Max",
+  "precos": [
+   [
+    "2026-11-13",
+    3870
+   ]
+  ],
+  "primeiro_visto": "2026-11-13",
+  "status": "ativo",
+  "titulo": "iPhone 15 Pro Max 256 GB",
+  "ultima_coleta": "2026-11-13",
+  "ultimo_ativo": "2026-11-13",
+  "vendedor": "Winicios Sousa",
+  "vendedor_desde": 2011,
+  "vendedor_id": "100001937619447"
+ },
  "2561293554297840": {
   "cat": "iPhone",
   "data_status": "2026-10-11",
@@ -31215,6 +31310,26 @@
   "vendedor_desde": 2019,
   "vendedor_id": "pfbid0eZNqYJ8doxxARqn3j3FYaFCUsqE3hTAVbQ3otRvJ6m5cNnUeik51WFEUPh1mQqYl",
   "verificado": "2026-11-02"
+ },
+ "29265677606449312": {
+  "cat": "Videogame",
+  "data_status": "2026-11-13",
+  "local": "Porto Nacional, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-11-13",
+    4199
+   ]
+  ],
+  "primeiro_visto": "2026-11-13",
+  "status": "ativo",
+  "titulo": "Vendo Ps5 Digital Edition",
+  "ultima_coleta": "2026-11-13",
+  "ultimo_ativo": "2026-11-13",
+  "vendedor": "Állan Fonseca",
+  "vendedor_desde": 2015,
+  "vendedor_id": "pfbid02yRuw3eNhuXKbYsmnnjy8yb4FZLBHhhLeQVaw2ooEUPur6UadP2i4xNFJiMtW4udfl"
  },
  "2926749414354005": {
   "cat": "iPhone",
@@ -35632,6 +35747,26 @@
   "vendedor": "Pedro Henrique Menezes",
   "vendedor_desde": 2011,
   "vendedor_id": "pfbid0wQQMkKuAjaR3v2pXxShQGJFnkZpP4Jwxa8m4L17TrdoLBtNXMmop7o5GxH6kYYrUl"
+ },
+ "982444167784714": {
+  "cat": "Videogame",
+  "data_status": "2026-11-13",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-11-13",
+    100
+   ]
+  ],
+  "primeiro_visto": "2026-11-13",
+  "status": "ativo",
+  "titulo": "Cyberpunk 2077 PS4/PS5",
+  "ultima_coleta": "2026-11-13",
+  "ultimo_ativo": "2026-11-13",
+  "vendedor": "Senna Bismarck de Sousa",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid02jotRqYd45eZNTCpwkV7mdmNbLZvQaqRviVmq9NoSc1RovJvFPJ3Cn1JThBg67r1il"
  },
  "983297137431051": {
   "cat": "TV",
