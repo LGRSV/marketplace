@@ -5231,10 +5231,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 pro max 256",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Mirian Lira",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid02DDskwzsQcLurxP3wHczzyuWvfq4hDr3kmSMnhMW5BpNYEt2CCxKJQoSspTzSnoDzl"
+  "vendedor_id": "pfbid09KvZSYha7t6FgdGthRt6XVfGGpvutBBKjpn38ca36ANBe9hpv1k6rHGPThfZZryml",
+  "verificado": "2026-11-14"
  },
  "1123586993343153": {
   "cat": "iPhone",
@@ -7135,17 +7136,21 @@
    [
     "2026-11-08",
     5000
+   ],
+   [
+    "2026-11-14",
+    4500
    ]
   ],
   "primeiro_visto": "2026-11-03",
   "status": "ativo",
   "titulo": "Vendo pc gamer pego PS5 + volta + info pv",
   "ultima_coleta": "2026-11-03",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Diogo Araújo Alves",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02Cm1XLuZkPX1pH8s1NAvSAAHasHzr5MCJKd9UMPiWDev3K7hUGMoCdrNQmra7PdNvl",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid02CiW328Kjkhpto8p6Nxd7W7Eyzaafy9jNcsGPeGTBedUn34S8AJra1z357jqavTa1l",
+  "verificado": "2026-11-14"
  },
  "1142910411988806": {
   "cat": "iPhone",
@@ -8487,11 +8492,11 @@
   "status": "ativo",
   "titulo": "Playstation 4 Baroi Info PS4",
   "ultima_coleta": "2026-11-02",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Gerenciador Baroi",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02eeDFNn9mkrJfRCdCB5BiynfrYLigtt8vuWgvjq58BnPLHM8oxepHzxBG67KSV36gl",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid02ebhm3zum7x92pjEzgLn7YV7Csq2MbfWhDUM5o7ZUgcm3UwBGKkq6Mpd3D6dhEkRGl",
+  "verificado": "2026-11-14"
  },
  "1186766293673903": {
   "cat": "iPhone",
@@ -8823,11 +8828,11 @@
   "status": "ativo",
   "titulo": "Nintendo Switch Oled desbloqueado + combo de jogos",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Antonio Carlos Novais",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid0RH9b5fhQYz7NAGqatv5NdsrY9KccsZm1ZCDzkjvg64DVsRgAo3GZYmCqZER9RLEcl",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid0REe6ktTPv2nF4SYYLuUHJ4f2NLor995LEgy4BVBg8vQNHguKn9YAv9ZQrTB3add9l",
+  "verificado": "2026-11-14"
  },
  "1314183487367612": {
   "cat": "iPhone",
@@ -9488,11 +9493,11 @@
   "status": "ativo",
   "titulo": "Nintendo switch OLED",
   "ultima_coleta": "2026-10-27",
-  "ultimo_ativo": "2026-11-07",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Joao Vitor Cardoso Serpa",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid0U9oXohnPQK7GzdiGFrKusCw1oGyNk54XQZupjvzBnLwxHn48bW3P1gdHNw11f7zzl",
-  "verificado": "2026-11-07"
+  "vendedor_id": "pfbid02XxjkfbUCco5DBYpURuKWoQ3UF5g2tkmZBgR52K6f8wM9Z13Zv3TbDHBWpqShiNuLl",
+  "verificado": "2026-11-14"
  },
  "1377048777833553": {
   "cat": "iPhone",
@@ -11686,16 +11691,21 @@
    [
     "2026-11-08",
     1900
+   ],
+   [
+    "2026-11-14",
+    1400
    ]
   ],
   "primeiro_visto": "2026-11-08",
   "status": "ativo",
   "titulo": "Vender-se iPhone 13 Pro Max 256",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Camila Gomes",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid0S4gwiBRRgSqDTZuHaUJNBswWNmdnfFR7D4qQVE1GhMQj8HBbuXyEvobyVuQyhjVkl"
+  "vendedor_id": "pfbid0S2BTPQBR3fT4ju3pBwm9mZrfLBJC8aS7aXabZn92AFxW4GAdRq9PEUA2EjRZd5Sjl",
+  "verificado": "2026-11-14"
  },
  "1437264261710205": {
   "cat": "iPhone",
@@ -16217,11 +16227,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max 256",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Gambireiro Bruto",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid025B7RQZVYv9GicnxQc3AzycCZs3YxZrnSNi5FMpk5swgCgsnjD6Fn11evbGzKRc68l",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid0258bw5nFYHN31eMbsXaTyyr1RNai4KJQxr4tZ8gz28G3tLMXXaiSTRREDi149tFAtl",
+  "verificado": "2026-11-14"
  },
  "1618774036563088": {
   "cat": "Videogame",
@@ -23126,11 +23136,11 @@
   "status": "ativo",
   "titulo": "Televisão tudo",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Claytam Alencar",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid02gDqdYpNgf9EWFaedpkJs7rDW6tw1G7b8cteDqwEuDZruF2KqcPLQBzfghuv7Rkj2l",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid02gBL9E38g2MYYPHvzzUmWiBszcVjFpBsULjDJmDYZGhwDPABpMipx6nxYWnrya3fZl",
+  "verificado": "2026-11-14"
  },
  "1845182303337259": {
   "cat": "iPhone",
@@ -24942,6 +24952,26 @@
   "vendedor_desde": 2014,
   "vendedor_id": "pfbid0BgKoxGXUcepxyQm4Lj2e5eYFM6s8RYT4Fc3M9AquXVCapmNZiuEbG7qH1aPCZHc8l",
   "verificado": "2026-11-09"
+ },
+ "2010840879594912": {
+  "cat": "iPhone",
+  "data_status": "2026-11-14",
+  "local": "Palmas, TO",
+  "mod": "iPhone 14 Pro Max",
+  "precos": [
+   [
+    "2026-11-14",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-11-14",
+  "status": "ativo",
+  "titulo": "iPhone 14 Pro Max",
+  "ultima_coleta": "2026-11-14",
+  "ultimo_ativo": "2026-11-14",
+  "vendedor": "Gustavo Sousa",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0R5FMqTYn5DyB21QQmUYfdwTzKdwyUFaBYWjNpbXBrUh9qYj8VzAYZo96GNexX36Kl"
  },
  "2014773839171120": {
   "data_status": "2026-10-08",
@@ -35549,16 +35579,21 @@
    [
     "2026-11-08",
     2500
+   ],
+   [
+    "2026-11-14",
+    2350
    ]
   ],
   "primeiro_visto": "2026-11-08",
   "status": "ativo",
   "titulo": "iPhone 14",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Elias Sousa",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid02K9T5pMdHRJhniaC8UnLENXKAeunE1hoh4NkFBpnqs7CzCvRkNUf4XqVvPbsAvipDl"
+  "vendedor_id": "pfbid02K6wbVaPGnLF88PzdPeBPKJbyXXLH79eBoniMdRJgxy7we28s3a521HT1ECVUSEtGl",
+  "verificado": "2026-11-14"
  },
  "825068410595133": {
   "cat": "Videogame",
@@ -36329,11 +36364,11 @@
   "status": "ativo",
   "titulo": "Jogos xbox 360 vendo tudo por 150",
   "ultima_coleta": "2026-11-03",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-14",
   "vendedor": "Carlos Henrique Matos de Arujo",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid02fN9aNbyEFWZ93zz3iUAcDfgM4t4pt6xb218ttdsBGNwUZeY4qnWtkJu2FxuDT8UUl",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid02fKe63pjDchZ52Q2teb6ooS5uXyhweVLC5GA6DE9HdJKuJVEFiLtyz1fvwmf3fCgel",
+  "verificado": "2026-11-14"
  },
  "953434574079740": {
   "cat": "TV",
