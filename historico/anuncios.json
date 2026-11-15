@@ -1131,11 +1131,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 pro max",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-15",
   "vendedor": "Fernando Teixeira Barreto",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid036a322kVVFK7qHKJkkKacsNaT7n1GCpFpA4i2bvskuoE61zj5UCZWVokpBYAkRYxWl",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid036XXXhyFUcHNjUbLa9CwHTatmvoXJBJSFAUJq8THKdgMWTTdLH8iN5xgEvAmTeafql",
+  "verificado": "2026-11-15"
  },
  "1065900379599820": {
   "cat": "Videogame",
@@ -7405,7 +7405,11 @@
   "status": "ativo",
   "titulo": "Televisão TCL 50 Polegadas original",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-08"
+  "ultimo_ativo": "2026-11-15",
+  "vendedor": "Amanda Sousa",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid035MpLNKKD2BkeGoQLzy9TUsJRCktFJALaK7KSNnr2KEgoQ5fXATwKq7kK8BJ8CZyLl",
+  "verificado": "2026-11-15"
  },
  "1147425821306774": {
   "cat": "iPhone",
@@ -12537,7 +12541,7 @@
  },
  "1451676127079060": {
   "cat": "Videogame",
-  "data_status": "2026-11-03",
+  "data_status": "2026-11-15",
   "local": "Palmas, TO",
   "mod": "Xbox 360",
   "precos": [
@@ -12547,14 +12551,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-03",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Xbox 360 com o desbloqueio vem com 29 jogos como pes 2018, Red dead, resideat evil 4",
   "ultima_coleta": "2026-11-03",
   "ultimo_ativo": "2026-11-08",
   "vendedor": "Damiana Maria",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid033njRdQkN3bEDa9REeDwSBKGtjQTAnsb9UEreHQjL5BkmE4dMsLCJpv6VeWWSsS8El",
-  "verificado": "2026-11-08"
+  "verificado": "2026-11-15"
  },
  "1452033083004505": {
   "data_status": "2026-11-13",
@@ -14429,7 +14433,7 @@
  },
  "1521321879802415": {
   "cat": "Videogame",
-  "data_status": "2026-10-08",
+  "data_status": "2026-11-15",
   "local": "Palmas, TO",
   "mod": "Xbox 360",
   "precos": [
@@ -14459,14 +14463,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Vendo Projeto Xbox 360 Turnado Com TV",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-11-08",
   "vendedor": "Weslley Gomes Batista",
   "vendedor_desde": 2023,
   "vendedor_id": "pfbid02P1fAiS6bMzMsi68Z5FaHjMVz2qXtuCYJkGenvHVoEBb1Jh2fbHTAFp7HLfB3wArnl",
-  "verificado": "2026-11-08"
+  "verificado": "2026-11-15"
  },
  "1524839926351645": {
   "cat": "Videogame",
@@ -18628,6 +18632,23 @@
   "vendedor_id": "pfbid0WtNkCk23ZH3HiwhCSK77UkZvFBy9TZk42KbahV8cUA5NtgGckdzMaogKvAYmiBoxl",
   "verificado": "2026-11-07"
  },
+ "1674347757814865": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-11-15",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-11-15",
+    700
+   ]
+  ],
+  "primeiro_visto": "2026-11-15",
+  "status": "ativo",
+  "titulo": "Televisão Toshiba 42 polegadas De brinde um painel de parede",
+  "ultima_coleta": "2026-11-15",
+  "ultimo_ativo": "2026-11-15"
+ },
  "1674376300685245": {
   "cat": "Jogos e acessórios",
   "data_status": "2026-11-03",
@@ -19101,7 +19122,7 @@
  },
  "1685808089839613": {
   "cat": "TV",
-  "data_status": "2026-11-08",
+  "data_status": "2026-11-15",
   "local": "Palmas, TO",
   "mod": "TV 32 pol",
   "precos": [
@@ -19111,13 +19132,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Vendo tv ROKU 32 plg",
   "ultima_coleta": "2026-11-08",
   "ultimo_ativo": "2026-11-08",
   "vendedor": "Dannyllo Rochax",
   "vendedor_desde": 2022,
-  "vendedor_id": "pfbid0532mz2BVVFAmk2XbNGegst1kdHiMHeq8QPgZhQXVKnhhMZSNVsWpGT2KysmM1ib8l"
+  "vendedor_id": "pfbid0532mz2BVVFAmk2XbNGegst1kdHiMHeq8QPgZhQXVKnhhMZSNVsWpGT2KysmM1ib8l",
+  "verificado": "2026-11-15"
  },
  "1686080509705662": {
   "cat": "iPhone",
@@ -22595,7 +22617,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 pro Max",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-08"
+  "ultimo_ativo": "2026-11-15",
+  "vendedor": "Ray Guedes",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid02yNdxS31fjbkNb7ZKkCCfDDddoY5eaiKCiSRYqWuK7TLnMTMPVLRfLUrDgFmsV5F6l",
+  "verificado": "2026-11-15"
  },
  "1818752232352620": {
   "cat": "iPhone",
@@ -30660,17 +30686,21 @@
    [
     "2026-11-03",
     4000
+   ],
+   [
+    "2026-11-15",
+    3850
    ]
   ],
   "primeiro_visto": "2026-11-03",
   "status": "ativo",
   "titulo": "iPhone 15 Pro Max",
   "ultima_coleta": "2026-11-03",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-15",
   "vendedor": "Felipe Campelo",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid022R1Xegh3mPTxic1DqtJNkGfdet3ZhPJGY6ECzgsdMrJ4zmmu3QGZ8T2BXjt9xFqXl",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid022NW3KuT38YhZ2CVDEUuSQ7HpAt4436Dv2vpUiF5WucvH9EWbQfqNYL3J6byrsw6Rl",
+  "verificado": "2026-11-15"
  },
  "2581528432316039": {
   "cat": "iPhone",
@@ -32939,6 +32969,23 @@
   "vendedor_desde": 2017,
   "vendedor_id": "100021578168733"
  },
+ "29412684258415105": {
+  "cat": "TV",
+  "data_status": "2026-11-15",
+  "local": "Palmas, TO",
+  "mod": "TV 50 pol",
+  "precos": [
+   [
+    "2026-11-15",
+    1700
+   ]
+  ],
+  "primeiro_visto": "2026-11-15",
+  "status": "ativo",
+  "titulo": "Vende - Se TV SmartTV AOC RokuTV 50\". Televisão super nova, 2 meses de uso.",
+  "ultima_coleta": "2026-11-15",
+  "ultimo_ativo": "2026-11-15"
+ },
  "29533746252979643": {
   "cat": "iPhone",
   "data_status": "2026-11-02",
@@ -33014,11 +33061,11 @@
   "status": "ativo",
   "titulo": "Vendo ou troco ps4 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-15",
   "vendedor": "Kauan Lima",
   "vendedor_desde": 2026,
   "vendedor_id": "61590114908593",
-  "verificado": "2026-11-08"
+  "verificado": "2026-11-15"
  },
  "2967331970267480": {
   "cat": "TV",
@@ -33362,16 +33409,21 @@
    [
     "2026-11-08",
     1900
+   ],
+   [
+    "2026-11-15",
+    1700
    ]
   ],
   "primeiro_visto": "2026-11-08",
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-15",
   "vendedor": "Joilson Marinho",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid02yNR6BkPKAKUXGZiurK7ywaJeXkkJguZVY1PNzTuENUUWA5A9Phws5QGSWrYSSUP7l"
+  "vendedor_id": "pfbid02yKubry9JXXptD664d2PJcvQcyZq3JdTSyFrLXiLSGbRtSqQmKvLTgoQqwtFezTHGl",
+  "verificado": "2026-11-15"
  },
  "3076141136050676": {
   "cat": "iPhone",
@@ -34790,11 +34842,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 Pro Max 512gb",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-08",
+  "ultimo_ativo": "2026-11-15",
   "vendedor": "Ambar Decantes",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02RJZsb5cKBnYxrVbF7yqqkv9ydrejawr71QxXuhkoTwCTYv2a5fZpN3QbvKCSJYXkl",
-  "verificado": "2026-11-08"
+  "vendedor_id": "pfbid0MiRCM8jwhruZKX5h4wfXLe5671Q1iPwpyUko2p2DmP5y9KZd2vWGhziU3zDg3cpal",
+  "verificado": "2026-11-15"
  },
  "4271991039758942": {
   "cat": "iPhone",
