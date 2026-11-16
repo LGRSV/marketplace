@@ -12840,11 +12840,11 @@
   "status": "ativo",
   "titulo": "Xbox 360 Com Jogos + Controles",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Eduarda Vidal",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02di9skvqXtvygKxaCTjtM9XX1Pj3aTnLkRNDo44uWkxfexXfXejiDfjbbVRrDPNDGl",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid02dfePS9bXG39E6mp9TLoXkGGXtbygxEcB4MpdRZoYrBKBrcAUmcoewfTMNKJyzLFel",
+  "verificado": "2026-11-16"
  },
  "1451676127079060": {
   "cat": "Videogame",
@@ -14183,7 +14183,7 @@
  },
  "1491964466094893": {
   "cat": "Videogame",
-  "data_status": "2026-10-30",
+  "data_status": "2026-11-16",
   "local": "Palmas, TO",
   "mod": "PlayStation 4",
   "precos": [
@@ -14197,14 +14197,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-30",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Ps4 Fat",
   "ultima_coleta": "2026-10-30",
   "ultimo_ativo": "2026-11-09",
   "vendedor": "Eliane Souza",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid02nqH1SrXbqzQZZDJ1VrZwwNU6AdF1K63vFHPGb7kFvfZm4kVyLN2gaEvRpXqfcoSdl",
-  "verificado": "2026-11-09"
+  "verificado": "2026-11-16"
  },
  "1493467696166080": {
   "cat": "iPhone",
@@ -18148,11 +18148,11 @@
   "status": "ativo",
   "titulo": "IPHONE 13PRO 128GB",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Brwno Rykardo",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid0HJRh1SAWj71kSamAWsGcdd1TRv5b4VfPu6Hdm4MzuyyzhHUMKSMfP8aptkb3QTG8l",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid0HFvCgevW6LZAB7J6Ca8h4iVTvdBi2Y7oStEXHHo7FJGmhH2SaNTqJQ3X4uhivBsql",
+  "verificado": "2026-11-16"
  },
  "1647267756731853": {
   "cat": "Videogame",
@@ -19596,7 +19596,7 @@
  },
  "1685478956488537": {
   "cat": "iPhone",
-  "data_status": "2026-11-09",
+  "data_status": "2026-11-16",
   "local": "Paraíso do Tocantins, TO",
   "mod": "iPhone 13",
   "precos": [
@@ -19606,13 +19606,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-09",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 13 128 gb",
   "ultima_coleta": "2026-11-09",
   "ultimo_ativo": "2026-11-09",
   "vendedor": "João Paulo Silva",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid02y7fzwd8qfyYZHLDCFaEyAqdDGLKqWH4vY4gxXFnnjSB2U3Q7qbGPpphY3954dHedl"
+  "vendedor_id": "pfbid02y7fzwd8qfyYZHLDCFaEyAqdDGLKqWH4vY4gxXFnnjSB2U3Q7qbGPpphY3954dHedl",
+  "verificado": "2026-11-16"
  },
  "1685498546317861": {
   "cat": "Videogame",
@@ -21316,10 +21317,11 @@
   "status": "ativo",
   "titulo": "Xbox one s",
   "ultima_coleta": "2026-11-09",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Victor Santos",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid0isVwVfTwz9Wrm1xDfzjHNhWZzXc7G3A6FDc5A3bcKjFGs8fwQBJMEJ7WMw9MbHVTl"
+  "vendedor_id": "pfbid0ipzTAtDwMHGJi9CDzTQyDp5v4UeNEwBBKnFaVFeR1fNZMwuz8wLYYgBqLAXSz6hDl",
+  "verificado": "2026-11-16"
  },
  "1763768648622801": {
   "cat": "iPhone",
@@ -25547,11 +25549,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro 256 gb",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Iandro De Medeiros",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid0vEoQ3wAGiLKUPnw9dhmLgjf4VHFXdLTDzZJsQ4wbTVQKfCNsUvzoJ8pu9mg7HEchl",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid02z3jcupr5vsPctUD2Rkna6154uneHPawGCP7ujrMGXF9EWUbQT27eEHsWYpcDoQMsl",
+  "verificado": "2026-11-16"
  },
  "1989345815358913": {
   "cat": "iPhone",
@@ -26978,10 +26980,11 @@
   "status": "ativo",
   "titulo": "iPhone 14",
   "ultima_coleta": "2026-11-09",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Luanna Silva",
   "vendedor_desde": 2011,
-  "vendedor_id": "100003122014873"
+  "vendedor_id": "100003122014873",
+  "verificado": "2026-11-16"
  },
  "2133950393891520": {
   "cat": "iPhone",
@@ -35778,11 +35781,11 @@
   "status": "ativo",
   "titulo": "IPHONE 13 PRO",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Fatima Lemes",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02gyCMPkHQuJX1kemEFM8vdKG7f1HtFBqqXeZYdMkNmxgRNHWCJiLEqyRoNgSPAqZEl",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid0dP3g9oR3RH6mBCGUSqzqfmMWMfcso8hyJexE4vSJuSbPQnrb4yNvez9DxFR4aPHBl",
+  "verificado": "2026-11-16"
  },
  "4361911614119064": {
   "cat": "iPhone",
@@ -38238,10 +38241,11 @@
   "status": "ativo",
   "titulo": "Xbox 360 com Kinect, controle e varios jogos",
   "ultima_coleta": "2026-11-09",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Helio Augusto de Lima",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid0Yk4MPWkEHYriYWkJgSnpypJ8sfvx4FKH1krMFzQFfnh4MN32B8EfD7pqB7aqi8cql"
+  "vendedor_id": "pfbid0YhYs4jWDeq1ETTj4DamuifFmNvFYJ8aoWRfosXmcNu8HTMHd5UjK5kYzN8dzkhsil",
+  "verificado": "2026-11-16"
  },
  "980217037966509": {
   "cat": "iPhone",
@@ -38460,11 +38464,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 PRO 253GB",
   "ultima_coleta": "2026-10-30",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Amanda Marinho",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid0nVqZLmSnBqGaPgCpwmcQJZE9MZHTATZ7zvycJxTQaECwukBowm2kXqzrpuC1Gchol",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid02rJmnCf8bQQBV7SBf9KCnCVxui22yjNZE1q3uiJWtG2QvbRsbCnDMB94oqGFaHMwql",
+  "verificado": "2026-11-16"
  },
  "988699000424289": {
   "cat": "iPhone",
