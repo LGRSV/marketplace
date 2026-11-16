@@ -5218,11 +5218,11 @@
   "status": "ativo",
   "titulo": "IPHONE 15 PRO MAX",
   "ultima_coleta": "2026-10-19",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "João Luiz Said",
   "vendedor_desde": 2010,
   "vendedor_id": "100000000335385",
-  "verificado": "2026-11-09"
+  "verificado": "2026-11-16"
  },
  "1122188940237829": {
   "cat": "iPhone",
@@ -10579,6 +10579,26 @@
   "vendedor_desde": 2011,
   "vendedor_id": "100002561274617"
  },
+ "1406829858325238": {
+  "cat": "Videogame",
+  "data_status": "2026-11-16",
+  "local": "Palmas, TO",
+  "mod": "Xbox Series S",
+  "precos": [
+   [
+    "2026-11-16",
+    2200
+   ]
+  ],
+  "primeiro_visto": "2026-11-16",
+  "status": "ativo",
+  "titulo": "Xbox series S",
+  "ultima_coleta": "2026-11-16",
+  "ultimo_ativo": "2026-11-16",
+  "vendedor": "Leonardo Cabral",
+  "vendedor_desde": 2013,
+  "vendedor_id": "pfbid02wozf1XW2hxiSFFLiC48VqmUfGByTw7cihT3jZKCwNawW9VAfSPRrWoNXx9jjhHTLl"
+ },
  "1406909191527256": {
   "cat": "iPhone",
   "data_status": "2026-10-24",
@@ -13441,11 +13461,11 @@
   "status": "ativo",
   "titulo": "IPHONE 17 PRO MAX 256GB",
   "ultima_coleta": "2026-11-04",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Bruno Souza",
   "vendedor_desde": 2014,
   "vendedor_id": "100005462988687",
-  "verificado": "2026-11-09"
+  "verificado": "2026-11-16"
  },
  "1461757849052847": {
   "cat": "Jogos e acessórios",
@@ -17674,11 +17694,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 128GB",
   "ultima_coleta": "2026-11-04",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Julia De Abreu",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02caQikA8JrbDyDtLjQ87keuGpo9ET2CEcwwwSBzN9kiUrWRHALph5pVYTWXyigCt6l",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid02cXuERNtJDe9kixQLWVWAcvyxfiHyJFz1VR1L2JKxnqLkYYEjStL8rECq9Rz7bSdXl",
+  "verificado": "2026-11-16"
  },
  "1632199881631865": {
   "cat": "iPhone",
@@ -18702,6 +18722,26 @@
   "vendedor_desde": 2011,
   "vendedor_id": "100000610376620",
   "verificado": "2026-11-12"
+ },
+ "1663279671860947": {
+  "cat": "iPhone",
+  "data_status": "2026-11-16",
+  "local": "Porto Nacional, TO",
+  "mod": "iPhone 18 Pro Max",
+  "precos": [
+   [
+    "2026-11-16",
+    6000
+   ]
+  ],
+  "primeiro_visto": "2026-11-16",
+  "status": "ativo",
+  "titulo": "Iphone 18 pro max",
+  "ultima_coleta": "2026-11-16",
+  "ultimo_ativo": "2026-11-16",
+  "vendedor": "Calango Seco",
+  "vendedor_desde": 2025,
+  "vendedor_id": "61585484002389"
  },
  "1663623795168635": {
   "cat": "iPhone",
@@ -22558,6 +22598,26 @@
   "vendedor_desde": 2019,
   "vendedor_id": "100039996583756",
   "verificado": "2026-11-13"
+ },
+ "1793688068573968": {
+  "cat": "Videogame",
+  "data_status": "2026-11-16",
+  "local": "Palmas, TO",
+  "mod": "Xbox One",
+  "precos": [
+   [
+    "2026-11-16",
+    799
+   ]
+  ],
+  "primeiro_visto": "2026-11-16",
+  "status": "ativo",
+  "titulo": "Xbox One S 1TB + 2 Controles + Caixa Original",
+  "ultima_coleta": "2026-11-16",
+  "ultimo_ativo": "2026-11-16",
+  "vendedor": "Paulo Andre",
+  "vendedor_desde": 2022,
+  "vendedor_id": "pfbid02AXP7jvjNegQbeVX2avwXDoFQ1ZALDxQtdq8NTMjmx6MVrp7Njs9nuYmaHr6kXMsTl"
  },
  "1794556701839547": {
   "cat": "iPhone",
@@ -29518,11 +29578,11 @@
   "status": "ativo",
   "titulo": "IPHONE 18 PRO MAX 256GB",
   "ultima_coleta": "2026-10-10",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Maysy Rodrigues",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid02DhqJwt5iGfnXWww57cFZTwW98Wu3K2karkQi8tqZvR7GTCMns9vQwGzRW3euPFBel",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid02DVApKxZxpJU8wZukgv94Nv2FMWEo1agZXuCmAN5s1inzxt3wcQTzJAC88NBMiDeJl",
+  "verificado": "2026-11-16"
  },
  "2294462584836089": {
   "cat": "iPhone",
@@ -29789,10 +29849,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 256GB na garantia Apple",
   "ultima_coleta": "2026-11-09",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Ítalo Nunes",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid0wdBMo6ePzkf9P8siq4fLxXmrBgBS9zghWggHCzaJXX7h4uGZ2pS9G9u8ARuSPNQTl"
+  "vendedor_id": "pfbid0wtUPjphrMwsKySfEXVQHiJzh2UX9bHxKzg1oNv9EpndDdKj2W11bJvWChLpxGQDJl",
+  "verificado": "2026-11-16"
  },
  "2314227219396406": {
   "cat": "iPhone",
@@ -34027,11 +34088,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 256GB",
   "ultima_coleta": "2026-10-30",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Davyd Freitas",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02aTf3btXRgtKMWvDP7v9UiVmJnyLA6RrPvFpgx8hgP169FzYZYW4TBkV97WE25f5cl",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid0WsWNMwf4Con3yerMtm5DNot4HfWsU3L8y6JnWrcxcby8xGM1qsAuBrLsNw7mgGLRl",
+  "verificado": "2026-11-16"
  },
  "29384422731245647": {
   "cat": "iPhone",
@@ -34721,10 +34782,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Azul 256GB – Caixa e Acessórios e Nota fiscal",
   "ultima_coleta": "2026-11-09",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Bruno Vieira",
   "vendedor_desde": 2010,
-  "vendedor_id": "100001535867446"
+  "vendedor_id": "100001535867446",
+  "verificado": "2026-11-16"
  },
  "3154375111424489": {
   "cat": "iPhone",
@@ -35769,11 +35831,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 128 gigas",
   "ultima_coleta": "2026-11-04",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Jallyson Emmanuel",
   "vendedor_desde": 2010,
   "vendedor_id": "100000683104742",
-  "verificado": "2026-11-09"
+  "verificado": "2026-11-16"
  },
  "39713914054921619": {
   "cat": "TV",
@@ -37267,11 +37329,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16 PRO 512GB",
   "ultima_coleta": "2026-11-03",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Bruno Souza",
   "vendedor_desde": 2014,
   "vendedor_id": "100005462988687",
-  "verificado": "2026-11-09"
+  "verificado": "2026-11-16"
  },
  "793663443429051": {
   "cat": "TV",
@@ -38160,11 +38222,11 @@
   "status": "ativo",
   "titulo": "Jogos PS4 God of War e God of War Ragnarok",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-09",
+  "ultimo_ativo": "2026-11-16",
   "vendedor": "Emilly Geovana",
   "vendedor_desde": 2016,
-  "vendedor_id": "pfbid02PVqQuxTYijQQ3u8VxQvgFtUKxwRzaDiHNRgY9ezFRXS5qwrotjkZuBQXDm8qCD2Xl",
-  "verificado": "2026-11-09"
+  "vendedor_id": "pfbid0KRjD7N1yR3CSfEHqCww6HstMMLSoP6F96fmFL1wNxeRgScJg4xGshkFowHowj4ddl",
+  "verificado": "2026-11-16"
  },
  "954584590762557": {
   "cat": "TV",
