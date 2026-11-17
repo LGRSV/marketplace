@@ -5378,7 +5378,7 @@
   "cat": "iPhone",
   "data_status": "2026-11-17",
   "local": "Palmas, TO",
-  "mod": "iPhone 17",
+  "mod": "iPhone 17 Air",
   "precos": [
    [
     "2026-11-17",
@@ -22112,7 +22112,7 @@
  },
  "1767586397665520": {
   "cat": "TV",
-  "data_status": "2026-11-10",
+  "data_status": "2026-11-17",
   "local": "Palmas, TO",
   "mod": "TV 65 pol",
   "precos": [
@@ -22122,10 +22122,11 @@
    ]
   ],
   "primeiro_visto": "2026-11-10",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Smart Tv Ambilight 65 4k Philips",
   "ultima_coleta": "2026-11-10",
-  "ultimo_ativo": "2026-11-10"
+  "ultimo_ativo": "2026-11-10",
+  "verificado": "2026-11-17"
  },
  "1767731480984213": {
   "cat": "iPhone",
@@ -23305,7 +23306,7 @@
   "cat": "iPhone",
   "data_status": "2026-11-16",
   "local": "Palmas, TO",
-  "mod": "iPhone 17",
+  "mod": "iPhone 17 Air",
   "precos": [
    [
     "2026-11-16",
