@@ -1956,7 +1956,7 @@
  },
  "1082721861436303": {
   "cat": "iPhone",
-  "data_status": "2026-11-11",
+  "data_status": "2026-11-18",
   "local": "Palmas, TO",
   "mod": "iPhone 15 Pro Max",
   "precos": [
@@ -1966,13 +1966,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-11",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 15 PRO MAX 256GB",
   "ultima_coleta": "2026-11-11",
   "ultimo_ativo": "2026-11-11",
   "vendedor": "Davi Pimentel Parente",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid02JmPhfbNK62Vybz3NbqUJWRQFDrZLmpZ1hAq49w7C84HaXy6rvo4TbPHpKS8c9NqYl"
+  "vendedor_id": "pfbid02JmPhfbNK62Vybz3NbqUJWRQFDrZLmpZ1hAq49w7C84HaXy6rvo4TbPHpKS8c9NqYl",
+  "verificado": "2026-11-18"
  },
  "1083095611412736": {
   "cat": "iPhone",
@@ -8526,11 +8527,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 PRO MAX 128GB",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Zap Cell",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid025ZHMreGCjZdVGYPBeWRcwd3QizEHXZ7Gn3dZ1eFwn3XtREJU3xhsPD75UvHdmbWbl",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "1159680276921725": {
   "cat": "TV",
@@ -8863,6 +8864,26 @@
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid022GhtCvwApJFmkWXB9rJeYCdLe9jBrrVmFEx2W1xxALFBr2kSpMJYBBasZD7NCA99l",
   "verificado": "2026-11-07"
+ },
+ "1168741379006189": {
+  "cat": "TV",
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-11-18",
+    320
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "TV LG LED 32",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Guilherme Nogueira",
+  "vendedor_desde": 2012,
+  "vendedor_id": "100004921538384"
  },
  "1169676405705667": {
   "cat": "iPhone",
@@ -15015,11 +15036,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 Pro Max 256GB",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Geovana Trajano",
   "vendedor_desde": 2011,
   "vendedor_id": "100002849571934",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "1491106992829600": {
   "cat": "iPhone",
@@ -16473,17 +16494,21 @@
    [
     "2026-11-11",
     1950
+   ],
+   [
+    "2026-11-18",
+    1850
    ]
   ],
   "primeiro_visto": "2026-11-05",
   "status": "ativo",
   "titulo": "iPhone 13 Pro 128 gb",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Philipe Lima",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid033ZJNQxCHY3ergeLTMZFES6Erieax3WcbKg3KmBNDNFGonFKQiTh4W2JUU3gqXyWcl",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "1582047430613326": {
   "cat": "iPhone",
@@ -19334,6 +19359,25 @@
   "vendedor_id": "pfbid02AbRTUC1wAHWhpCH5rBWFbyxz8AEJSWYXLcqQ9N155e4oBwWDknXzs3RYzF44ndCzl",
   "verificado": "2026-11-16"
  },
+ "1652958629858404": {
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-18",
+    20
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "APP+⚡+PARA+TV,+LI.BERO+CA.NA.IS+Fil.mes+e+Séries+CELULAR,+BOX,+TV+SMART+e+PC+✅",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Gilda Ribeiro",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid0Uvob3jL3V44rWZHEyNsTxuoQgCS42ntYYjM6PbhRq76mdjRapm6fTyB5ZqrPC4T1l"
+ },
  "1654011086432251": {
   "cat": "iPhone",
   "data_status": "2026-11-02",
@@ -21625,11 +21669,11 @@
   "status": "ativo",
   "titulo": "IPHONE 13 PRO MAX 256G",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Jonathan Souza Passos",
   "vendedor_desde": 2009,
   "vendedor_id": "pfbid02MNYC2rHJ7RhDw5YhUzq4DTUrE6ETWoP9rC42kjQDTbHuF18J5isFB2zYbdFArpZZl",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "1717945525902860": {
   "data_status": "2026-10-08",
@@ -25692,11 +25736,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max 128gb",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Filipe Aguiar",
   "vendedor_desde": 2020,
   "vendedor_id": "pfbid0unbGUzwfRWXPMxXmxwJvUrGEfc577ejTgw6iNBhFG4ugcXbRH13jx3mELn4eweB8l",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "1853411212459680": {
   "cat": "iPhone",
@@ -26965,6 +27009,25 @@
   "vendedor_desde": 2014,
   "vendedor_id": "100005462988687",
   "verificado": "2026-11-14"
+ },
+ "1941740010146770": {
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-18",
+    35
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "CA.NA.IS , FIL.MES e SÉRIES CELULAR, BOX, SMART TV",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Cosmo Sousa",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid02y9rypVuYK5miz5tnMinYkQKLA9w4KxSPwHAdgmNfJuUjB7wmQqUBnuTC1z1Pr1AXl"
  },
  "1947048142928612": {
   "cat": "TV",
@@ -28725,6 +28788,25 @@
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid032nwu59JZkQXSFhyZQiXLpAgYQBNC7USQif2HueMobAw6Vrb3VwJibnDJjEYB67SHl",
   "verificado": "2026-10-25"
+ },
+ "2129791917902081": {
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-18",
+    15
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "🛑🛑C.ANAIS. Libero,TESTE Filme, Séries, Esporte Mais de 90.000 programações. Você tem TV SMART LG",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Cosmo Sousa",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0238jV6vgAUoxrRSEN4uURs8oVtJtGmdZ12TMCK7ry3vFvxBVPWWRVfZqEcYshyFQzl"
  },
  "2130400204535325": {
   "cat": "Videogame",
@@ -31272,7 +31354,7 @@
  },
  "2297361141052275": {
   "cat": "TV",
-  "data_status": "2026-11-11",
+  "data_status": "2026-11-18",
   "local": "Palmas, TO",
   "mod": "TV 65 pol",
   "precos": [
@@ -31282,13 +31364,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-11",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "SMART TV TCL 65 POLEGADAS – SEMINOVA",
   "ultima_coleta": "2026-11-11",
   "ultimo_ativo": "2026-11-11",
   "vendedor": "Cristiano Mendes",
   "vendedor_desde": 2011,
-  "vendedor_id": "100002988458229"
+  "vendedor_id": "100002988458229",
+  "verificado": "2026-11-18"
  },
  "2298014030958677": {
   "cat": "Videogame",
@@ -33977,11 +34060,11 @@
   "status": "ativo",
   "titulo": "✅IPHONE 13 IMPECÁVEL 🤩",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Marcus Vinicio De Souza Prado",
   "vendedor_desde": 2026,
   "vendedor_id": "61592287096701",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "2642252782887794": {
   "cat": "iPhone",
@@ -36813,11 +36896,11 @@
   "status": "ativo",
   "titulo": "Iphone 15 PRO 128gb estado de novo",
   "ultima_coleta": "2026-10-26",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Keila Rocha Moreira",
   "vendedor_desde": 2015,
   "vendedor_id": "pfbid02EGVL9RJjDFX8jXUCDypaztgVKirgiWD15YRiybkiKuMbWWa8zokRVN44Rb4dtM5dl",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "3231215677051008": {
   "cat": "Galaxy",
@@ -37836,6 +37919,25 @@
   "vendedor_desde": 2011,
   "vendedor_id": "100001633944978",
   "verificado": "2026-11-17"
+ },
+ "4013191432151072": {
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-18",
+    35
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "CA.NA.IS , FIL.MES e SÉRIES CELULAR, BOX, SMART TV",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Cosmo Sousa",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid02y9rypVuYK5miz5tnMinYkQKLA9w4KxSPwHAdgmNfJuUjB7wmQqUBnuTC1z1Pr1AXl"
  },
  "4014140062214041": {
   "cat": "iPhone",
@@ -39058,11 +39160,11 @@
   "status": "ativo",
   "titulo": "Vendo IPhone 14 Pro Max",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Imob Tropical",
   "vendedor_desde": 2017,
   "vendedor_id": "100015598214829",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "4675950792726636": {
   "cat": "iPhone",
