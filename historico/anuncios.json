@@ -8585,10 +8585,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 128GB TODO ORIGINAL",
   "ultima_coleta": "2026-11-11",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Gabriel Pimentel",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid0gxyny2xEA5L1wwxo4CUekfG5fp5q26kvhfk1jHZ1aSYCDVUN4q1aGcxXdLMGXdHYl"
+  "vendedor_id": "pfbid02kHxVGH4qYiiCsHAiZdsHtP39nHtpq7EmobmmQ6gQVkJCNVXFxytUSMMMRFptBZdJl",
+  "verificado": "2026-11-18"
  },
  "1161960019971112": {
   "cat": "iPhone",
@@ -9853,17 +9854,21 @@
    [
     "2026-11-05",
     2600
+   ],
+   [
+    "2026-11-18",
+    2400
    ]
   ],
   "primeiro_visto": "2026-11-05",
   "status": "ativo",
   "titulo": "IPhone 13 Pro Max 128 GB",
   "ultima_coleta": "2026-11-05",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Gabrielle Ferreira",
   "vendedor_desde": 2011,
   "vendedor_id": "100002975132869",
-  "verificado": "2026-11-11"
+  "verificado": "2026-11-18"
  },
  "1339191625951846": {
   "cat": "iPhone",
@@ -15313,11 +15318,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 128gb todo original",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Welinton Santos",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid029xwh166c3gSMFDwzr28Y7NEpwneZRwSx3Swzi7WcqBcE8v4yuVjM2VxGpBEFjcWwl",
-  "verificado": "2026-11-11"
+  "vendedor_id": "pfbid05tqVCVf2jpromWq3ar4rVdgFbxyBM4Ye5cZBoAPUr53neUXeXriXQGqnmW4UXohwl",
+  "verificado": "2026-11-18"
  },
  "1504360991503352": {
   "cat": "Videogame",
@@ -17658,11 +17663,11 @@
   "status": "ativo",
   "titulo": "Controle Ultimate 2 Bluetooth Para N. Switch E PC - Com Sensor de movimentos (Giroscópios) Lacrado",
   "ultima_coleta": "2026-10-10",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Jdavid Aires",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02Ms3SNyuaFgYUa89cZJ6FHLFvdqHZmf1AAw4Vq1aPDZExa16sUSYh6utfekdmrnYGl",
-  "verificado": "2026-11-11"
+  "vendedor_id": "pfbid02MpXx4CfZcssaSXELBxLChPeXqGdPc1Dvjqngua1Nr62UW2X8X6dNULRjfpKefKAfl",
+  "verificado": "2026-11-18"
  },
  "1618665783258754": {
   "cat": "iPhone",
@@ -23879,6 +23884,26 @@
   "vendedor_id": "pfbid0RYYWaMzpjVkVDs19WZt6Cx437LMjeEbUYAyFsS6Zfme7YtVEh3eYrzF2ZvhKfbBpl",
   "verificado": "2026-11-02"
  },
+ "1798956684700130": {
+  "cat": "Videogame",
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-18",
+    2100
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "Ps4 3 terá era lotado de jogos",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Marcelo Pereira De Sousa",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid02uNEuZhVfXExjaPvHUCKhQUi3toYjCxn6HucX9UbmySL92oWeUrtvTDiuwYf1ZoYHl"
+ },
  "1801525484486045": {
   "cat": "iPhone",
   "data_status": "2026-11-16",
@@ -25775,6 +25800,26 @@
   "vendedor_id": "pfbid0kCiHSeyus1n9oVnECUAo1Sd94f2RPvJNzC6zQma6SHtV866q8RnAJomYyqXGbAeQl",
   "verificado": "2026-11-12"
  },
+ "1866730264514468": {
+  "cat": "Videogame",
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-18",
+    2000
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "Ps4 500gb",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Rodrigo Araújo",
+  "vendedor_desde": 2013,
+  "vendedor_id": "100005276350998"
+ },
  "1867350427585855": {
   "cat": "iPhone",
   "data_status": "2026-11-13",
@@ -27269,11 +27314,11 @@
   "status": "ativo",
   "titulo": "IPHONE 16E",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Gabriel Feitosa",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid02PB42p3CiQ54AuHXisg6ussiGW3xXqNQVRjQftpNKtRQP5bkjM4e6LGNrnxFJjCDal",
-  "verificado": "2026-11-11"
+  "vendedor_id": "pfbid0KauMa6LLv9BFoAgv2T58hZkNG8wHyDPj3BVh9v1p8wzq3ZvTMiokiLED2uTEDJpzl",
+  "verificado": "2026-11-18"
  },
  "1991680841461698": {
   "cat": "Videogame",
@@ -27957,11 +28002,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 pro Max- Branco lacrado",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Edilene Donato",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid0m9s2KmUzrDJx2vYU6EiwQowoLDQSLseZ3XjXoh2PaywikuYFUAurwSbT6zwzJbT1l",
-  "verificado": "2026-11-11"
+  "vendedor_id": "pfbid02pxoFBfAp4rFGhVEZK3a9imBsjv8irxSLhS71QS3pB4Ja8TX15Sdi9zcryY589S4dl",
+  "verificado": "2026-11-18"
  },
  "2067409447242510": {
   "cat": "iPhone",
@@ -29272,11 +29317,11 @@
   "status": "ativo",
   "titulo": "Xbox 360 Slim em Promoção: Aproveite Agora por um Preço Imperdível! 🎮🔥",
   "ultima_coleta": "2026-10-18",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Deborah Fontoura Silva",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02F8chRD6BVbdmCJaaNCYKRVSHpFguv9rg53bTDqFFWmWWKzcwQ5uDEvgma4Ny2WoVl",
-  "verificado": "2026-11-11"
+  "vendedor_id": "pfbid0BYU2BGDp1XwkbZ1zhBtVTdtix56gEbM5PLWbiA5E9oRcS25eVScBBCYp1RZ25V1al",
+  "verificado": "2026-11-18"
  },
  "2174591840118935": {
   "cat": "iPhone",
@@ -31717,6 +31762,26 @@
   "vendedor_desde": 2023,
   "vendedor_id": "pfbid02AdvhScrwQGDZdTVqbEFfcwzCkehJfjMYipUpXoR3MXDhxKCeWLyxCg9DrdGQ76WAl",
   "verificado": "2026-11-07"
+ },
+ "2343290233175321": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-11-18",
+    120
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "Vendo controle PS4 Fortnite (Primeira linha)",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Joyce Marinho",
+  "vendedor_desde": 2025,
+  "vendedor_id": "pfbid02WN2BGwY9UHRhZRKNzGfvcG9Czy2NYWeYhddYMPcSzzWwqkTQghHEvKBkc5M3uuhkl"
  },
  "2343693673121989": {
   "cat": "Videogame",
@@ -34536,11 +34601,11 @@
   "status": "ativo",
   "titulo": "[hidden information]0",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Romario Gomes",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid02VFURgp6LQg7juLfFWKzgEBaFYogSK43L9w8sy4eAxLNiWhZLesC2Xj3PcyPvhWSql",
-  "verificado": "2026-11-11"
+  "vendedor_id": "pfbid0RBNDtDem6pvjw9JeV618EvY8yAz6vFBEMQKjsoWjnA7uGqJNrXTdLgRzkNkg5cd3l",
+  "verificado": "2026-11-18"
  },
  "28562021866742559": {
   "cat": "Videogame",
@@ -35204,10 +35269,11 @@
   "status": "ativo",
   "titulo": "Vendo smart tv 32 polegadas",
   "ultima_coleta": "2026-11-11",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Smart Eletro",
   "vendedor_desde": 2012,
-  "vendedor_id": "100003505150456"
+  "vendedor_id": "100003505150456",
+  "verificado": "2026-11-18"
  },
  "28895168720147933": {
   "cat": "Videogame",
@@ -35947,6 +36013,26 @@
   "vendedor_desde": 2013,
   "vendedor_id": "100005358093742",
   "verificado": "2026-11-15"
+ },
+ "29575744728686241": {
+  "cat": "Videogame",
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-18",
+    2100
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "Ps4",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Railan Pereira Santos",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid0316tqb2RBLW29E53rX8NjzfzBegzuwcF6fjrYAnoih3eotjEfBYh8966iZ2ZYr6Ckl"
  },
  "29645369271742612": {
   "cat": "iPhone",
@@ -37725,6 +37811,26 @@
   "vendedor_id": "100095332448150",
   "verificado": "2026-11-18"
  },
+ "4090509751252422": {
+  "cat": "Galaxy",
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "Galaxy S25 Ultra",
+  "precos": [
+   [
+    "2026-11-18",
+    4300
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "Samsung S25 Ultra 256/12GB (Leia)",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Lucas Vinicius",
+  "vendedor_desde": 2014,
+  "vendedor_id": "100004530466142"
+ },
  "4090974201205758": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -38662,6 +38768,26 @@
   "vendedor": "Ozklautau Pa",
   "vendedor_desde": 2023,
   "vendedor_id": "pfbid02AriF4ZgP8YL25ivon85sMq7tgn7VjT45D4fQVgZfjAcmJxGytPuFZjnFStP7XFKul"
+ },
+ "4611450892465730": {
+  "cat": "Videogame",
+  "data_status": "2026-11-18",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-18",
+    2100
+   ]
+  ],
+  "primeiro_visto": "2026-11-18",
+  "status": "ativo",
+  "titulo": "Ps4 3 terá era lotado de jogos",
+  "ultima_coleta": "2026-11-18",
+  "ultimo_ativo": "2026-11-18",
+  "vendedor": "Marcelo Pereira De Sousa",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid02uNEuZhVfXExjaPvHUCKhQUi3toYjCxn6HucX9UbmySL92oWeUrtvTDiuwYf1ZoYHl"
  },
  "4616697538561804": {
   "cat": "Videogame",
@@ -40519,10 +40645,11 @@
   "status": "ativo",
   "titulo": "Transforme sua tv em Smart TV",
   "ultima_coleta": "2026-11-11",
-  "ultimo_ativo": "2026-11-11",
+  "ultimo_ativo": "2026-11-18",
   "vendedor": "Wanessa",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid02nhCKzKxUpiaqNEL4t1h9AnXwqb989mmCiuzEC5gaijt5A4WDXmacey3qU9h514nfl"
+  "vendedor_id": "pfbid02nxVMw41wCBsxjob6oUrWhTGYyjWDK8dbtA7Bk3u4m2u71ADxZaTwDtWa1Nus7q38l",
+  "verificado": "2026-11-18"
  },
  "971124269388751": {
   "cat": "Videogame",
