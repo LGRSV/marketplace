@@ -530,6 +530,26 @@
   "vendedor_id": "100007486656165",
   "verificado": "2026-11-18"
  },
+ "1031170410020030": {
+  "cat": "TV",
+  "data_status": "2026-11-19",
+  "local": "Palmas, TO",
+  "mod": "TV",
+  "precos": [
+   [
+    "2026-11-19",
+    200
+   ]
+  ],
+  "primeiro_visto": "2026-11-19",
+  "status": "ativo",
+  "titulo": "Televisão TCL para retirada de peças",
+  "ultima_coleta": "2026-11-19",
+  "ultimo_ativo": "2026-11-19",
+  "vendedor": "Edna Yane Mendes",
+  "vendedor_desde": 2014,
+  "vendedor_id": "pfbid025Ckog8QgSEiXh4gsi4P9FWoBsBaexvMt3FdANLrRfXPhCPEbCXbtjDc3cfExx8kyl"
+ },
  "1033848492823189": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -1848,7 +1868,7 @@
  },
  "1080710828348286": {
   "cat": "iPhone",
-  "data_status": "2026-11-06",
+  "data_status": "2026-11-19",
   "local": "Palmas, TO",
   "mod": "iPhone 13",
   "precos": [
@@ -1858,14 +1878,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-06",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "IPHONE 13 128GB",
   "ultima_coleta": "2026-11-06",
   "ultimo_ativo": "2026-11-12",
   "vendedor": "Tamires Amaral",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid0NMsYs4aXuAyveLRVG3d22nNP4os49KbWh2rkdtA2haSCcygSHhUmKsxqjsy8T2mQl",
-  "verificado": "2026-11-12"
+  "verificado": "2026-11-19"
  },
  "1081242538234929": {
   "cat": "iPhone",
@@ -3283,11 +3303,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 128gb",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-11-12",
+  "ultimo_ativo": "2026-11-19",
   "vendedor": "Ambar Decantes",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid02QxFrzo4qYnj6r3J6QovwGG2zeHFp8SdN3UEFN1FCnzj9Su2zqV3sXVvFnA4gFMQul",
-  "verificado": "2026-11-12"
+  "vendedor_id": "pfbid0MN7BkrCU4k9a2buR6xvHXvSo5EDBQYGKt3tGBkk3KBqcxzDHXbuv4xrM8bypzsbpl",
+  "verificado": "2026-11-19"
  },
  "1100930122305947": {
   "cat": "iPhone",
@@ -5908,17 +5928,21 @@
    [
     "2026-11-12",
     1400
+   ],
+   [
+    "2026-11-19",
+    1350
    ]
   ],
   "primeiro_visto": "2026-11-06",
   "status": "ativo",
   "titulo": "Ps4 slim",
   "ultima_coleta": "2026-11-06",
-  "ultimo_ativo": "2026-11-12",
+  "ultimo_ativo": "2026-11-19",
   "vendedor": "Maik Willis",
   "vendedor_desde": 2011,
   "vendedor_id": "100001980821567",
-  "verificado": "2026-11-12"
+  "verificado": "2026-11-19"
  },
  "1126735453251112": {
   "cat": "iPhone",
@@ -6397,6 +6421,26 @@
   "vendedor": "Fuluna Almeida",
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid024Lqugs1yJ4JuJ41z6JmZ8yZnCDvrMvztLsTTWsmBJyT5RmyU9AyiP93DWH1J43jpl"
+ },
+ "1129866143175105": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-11-19",
+  "local": "Porto Nacional, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-11-19",
+    150
+   ]
+  ],
+  "primeiro_visto": "2026-11-19",
+  "status": "ativo",
+  "titulo": "Vendo painel de televisão",
+  "ultima_coleta": "2026-11-19",
+  "ultimo_ativo": "2026-11-19",
+  "vendedor": "Monaliza Costa",
+  "vendedor_desde": 2020,
+  "vendedor_id": "100047576619018"
  },
  "1130196006327028": {
   "cat": "iPhone",
@@ -13512,7 +13556,7 @@
  },
  "1445039170540816": {
   "cat": "iPhone",
-  "data_status": "2026-11-12",
+  "data_status": "2026-11-19",
   "local": "Palmas, TO",
   "mod": "iPhone 14",
   "precos": [
@@ -13522,13 +13566,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-12",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 14",
   "ultima_coleta": "2026-11-12",
   "ultimo_ativo": "2026-11-12",
   "vendedor": "Vinicius Lopes",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0ZGrfeNVycBofmAegCAh9MTycDb8fRpcFiU2SKxvJwLAAjWsY1GbE6K8p8iTAJWDFl"
+  "vendedor_id": "pfbid0ZGrfeNVycBofmAegCAh9MTycDb8fRpcFiU2SKxvJwLAAjWsY1GbE6K8p8iTAJWDFl",
+  "verificado": "2026-11-19"
  },
  "1445316290897437": {
   "cat": "Videogame",
@@ -15004,6 +15049,26 @@
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid0wnmvgwK99QYstJeQyPJhYqfY5n141CVrPsh2uyRsQ4sbYo5Ma1zEoLEbS3nceGgJl",
   "verificado": "2026-10-14"
+ },
+ "1480643280681978": {
+  "cat": "TV",
+  "data_status": "2026-11-19",
+  "local": "Palmas, TO",
+  "mod": "TV 32 pol",
+  "precos": [
+   [
+    "2026-11-19",
+    200
+   ]
+  ],
+  "primeiro_visto": "2026-11-19",
+  "status": "ativo",
+  "titulo": "TV Philco 32 polegadas",
+  "ultima_coleta": "2026-11-19",
+  "ultimo_ativo": "2026-11-19",
+  "vendedor": "Mdk Ray Batista",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid0xQcj8ha3x67uUv6Zdb3ENo5BEVvL5J6jzyZCFNryvSD789Q9RsXr3kPoHNfngQvKl"
  },
  "1480934360908719": {
   "cat": "iPhone",
@@ -17631,17 +17696,21 @@
    [
     "2026-11-12",
     350
+   ],
+   [
+    "2026-11-19",
+    300
    ]
   ],
   "primeiro_visto": "2026-10-08",
   "status": "ativo",
   "titulo": "Tv e computador",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-12",
+  "ultimo_ativo": "2026-11-19",
   "vendedor": "Paulo Gonçalves",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02cBhHRi4VGt8wp9AMukWT459sHm7MmciGGxyooDbVAzbi4Bzs33upafmX2FHQsWDwl",
-  "verificado": "2026-11-12"
+  "vendedor_id": "pfbid0YbYcBmC7nck8CbxRd4trNZBbatsGtPsQB8H2FM6bYau4B7g8nqScHFSNkq7eR452l",
+  "verificado": "2026-11-19"
  },
  "1607123474500621": {
   "cat": "iPhone",
@@ -19692,10 +19761,11 @@
   "status": "ativo",
   "titulo": "iPhone 16 pro Max",
   "ultima_coleta": "2026-11-12",
-  "ultimo_ativo": "2026-11-12",
+  "ultimo_ativo": "2026-11-19",
   "vendedor": "Assis Almeida",
   "vendedor_desde": 2011,
-  "vendedor_id": "100002730958245"
+  "vendedor_id": "100002730958245",
+  "verificado": "2026-11-19"
  },
  "1649974313543262": {
   "cat": "iPhone",
@@ -21330,16 +21400,21 @@
    [
     "2026-11-12",
     3050
+   ],
+   [
+    "2026-11-19",
+    2900
    ]
   ],
   "primeiro_visto": "2026-11-12",
   "status": "ativo",
   "titulo": "iPHONE 14 pro MAX - 128gb",
   "ultima_coleta": "2026-11-12",
-  "ultimo_ativo": "2026-11-12",
+  "ultimo_ativo": "2026-11-19",
   "vendedor": "Jhonny Brv",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid085QcPWH216wPoW8qKm3pirt2D4t89vRfNpA371T5fmChewjTo2ud4XstrtjzsCiil"
+  "vendedor_id": "pfbid02BtLqFPxqDjWdF1PE6EqdQCjcxs3vyDQfc3HNLGaT7tstyMvuk45uX8nztcxer1rSl",
+  "verificado": "2026-11-19"
  },
  "1686287303085925": {
   "cat": "iPhone",
@@ -22881,11 +22956,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-12",
+  "ultimo_ativo": "2026-11-19",
   "vendedor": "João Victor Avelino Ferreria",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0f9p2CLRTpHKtrgKjuifmXfPoXM9z6DzeUF8Q9ZKMqEyBKvVL3BzYYBcEKBtaPNiwl",
-  "verificado": "2026-11-12"
+  "vendedor_id": "pfbid02ixkF4E7H2o34XBrgYEokL9NLbw2m5UeMpepXxibCxexRitgtXAaq7C5gBJXdU9zRl",
+  "verificado": "2026-11-19"
  },
  "1753286359698989": {
   "cat": "iPhone",
@@ -25004,23 +25079,28 @@
  },
  "1813548873057915": {
   "cat": "iPhone",
-  "data_status": "2026-11-12",
+  "data_status": "2026-11-19",
   "local": "Palmas, TO",
   "mod": "iPhone 15",
   "precos": [
    [
     "2026-11-12",
     2700
+   ],
+   [
+    "2026-11-19",
+    2500
    ]
   ],
   "primeiro_visto": "2026-11-12",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "IPHONE 15 BEM CONSERVADO",
   "ultima_coleta": "2026-11-12",
   "ultimo_ativo": "2026-11-12",
   "vendedor": "Fernando Augusto Fernandes Machado",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid02YJPrhc3S3jh2n6LWU3BdV1qDzub4xnLq8iv3EEe9pdEL3azweEyJAGZMBZN71k8Xl"
+  "vendedor_id": "pfbid0UiFBTfB4ZaLohBzMzA63SMytRmdSEttm9fKnnQ7uphPsibP2PqpXo4uuTjQ3QS8Yl",
+  "verificado": "2026-11-19"
  },
  "1813575729954498": {
   "cat": "iPhone",
@@ -33347,11 +33427,11 @@
   "status": "ativo",
   "titulo": "iPhone 13",
   "ultima_coleta": "2026-11-01",
-  "ultimo_ativo": "2026-11-12",
+  "ultimo_ativo": "2026-11-19",
   "vendedor": "Carlos Nunes",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02JaoHXwAB2yXnzZAdmnnRfBxRM9gF8md1d4vzd8xkhu7eD6KdiWiZ9uBXiEcGZNV4l",
-  "verificado": "2026-11-12"
+  "vendedor_id": "pfbid0EWh5jLibjALQ65iePQoqhJpcRZMuUk1okP78ZzWXwLK67uGc34QSYH5z4LQ9iqZul",
+  "verificado": "2026-11-19"
  },
  "2405200660016234": {
   "cat": "iPhone",
@@ -33613,6 +33693,25 @@
   "vendedor": "El Shadai",
   "vendedor_desde": 2023,
   "vendedor_id": "pfbid02XzAGgskyZoKaif7TUNdsfg63XF4Nsu5jHVLtkCzjC7bX7rwZuDh5dcgnEKSgEjHgl"
+ },
+ "2425959734814024": {
+  "data_status": "2026-11-19",
+  "local": "Palmas, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-19",
+    4800
+   ]
+  ],
+  "primeiro_visto": "2026-11-19",
+  "status": "ativo",
+  "titulo": "SABOR IPHONE 18 PRO MAX",
+  "ultima_coleta": "2026-11-19",
+  "ultimo_ativo": "2026-11-19",
+  "vendedor": "Silva Cardoso",
+  "vendedor_desde": 2021,
+  "vendedor_id": "pfbid02a6atp4pLGVjUutWuxRixt9ULyt6LWB9TBXXDwgTy2jcXEm4A4frdpym6YUWFd5sxl"
  },
  "2428201421047503": {
   "cat": "iPhone",
@@ -34102,6 +34201,26 @@
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-10-08",
   "verificado": "2026-10-13"
+ },
+ "2527092704449081": {
+  "cat": "iPhone",
+  "data_status": "2026-11-19",
+  "local": "Palmas, TO",
+  "mod": "iPhone 18 Pro Max",
+  "precos": [
+   [
+    "2026-11-19",
+    9100
+   ]
+  ],
+  "primeiro_visto": "2026-11-19",
+  "status": "ativo",
+  "titulo": "IPHONE 18 PRO MAX",
+  "ultima_coleta": "2026-11-19",
+  "ultimo_ativo": "2026-11-19",
+  "vendedor": "Lázaro Basto",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid02cAwC6eB5AsPVHVDhqLtAETNtLXFN7QWdAyfwx6k9MpctV4kKAE4p8sTPWsbVW8GUl"
  },
  "2531250624018887": {
   "cat": "iPhone",
@@ -36446,6 +36565,26 @@
   "vendedor_desde": 2021,
   "vendedor_id": "pfbid09KvZSYha7t6FgdGthRt6XVfGGpvutBBKjpn38ca36ANBe9hpv1k6rHGPThfZZryml",
   "verificado": "2026-11-13"
+ },
+ "29007749098894749": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-11-19",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-11-19",
+    450
+   ]
+  ],
+  "primeiro_visto": "2026-11-19",
+  "status": "ativo",
+  "titulo": "Tv 32 smart mais suporte da parede",
+  "ultima_coleta": "2026-11-19",
+  "ultimo_ativo": "2026-11-19",
+  "vendedor": "Saullopmw Santos",
+  "vendedor_desde": 2019,
+  "vendedor_id": "100042078579604"
  },
  "29021942960797857": {
   "cat": "iPhone",
