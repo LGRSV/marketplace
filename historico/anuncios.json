@@ -7215,7 +7215,7 @@
  },
  "1136165842665499": {
   "cat": "iPhone",
-  "data_status": "2026-11-13",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "iPhone 15 Pro",
   "precos": [
@@ -7225,13 +7225,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-13",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "VENDO IPHONE 15 pro com a CAIXA",
   "ultima_coleta": "2026-11-13",
   "ultimo_ativo": "2026-11-13",
   "vendedor": "Lays Morais",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid08XBWAa2vwMo1ejjxX7ceekpgGupuwo7ZCyqxKpweKtfFMymXL6y5KhPT5SkaaC1Pl"
+  "vendedor_id": "pfbid08JQgAmdAko345Dhetm2PPQY6AjQCpD9Hk2WiHfsgUM9AxZM9ybzhfns15Hw2pzTcl",
+  "verificado": "2026-11-21"
  },
  "1136281045566958": {
   "cat": "TV",
@@ -8738,7 +8739,7 @@
  },
  "1154500470384150": {
   "cat": "iPhone",
-  "data_status": "2026-11-13",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "iPhone 17 Pro",
   "precos": [
@@ -8748,13 +8749,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-13",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 17 pro",
   "ultima_coleta": "2026-11-13",
   "ultimo_ativo": "2026-11-13",
   "vendedor": "Mikael Sara",
   "vendedor_desde": 2022,
-  "vendedor_id": "pfbid0wUZ7AVrogwfhRjwYo7bANctmj1pJf1yps74GbiidwVPD1cAKTrSfZjUg4cCco393l"
+  "vendedor_id": "pfbid0wUZ7AVrogwfhRjwYo7bANctmj1pJf1yps74GbiidwVPD1cAKTrSfZjUg4cCco393l",
+  "verificado": "2026-11-21"
  },
  "1155081677054339": {
   "cat": "iPhone",
@@ -9358,6 +9360,26 @@
   "vendedor_desde": 2011,
   "vendedor_id": "100003117187392",
   "verificado": "2026-11-20"
+ },
+ "1167800915723224": {
+  "cat": "Videogame",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 5",
+  "precos": [
+   [
+    "2026-11-21",
+    9999
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "PS5 30 ANOS VERSAO LIMITADA",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Lucas Luan",
+  "vendedor_desde": 2024,
+  "vendedor_id": "pfbid02MJ4qSA9i192H2Nw78yikCzUCcVhXQrE2YjqFBZao9BVKoueMMCLfgrQzKx6dDLEgl"
  },
  "1168039022461529": {
   "cat": "iPhone",
@@ -10049,11 +10071,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max 256g todo original",
   "ultima_coleta": "2026-10-31",
-  "ultimo_ativo": "2026-11-13",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Murilo Melo",
   "vendedor_desde": 2024,
   "vendedor_id": "61556933757419",
-  "verificado": "2026-11-13"
+  "verificado": "2026-11-21"
  },
  "1187924100574913": {
   "cat": "iPhone",
@@ -10778,6 +10800,26 @@
   "vendedor_id": "pfbid02DBNGdDdPyTVUMGPzGqfKtX8d6StuewNZWYqDXDDe2mWuzCEA89MapM6ZSN3GMFfVl",
   "verificado": "2026-11-15"
  },
+ "1357675716353188": {
+  "cat": "Videogame",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-21",
+    1000
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "Ps4",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Saullopmw Santos",
+  "vendedor_desde": 2019,
+  "vendedor_id": "100042078579604"
+ },
  "1358124686488973": {
   "data_status": "2026-11-02",
   "local": "Parauapebas, PA",
@@ -11036,11 +11078,11 @@
   "status": "ativo",
   "titulo": "Ps4 zero",
   "ultima_coleta": "2026-10-17",
-  "ultimo_ativo": "2026-11-13",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Luiz Ribeiro",
   "vendedor_desde": 2017,
-  "vendedor_id": "pfbid031xukJSFMVUUxWPkjxWt5GG6oAwDy6pdrftw3bNjX5y698wdMkjsRx1uJRyDw1eVMl",
-  "verificado": "2026-11-13"
+  "vendedor_id": "pfbid031k8vJdqbK2p5E1oZFdi8QadQu6nR5wSkkYtAEWa6HEQhCmY2uTXnoavE8deGfVSWl",
+  "verificado": "2026-11-21"
  },
  "1373063741340737": {
   "cat": "iPhone",
@@ -15096,6 +15138,26 @@
   "vendedor_id": "pfbid02aYo5FUK9EjV8YCn43dD2drJjXEX9QPQSzKpZQSowkw5phMHcsXXMsu9Pjf8kFFaql",
   "verificado": "2026-11-19"
  },
+ "1467037841661044": {
+  "cat": "Videogame",
+  "data_status": "2026-11-21",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-21",
+    1700
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "PlayStation 4",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Gustavo Barros",
+  "vendedor_desde": 2013,
+  "vendedor_id": "100005703065761"
+ },
  "1467360092129491": {
   "cat": "iPhone",
   "data_status": "2026-11-21",
@@ -16602,6 +16664,26 @@
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid02pD7VktMfCaRiazD53X2w3LWv43fHoMSYCyrdLeSRSZ4qxXKM6FM2spF9z5cyeGMQl",
   "verificado": "2026-11-15"
+ },
+ "1520552949574986": {
+  "cat": "Videogame",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-21",
+    2000
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "Ps4 pro 1,77TB",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Jorge Souza",
+  "vendedor_desde": 2011,
+  "vendedor_id": "100003089106388"
  },
  "1521321879802415": {
   "cat": "Videogame",
@@ -18153,6 +18235,26 @@
   "vendedor": "Raysse Moreira",
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid02rLX8KuCzFmnMQ6p8kn2ZgkeDusZGXpc7V1rBBCPM77YRRSD3pLxzCnMTij4oncFyl"
+ },
+ "1603177971129312": {
+  "cat": "Videogame",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "PlayStation 4",
+  "precos": [
+   [
+    "2026-11-21",
+    1800
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "PlayStation 4",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Matheus Morais",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid02T8Q7vngQFh25awnMAtMC1VY7a7Y1q27AgFDtM4eotytsj6hJDMK2H2THBgttiMgTl"
  },
  "1604020548159547": {
   "cat": "iPhone",
@@ -26485,16 +26587,21 @@
    [
     "2026-11-13",
     1600
+   ],
+   [
+    "2026-11-21",
+    1500
    ]
   ],
   "primeiro_visto": "2026-11-13",
   "status": "ativo",
   "titulo": "Vendo PS4 em ótimo estado de conservação. Leia descrição",
   "ultima_coleta": "2026-11-13",
-  "ultimo_ativo": "2026-11-13",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Alessandro Alves De Carvalho",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid02AsupXrRVz6yFv3qoHqm1s5QYwYcqYnUH5xCKyqFZJoR7KMtQg1KC155MQFB3DFpRl"
+  "vendedor_id": "pfbid02Af8zY41jocR7gQzwRvaAox8F72RhmCddSpsxhxftVjs6hu1r4n5rAYFVjn9CJbnil",
+  "verificado": "2026-11-21"
  },
  "1821037662545978": {
   "cat": "iPhone",
@@ -27529,7 +27636,7 @@
  },
  "1855451389233466": {
   "cat": "iPhone",
-  "data_status": "2026-10-27",
+  "data_status": "2026-11-21",
   "local": "Paraíso do Tocantins, TO",
   "mod": "iPhone 14 Pro Max",
   "precos": [
@@ -27539,14 +27646,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-27",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 14 Pro Max 128GB Branco",
   "ultima_coleta": "2026-10-27",
   "ultimo_ativo": "2026-11-13",
   "vendedor": "VerdiTc Araguaia",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02Pn7MZZka61Cwhti4qUXHxsiT1XVMHNTRmK841CMbJvH4FdzND3ghToCuCGFpNejfl",
-  "verificado": "2026-11-13"
+  "vendedor_id": "pfbid02PZLXZmLouJN6TNKZvk2Qy7BdbFw8CHrxNq7wuHTpwToubJZxgKWSbtZPfeNxxNEMl",
+  "verificado": "2026-11-21"
  },
  "1855937088759721": {
   "cat": "iPhone",
@@ -27943,6 +28050,25 @@
   "ultima_coleta": "2026-10-18",
   "ultimo_ativo": "2026-10-18",
   "verificado": "2026-10-27"
+ },
+ "1876327540045525": {
+  "data_status": "2026-11-21",
+  "local": "Fátima, TO",
+  "mod": "",
+  "precos": [
+   [
+    "2026-11-21",
+    2000
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "Ps4 Pro 1TB",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Higor Padovani",
+  "vendedor_desde": 2019,
+  "vendedor_id": "pfbid02jbSaZ7qWr2KRjDfmtjXco6gvsgK6c7XfL7QnWprpimgWNhqYKSjF3R38pkZyoP1sl"
  },
  "1879143106408564": {
   "cat": "iPhone",
@@ -33782,7 +33908,7 @@
  },
  "2323957585054911": {
   "cat": "iPhone",
-  "data_status": "2026-11-13",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "iPhone 15 Pro Max",
   "precos": [
@@ -33792,13 +33918,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-13",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 15 PRO MAX",
   "ultima_coleta": "2026-11-13",
   "ultimo_ativo": "2026-11-13",
   "vendedor": "Salvador Neto",
   "vendedor_desde": 2011,
-  "vendedor_id": "100002340280249"
+  "vendedor_id": "100002340280249",
+  "verificado": "2026-11-21"
  },
  "2326185137922317": {
   "data_status": "2026-11-04",
@@ -35570,11 +35697,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 PRO 1TB Seminovo impecável",
   "ultima_coleta": "2026-10-24",
-  "ultimo_ativo": "2026-11-13",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "LosPhones Pmw",
   "vendedor_desde": 2013,
   "vendedor_id": "100005358093742",
-  "verificado": "2026-11-13"
+  "verificado": "2026-11-21"
  },
  "2526506321170720": {
   "cat": "iPhone",
@@ -37286,7 +37413,7 @@
  },
  "28562021866742559": {
   "cat": "Videogame",
-  "data_status": "2026-10-08",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "PlayStation 4",
   "precos": [
@@ -37296,14 +37423,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Ps4 sim com 1 controle e 1 jogo a escolha",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-11-13",
   "vendedor": "Ferreirinha Elliot",
   "vendedor_desde": 2012,
   "vendedor_id": "100003505554385",
-  "verificado": "2026-11-13"
+  "verificado": "2026-11-21"
  },
  "28621942117507010": {
   "data_status": "2026-11-04",
@@ -43869,7 +43996,7 @@
  },
  "982444167784714": {
   "cat": "Videogame",
-  "data_status": "2026-11-13",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "PlayStation 5",
   "precos": [
@@ -43879,13 +44006,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-13",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Cyberpunk 2077 PS4/PS5",
   "ultima_coleta": "2026-11-13",
   "ultimo_ativo": "2026-11-13",
   "vendedor": "Senna Bismarck de Sousa",
   "vendedor_desde": 2011,
-  "vendedor_id": "pfbid02jotRqYd45eZNTCpwkV7mdmNbLZvQaqRviVmq9NoSc1RovJvFPJ3Cn1JThBg67r1il"
+  "vendedor_id": "pfbid02k558QPnViwCKu3st6SDpcVUMfeJnMEjsVEnKDiqnHbd7TijhHxENcT6zdboMu8kYl",
+  "verificado": "2026-11-21"
  },
  "983297137431051": {
   "cat": "TV",
