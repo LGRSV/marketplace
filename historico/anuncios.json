@@ -1625,11 +1625,11 @@
   "status": "ativo",
   "titulo": "Tv smart 32 polegadas",
   "ultima_coleta": "2026-10-08",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Julia Prado",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid0xQqDrTbtvpfp384qpXaqzybmNYoKKjbW56qUpeSkgdySLQ6yTzJaH7vcmjhnUPFFl",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "1072759082180918": {
   "cat": "iPhone",
@@ -7983,7 +7983,7 @@
  },
  "1142697864870649": {
   "cat": "Videogame",
-  "data_status": "2026-11-03",
+  "data_status": "2026-11-21",
   "local": "Paraíso do Tocantins, TO",
   "mod": "PlayStation 5",
   "precos": [
@@ -8001,14 +8001,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-03",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Vendo pc gamer pego PS5 + volta + info pv",
   "ultima_coleta": "2026-11-03",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Diogo Araújo Alves",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid02CiW328Kjkhpto8p6Nxd7W7Eyzaafy9jNcsGPeGTBedUn34S8AJra1z357jqavTa1l",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "1142910411988806": {
   "cat": "iPhone",
@@ -10038,11 +10038,11 @@
   "status": "ativo",
   "titulo": "Playstation 4 Baroi Info PS4",
   "ultima_coleta": "2026-11-02",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Gerenciador Baroi",
   "vendedor_desde": 2011,
   "vendedor_id": "pfbid02ebhm3zum7x92pjEzgLn7YV7Csq2MbfWhDUM5o7ZUgcm3UwBGKkq6Mpd3D6dhEkRGl",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "1183241597418262": {
   "cat": "iPhone",
@@ -14126,6 +14126,26 @@
   "vendedor_id": "pfbid02JouBzNcKiqHjktqAvViYc8zcUqWkGeVMwyWba43sjQDSpyASQJnbXAnk9Y9wrRTCl",
   "verificado": "2026-11-10"
  },
+ "1446542540991409": {
+  "cat": "iPhone",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "iPhone 17 Pro Max",
+  "precos": [
+   [
+    "2026-11-21",
+    5500
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "Iphone 17 pro max 256 Gb de memória",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Thalia Sergio",
+  "vendedor_desde": 2022,
+  "vendedor_id": "pfbid0rCfKijjwmNwjBP2CNSQcNyHq8sZsLy3FXQUdTEp74b7jhm4snacm1MR71EgKR7Krl"
+ },
  "1446797266832365": {
   "cat": "TV",
   "data_status": "2026-11-03",
@@ -14762,6 +14782,26 @@
   "vendedor_desde": 2017,
   "vendedor_id": "pfbid02ZtFBRxfmF5Df1PQY45coGKUUcGCW7vUMg2g5n2AzVT2ohKcxUU5MteYP4nAPSGjsl",
   "verificado": "2026-11-20"
+ },
+ "1459040289062175": {
+  "cat": "iPhone",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-11-21",
+    2100
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "iPhone 13 256gb",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Emanoel Junior",
+  "vendedor_desde": 2017,
+  "vendedor_id": "pfbid02XDbzpDbzWcPBccWa94QC7dzRUbsRVMZ8juTuyUaHtxaqtd9gKimkkGDVPYas6sSEl"
  },
  "1459199499639173": {
   "cat": "iPhone",
@@ -19117,6 +19157,26 @@
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid02hRC7R6fgQkrB6kht438VRMMNi1eALQXxgQziyNKwfFiW4BT2rRxypyuiv6ZjBHoXl",
   "verificado": "2026-11-16"
+ },
+ "1620232969310863": {
+  "cat": "iPhone",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-11-21",
+    2050
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "iPhone 13 128GB Azul 100%",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Jackson Ferreira",
+  "vendedor_desde": 2014,
+  "vendedor_id": "100007476306466"
  },
  "1620272096119311": {
   "cat": "iPhone",
@@ -23916,17 +23976,21 @@
    [
     "2026-10-25",
     6700
+   ],
+   [
+    "2026-11-21",
+    6500
    ]
   ],
   "primeiro_visto": "2026-10-25",
   "status": "ativo",
   "titulo": "iPhone 17 pro max",
   "ultima_coleta": "2026-10-25",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Isabela Morgado",
   "vendedor_desde": 2010,
   "vendedor_id": "100001042709240",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "1748869389551081": {
   "cat": "iPhone",
@@ -25473,11 +25537,11 @@
   "status": "ativo",
   "titulo": "SMART TV AOC 43\"",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Lucas Carvalho",
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid0ww6Lcyu986jX2pnvKfs7CRCzV8HjB2NTNLAHA2hdDisDJurxqZp3ZF4WWzsKP5Egl",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "1793190118594350": {
   "cat": "iPhone",
@@ -25593,7 +25657,7 @@
  },
  "1794785245108984": {
   "cat": "Videogame",
-  "data_status": "2026-11-03",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "Xbox Series S",
   "precos": [
@@ -25603,14 +25667,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-03",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Xbox series s",
   "ultima_coleta": "2026-11-03",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Joao Victor Marinho",
   "vendedor_desde": 2016,
   "vendedor_id": "pfbid0qndZ9USkvkopy9sjSH5MWVYeXaK6EVSpcvQ9PdTMhqCyWEsRWHFcy14VQVawWSmNl",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "1794895704945902": {
   "cat": "iPhone",
@@ -29884,6 +29948,26 @@
   "vendedor_id": "pfbid0Hy6EsXjjmVmPe3rjaRcmnHaWX3L6ANv3nUYFjvcnErJsq8u3VhDDmfM8fsSQDeaml",
   "verificado": "2026-11-16"
  },
+ "2015156092774249": {
+  "cat": "iPhone",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13",
+  "precos": [
+   [
+    "2026-11-21",
+    1200
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "IPHONE 13",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Levi Reparos",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0rdzrXkqf9RjcPVxyjpwmXQVrYafPHHD9CT6R63mJBR2MKmvkUcSkV9w6dAdSZqVMl"
+ },
  "2017174658816183": {
   "cat": "iPhone",
   "data_status": "2026-10-29",
@@ -31870,7 +31954,7 @@
  },
  "2176506789606409": {
   "cat": "TV",
-  "data_status": "2026-11-14",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "TV 50 pol",
   "precos": [
@@ -31880,13 +31964,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-14",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Tv 50 Smart 4k Perfeita - Passo Cartão",
   "ultima_coleta": "2026-11-14",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Lucas Souza",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid02r2PdM2HJJth2YDocARndRUVSPLirLAuR36sVuGG2z5NFQju8brqbytpvschpYi3Ll"
+  "vendedor_id": "pfbid02r2PdM2HJJth2YDocARndRUVSPLirLAuR36sVuGG2z5NFQju8brqbytpvschpYi3Ll",
+  "verificado": "2026-11-21"
  },
  "2177522983641395": {
   "cat": "iPhone",
@@ -32669,10 +32754,11 @@
   "status": "ativo",
   "titulo": "IPhone 14 pro zero",
   "ultima_coleta": "2026-11-14",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Markes Torres",
   "vendedor_desde": 2022,
-  "vendedor_id": "pfbid02mhryksHCnczyGc5Fi1PsjEp16psLywWPeY36EiKDYQvVjyq2o9fD7muL3hpjKTKwl"
+  "vendedor_id": "pfbid02mhryksHCnczyGc5Fi1PsjEp16psLywWPeY36EiKDYQvVjyq2o9fD7muL3hpjKTKwl",
+  "verificado": "2026-11-21"
  },
  "2215030939412911": {
   "cat": "TV",
@@ -39437,11 +39523,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro 256",
   "ultima_coleta": "2026-10-29",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "James Mark",
   "vendedor_desde": 2011,
   "vendedor_id": "100002272785443",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "30237117222544547": {
   "cat": "Videogame",
@@ -41587,6 +41673,26 @@
   "vendedor_id": "pfbid02goUV9Xuy5byWNy6aJ8QWEHSmgjd1CoRT9VXH648JrRewJzyxD38zHkhGDdpE2dJVl",
   "verificado": "2026-11-06"
  },
+ "4433236943654277": {
+  "cat": "iPhone",
+  "data_status": "2026-11-21",
+  "local": "Palmas, TO",
+  "mod": "iPhone 13 Pro Max",
+  "precos": [
+   [
+    "2026-11-21",
+    3000
+   ]
+  ],
+  "primeiro_visto": "2026-11-21",
+  "status": "ativo",
+  "titulo": "Troco iPhone 13 Pro Max todo original!!",
+  "ultima_coleta": "2026-11-21",
+  "ultimo_ativo": "2026-11-21",
+  "vendedor": "Marcos França",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0VtW82MfGWiHbRfSqsKCbQAKu6U4PNmRLGnum3NNH4sEUaQMaTNegdTyXwJqn5dZ9l"
+ },
  "4444401229109805": {
   "cat": "iPhone",
   "data_status": "2026-11-15",
@@ -43539,11 +43645,11 @@
   "status": "ativo",
   "titulo": "Jogos xbox 360 vendo tudo por 150",
   "ultima_coleta": "2026-11-03",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Carlos Henrique Matos de Arujo",
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid02fKe63pjDchZ52Q2teb6ooS5uXyhweVLC5GA6DE9HdJKuJVEFiLtyz1fvwmf3fCgel",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "953434574079740": {
   "cat": "TV",
