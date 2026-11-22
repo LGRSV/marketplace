@@ -3178,7 +3178,7 @@
  },
  "1097327772933104": {
   "cat": "iPhone",
-  "data_status": "2026-10-24",
+  "data_status": "2026-11-22",
   "local": "Palmas, TO",
   "mod": "iPhone 18 Pro Max",
   "precos": [
@@ -3188,14 +3188,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-24",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 18 pro max NOVO",
   "ultima_coleta": "2026-10-24",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Fernando Dongenski",
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid0m36RmNtUVLWnckfwTNoJYmJ73fZyr2smsfyEWrrXniQHASyWPWMJ7rUGeuVB89Xhl",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1097974929784788": {
   "cat": "iPhone",
@@ -6218,11 +6218,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 13 Pro Max",
   "ultima_coleta": "2026-10-28",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Victoria Pinheiro",
   "vendedor_desde": 2013,
   "vendedor_id": "100006904834500",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1127076776721198": {
   "cat": "Jogos e acessórios",
@@ -9248,11 +9248,11 @@
   "status": "ativo",
   "titulo": "PS4 FAT",
   "ultima_coleta": "2026-11-02",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Lucas Bryan",
   "vendedor_desde": 2011,
   "vendedor_id": "100000795556819",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1161821883409712": {
   "cat": "iPhone",
@@ -10036,6 +10036,26 @@
   "vendedor_desde": 2013,
   "vendedor_id": "pfbid02uDVP1xeUPUGazmtj22KQjssm64Qy7n6cV2GrNEG53TPaZ4oiRcbybfbswqjhq44Gl",
   "verificado": "2026-10-30"
+ },
+ "1176922975009097": {
+  "cat": "TV",
+  "data_status": "2026-11-22",
+  "local": "Paraíso do Tocantins, TO",
+  "mod": "TV 42 pol",
+  "precos": [
+   [
+    "2026-11-22",
+    300
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "Vendo TV SEMP",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Marcos Alves",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid0a2z2PsE6d74R1raixjR94sAt3a6QmNuJvfduN4YzgnuQtt2PM9FGivCwjLRJ5qScl"
  },
  "1177007488016379": {
   "cat": "iPhone",
@@ -13979,6 +13999,26 @@
   "vendedor_desde": 2025,
   "vendedor_id": "pfbid02gDxBr8tN9J9wPbkEzuXhwj5bToaTebmXiunm4iQhdVws7ekQTwLoEVxwSM8ZWzvzl"
  },
+ "1439615794501854": {
+  "cat": "TV",
+  "data_status": "2026-11-22",
+  "local": "Palmas, TO",
+  "mod": "TV 50 pol",
+  "precos": [
+   [
+    "2026-11-22",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "Vendo smart tv 50 polegadas 4K",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Smart Eletro",
+  "vendedor_desde": 2012,
+  "vendedor_id": "100003505150456"
+ },
  "1439707548028982": {
   "cat": "iPhone",
   "data_status": "2026-11-14",
@@ -16162,11 +16202,11 @@
   "status": "ativo",
   "titulo": "IPhone 16 Pro Max – 256 GB",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Franklin Santos Magalhães",
   "vendedor_desde": 2014,
   "vendedor_id": "100008467242727",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1486588316693173": {
   "cat": "iPhone",
@@ -16774,7 +16814,7 @@
  },
  "1505433121645487": {
   "cat": "iPhone",
-  "data_status": "2026-11-14",
+  "data_status": "2026-11-22",
   "local": "Palmas, TO",
   "mod": "iPhone 15 Pro",
   "precos": [
@@ -16784,13 +16824,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-14",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 15 pro",
   "ultima_coleta": "2026-11-14",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Wallef Queiroz",
   "vendedor_desde": 2024,
-  "vendedor_id": "61562296337284"
+  "vendedor_id": "61562296337284",
+  "verificado": "2026-11-22"
  },
  "1506790704630529": {
   "cat": "Videogame",
@@ -21904,6 +21945,26 @@
   "vendedor_desde": 2021,
   "vendedor_id": "pfbid0FNi94APNvEnNiFyyFEQLXpZw5XLX3Kf7jevS7k7jGkhxXMU9XUUz4aKzo6H27hbjl"
  },
+ "1672141671362868": {
+  "cat": "TV",
+  "data_status": "2026-11-22",
+  "local": "Palmas, TO",
+  "mod": "TV 43 pol",
+  "precos": [
+   [
+    "2026-11-22",
+    900
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "TV AOC 43” Smart",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Pedro Henrique Lopes Rodrigues",
+  "vendedor_desde": 2026,
+  "vendedor_id": "pfbid02S8dPJ3hppskDijrczb23PTJMYz6UnNgK959Wri2dk8BXQfdw9E1RfGA55jCym357l"
+ },
  "1672150581184088": {
   "cat": "iPhone",
   "data_status": "2026-11-06",
@@ -22532,11 +22593,11 @@
   "status": "ativo",
   "titulo": "Xbox Series S + 2 controles",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Matheus Hansen",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid02N9XzvXRwo6iTajSAiTySgPhUnPq2b4NwX7d9RXwYakZpECodXPSZbCCwPAVxB6R4l",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid02NQihVNbPSNC6Ed6ujMtMEwP7ALFYkZm1kYDSGYqE16FwRxWKeNykYT58JuQWMkSFl",
+  "verificado": "2026-11-22"
  },
  "1681121900198825": {
   "cat": "Videogame",
@@ -23317,11 +23378,11 @@
   "status": "ativo",
   "titulo": "SAMSUNG GALAXY S26 ULTRA 512GB",
   "ultima_coleta": "2026-10-12",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Wanderson Borges Araújo",
   "vendedor_desde": 2015,
-  "vendedor_id": "pfbid02x18fkVZjt53GY7w3o8886kHFTiuCk85pvnVBgLSPsFExXbgA73ijoRiVrbzSsJ1vl",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid0tQsf8foMfnMvMkp4yR3kEN7PtGgCSEg6W8tFHVMf3Yk4NtrAhwm1JJ95rHA7eAH2l",
+  "verificado": "2026-11-22"
  },
  "1698695161675611": {
   "cat": "TV",
@@ -28444,6 +28505,26 @@
   "vendedor_desde": 2016,
   "vendedor_id": "pfbid0PCv294L41TLW8KMF2gq5i3P92XGVkFURS9p17Rf3Ad8QpMU8eXNoawXtp9K5PdGKl"
  },
+ "1868848027454944": {
+  "cat": "TV",
+  "data_status": "2026-11-22",
+  "local": "Palmas, TO",
+  "mod": "TV 42 pol",
+  "precos": [
+   [
+    "2026-11-22",
+    600
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "Vendo TV Samsung Tela Plana 42 polegadas não e smart valor 600 reais",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Bazarbass Oliveira",
+  "vendedor_desde": 2011,
+  "vendedor_id": "100002947142802"
+ },
  "1870134597453422": {
   "cat": "Videogame",
   "data_status": "2026-11-08",
@@ -29070,11 +29151,11 @@
   "status": "ativo",
   "titulo": "✅IPHONE 16 TODO ORIGINAL, CELULAR IMPOSSÍVEL 🤩",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Marcus Vinicio De Souza Prado",
   "vendedor_desde": 2026,
   "vendedor_id": "61592287096701",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1896977111666476": {
   "cat": "iPhone",
@@ -36149,6 +36230,26 @@
   "vendedor_id": "pfbid0258UWZEMLQnFJaSeyigAunyNbtEhqprqKMLLwKEizi7mqVtSNNKGJKAapgB2yK2Uxl",
   "verificado": "2026-10-12"
  },
+ "2485439848651549": {
+  "cat": "TV",
+  "data_status": "2026-11-22",
+  "local": "Palmas, TO",
+  "mod": "TV 60 pol",
+  "precos": [
+   [
+    "2026-11-22",
+    1000
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "TV LG 60 polegadas",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Estevão Alves",
+  "vendedor_desde": 2014,
+  "vendedor_id": "100007881392037"
+ },
  "2486411268546987": {
   "cat": "iPhone",
   "data_status": "2026-10-08",
@@ -40003,6 +40104,26 @@
   "ultima_coleta": "2026-11-15",
   "ultimo_ativo": "2026-11-15"
  },
+ "3051188435218175": {
+  "cat": "TV",
+  "data_status": "2026-11-22",
+  "local": "Palmas, TO",
+  "mod": "TV 50 pol",
+  "precos": [
+   [
+    "2026-11-22",
+    1400
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "Vendo smart tv 50 polegadas 4K",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Smart Eletro",
+  "vendedor_desde": 2012,
+  "vendedor_id": "100003505150456"
+ },
  "3064995007177612": {
   "cat": "iPhone",
   "data_status": "2026-11-07",
@@ -41218,10 +41339,11 @@
   "status": "ativo",
   "titulo": "✅C.ANAIS. Libero,TESTE Filme, Séries, Esporte Mais de 90.000 programações. Você tem TV SMART LG",
   "ultima_coleta": "2026-11-14",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Sousa Cosmo",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0ctDQDptLeWWuE9ggjFseJW41XV3h2SUYAdbMnuCngiwyLcBWcN2mg31abp4mWzPJl"
+  "vendedor_id": "pfbid02gh3Hhqg992VpZ4hzdKfcPXTeQCSB9mKx9FvJXNHZDMeZtv88uy4BdMwpbUxBknpUl",
+  "verificado": "2026-11-22"
  },
  "3790898007715201": {
   "cat": "Videogame",
@@ -41448,11 +41570,11 @@
   "status": "ativo",
   "titulo": "Vendo smart tv 50 polegadas 4K",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Smart Eletro",
   "vendedor_desde": 2012,
   "vendedor_id": "100003505150456",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "3994383734078140": {
   "cat": "iPhone",
