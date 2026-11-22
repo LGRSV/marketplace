@@ -21686,11 +21686,11 @@
   "status": "ativo",
   "titulo": "Tv smart 42 tcl",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Alisson Costa",
   "vendedor_desde": 2012,
-  "vendedor_id": "pfbid024tJBNU2AWDTyTZECHD28SwXxZm7Fe1ZN3WYi5GadTDrQXpiibveEePTBepf7jwUwl",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid01J3AkeFnJ394T7YGgN3kUvayrJD4wzvnNZmeGVUt9DkAAnoh3JDXiVGy99AQPpUwl",
+  "verificado": "2026-11-21"
  },
  "1671675624683318": {
   "cat": "TV",
@@ -23357,11 +23357,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 pro",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Mirian Lira",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid02DBNGdDdPyTVUMGPzGqfKtX8d6StuewNZWYqDXDDe2mWuzCEA89MapM6ZSN3GMFfVl",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid09b7G1Ps1mEN9g4CNGQoyMY7xv38CP3u4WSXWCEF67LRRFgSr5qL96b4WDqGE2hngl",
+  "verificado": "2026-11-21"
  },
  "1707217564078636": {
   "cat": "iPhone",
@@ -28464,11 +28464,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 Pro 128g todo original",
   "ultima_coleta": "2026-11-01",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Murilo Melo",
   "vendedor_desde": 2024,
   "vendedor_id": "61556933757419",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "1879918383420673": {
   "cat": "iPhone",
@@ -30322,16 +30322,21 @@
    [
     "2026-11-14",
     2200
+   ],
+   [
+    "2026-11-21",
+    2000
    ]
   ],
   "primeiro_visto": "2026-11-14",
   "status": "ativo",
   "titulo": "Vendo IPhone 13 Pro 256gb ✅",
   "ultima_coleta": "2026-11-14",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Tharllys Kauan",
   "vendedor_desde": 2020,
-  "vendedor_id": "pfbid0Wp7wBxLjuSmYZpuyHFnKzJQyfKcJA12qHJGMTiFoB5GHBHPhSNd1pWhRiKSyNgCql"
+  "vendedor_id": "pfbid0WbM7C9vyj4d2bUo38rpKSruiuu484pgCzwixehizjitmda5u6U8H8ojWxzPgX3hkl",
+  "verificado": "2026-11-21"
  },
  "2031111187554256": {
   "cat": "Videogame",
@@ -31335,7 +31340,7 @@
  },
  "2130400204535325": {
   "cat": "Videogame",
-  "data_status": "2026-11-14",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "Xbox One",
   "precos": [
@@ -31345,13 +31350,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-14",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "Vendo Xbox One",
   "ultima_coleta": "2026-11-14",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Soares Gs",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid02x1ng3i6PTDKuCa822rdixoSztgprSseFYPzd25HSX3EHAFcYA8NmQbdi3CFA3vG1l"
+  "vendedor_id": "pfbid0tRXfRtL1Erm2haBqG2rTnJKUdFb5zZ87H9PtouXz8zZuRSWkAhVYNaCDLq5TXXcLl",
+  "verificado": "2026-11-21"
  },
  "2131118410943921": {
   "cat": "iPhone",
@@ -33910,11 +33916,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 Pro Max",
   "ultima_coleta": "2026-11-01",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Fabline Almeida",
   "vendedor_desde": 2012,
   "vendedor_id": "100004391862317",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-21"
  },
  "2294532204704915": {
   "cat": "iPhone",
@@ -34705,10 +34711,11 @@
   "status": "ativo",
   "titulo": "✅C.ANAIS. Libero,TESTE Filme, Séries, Esporte Mais de 90.000 programações. Você tem TV SMART LG",
   "ultima_coleta": "2026-11-14",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Sousa Cosmo",
   "vendedor_desde": 2026,
-  "vendedor_id": "pfbid0ctDQDptLeWWuE9ggjFseJW41XV3h2SUYAdbMnuCngiwyLcBWcN2mg31abp4mWzPJl"
+  "vendedor_id": "pfbid02gh3Hhqg992VpZ4hzdKfcPXTeQCSB9mKx9FvJXNHZDMeZtv88uy4BdMwpbUxBknpUl",
+  "verificado": "2026-11-21"
  },
  "2350764602338221": {
   "cat": "iPhone",
@@ -35703,7 +35710,7 @@
  },
  "2430952114105165": {
   "cat": "iPhone",
-  "data_status": "2026-11-14",
+  "data_status": "2026-11-21",
   "local": "Palmas, TO",
   "mod": "iPhone 15",
   "precos": [
@@ -35713,13 +35720,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-14",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 15 128 gb seminovo",
   "ultima_coleta": "2026-11-14",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Guiomar Morais",
   "vendedor_desde": 2011,
-  "vendedor_id": "100003027458059"
+  "vendedor_id": "100003027458059",
+  "verificado": "2026-11-21"
  },
  "2431835924222017": {
   "cat": "iPhone",
@@ -42377,11 +42385,11 @@
   "status": "ativo",
   "titulo": "Nintendo Switch Oled desbloqueado",
   "ultima_coleta": "2026-10-27",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Guilherme Fernandes",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02epFwixJqVNkGZfRiwjRen9Ds8ULsFSnHrwNnZuuwBo583McFvJH6atAiSwNMiUFel",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid0b1LSVD2hpinPvXHGmKpkg1ZrfU56jcjmWBNxkCP4GMbQfjP2Hwu9sAxPRumgNBMFl",
+  "verificado": "2026-11-21"
  },
  "4650066755225140": {
   "cat": "Jogos e acessórios",
@@ -44290,11 +44298,11 @@
   "status": "ativo",
   "titulo": "iphone 17 pro max",
   "ultima_coleta": "2026-10-14",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-21",
   "vendedor": "Arthur Santana",
   "vendedor_desde": 2019,
-  "vendedor_id": "pfbid0v2ToqgMSgoFnNGbspDhjDq8sCtPkQ6mUZdEFxTnnCTXaTPiexdkZMB9PxyaqRUhRl",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid0vHeWQXWtL3AWxRMezaFg1oj43h3HD6zFaqtbMebFEjV1ASVFBVnCrePys9BDr3Pxl",
+  "verificado": "2026-11-21"
  },
  "970993995639953": {
   "cat": "TV",
