@@ -2857,7 +2857,7 @@
  },
  "1094107396543922": {
   "cat": "Jogos e acessórios",
-  "data_status": "2026-10-08",
+  "data_status": "2026-11-22",
   "local": "Palmas, TO",
   "mod": "Jogos e acessórios",
   "precos": [
@@ -2867,14 +2867,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "CONTROLE PS5 DUALSENSE - ORIGINAL",
   "ultima_coleta": "2026-10-08",
   "ultimo_ativo": "2026-11-15",
   "vendedor": "Lucas Luan",
   "vendedor_desde": 2024,
   "vendedor_id": "pfbid02MLgf8pHjN9V5LQnwJVfGEfp7Rzxtm73MTYkvmHpPgR1b7bXp8NtasCVbtgD8fY3zl",
-  "verificado": "2026-11-15"
+  "verificado": "2026-11-22"
  },
  "1094342726753666": {
   "cat": "iPhone",
@@ -10377,16 +10377,21 @@
    [
     "2026-11-14",
     3400
+   ],
+   [
+    "2026-11-22",
+    3150
    ]
   ],
   "primeiro_visto": "2026-11-14",
   "status": "ativo",
   "titulo": "iPhone 15 25gb",
   "ultima_coleta": "2026-11-14",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Ruyther Brasil",
   "vendedor_desde": 2011,
-  "vendedor_id": "100003276300518"
+  "vendedor_id": "100003276300518",
+  "verificado": "2026-11-22"
  },
  "1198274786060496": {
   "cat": "iPhone",
@@ -11338,7 +11343,7 @@
  },
  "1374600367974778": {
   "cat": "Videogame",
-  "data_status": "2026-10-27",
+  "data_status": "2026-11-22",
   "local": "Palmas, TO",
   "mod": "Nintendo Switch",
   "precos": [
@@ -11352,14 +11357,14 @@
    ]
   ],
   "primeiro_visto": "2026-10-27",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Nintendo switch OLED",
   "ultima_coleta": "2026-10-27",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Joao Vitor Cardoso Serpa",
   "vendedor_desde": 2023,
   "vendedor_id": "pfbid02XxjkfbUCco5DBYpURuKWoQ3UF5g2tkmZBgR52K6f8wM9Z13Zv3TbDHBWpqShiNuLl",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1377048777833553": {
   "cat": "iPhone",
@@ -15880,11 +15885,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 13 todo original",
   "ultima_coleta": "2026-11-02",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Ezequiel Teixeira Da Silva",
   "vendedor_desde": 2017,
   "vendedor_id": "100023424185735",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1480057547632111": {
   "cat": "iPhone",
@@ -16444,11 +16449,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro Max",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-11-15",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "James Mark",
   "vendedor_desde": 2011,
   "vendedor_id": "100002272785443",
-  "verificado": "2026-11-15"
+  "verificado": "2026-11-22"
  },
  "1493667465972669": {
   "cat": "iPhone",
@@ -17900,11 +17905,11 @@
   "status": "ativo",
   "titulo": "iPhone 15 pro 128gb",
   "ultima_coleta": "2026-10-11",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Willian Montfort Moreira",
   "vendedor_desde": 2010,
-  "vendedor_id": "pfbid0ZbRZ2Xixwogar2Vx517734TUTNXKz5yvBUKagjXd6XAJ535GKJtfPdSAMyWiuj7Vl",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid0ZNej2jKCmQR1mF3cXvzcDcdX7fbh1KYitTFQss6xTfNxfwRjgicar4oTG7nxE1ZPl",
+  "verificado": "2026-11-22"
  },
  "1572514751227591": {
   "cat": "iPhone",
@@ -20151,6 +20156,26 @@
   "vendedor_desde": 2024,
   "vendedor_id": "61559894519064",
   "verificado": "2026-11-12"
+ },
+ "1633996894859293": {
+  "cat": "Videogame",
+  "data_status": "2026-11-22",
+  "local": "Palmas, TO",
+  "mod": "Nintendo Switch",
+  "precos": [
+   [
+    "2026-11-22",
+    1150
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "Nintendo switch",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Luis Fernando",
+  "vendedor_desde": 2023,
+  "vendedor_id": "pfbid02Cw4jqM1gxF6HiFCTgA7No8BzcaEpyyjiBog4EAerBL5fH2hG3mRyQtXLoqdB8syel"
  },
  "1634555017565694": {
   "cat": "iPhone",
@@ -25893,11 +25918,11 @@
   "status": "ativo",
   "titulo": "IPHONE 13 128gb",
   "ultima_coleta": "2026-11-01",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Brwno Rykardo",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid0Gx7gR9d36DWG9CsNEE4zpXzt7Pg4xD6nf7KNAwHExBAxCSpWo7GmHvTmT9NEkqscl",
-  "verificado": "2026-11-14"
+  "vendedor_id": "pfbid0HDJNyznUjGC4y3UdwcRsZZoFWDoCAMocfKevJ7kPjFNHHFpJ3YjUjoL5CAee2rUsl",
+  "verificado": "2026-11-22"
  },
  "1792091042094079": {
   "cat": "Videogame",
@@ -28527,7 +28552,7 @@
  },
  "1870134597453422": {
   "cat": "Videogame",
-  "data_status": "2026-11-08",
+  "data_status": "2026-11-22",
   "local": "Palmas, TO",
   "mod": "PlayStation 4",
   "precos": [
@@ -28541,14 +28566,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "PLAYSTATION 4 SLIM 2 CONTROLES",
   "ultima_coleta": "2026-11-08",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "André Ricardo Martins",
   "vendedor_desde": 2018,
   "vendedor_id": "pfbid01CTuJs9cByk396VG3FVGr674P5dcAjbVLg9bfRz5ApMyDLMenUc67xyetAzjwDW7l",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "1870265237757792": {
   "cat": "Videogame",
@@ -32620,11 +32645,11 @@
   "status": "ativo",
   "titulo": "Vendo iPhone 13 Pro Max 128GB",
   "ultima_coleta": "2026-10-15",
-  "ultimo_ativo": "2026-11-14",
+  "ultimo_ativo": "2026-11-22",
   "vendedor": "Victoria Pinheiro",
   "vendedor_desde": 2013,
   "vendedor_id": "100006904834500",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "2187679942104126": {
   "cat": "iPhone",
@@ -33522,6 +33547,26 @@
   "vendedor_desde": 2012,
   "vendedor_id": "pfbid0N9yX6jYi96Pdx1PSHngnsVeAHT1FvQpT7mBMTxEXYV6uwKQbYbwksT1PzBNrL6zKl",
   "verificado": "2026-11-19"
+ },
+ "2243747506571701": {
+  "cat": "Jogos e acessórios",
+  "data_status": "2026-11-22",
+  "local": "Palmas, TO",
+  "mod": "Jogos e acessórios",
+  "precos": [
+   [
+    "2026-11-22",
+    450
+   ]
+  ],
+  "primeiro_visto": "2026-11-22",
+  "status": "ativo",
+  "titulo": "Nintendo Switch Desbloqueio.",
+  "ultima_coleta": "2026-11-22",
+  "ultimo_ativo": "2026-11-22",
+  "vendedor": "Thy Lopes",
+  "vendedor_desde": 2012,
+  "vendedor_id": "100003639033527"
  },
  "2245146116408169": {
   "cat": "Videogame",
@@ -37998,7 +38043,7 @@
  },
  "2823531324715638": {
   "cat": "TV",
-  "data_status": "2026-11-08",
+  "data_status": "2026-11-22",
   "local": "Palmas, TO",
   "mod": "TV 32 pol",
   "precos": [
@@ -38008,14 +38053,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-08",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "Vendo tv 32 polegadas semi nova não é smart",
   "ultima_coleta": "2026-11-08",
   "ultimo_ativo": "2026-11-14",
   "vendedor": "Lucas Guilherme",
   "vendedor_desde": 2026,
   "vendedor_id": "pfbid0WEGMxN1hxAqV411c74VRVX4rmWPpxvNVordZk9pkNZu1FXutyMw56G4SeyckJcVil",
-  "verificado": "2026-11-14"
+  "verificado": "2026-11-22"
  },
  "28298826813125727": {
   "cat": "Videogame",
