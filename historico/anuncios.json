@@ -6613,11 +6613,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 impecável",
   "ultima_coleta": "2026-10-13",
-  "ultimo_ativo": "2026-11-15",
+  "ultimo_ativo": "2026-11-25",
   "vendedor": "Marcos Vinicius Lima Tavares",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid0Phdp5RGNoyrWWobByYJGdhHgnhe6zFeUyaZkrUKx76c9f5KsQy2wrePwhAiwiRWNl",
-  "verificado": "2026-11-15"
+  "vendedor_id": "pfbid0PnfWM8A5dmshX6rWf7E2i65Qw9pHp3pkT8ufBMeKZS53cVV8UK2ZVN5VYj4Gme3Xl",
+  "verificado": "2026-11-25"
  },
  "1129528829479107": {
   "cat": "iPhone",
@@ -8295,6 +8295,26 @@
   "vendedor_desde": 2026,
   "vendedor_id": "61592287096701",
   "verificado": "2026-11-21"
+ },
+ "1145507004781232": {
+  "cat": "iPhone",
+  "data_status": "2026-11-25",
+  "local": "Palmas, TO",
+  "mod": "iPhone 18 Pro Max",
+  "precos": [
+   [
+    "2026-11-25",
+    8900
+   ]
+  ],
+  "primeiro_visto": "2026-11-25",
+  "status": "ativo",
+  "titulo": "iPhone 18 Pro Max (Bordô)",
+  "ultima_coleta": "2026-11-25",
+  "ultimo_ativo": "2026-11-25",
+  "vendedor": "AppleCell AplleCell",
+  "vendedor_desde": 2018,
+  "vendedor_id": "pfbid02EudQ8tHgAxBD5UpkBJsZ96smvDfXNn2zGdxDit55ATK8XUaP8FPdWbPfak7RC2iBl"
  },
  "1145847494457381": {
   "cat": "iPhone",
@@ -18749,16 +18769,21 @@
    [
     "2026-11-15",
     2800
+   ],
+   [
+    "2026-11-25",
+    2600
    ]
   ],
   "primeiro_visto": "2026-11-15",
   "status": "ativo",
   "titulo": "iPhone 14 Pro Max",
   "ultima_coleta": "2026-11-15",
-  "ultimo_ativo": "2026-11-15",
+  "ultimo_ativo": "2026-11-25",
   "vendedor": "Raysse Moreira",
   "vendedor_desde": 2025,
-  "vendedor_id": "pfbid02rLX8KuCzFmnMQ6p8kn2ZgkeDusZGXpc7V1rBBCPM77YRRSD3pLxzCnMTij4oncFyl"
+  "vendedor_id": "pfbid02rRYpbc6h5X6xFJ3QuuapdhtgGMAkVCq52tFES41EyFBLYA6PWGFpm72kEVbUfSz9l",
+  "verificado": "2026-11-25"
  },
  "1603177971129312": {
   "cat": "Videogame",
@@ -19174,6 +19199,26 @@
   "vendedor_desde": 2011,
   "vendedor_id": "pfbid0HUhReYRdum7C8AtY34qMX2445ifx9EN33cQNFRqw2eVhCS7m5QV6pRoKGJpky3jYl",
   "verificado": "2026-11-19"
+ },
+ "1613711163330518": {
+  "cat": "iPhone",
+  "data_status": "2026-11-25",
+  "local": "Palmas, TO",
+  "mod": "iPhone 17 Pro Max",
+  "precos": [
+   [
+    "2026-11-25",
+    7200
+   ]
+  ],
+  "primeiro_visto": "2026-11-25",
+  "status": "ativo",
+  "titulo": "IPHONE 17 PRO MAX",
+  "ultima_coleta": "2026-11-25",
+  "ultimo_ativo": "2026-11-25",
+  "vendedor": "Artur Assis Garcia",
+  "vendedor_desde": 2012,
+  "vendedor_id": "pfbid02pVcHDsVhVuwEJVMK1GEBRGs7rDtA5b7qM2oUi7x1WZxp7hiY4KGht2BY9MAyJc9Hl"
  },
  "1614589990118216": {
   "cat": "iPhone",
@@ -19894,11 +19939,11 @@
   "status": "ativo",
   "titulo": "iPhone 17 256gb",
   "ultima_coleta": "2026-11-03",
-  "ultimo_ativo": "2026-11-15",
+  "ultimo_ativo": "2026-11-25",
   "vendedor": "Ambar Decantes",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0MiRCM8jwhruZKX5h4wfXLe5671Q1iPwpyUko2p2DmP5y9KZd2vWGhziU3zDg3cpal",
-  "verificado": "2026-11-15"
+  "vendedor_id": "pfbid0MKVN4C4ShjWW3w33St7PsJLv4wrCetsW3tbDL2hG24G6CLYVwfRSRpuHTn8xGbi8l",
+  "verificado": "2026-11-25"
  },
  "1625954082593687": {
   "cat": "iPhone",
@@ -21329,7 +21374,11 @@
   "status": "ativo",
   "titulo": "Controle Gamer Sem fio RGB - Tv, PC, Windows, iOS, Android, Steam e Switch.",
   "ultima_coleta": "2026-11-15",
-  "ultimo_ativo": "2026-11-15"
+  "ultimo_ativo": "2026-11-25",
+  "vendedor": "Jdavid Aires",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid02Mbm84QFoSN4A4GnG6vdjEZAA8vPB9eaQqACwTLURTXYntzoDpmmTNPXpBeH3p4g2l",
+  "verificado": "2026-11-25"
  },
  "1661036075685292": {
   "cat": "iPhone",
@@ -22618,11 +22667,11 @@
   "status": "ativo",
   "titulo": "iPhone 14 128G",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-15",
+  "ultimo_ativo": "2026-11-25",
   "vendedor": "Kathyllen Uchoa",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid0WiSc9tNfJuKjVQNsCV7VajvUgpaYihJqyZbLy4MbbTk8ysAE6a9b5EMjBS4vcjZBl",
-  "verificado": "2026-11-15"
+  "vendedor_id": "pfbid02aAxV3cczALbJY6gPuTHjoW9N23Q2kWzSxxpoyUPUS9ngr4LAAPU8AyNNbYpeJemTl",
+  "verificado": "2026-11-25"
  },
  "1679698467157288": {
   "cat": "Videogame",
@@ -23744,6 +23793,26 @@
   "vendedor": "Franklin Santos Magalhães",
   "vendedor_desde": 2014,
   "vendedor_id": "100008467242727"
+ },
+ "1710911870749941": {
+  "cat": "iPhone",
+  "data_status": "2026-11-25",
+  "local": "Palmas, TO",
+  "mod": "iPhone 15 Pro Max",
+  "precos": [
+   [
+    "2026-11-25",
+    4449
+   ]
+  ],
+  "primeiro_visto": "2026-11-25",
+  "status": "ativo",
+  "titulo": "IPHONE 15 PRO MAX 256GB - TODO ORIGINAL",
+  "ultima_coleta": "2026-11-25",
+  "ultimo_ativo": "2026-11-25",
+  "vendedor": "Gabriel Souza",
+  "vendedor_desde": 2010,
+  "vendedor_id": "pfbid0VsCEc6oUa3MtMFDKsAFJavpaLHx5nw7jn7WixYwtqv1KTciGyNdj83gYFfUVvtRjl"
  },
  "1711808286589890": {
   "cat": "iPhone",
@@ -26417,7 +26486,7 @@
  },
  "1798687674542934": {
   "cat": "iPhone",
-  "data_status": "2026-11-15",
+  "data_status": "2026-11-25",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro Max",
   "precos": [
@@ -26427,13 +26496,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-15",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 16 pro max, 256gb todo original!✅pego iPhone e ouro na troca",
   "ultima_coleta": "2026-11-15",
   "ultimo_ativo": "2026-11-15",
   "vendedor": "Victor Figueredo",
   "vendedor_desde": 2024,
-  "vendedor_id": "pfbid0Cft6jikQk6edkAi9aSf3aDWTWW5wVNkU9hLb4sFVee2rHyqyc9wpBiRwkSESXdbTl"
+  "vendedor_id": "pfbid0Cft6jikQk6edkAi9aSf3aDWTWW5wVNkU9hLb4sFVee2rHyqyc9wpBiRwkSESXdbTl",
+  "verificado": "2026-11-25"
  },
  "1798869651159832": {
   "cat": "iPhone",
@@ -27968,9 +28038,29 @@
   "vendedor_id": "pfbid0JYBRZEW9YbGKs39g1jnafxBS1LipMhZKpHVjoApFBmqPsoZYcHGjAeCnGTiD1GnDl",
   "verificado": "2026-11-14"
  },
+ "1840008047288116": {
+  "cat": "iPhone",
+  "data_status": "2026-11-25",
+  "local": "Porto Nacional, TO",
+  "mod": "iPhone 14 Pro Max",
+  "precos": [
+   [
+    "2026-11-25",
+    3299
+   ]
+  ],
+  "primeiro_visto": "2026-11-25",
+  "status": "ativo",
+  "titulo": "Iphone 14 PRO MAX - 128 GB",
+  "ultima_coleta": "2026-11-25",
+  "ultimo_ativo": "2026-11-25",
+  "vendedor": "WD Eletro",
+  "vendedor_desde": 2011,
+  "vendedor_id": "pfbid023SsD1FDXBpEbXX9kvVAJF4P7ENs64MoWrZVT4D5b16GngEwXrgdQXAbo3k3VVNful"
+ },
  "1840875327254567": {
   "cat": "iPhone",
-  "data_status": "2026-11-15",
+  "data_status": "2026-11-25",
   "local": "Palmas, TO",
   "mod": "iPhone 16 Pro Max",
   "precos": [
@@ -27980,13 +28070,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-15",
-  "status": "ativo",
+  "status": "apagado",
   "titulo": "iPhone 16 Pro Max Branco 256gb",
   "ultima_coleta": "2026-11-15",
   "ultimo_ativo": "2026-11-15",
   "vendedor": "Marcos Vinício",
   "vendedor_desde": 2013,
-  "vendedor_id": "pfbid0ZZgELXHfw49nqHnK58dbdSB966gZGsR6gvwRS64yKFCuByojMqj8wokKpgVofuo5l"
+  "vendedor_id": "pfbid0ZZgELXHfw49nqHnK58dbdSB966gZGsR6gvwRS64yKFCuByojMqj8wokKpgVofuo5l",
+  "verificado": "2026-11-25"
  },
  "1842182840157426": {
   "cat": "iPhone",
@@ -32638,6 +32729,26 @@
   "vendedor_id": "100012252854913",
   "verificado": "2026-11-02"
  },
+ "2180149475937671": {
+  "cat": "iPhone",
+  "data_status": "2026-11-25",
+  "local": "Palmas, TO",
+  "mod": "iPhone 18 Pro Max",
+  "precos": [
+   [
+    "2026-11-25",
+    4000
+   ]
+  ],
+  "primeiro_visto": "2026-11-25",
+  "status": "ativo",
+  "titulo": "Iphone 18 pro max",
+  "ultima_coleta": "2026-11-25",
+  "ultimo_ativo": "2026-11-25",
+  "vendedor": "Nayara Faroni",
+  "vendedor_desde": 2013,
+  "vendedor_id": "pfbid02t6XbxowfJtXtgKL5gTzbD9bzWJZzFtrPyHLYxmGoQc45NdakYZWS1a9mtYaHSeLbl"
+ },
  "2180592096145867": {
   "cat": "iPhone",
   "data_status": "2026-11-21",
@@ -33206,6 +33317,26 @@
   "vendedor": "Nesle Pacini Sepúlvida",
   "vendedor_desde": 2010,
   "vendedor_id": "100001351715712"
+ },
+ "2204681306839532": {
+  "cat": "iPhone",
+  "data_status": "2026-11-25",
+  "local": "Palmas, TO",
+  "mod": "iPhone 18 Pro Max",
+  "precos": [
+   [
+    "2026-11-25",
+    8999
+   ]
+  ],
+  "primeiro_visto": "2026-11-25",
+  "status": "ativo",
+  "titulo": "iPhone 18 pro max",
+  "ultima_coleta": "2026-11-25",
+  "ultimo_ativo": "2026-11-25",
+  "vendedor": "Leon Cell",
+  "vendedor_desde": 2018,
+  "vendedor_id": "100028525752369"
  },
  "2205701213711568": {
   "cat": "iPhone",
@@ -36099,7 +36230,7 @@
  },
  "2420658508764522": {
   "cat": "iPhone",
-  "data_status": "2026-11-04",
+  "data_status": "2026-11-25",
   "local": "Palmas, TO",
   "mod": "iPhone 14 Pro Max",
   "precos": [
@@ -36109,14 +36240,14 @@
    ]
   ],
   "primeiro_visto": "2026-11-04",
-  "status": "ativo",
+  "status": "vendido",
   "titulo": "iPhone 14 Pro max",
   "ultima_coleta": "2026-11-04",
   "ultimo_ativo": "2026-11-15",
   "vendedor": "Caio Henrique",
   "vendedor_desde": 2021,
-  "vendedor_id": "pfbid02vWkNperDDiSSujfHmMNcxbmjDohwu83WaBGHT7KdUJGXGLppdhk357BBPHnwsaqml",
-  "verificado": "2026-11-15"
+  "vendedor_id": "pfbid0rkLMugp6C32Ko5zFqh719qTSqPFuwWoyVFPpyoew8DLPty5Uu5AguW5ChkKikb6fl",
+  "verificado": "2026-11-25"
  },
  "2421301312030290": {
   "cat": "iPhone",
@@ -40153,11 +40284,11 @@
   "status": "ativo",
   "titulo": "IPHONE 14 PRO 128GB TODO ORIGINAL",
   "ultima_coleta": "2026-11-08",
-  "ultimo_ativo": "2026-11-15",
+  "ultimo_ativo": "2026-11-25",
   "vendedor": "Thales Eduardo",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid034wTqSMeZqQJxbjiDGTdqTJZYubQJsUm9eahzLmQcgkqTx7RWsQUtoBakR82mTPtZl",
-  "verificado": "2026-11-15"
+  "vendedor_id": "pfbid034YY19Qy4qNqdwYZFdTnBzb5w9rP2UcdZSrKJ5ysFrbtbw4Jnwj8h7KGBAeJwEnnbl",
+  "verificado": "2026-11-25"
  },
  "3011083459241628": {
   "cat": "iPhone",
@@ -42917,10 +43048,11 @@
   "status": "ativo",
   "titulo": "iPhone 13 impecável",
   "ultima_coleta": "2026-11-15",
-  "ultimo_ativo": "2026-11-15",
+  "ultimo_ativo": "2026-11-25",
   "vendedor": "Ozklautau Pa",
   "vendedor_desde": 2023,
-  "vendedor_id": "pfbid02AriF4ZgP8YL25ivon85sMq7tgn7VjT45D4fQVgZfjAcmJxGytPuFZjnFStP7XFKul"
+  "vendedor_id": "pfbid02AwjwLGa5xKpxp8MqU3NQdZdAaVtkmppsksXdWfWK9YnY6gUrNs4jwD2ZhGazok8wl",
+  "verificado": "2026-11-25"
  },
  "4611450892465730": {
   "cat": "Videogame",
